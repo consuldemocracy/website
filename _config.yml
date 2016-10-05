@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
+title: Consul
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -19,3 +19,22 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Site translations
+homepage:
+  welcome:
+    es: "Bienvenido a CONSUL"
+    en: "Welcome to CONSUL"
+  tagline:
+    es: "Aplicación de Gobierno abierto y Participación ciudadana"
+    en: "Citizen Participation and Open Government Application"
+  button_github:
+    es: "Ver código en github"
+    en: "See code on github"
+  repositories_list:
+    es: "Lista completa de repositorios"
+    en: "Complete list of repositories"
+license:
+  button_github:
+    es: "Ver código en github"
+    en: "See code on github"

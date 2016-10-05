@@ -1,0 +1,322 @@
+// Table of Contents
+//
+// 01. Variables
+// 02. Foundation overrides
+// 03. Intro
+// 04. Content
+// 05. Animation
+//
+
+.test {
+  height: 4500px;
+}
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i,800,800i|PT+Sans:400,700);
+
+// 01. Variables
+// ------------------------
+
+$font-family: 'Open Sans', Helvetica, sans-serif;
+$font-family-heading: 'PT Serif', sans-serif;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+$font-size-base: 1rem;
+$font-size-small: 0.88rem;
+$font-size-big: 1.19rem;
+
+$line-height: 1.75rem;
+
+// $brand: #004A83;
+// $brand-light: lighten($brand, 10%); // #0067b5
+$border: #f4f4f4;
+$text: #686b75;
+$highlight-background: #f7f9Fb;
+
+// 02. Foundation overrides
+// ------------------------
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+  line-height: $line-height;
+}
+
+p {
+  color: $text;
+  font-weight: $font-weight-light;
+  line-height: $line-height;
+  margin-bottom: $line-height;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.top-bar, .top-bar ul {
+  background: white;
+  padding: 0;
+}
+
+.top-bar {
+  border-bottom: 1px solid black;
+
+  @media screen and (min-width:40em) {
+    border-bottom: 0;
+    padding-top: $line-height;
+  }
+}
+
+.menu > li > a {
+  color: black;
+  font-weight: $font-weight-light;
+  line-height: $line-height*2;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-family: $font-family-heading;
+  font-size: 1.5rem;
+  font-weight: $font-weight-bold !important;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  display: inline-block;
+  line-height: $line-height;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-family: $font-family-heading;
+  margin-bottom: 0;
+}
+
+h1 {
+  line-height: $line-height*2;
+}
+
+@media screen and (min-width:40em) {
+
+  h2 {
+    font-size:2rem;
+  }
+}
+
+.margin {
+  margin-bottom: $line-height;
+  margin-top: $line-height;
+}
+
+.margin-bottom {
+  margin-bottom: $line-height;
+}
+
+.margin-top {
+  margin-top: $line-height;
+}
+
+.padding {
+  padding-bottom: $line-height;
+  padding-top: $line-height;
+}
+
+.button {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  font-size: $font-size-base;
+  margin-bottom: $line-height/2;
+  margin-top: $line-height;
+  min-width: 12.50rem;
+
+  &:hover {
+    background: black;
+    color: white;
+  }
+}
+
+// 03. Intro
+// ------------------------
+
+.intro {
+  margin-top: $line-height;
+  min-height: $line-height*6;
+  text-align: center;
+
+  @media screen and (min-width:40em) {
+    margin-top: $line-height*4;
+    text-align: left;
+  }
+
+  h2 {
+    color: $text;
+  }
+
+  .button {
+    font-size: $font-size-small;
+  }
+
+  a.small {
+    font-size: $font-size-small;
+    display: block;
+    clear: both;
+  }
+}
+
+.jumbo {
+  background: url("../img/jumbo.jpg") no-repeat;
+  background-size: cover;
+  height: $line-height*5;
+  margin: $line-height 0;
+
+  @media screen and (min-width:40em) {
+    height: $line-height*10;
+    margin: $line-height*2.5 0 $line-height*2;
+  }
+}
+
+.admin-es, .admin-en {
+  height: $line-height*10;
+  margin: $line-height 0;
+
+  @media screen and (min-width:40em) {
+    height: $line-height*20;
+    margin: $line-height*2.5 0 $line-height*2;
+  }
+}
+
+.admin-es {
+  background: url("../img/admin_es.jpg") no-repeat;
+  background-position: 0 20%;
+  background-size: cover;
+}
+
+.admin-en {
+  background: url("../img/admin_en.jpg") no-repeat;
+  background-position: 0 20%;
+  background-size: cover;
+}
+
+// 04. Summary
+// ------------------------
+
+.summary {
+
+  h2 {
+    line-height: $line-height*2;
+    margin-bottom: $line-height;
+
+    @media screen and (min-width:40em) {
+      margin-bottom: $line-height*2;
+    }
+  }
+
+  h3 {
+    line-height: $line-height;
+
+    @media screen and (min-width:40em) {
+      margin-bottom: $line-height;
+    }
+  }
+}
+
+// 05. Features
+// ------------------------
+
+.feature {
+  border-top: 1px solid $border;
+  margin-top: -1px;
+  padding-top: $line-height*2;
+
+  .text {
+    margin-top: $line-height;
+  }
+
+  h2 {
+    line-height: $line-height*2;
+    // margin-bottom: $line-height;
+
+    @media screen and (min-width:40em) {
+      // margin-bottom: $line-height*2;
+    }
+  }
+
+  p {
+    font-size: $font-size-big;
+  }
+
+  ul {
+    list-style-image: url("../img/icon_check.png");
+
+    li {
+      line-height: $line-height*2;
+    }
+  }
+}
+
+.more-features {
+  background: $highlight-background;
+
+  h3 {
+    color: $text;
+    font-size: $font-size-big;
+  }
+}
+
+.who-use-it {
+
+  .logos {
+    margin-bottom: $line-height*2;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,23 +1,221 @@
 ---
 layout: default
+lang: es
+ref: homepage
 ---
+<div class="test">
+<section class="intro">
+  <div class="row">
+    <div class="small-12 medium-9 column">
+      <h1>{{ site.homepage.welcome[page.lang] }}</h1>
+      <h2>{{ site.homepage.tagline[page.lang] }}</h2>
+      <a href="https://github.com/consul/consul" target="_blank" class="button">{{ site.homepage.button_github[page.lang] }}</a>
+      <br>
+      <a href="#" class="small">{{ site.homepage.repositories_list[page.lang] }}</a>
+    </div>
+  </div>
+</section>
 
-<div class="home">
+<div class="expanded jumbo"></div>
 
-  <h1 class="page-heading">Posts</h1>
+<section class="summary">
+  <div class="row">
+    <div class="small-12 medium-9 column">
+      <h2>Comienza la participación ciudadana</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 medium-4 column">
+      <h3>Aplicación <em>opensource</em></h3>
+      <p>Lo que quiere decir que puedes acceder a todo el código de esta herramienta. Además, es <em>software</em> gratis, puedes utilizarlo en tu municipio u organización.</p>
+    </div>
+    <div class="small-12 medium-4 column">
+      <h3>Listo para personalizar</h3>
+      <p>Puedes adaptar la aplicación con tu imagen corporativa y configurar los ajustes para modificarla según los requerimientos técnicos que necesites.</p>
+    </div>
+    <div class="small-12 medium-4 column">
+      <h3>Diseño <em>responsive</em></h3>
+      <p>La aplicación ha sido desarrollada con un diseño <em>responsive</em> para poder utilizarla tanto en navegadores web como en tablets y smartphones.</p>
+    </div>
+  </div>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section class="margin">
+  <div class="row">
+    <div class="small-12 column text-center">
+    <figure>
+      <img src="/img/homepage_{{page.lang}}.jpg" alt="Captura de pantalla de la página de inicio de CONSUL">
+      <figcaption>
+        <small>Captura de pantalla de la página de inicio de CONSUL implementado en el Ayuntamiento de Madrid.</small>
+      </figcaption>
+    </figure>
+    </div>
+  </div>
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="feature margin">
+  <div class="row">
+    <div class="small-12 medium-6 column text">
+      <h2>Debates</h2>
+      <p>En este espacio, cualquier persona puede abrir un hilo de discusión sobre cualquier tema, creando un espacio independiente donde la gente podrá debatir sobre el tema propuesto.</p>
+      <ul>
+        <li>Cualquier usuario registrado puede crear un debate.</li>
+        <li>Votos a favor y en contra de cada debate.</li>
+        <li>Incluye sección de comentarios.</li>
+      </ul>
+    </div>
+    <div class="small-12 medium-6 column">
+      <img src="/img/debates_{{page.lang}}.png" alt="Sección debates">
+    </div>
+  </div>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<section class="feature margin">
+  <div class="row">
+    <div class="small-12 medium-6 column">
+      <img src="/img/proposals_{{page.lang}}.png" alt="Captura de pantalla de la página de inicio de CONSUL">
+    </div>
+    <div class="small-12 medium-6 column text">
+      <h2>Propuestas</h2>
+      <p>En este espacio, cualquier persona puede proponer una iniciativa con la intención de recabar los suficientes apoyos para que la idea pase a ser consultada a toda la ciudadanía con carácter vinculante.</p>
+      <ul>
+        <li>Cualquier usuario registrado puede crear una propuesta.</li>
+        <li>Barra de progreso del número de apoyos recogidos.</li>
+        <li>Botón de apoyar propuesta para usuarios verificados.</li>
+        <li>Incluye sección de comentarios.</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
+<section class="feature margin">
+  <div class="row">
+    <div class="small-12 medium-6 column text">
+      <h2>Presupuestos participativos</h2>
+      <p>Los Presupuestos Participativos son unos procesos democráticos mediante los que los vecinos y vecinas pueden decidir de manera directa en qué emplear una parte del presupuesto municipal.</p>
+      <ul>
+        <li>Proceso dividido en fases.</li>
+        <li>Cualquier usuario registrado puede crear una propuesta de gasto.</li>
+        <li>Barra de progreso con el presupuesto disponible.</li>
+        <li>Creación de partidas asignadas a distritos/barrios.</li>
+        <li>Incluye sección de comentarios.</li>
+      </ul>
+    </div>
+    <div class="small-12 medium-6 column">
+      <img src="/img/investment_projects_{{page.lang}}.jpg" alt="Captura de pantalla de la página de inicio de CONSUL">
+    </div>
+  </div>
+</section>
+
+<section class="feature margin">
+  <div class="row">
+    <div class="small-12 medium-6 column">
+      <img src="/img/voting_{{page.lang}}.jpg" alt="Captura de pantalla de la página de inicio de CONSUL">
+    </div>
+    <div class="small-12 medium-6 column text">
+      <h2>Votaciones</h2>
+      <p>Aquellas propuestas ciudadas que consigan los apoyos necesarios pasan a votación. También los Concejales pueden crear audiencias públicas con preguntas dirigidas a la ciudadanía.</p>
+      <ul>
+        <li>Cualquier usuario verificado puede participar en las votaciones.</li>
+        <li>Posibilidad de restringir la participación por distrito/barrio.</li>
+        <li>Incluye sección de comentarios.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="more-features margin padding">
+  <div class="row">
+    <div class="small-12 medium-6 column">
+      <h2>Más funcionalidades</h2>
+      <h3>Seguimos trabajando para desarrollar muchas más.</h3>
+    </div>
+
+    <div class="small-12 medium-6 column">
+      <div class="row">
+        <div class="small-12 medium-6 column">
+          <h3>Legislación colaborativa</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
+        </div>
+        <div class="small-12 medium-6 column">
+          <h3>Panel de Administración</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-6 column">
+          <h3>Internacionalización</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
+        </div>
+        <div class="small-12 medium-6 column">
+          <h3>Páginas de información</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-6 column">
+          <h3>Búsquedas y filtros</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="who-use-it">
+  <div class="row">
+    <div class="small-12 column">
+      <h2>¿Quién está usando CONSUL?</h2>
+      <p>Ya son muchos los Ayuntamientos y Organizaciones que actualmente utilizan consul como herramienta de participación.</p>
+    </div>
+  </div>
+  <div class="row logos">
+    <div class="small-12 medium-3 column margin text-center">
+      <img src="/img/logo_madrid.png" alt="Ayuntamiento de Madrid">
+    </div>
+    <div class="small-12 medium-3 column margin text-center">
+      <img src="/img/logo_barcelona.png" alt="Ayuntamiento de Barcelona">
+    </div>
+    <div class="small-12 medium-3 column margin text-center">
+      <img src="/img/logo_oviedo.png" alt="Ayuntamiento de Oviedo">
+    </div>
+    <div class="small-12 medium-3 column margin text-center">
+      <img src="/img/logo_acoruna.png" alt="Ayuntamiento de A Coruña">
+    </div>
+  </div>
+  <div class="row logos">
+    <div class="small-12 medium-3 column margin text-center">
+      <img src="/img/logo_ucm.png" alt="Universidad Complutense de Madrid">
+    </div>
+    <div class="small-12 medium-3 column margin text-center">
+      <img src="/img/logo_podemos.png" alt="Podemos">
+    </div>
+    <div class="small-12 medium-3 column margin text-center">
+      <img src="/img/logo_canarias.png" alt="Cabildo de Canarias">
+    </div>
+    <div class="small-12 medium-3 column margin text-center">
+      <img src="/img/logo_calvia.png" alt="Ajuntament de Calvià Mallorca">
+    </div>
+  </div>
+</section>
+
+<div class="expanded admin-{{page.lang}}"></div>
+
+<!--
+Consul es una herramienta <em>opensource</em> que permite la participación de los ciudadanos en diferentes procesos participativos.
+<h2>Funcionalidades</h2>
+<p>Esto es todo lo que <strong>consul</strong> puede hacer.</p>
+
+            <h2>Ayuntamientos y Organizaciones</h2>
+            <p>Ya son muchos los Ayuntamientos y Organizaciones que actualmente utilizan consul como herramienta de participación.</p>
+
+      <h2>Preguntas frecuentes</h2>
+
+ -->
 </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/what-input.js"></script>
+  <script src="js/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
