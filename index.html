@@ -1,17 +1,17 @@
 ---
 layout: default
-lang: es
+locale: es
 ref: homepage
 ---
 <div class="test">
 <section class="intro">
   <div class="row">
     <div class="small-12 medium-9 column">
-      <h1>{{ site.homepage.welcome[page.lang] }}</h1>
-      <h2>{{ site.homepage.tagline[page.lang] }}</h2>
-      <a href="https://github.com/consul/consul" target="_blank" class="button">{{ site.homepage.button_github[page.lang] }}</a>
+      <h1>{{ site.locales[page.locale].welcome }}</h1>
+      <h2>{{ site.locales[page.locale].tagline }}</h2>
+      <a href="https://github.com/consul/consul" target="_blank" class="button">{{ site.locales[page.locale].button_github }}</a>
       <br>
-      <a href="#" class="small">{{ site.homepage.repositories_list[page.lang] }}</a>
+      <a href="#" class="small">{{ site.locales[page.locale].repositories_list }}</a>
     </div>
   </div>
 </section>
@@ -21,21 +21,21 @@ ref: homepage
 <section class="summary">
   <div class="row">
     <div class="small-12 medium-9 column">
-      <h2>Comienza la participación ciudadana</h2>
+      <h2>{{ site.locales[page.locale].participation }}</h2>
     </div>
   </div>
   <div class="row">
     <div class="small-12 medium-4 column">
-      <h3>Aplicación <em>opensource</em></h3>
-      <p>Lo que quiere decir que puedes acceder a todo el código de esta herramienta. Además, es <em>software</em> gratis, puedes utilizarlo en tu municipio u organización.</p>
+      <h3>{{ site.locales[page.locale].summary.title_1 }}</h3>
+      <p>{{ site.locales[page.locale].summary.description_1 }}</p>
     </div>
     <div class="small-12 medium-4 column">
-      <h3>Listo para personalizar</h3>
-      <p>Puedes adaptar la aplicación con tu imagen corporativa y configurar los ajustes para modificarla según los requerimientos técnicos que necesites.</p>
+      <h3>{{ site.locales[page.locale].summary.title_2 }}</h3>
+      <p>{{ site.locales[page.locale].summary.description_2 }}</p>
     </div>
     <div class="small-12 medium-4 column">
-      <h3>Diseño <em>responsive</em></h3>
-      <p>La aplicación ha sido desarrollada con un diseño <em>responsive</em> para poder utilizarla tanto en navegadores web como en tablets y smartphones.</p>
+      <h3>{{ site.locales[page.locale].summary.title_3 }}</h3>
+      <p>{{ site.locales[page.locale].summary.description_3 }}</p>
     </div>
   </div>
 </section>
@@ -44,9 +44,9 @@ ref: homepage
   <div class="row">
     <div class="small-12 column text-center">
     <figure>
-      <img src="/img/homepage_{{page.lang}}.jpg" alt="Captura de pantalla de la página de inicio de CONSUL">
+      <img src="/img/homepage_{{page.locale}}.jpg" alt="{{ site.locales[page.locale].screenshot }}">
       <figcaption>
-        <small>Captura de pantalla de la página de inicio de CONSUL implementado en el Ayuntamiento de Madrid.</small>
+        <small>{{ site.locales[page.locale].screenshot }}</small>
       </figcaption>
     </figure>
     </div>
@@ -56,16 +56,16 @@ ref: homepage
 <section class="feature margin">
   <div class="row">
     <div class="small-12 medium-6 column text">
-      <h2>Debates</h2>
-      <p>En este espacio, cualquier persona puede abrir un hilo de discusión sobre cualquier tema, creando un espacio independiente donde la gente podrá debatir sobre el tema propuesto.</p>
+      <h2>{{ site.locales[page.locale].debates.title }}</h2>
+      <p>{{ site.locales[page.locale].debates.description }}</p>
       <ul>
-        <li>Cualquier usuario registrado puede crear un debate.</li>
-        <li>Votos a favor y en contra de cada debate.</li>
-        <li>Incluye sección de comentarios.</li>
+        <li>{{ site.locales[page.locale].debates.feature_1 }}</li>
+        <li>{{ site.locales[page.locale].debates.feature_2 }}</li>
+        <li>{{ site.locales[page.locale].debates.feature_3 }}</li>
       </ul>
     </div>
     <div class="small-12 medium-6 column">
-      <img src="/img/debates_{{page.lang}}.png" alt="Sección debates">
+      <img src="/img/debates_{{page.locale}}.png" alt="{{ site.locales[page.locale].debates.image_alt }}">
     </div>
   </div>
 </section>
@@ -73,16 +73,16 @@ ref: homepage
 <section class="feature margin">
   <div class="row">
     <div class="small-12 medium-6 column">
-      <img src="/img/proposals_{{page.lang}}.png" alt="Captura de pantalla de la página de inicio de CONSUL">
+      <img src="/img/proposals_{{page.locale}}.png" alt="{{ site.locales[page.locale].proposals.image_alt }}">
     </div>
     <div class="small-12 medium-6 column text">
-      <h2>Propuestas</h2>
-      <p>En este espacio, cualquier persona puede proponer una iniciativa con la intención de recabar los suficientes apoyos para que la idea pase a ser consultada a toda la ciudadanía con carácter vinculante.</p>
+      <h2>{{ site.locales[page.locale].proposals.title }}</h2>
+      <p>{{ site.locales[page.locale].proposals.description }}</p>
       <ul>
-        <li>Cualquier usuario registrado puede crear una propuesta.</li>
-        <li>Barra de progreso del número de apoyos recogidos.</li>
-        <li>Botón de apoyar propuesta para usuarios verificados.</li>
-        <li>Incluye sección de comentarios.</li>
+        <li>{{ site.locales[page.locale].proposals.feature_1 }}</li>
+        <li>{{ site.locales[page.locale].proposals.feature_2 }}</li>
+        <li>{{ site.locales[page.locale].proposals.feature_3 }}</li>
+        <li>{{ site.locales[page.locale].proposals.feature_4 }}</li>
       </ul>
     </div>
   </div>
@@ -91,18 +91,18 @@ ref: homepage
 <section class="feature margin">
   <div class="row">
     <div class="small-12 medium-6 column text">
-      <h2>Presupuestos participativos</h2>
-      <p>Los Presupuestos Participativos son unos procesos democráticos mediante los que los vecinos y vecinas pueden decidir de manera directa en qué emplear una parte del presupuesto municipal.</p>
+      <h2>{{ site.locales[page.locale].investment_projects.title }}</h2>
+      <p>{{ site.locales[page.locale].investment_projects.description }}</p>
       <ul>
-        <li>Proceso dividido en fases.</li>
-        <li>Cualquier usuario registrado puede crear una propuesta de gasto.</li>
-        <li>Barra de progreso con el presupuesto disponible.</li>
-        <li>Creación de partidas asignadas a distritos/barrios.</li>
-        <li>Incluye sección de comentarios.</li>
+        <li>{{ site.locales[page.locale].investment_projects.feature_1 }}</li>
+        <li>{{ site.locales[page.locale].investment_projects.feature_2 }}</li>
+        <li>{{ site.locales[page.locale].investment_projects.feature_3 }}</li>
+        <li>{{ site.locales[page.locale].investment_projects.feature_4 }}</li>
+        <li>{{ site.locales[page.locale].investment_projects.feature_5 }}</li>
       </ul>
     </div>
     <div class="small-12 medium-6 column">
-      <img src="/img/investment_projects_{{page.lang}}.jpg" alt="Captura de pantalla de la página de inicio de CONSUL">
+      <img src="/img/investment_projects_{{page.locale}}.jpg" alt="{{ site.locales[page.locale].investment_projects.image_alt }}">
     </div>
   </div>
 </section>
@@ -110,15 +110,15 @@ ref: homepage
 <section class="feature margin">
   <div class="row">
     <div class="small-12 medium-6 column">
-      <img src="/img/voting_{{page.lang}}.jpg" alt="Captura de pantalla de la página de inicio de CONSUL">
+      <img src="/img/voting_{{page.locale}}.jpg" alt="{{ site.locales[page.locale].voting.image_alt }}">
     </div>
     <div class="small-12 medium-6 column text">
-      <h2>Votaciones</h2>
-      <p>Aquellas propuestas ciudadas que consigan los apoyos necesarios pasan a votación. También los Concejales pueden crear audiencias públicas con preguntas dirigidas a la ciudadanía.</p>
+      <h2>{{ site.locales[page.locale].voting.title }}</h2>
+      <p>{{ site.locales[page.locale].voting.description }}</p>
       <ul>
-        <li>Cualquier usuario verificado puede participar en las votaciones.</li>
-        <li>Posibilidad de restringir la participación por distrito/barrio.</li>
-        <li>Incluye sección de comentarios.</li>
+        <li>{{ site.locales[page.locale].voting.feature_1 }}</li>
+        <li>{{ site.locales[page.locale].voting.feature_2 }}</li>
+        <li>{{ site.locales[page.locale].voting.feature_3 }}</li>
       </ul>
     </div>
   </div>
@@ -127,35 +127,34 @@ ref: homepage
 <section class="more-features margin padding">
   <div class="row">
     <div class="small-12 medium-6 column">
-      <h2>Más funcionalidades</h2>
-      <h3>Seguimos trabajando para desarrollar muchas más.</h3>
+      <h2>{{ site.locales[page.locale].more_features.title }}</h2>
+      <h3>{{ site.locales[page.locale].more_features.tagline }}</h3>
     </div>
-
     <div class="small-12 medium-6 column">
       <div class="row">
         <div class="small-12 medium-6 column">
-          <h3>Legislación colaborativa</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
+          <h3>{{ site.locales[page.locale].more_features.feature_1_title }}</h3>
+          <p>{{ site.locales[page.locale].more_features.feature_1_description }}</p>
         </div>
         <div class="small-12 medium-6 column">
-          <h3>Panel de Administración</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-12 medium-6 column">
-          <h3>Internacionalización</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
-        </div>
-        <div class="small-12 medium-6 column">
-          <h3>Páginas de información</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
+          <h3>{{ site.locales[page.locale].more_features.feature_2_title }}</h3>
+          <p>{{ site.locales[page.locale].more_features.feature_2_description }}</p>
         </div>
       </div>
       <div class="row">
         <div class="small-12 medium-6 column">
-          <h3>Búsquedas y filtros</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex.</p>
+          <h3>{{ site.locales[page.locale].more_features.feature_3_title }}</h3>
+          <p>{{ site.locales[page.locale].more_features.feature_3_description }}</p>
+        </div>
+        <div class="small-12 medium-6 column">
+          <h3>{{ site.locales[page.locale].more_features.feature_4_title }}</h3>
+          <p>{{ site.locales[page.locale].more_features.feature_4_description }}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-6 column">
+          <h3>{{ site.locales[page.locale].more_features.feature_5_title }}</h3>
+          <p>{{ site.locales[page.locale].more_features.feature_5_description }}</p>
         </div>
       </div>
     </div>
@@ -165,53 +164,42 @@ ref: homepage
 <section class="who-use-it">
   <div class="row">
     <div class="small-12 column">
-      <h2>¿Quién está usando CONSUL?</h2>
-      <p>Ya son muchos los Ayuntamientos y Organizaciones que actualmente utilizan consul como herramienta de participación.</p>
+      <h2>{{ site.locales[page.locale].organizations.title }}</h2>
+      <p>{{ site.locales[page.locale].organizations.description }}</p>
     </div>
   </div>
   <div class="row logos">
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_madrid.png" alt="Ayuntamiento de Madrid">
+      <img src="/img/logo_madrid.png" alt="{{ site.locales[page.locale].organizations.organization_1 }}">
     </div>
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_barcelona.png" alt="Ayuntamiento de Barcelona">
+      <img src="/img/logo_barcelona.png" alt="{{ site.locales[page.locale].organizations.organization_2 }}">
     </div>
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_oviedo.png" alt="Ayuntamiento de Oviedo">
+      <img src="/img/logo_oviedo.png" alt="{{ site.locales[page.locale].organizations.organization_3 }}">
     </div>
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_acoruna.png" alt="Ayuntamiento de A Coruña">
+      <img src="/img/logo_acoruna.png" alt="{{ site.locales[page.locale].organizations.organization_4 }}">
     </div>
   </div>
   <div class="row logos">
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_ucm.png" alt="Universidad Complutense de Madrid">
+      <img src="/img/logo_ucm.png" alt="{{ site.locales[page.locale].organizations.organization_5 }}">
     </div>
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_podemos.png" alt="Podemos">
+      <img src="/img/logo_podemos.png" alt="{{ site.locales[page.locale].organizations.organization_6 }}">
     </div>
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_canarias.png" alt="Cabildo de Canarias">
+      <img src="/img/logo_canarias.png" alt="{{ site.locales[page.locale].organizations.organization_7 }}">
     </div>
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_calvia.png" alt="Ajuntament de Calvià Mallorca">
+      <img src="/img/logo_calvia.png" alt="{{ site.locales[page.locale].organizations.organization_8 }}">
     </div>
   </div>
 </section>
 
-<div class="expanded admin-{{page.lang}}"></div>
+<div class="expanded admin-{{page.locale}}"></div>
 
-<!--
-Consul es una herramienta <em>opensource</em> que permite la participación de los ciudadanos en diferentes procesos participativos.
-<h2>Funcionalidades</h2>
-<p>Esto es todo lo que <strong>consul</strong> puede hacer.</p>
-
-            <h2>Ayuntamientos y Organizaciones</h2>
-            <p>Ya son muchos los Ayuntamientos y Organizaciones que actualmente utilizan consul como herramienta de participación.</p>
-
-      <h2>Preguntas frecuentes</h2>
-
- -->
 </div>
   <script src="js/jquery.js"></script>
   <script src="js/what-input.js"></script>

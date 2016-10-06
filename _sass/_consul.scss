@@ -133,10 +133,9 @@ h1 {
   color: black;
   font-size: $font-size-base;
   margin-bottom: $line-height/2;
-  margin-top: $line-height;
   min-width: 12.50rem;
 
-  &:hover {
+  &:hover, &:focus {
     background: black;
     color: white;
   }
@@ -161,6 +160,7 @@ h1 {
 
   .button {
     font-size: $font-size-small;
+    margin-top: $line-height;
   }
 
   a.small {
