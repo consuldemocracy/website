@@ -38,6 +38,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-watch
 
 RUBY VERSION
    ruby 2.3.1p112
