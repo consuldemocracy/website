@@ -1,3 +1,6 @@
+consul: "CONSUL"
+title: "CONSUL | Citizen Participation and Open Government Application"
+description: "Citizen Participation and Open Government Application."
 welcome: "Welcome to CONSUL"
 tagline: "Citizen Participation and Open Government Application"
 button_github: "See code on github"
@@ -74,3 +77,4 @@ license:
 
       Porque creemos que la cultura es mejor y más rica cuando se libera.
   repositories_list: "Complete list of repositories"
+contact_us: "Contact us on"

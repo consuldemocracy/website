@@ -3,8 +3,9 @@
 // 01. Variables
 // 02. Foundation overrides
 // 03. Intro
-// 04. Content
-// 05. Animation
+// 04. Summary
+// 05. Features
+// 06. Footer
 //
 
 .test {
@@ -40,6 +41,7 @@ $highlight-background: #f7f9Fb;
 // ------------------------
 
 body {
+  background: white;
   font-family: $font-family;
   font-size: $font-size-base;
   line-height: $line-height;
@@ -277,46 +279,30 @@ h1 {
   }
 }
 
+// 06. Footer
+// ------------------------
 
+footer {
 
+  h1 {
+    font-size: 2.25rem;
+  }
 
+  p {
+    color: #777b85;
+  }
 
+  ul {
+    list-style-type: none;
+    margin-top: $line-height;
 
+    li {
+      line-height: $line-height;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      a {
+        color: black;
+        text-decoration: underline;
+      }
+    }
+  }
+}
