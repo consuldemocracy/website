@@ -7,16 +7,16 @@ ref: license
 
 <div class="row margin">
   <div class="small-12 medium-8 column">
-    <h1>{{ site.locales[page.locale].license.title }}</h1>
+    <h1>{{ site.data.i18n[page.locale].license.title }}</h1>
 
-    {{ site.locales[page.locale].license.text | markdownify }}
+    {{ site.data.i18n[page.locale].license.text | markdownify }}
 
     <a href="https://github.com/consul/consul" target="_blank" class="button">
-      {{ site.locales[page.locale].license.button }}
+      {{ site.data.i18n[page.locale].license.button }}
     </a>
     <br>
     <a href="#" class="small">
-      {{ site.homepage.repositories_list[page.lang] }}
+      {{ site.data.i18n[page.locale].license.repositories_list }}
     </a>
   </div>
 </div>
