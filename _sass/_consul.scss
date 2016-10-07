@@ -40,6 +40,14 @@ $highlight-background: #f7f9Fb;
 // 02. Foundation overrides
 // ------------------------
 
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
   background: white;
   font-family: $font-family;
@@ -134,12 +142,22 @@ h1 {
   border: 1px solid black;
   color: black;
   font-size: $font-size-base;
+  height: $line-height*2;
+  line-height: $line-height;
   margin-bottom: $line-height/2;
   min-width: 12.50rem;
 
   &:hover, &:focus {
     background: black;
     color: white;
+  }
+}
+
+.page {
+  padding-top: $line-height*2;
+
+  h1 {
+    margin-bottom: $line-height;
   }
 }
 
@@ -283,6 +301,8 @@ h1 {
 // ------------------------
 
 footer {
+  border-top: 1px solid $highlight-background;
+  padding-top: $line-height;
 
   h1 {
     font-size: 2.25rem;
@@ -305,4 +325,18 @@ footer {
       }
     }
   }
+}
+
+.wrap {
+  min-height: 100%;
+  margin-bottom: -168px;
+
+  &:after {
+    content: "";
+    display: block;
+  }
+}
+
+.footer, .wrap:after {
+  height: 168px;
 }
