@@ -103,3 +103,17 @@ contact:
 
       Desde el Ayuntamiento de Madrid vamos a ayudarte todo lo posible a que lo hagas, así que si estás interesado, escríbenos a <mailto:extension.institucional@madrid.es>
 contact_us: "Contact us on"
+screenshots:
+  title: "Capturas de pantalla"
+  info: "Puedes hacer clic en las imágenes para ampliarlas y usar el teclado para navegar por la galería."
+  image_1_alt: "Página de bienvenida en CONSUL"
+  image_2_alt: "Sección Debates"
+  image_3_alt: "Formulario de nuevo Debate"
+  image_4_alt: "Detalle de un Debate"
+  image_5_alt: "Sección Propuestas"
+  image_6_alt: "Formulario de Nueva Propuesta"
+  image_7_alt: "Detalle de una Propuesta"
+  image_8_alt: "Página de Votaciones"
+  image_9_alt: "Página de Presupuestos Ciudadanos"
+  image_10_alt: "Página de Más Información"
+  image_11_alt: "Detalle página de Información"
