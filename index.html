@@ -124,6 +124,40 @@ ref: homepage
   </div>
 </section>
 
+<section class="feature margin">
+  <div class="row">
+    <div class="small-12 medium-6 column text">
+      <h2>{{ site.data.i18n[page.locale].legislation.title }}</h2>
+      <p>{{ site.data.i18n[page.locale].legislation.description }}</p>
+      <ul>
+        <li>{{ site.data.i18n[page.locale].legislation.feature_1 }}</li>
+        <li>{{ site.data.i18n[page.locale].legislation.feature_2 }}</li>
+        <li>{{ site.data.i18n[page.locale].legislation.feature_3 }}</li>
+      </ul>
+    </div>
+    <div class="small-12 medium-6 column">
+      <img src="/img/legislation_{{page.locale}}.jpg" alt="{{ site.data.i18n[page.locale].legislation.image_alt }}">
+    </div>
+  </div>
+</section>
+
+<section class="feature margin">
+  <div class="row">
+    <div class="small-12 medium-6 column">
+      <img src="/img/processes_{{page.locale}}.jpg" alt="{{ site.data.i18n[page.locale].processes.image_alt }}">
+    </div>
+    <div class="small-12 medium-6 column text">
+      <h2>{{ site.data.i18n[page.locale].processes.title }}</h2>
+      <p>{{ site.data.i18n[page.locale].processes.description }}</p>
+      <ul>
+        <li>{{ site.data.i18n[page.locale].processes.feature_1 }}</li>
+        <li>{{ site.data.i18n[page.locale].processes.feature_2 }}</li>
+        <li>{{ site.data.i18n[page.locale].processes.feature_3 }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="more-features margin padding">
   <div class="row">
     <div class="small-12 medium-6 column">
@@ -151,12 +185,6 @@ ref: homepage
           <p>{{ site.data.i18n[page.locale].more_features.feature_4_description }}</p>
         </div>
       </div>
-      <div class="row">
-        <div class="small-12 medium-6 column">
-          <h3>{{ site.data.i18n[page.locale].more_features.feature_5_title }}</h3>
-          <p>{{ site.data.i18n[page.locale].more_features.feature_5_description }}</p>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -170,40 +198,33 @@ ref: homepage
   </div>
   <div class="row logos">
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_madrid.png" alt="{{ site.data.i18n[page.locale].organizations.organization_1 }}">
+      <a href="http://decide.madrid.es" target="_blank">
+        <img src="/img/logo_madrid.png" alt="{{ site.data.i18n[page.locale].organizations.organization_1 }}">
+      </a>
     </div>
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_barcelona.png" alt="{{ site.data.i18n[page.locale].organizations.organization_2 }}">
+      <a href="https://decidim.barcelona/?locale=es" target="_blank">
+        <img src="/img/logo_barcelona.png" alt="{{ site.data.i18n[page.locale].organizations.organization_2 }}">
+      </a>
     </div>
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_oviedo.png" alt="{{ site.data.i18n[page.locale].organizations.organization_3 }}">
+      <a href="http://www.consultaoviedo.es/" target="_blank">
+        <img src="/img/logo_oviedo.png" alt="{{ site.data.i18n[page.locale].organizations.organization_3 }}">
+      </a>
     </div>
     <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_acoruna.png" alt="{{ site.data.i18n[page.locale].organizations.organization_4 }}">
-    </div>
-  </div>
-  <div class="row logos">
-    <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_ucm.png" alt="{{ site.data.i18n[page.locale].organizations.organization_5 }}">
-    </div>
-    <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_podemos.png" alt="{{ site.data.i18n[page.locale].organizations.organization_6 }}">
-    </div>
-    <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_canarias.png" alt="{{ site.data.i18n[page.locale].organizations.organization_7 }}">
-    </div>
-    <div class="small-12 medium-3 column margin text-center">
-      <img src="/img/logo_calvia.png" alt="{{ site.data.i18n[page.locale].organizations.organization_8 }}">
+      <a href="https://aportaaberta.coruna.es/?locale=es" target="_blank">
+        <img src="/img/logo_acoruna.png" alt="{{ site.data.i18n[page.locale].organizations.organization_4 }}">
+      </a>
     </div>
   </div>
 </section>
 
 <div class="expanded admin-{{page.locale}}"></div>
 
-
-  <script src="js/jquery.js"></script>
-  <script src="js/what-input.js"></script>
-  <script src="js/foundation.js"></script>
-  <script src="js/app.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/what-input.js"></script>
+<script src="js/foundation.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

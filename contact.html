@@ -6,10 +6,10 @@ locale: es
 
 <div class="row page">
   <div class="small-12 medium-9 column">
-    <h1>Contacto</h1>
 
-    <p>Utiliza consul libremente en tu municipio u organización. También puedes ayudarnos a mejorarlo, es software libre.</p>
+    <h1>{{ site.data.i18n[page.locale].contact.title }}</h1>
 
-    <p>Desde el Ayuntamiento de Madrid vamos a ayudarte todo lo posible a que lo hagas, así que si estás interesado, escríbenos a <a href="mailto:extension.institucional@madrid.es">extension.institucional@madrid.es</a></p>
+    {{ site.data.i18n[page.locale].contact.text | markdownify }}
+
   </div>
 </div>

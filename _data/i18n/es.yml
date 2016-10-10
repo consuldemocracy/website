@@ -1,18 +1,23 @@
 consul: "CONSUL"
 title: "CONSUL | Aplicación de Gobierno abierto y Participación ciudadana"
 description: "Aplicación de Gobierno abierto y Participación ciudadana."
+menu:
+  screenshots: "Galería de imágenes"
+  license: "Licencia / Código"
+  faq: "Preguntas frecuentes"
+  contact: "Contacto"
 welcome: "Bienvenido a CONSUL"
 tagline: "Aplicación de Gobierno abierto y Participación ciudadana"
 button_github: "Ver código en github"
 repositories_list: "Lista completa de repositorios"
 participation: "Comienza la Participación Ciudadana"
 summary:
-  title_1: "Aplicación <em>opensource</em>"
-  description_1: "Lo que quiere decir que puedes acceder a todo el código de esta herramienta. Además, es <em>software</em> gratis, puedes utilizarlo en tu municipio u organización."
+  title_1: "Es software libre"
+  description_1: "Lo que quiere decir que puedes acceder a todo el código de esta herramienta. Además, puedes utilizarlo gratis en tu municipio u organización."
   title_2: "Listo para personalizar"
-  description_2: "Puedes adaptar la aplicación con tu imagen corporativa y configurar los ajustes para modificarla según los requerimientos técnicos que necesites."
-  title_3: "Diseño <em>responsive</em>"
-  description_3: "La aplicación ha sido desarrollada con un diseño <em>responsive</em> para poder utilizarla tanto en navegadores web como en tablets y smartphones."
+  description_2: "Puedes adaptar la aplicación con tu imagen y estilo y configurar los ajustes para modificarla según los requerimientos técnicos que necesites."
+  title_3: "Diseño responsive"
+  description_3: "La aplicación ha sido desarrollada con un diseño responsive para poder utilizarla tanto en navegadores web como en tablets y smartphones."
 screenshot: "Captura de pantalla de la página de inicio de CONSUL implementado en el Ayuntamiento de Madrid."
 debates:
   title: "Debates"
@@ -45,19 +50,31 @@ voting:
   feature_2: "Posibilidad de restringir la participación por distrito/barrio."
   feature_3: "Incluye sección de comentarios."
   image_alt: "Página de votaciones"
+legislation:
+  title: "Legislación colaborativa"
+  description: "Descripción de Legislación colaborativa."
+  feature_1: "Una característica de Legislación colaborativa"
+  feature_2: "Una característica de Legislación colaborativa"
+  feature_3: "Una característica de Legislación colaborativa"
+  image_alt: "Ejemplo de legislación colaborativa"
+processes:
+  title: "Procesos sectoriales"
+  description: "Descripción de Procesos sectoriales."
+  feature_1: "Una característica de Procesos sectoriales"
+  feature_2: "Una característica de Procesos sectoriales"
+  feature_3: "Una característica de Procesos sectoriales"
+  image_alt: "Votación sobre la Remodelación de Plaza España"
 more_features:
   title: "Más funcionalidades"
   tagline: "Seguimos trabajando para desarrollar muchas más."
-  feature_1_title: "Legislación colaborativa"
+  feature_1_title: "Panel de Administración"
   feature_1_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex."
-  feature_2_title: "Panel de Administración"
+  feature_2_title: "Internacionalización"
   feature_2_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex."
-  feature_3_title: "Internacionalización"
+  feature_3_title: "Páginas de información"
   feature_3_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex."
-  feature_4_title: "Páginas de información"
+  feature_4_title: "Búsquedas y filtros"
   feature_4_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex."
-  feature_5_title: "Búsquedas y filtros"
-  feature_5_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta unde minus excepturi ex."
 organizations:
   title: "¿Quién está usando CONSUL?"
   description: "Ya son muchos los Ayuntamientos y Organizaciones que actualmente utilizan consul como herramienta de participación."
@@ -75,6 +92,14 @@ license:
   text:
       Consul es software libre, con <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">licencia AGPLv3</a>, esto significa en palabras sencillas, que cualquiera puede libremente usar el código, copiarlo, verlo en detalle, modificarlo, y redistribuirlo al mundo con las modificaciones que quiera (manteniendo el que otros puedan a su vez hacer lo mismo).
 
+
       Porque creemos que la cultura es mejor y más rica cuando se libera.
   repositories_list: "Lista completa de repositorios"
+contact:
+    title: "Contacto"
+    text:
+      Utiliza consul libremente en tu municipio u organización. También puedes ayudarnos a mejorarlo, es software libre.
+
+
+      Desde el Ayuntamiento de Madrid vamos a ayudarte todo lo posible a que lo hagas, así que si estás interesado, escríbenos a <mailto:extension.institucional@madrid.es>
 contact_us: "Contacta con nosotros en"
