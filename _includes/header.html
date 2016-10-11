@@ -3,16 +3,17 @@
     <div class="top-bar-left">
       <ul class="menu">
         <li>
-          <a href="{{ site.baseurl }}/" class="logo">{{ site.data.i18n[page.locale].consul }}</a>
+          <a href="/{{ page.locale  }}" class="logo">{{ site.data.i18n[page.locale].consul }}</a>
         </li>
       </ul>
     </div>
     <div class="top-bar-right">
       <ul class="menu">
-        <li><a href="/screenshots.html">{{ site.data.i18n[page.locale].menu.screenshots }}</a></li>
-        <li><a href="/license.html">{{ site.data.i18n[page.locale].menu.license }}</a></li>
+        <li><a href="/{{ page.locale }}/screenshots.html">{{ site.data.i18n[page.locale].menu.screenshots }}</a></li>
+        <li><a href="/{{ page.locale }}/license.html">{{ site.data.i18n[page.locale].menu.license }}</a></li>
         <!-- <li><a href="/faq.html">{{ site.data.i18n[page.locale].menu.faq }}</a></li> -->
-        <li><a href="/contact.html">{{ site.data.i18n[page.locale].menu.contact }}</a></li>
+        <li><a href="/{{ page.locale }}/contact.html">{{ site.data.i18n[page.locale].menu.contact }}</a></li>
+      </ul>
       </ul>
     </div>
   </div>
