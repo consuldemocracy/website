@@ -163,6 +163,23 @@ h1 {
   }
 }
 
+a {
+
+  &.external {
+    position: relative;
+
+    &::after {
+      background-image: url("../img/icon_external.png");
+      content: "";
+      height: 16px;
+      position: absolute;
+      right: -20px;
+      top: 5px;
+      width: 16px;
+    }
+  }
+}
+
 // 03. Intro
 // ------------------------
 
@@ -187,7 +204,7 @@ h1 {
 
   a.small {
     font-size: $font-size-small;
-    display: block;
+    display: inline-block;
     clear: both;
   }
 }
@@ -263,11 +280,6 @@ h1 {
 
   h2 {
     line-height: $line-height*2;
-    // margin-bottom: $line-height;
-
-    @media screen and (min-width:40em) {
-      // margin-bottom: $line-height*2;
-    }
   }
 
   p {
@@ -278,7 +290,8 @@ h1 {
     list-style-image: url("../img/icon_check.png");
 
     li {
-      line-height: $line-height*2;
+      margin-bottom: $line-height;
+      margin-top: $line-height;
     }
   }
 }
