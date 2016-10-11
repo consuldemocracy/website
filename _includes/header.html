@@ -14,17 +14,17 @@
         <!-- <li><a href="/faq.html">{{ site.data.i18n[page.locale].menu.faq }}</a></li> -->
         <li><a href="/{{ page.locale }}/contact.html">{{ site.data.i18n[page.locale].menu.contact }}</a></li>
       </ul>
-
-      <ul>
-      {% for i18n in site.data.i18n %}
-        {% assign class = "" %}
-        {% if locale == i18n[0] %}
-          {% assign class = "active" %}
-        {% endif %}
-        {% assign path = page.path | split: '/' | last %}
-        <li><a href="/{{ i18n[0] }}/{{ path }}" class="{{ class }}">{{ i18n[0] }}</a></li>
-      {% endfor %}
-      </ul>
     </div>
   </div>
+</div>
+
+<div class="locale-selector">
+  {% for i18n in site.data.i18n %}
+    {% assign class = "" %}
+    {% if locale == i18n[0] %}
+      {% assign class = "active" %}
+    {% endif %}
+    {% assign path = page.path | split: '/' | last %}
+    <a href="/{{ i18n[0] }}/{{ path }}" class="{{ class }}">{{ i18n[0] }}</a>
+  {% endfor %}
 </div>

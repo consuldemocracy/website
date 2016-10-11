@@ -180,6 +180,25 @@ a {
   }
 }
 
+.locale-selector {
+  display: none; /* HIDES LOCALE SELECTOR */
+  border: 1px solid black;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+
+  a {
+    color: black;
+    margin: 0 $line-height/4;
+    text-transform: uppercase;
+
+    &.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}
+
 // 03. Intro
 // ------------------------
 
