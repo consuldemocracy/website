@@ -1,9 +1,7 @@
 # Site settings
 email: extension.institucional@madrid.es
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Software libre para participación ciudadana. Inteligencia colectiva y democracia directa digital para ciudades inteligentes. Abriendo gobiernos.
 baseurl: ""
 url: "http://www.decide.es/"
 twitter_username: consul_dev
