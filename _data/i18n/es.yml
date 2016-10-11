@@ -81,10 +81,6 @@ organizations:
   organization_2: "Ayuntamiento de Barcelona"
   organization_3: "Ayuntamiento de Oviedo"
   organization_4: "Ayuntamiento de A Coruña"
-  organization_5: "Universidad Complutense de Madrid"
-  organization_6: "Podemos"
-  organization_7: "Cabildo de Canarias"
-  organization_8: "Ajuntament de Calvià Mallorca"
 license:
   title: "Licencia"
   button: "Ver código en github"
