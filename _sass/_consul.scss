@@ -181,16 +181,20 @@ a {
 }
 
 .locale-selector {
-  display: none; /* HIDES LOCALE SELECTOR */
   border: 1px solid black;
   position: absolute;
   right: 14px;
-  top: 14px;
+  top: -1px;
 
   a {
     color: black;
-    margin: 0 $line-height/4;
+    padding: 0 $line-height/2;
     text-transform: uppercase;
+
+    &:first-child {
+      // padding-right: $line-height/2;
+      border-right: 1px solid black;
+    }
 
     &.active {
       font-weight: bold;
