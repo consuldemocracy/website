@@ -81,6 +81,7 @@ organizations:
   organization_3: "Ayuntamiento de Oviedo"
   organization_4: "Ayuntamiento de A Coruña"
   organization_5: "Ayuntamiento de Calvià Mallorca"
+  organization_6: "Ayuntamiento de Valencia"
 license:
   title: "Licencia"
   button: "Ver código en github"

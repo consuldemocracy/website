@@ -81,6 +81,7 @@ organizations:
   organization_3: "City of Oviedo"
   organization_4: "City of A Coruña"
   organization_5: "City of Calvià Mallorca"
+  organization_6: "City of Valencia"
 license:
   title: "License"
   button: "View code on github"
