@@ -1,0 +1,353 @@
+{
+  "mapwidth": "1200",
+  "mapheight": "600",
+  "levels" : [
+    {
+      "id"  : "spain",
+      "map" : "../img/mapa.svg",
+      "locations" : [
+        {
+          "id" : "a_coruna",
+          "label" : "A Coruña",
+          "title": "Ayuntamiento de A Coruña",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.5050",
+          "y": "0.0700",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "alicante",
+          "label" : "Alicante",
+          "title" : "Ayuntamiento de Alicante",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.8350",
+          "y": "0.5930",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "asturias",
+          "label" : "Carreño",
+          "title": "Ayuntamiento de Carreño",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.6320",
+          "y": "0.0550",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "benalmadena",
+          "label" : "Benalmádena",
+          "title": "Ayuntamiento de Benalmádena",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.6500",
+          "y": "0.8300",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "bunol",
+          "label" : "Buñol",
+          "title": "Ayuntamiento de Buñol",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.8161",
+          "y": "0.5292",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "cadiz",
+          "label" : "Cádiz",
+          "title": "Ayuntamiento de Cádiz",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.5830",
+          "y": "0.8300",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "chiloeches",
+          "label" : "Chiloeches",
+          "title": "Ayuntamiento de Chiloeches",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.7040",
+          "y": "0.3810",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "ciempozuelos",
+          "label" : "Ciempozuelos",
+          "title": "Ayuntamiento de Ciempozuelos",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.7167",
+          "y": "0.4454",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "getafe",
+          "label" : "Getafe",
+          "title": "Ayuntamiento de Getafe",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.6947",
+          "y": "0.4348",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "golmayo",
+          "label" : "Golmayo",
+          "title": "Ayuntamiento de Golmayo",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.7315",
+          "y": "0.2760",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "huesca",
+          "label" : "Huesca",
+          "title": "Ayuntamiento de Huesca",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.8278",
+          "y": "0.2352",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "oviedo",
+          "label" : "Oviedo",
+          "title": "Ayuntamiento de Oviedo",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.6110",
+          "y": "0.0680",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "pamplona",
+          "label" : "Pamplona",
+          "title": "Ayuntamiento de Pamplona",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.7770",
+          "y": "0.1560",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "rivas_vaciamadrid",
+          "label" : "Rivas Vaciamadrid",
+          "title": "Ayuntamiento de Rivas Vaciamadrid",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.7074",
+          "y": "0.4176",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "san_sebastian_reyes",
+          "label" : "San Sebastián de los Reyes",
+          "title": "Ayuntamiento de San Sebastián de los Reyes",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.6949",
+          "y": "0.3621",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "sitges",
+          "label" : "Sitges",
+          "title": "Ayuntamiento de Sitges",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.9050",
+          "y": "0.2980",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "talamanca",
+          "label" : "Talamanca",
+          "title": "Ayuntamiento de Talamanca",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.9310",
+          "y": "0.2460",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "tarragona",
+          "label" : "Tarragona",
+          "title": "Ayuntamiento de Tarragona",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.8725",
+          "y": "0.3260",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "toledo",
+          "label" : "Toledo",
+          "title": "Ayuntamiento de Toledo",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.6793",
+          "y": "0.5121",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "universidad_complutense",
+          "label" : "Universidad Complutense",
+          "title": "Universidad Complutense de Madrid",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.6860",
+          "y": "0.4014",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "valdemorillo",
+          "label" : "Valdemorillo",
+          "title": "Ayuntamiento de Valdemorillo",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.6720",
+          "y": "0.4068",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "valencia",
+          "label" : "Valencia",
+          "title": "Ayuntamiento de Valencia",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.8290",
+          "y": "0.4950",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "valencia_diputacion",
+          "label" : "Diputación de Valencia",
+          "title": "Ayuntamiento de Diputación de Valencia",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.8285",
+          "y": "0.5420",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "narino",
+          "label" : "Nariño (Colombia)",
+          "title": "Nariño (Colombia)",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.0350",
+          "y": "0.1420",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "buenos_aries",
+          "label" : "Buenos Aries",
+          "title": "Buenos Aries (Argentina)",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.1485",
+          "y": "0.4960",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "mendoza",
+          "label" : "Mendoza",
+          "title": "Mendoza (Argentina)",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.1105",
+          "y": "0.4660",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "mallorca_consell",
+          "label" : "Consell de Mallorca",
+          "title": "Consell de Mallorca",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.9440",
+          "y": "0.3640",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "palma_mallorca",
+          "label" : "Palma de Mallorca",
+          "title": "Palma de Mallorca",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.9520",
+          "y": "0.4080",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "calvia",
+          "label" : "Ayuntamiento de Calvià",
+          "title": "Ayuntamiento de Calvià",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.9350",
+          "y": "0.3940",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "arona",
+          "label" : "Ayuntamiento de Arona",
+          "title": "Ayuntamiento de Arona",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.3130",
+          "y": "0.8940",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        },
+        {
+          "id" : "gran_canaria",
+          "label" : "Cabildo de Gran Canaria",
+          "title": "Cabildo de Gran Canaria",
+          "description" : "Web en desarrollo",
+          "about": "Web en desarrollo",
+          "x": "0.3650",
+          "y": "0.9100",
+          "zoom" : "1.5",
+          "pin" : "circular"
+        }
+      ]
+    }
+  ]
+}

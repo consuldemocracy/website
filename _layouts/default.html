@@ -23,5 +23,25 @@
     <script src="/js/featherlight.min.js"></script>
     <script src="/js/featherlight.gallery.min.js"></script>
     <script src="/js/app.js"></script>
+    <script src="/js/hammer.min.js"></script>
+    <script src="/js/jquery.easing.js"></script>
+    <script src="/js/jquery.mousewheel.js"></script>
+    <script src="/js/smoothscroll.js"></script>
+    <script src="/js/mapplic.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#mapplic').mapplic({
+          source: '/locations.json',
+          height: 500,
+          sidebar: true,
+          search: true,
+          minimap: false,
+          locations: true,
+          fullscreen: true,
+          hovertip: true,
+          maxscale: 2
+        });
+      });
+    </script>
   </body>
 </html>
