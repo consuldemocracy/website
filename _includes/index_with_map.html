@@ -1,25 +1,23 @@
-<section class="intro">
+<div class="intro">
   <div class="row">
-    <div class="small-12 medium-9 column">
-      <h1>{{ site.data.i18n[page.locale].welcome }}</h1>
-      <h2>{{ site.data.i18n[page.locale].tagline }}</h2>
+    <div class="small-12 column text-center">
+      <h1>{{ site.data.i18n[page.locale].tagline }}</h1>
       <a href="https://github.com/consul/consul" target="_blank" class="button">{{ site.data.i18n[page.locale].button_github }}</a>
-      <br>
-      <a href="https://github.com/consul/consul/network/members" target="_blank" class="small external">{{ site.data.i18n[page.locale].repositories_list }}</a>
     </div>
-  </div>
-</section>
-
-<div class="row margin-top">
-  <div class="small-12 medium-9 column">
-    <h2>{{ site.data.i18n[page.locale].participation }}</h2>
   </div>
 </div>
 
 <div id="mapplic" class="margin"></div>
 
+<div class="row">
+  <div class="small-12 medium-9 column">
+    <h2>{{ site.data.i18n[page.locale].participation }}</h2>
+    <a href="https://github.com/consul/consul/network/members" target="_blank" class="small external">{{ site.data.i18n[page.locale].repositories_list }}</a>
+  </div>
+</div>
+
 <section class="summary">
-  <div class="row">
+  <div class="row margin-top">
     <div class="small-12 medium-4 column">
       <h3>{{ site.data.i18n[page.locale].summary.title_1 }}</h3>
       <p>{{ site.data.i18n[page.locale].summary.description_1 }}</p>
@@ -226,5 +224,3 @@
 
   </div>
 </section>
-
-<div class="expanded admin-{{page.locale}}"></div>

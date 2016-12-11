@@ -213,7 +213,7 @@ a {
   text-align: center;
 
   @media screen and (min-width:40em) {
-    margin-top: $line-height*4;
+    margin-top: $line-height*2;
     text-align: left;
   }
 
@@ -675,9 +675,18 @@ footer {
   height: 100%;
 }
 
-:-webkit-full-screen .mapplic-container {
-  width: 80%;
-}
+// Removes sidebar on fullscreen
+:fullscreen .mapplic-sidebar { display: none !important;}
+:-webkit-full-screen .mapplic-sidebar { display: none !important;}
+:-moz-full-screen .mapplic-sidebar { display: none !important;}
+:-moz-full-screen-ancestor .mapplic-sidebar { display: none !important;}
+:-ms-fullscreen .mapplic-sidebar { display: none !important;}
+
+:fullscreen .mapplic-container { width: 100% !important;}
+:-webkit-full-screen .mapplic-container { width: 100% !important;}
+:-moz-full-screen .mapplic-container { width: 100% !important;}
+:-moz-full-screen-ancestor .mapplic-container { width: 100% !important;}
+:-ms-fullscreen .mapplic-container { width: 100% !important;}
 
 .mapplic-map {
   position: absolute;
@@ -735,8 +744,9 @@ footer {
     background-image: none;
     background-color: #1da8d4;
     border-radius: 16px;
-    width: 12px;
-    height: 12px;
+    border: 2px solid rgba(0,0,0,.2);
+    width: 11px;
+    height: 11px;
     margin-left: -6px;
     margin-top: -6px;
   }
@@ -951,10 +961,6 @@ a.mapplic-zoomout-button {
   position: relative;
 }
 
-:-webkit-full-screen .mapplic-sidebar {
-  width: 20%;
-}
-
 /* Search */
 .mapplic-search-form {
   background-color: #f8f8f8;
@@ -1109,7 +1115,7 @@ a.mapplic-zoomout-button {
 }
 
 .mapplic-list-location > a:hover {
-  background-color: #f4fcfc;
+  background-color: #ecf6ff;
   border-left: 2px solid;
   border-color: inherit;
 }
@@ -1163,10 +1169,10 @@ a.mapplic-zoomout-button {
 .mapplic-tooltip-content {
   max-height: 160px;
   overflow-y: auto;
-}
 
-.mapplic-tooltip-content p {
-  margin-top: 0;
+  p {
+    margin-top: 0;
+  }
 }
 
 .mapplic-tooltip-image {
@@ -1186,7 +1192,7 @@ a.mapplic-zoomout-button {
   background-color: #6CB5F4;
   border-radius: 2px;
   color: #fff !important;
-  float: right;
+  display: block;
   font-size: 14px;
   line-height: 32px;
   padding: 0 12px;
@@ -1194,10 +1200,20 @@ a.mapplic-zoomout-button {
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
+  text-align: center;
+
+  &:hover {
+    background-color: #888;
+  }
 }
 
-.mapplic-tooltip-link:hover {
-  background-color: #888;
+.mapplic-tooltip-github {
+  clear: both;
+  color: #6CB5F4 !important;
+  display: block;
+  font-size: 13px;
+  line-height: 32px;
+  text-decoration: underline !important;
 }
 
 .mapplic-tooltip img {
@@ -1221,10 +1237,10 @@ a.mapplic-zoomout-button {
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   transition: opacity 0.2s;
-}
 
-.mapplic-tooltip-close:hover {
-  opacity: 1.0;
+  &:hover {
+    opacity: 1.0;
+  }
 }
 
 .mapplic-tooltip-triangle {
@@ -1318,18 +1334,6 @@ a.mapplic-zoomout-button {
   }
 
   .mapplic-pin { background-image: url("../img/map/pin@2x.png"); }
-  .mapplic-pin.orange { background-image: url("../img/map/pin-orange@2x.png"); }
-  .mapplic-pin.yellow { background-image: url("../img/map/pin-yellow@2x.png"); }
-  .mapplic-pin.green { background-image: url("../img/map/pin-green@2x.png"); }
-  .mapplic-pin.blue { background-image: url("../img/map/pin-blue@2x.png"); }
-  .mapplic-pin.purple { background-image: url("../img/map/pin-purple@2x.png"); }
-
-  .mapplic-pin.iconpin { background-image: url("../img/map/pin-large@2x.png"); }
-  .mapplic-pin.iconpin.orange { background-image: url("../img/map/pin-orange-large@2x.png"); }
-  .mapplic-pin.iconpin.yellow { background-image: url("../img/map/pin-yellow-large@2x.png"); }
-  .mapplic-pin.iconpin.green { background-image: url("../img/map/pin-green-large@2x.png"); }
-  .mapplic-pin.iconpin.blue { background-image: url("../img/map/pin-blue-large@2x.png"); }
-  .mapplic-pin.iconpin.purple { background-image: url("../img/map/pin-purple-large@2x.png"); }
 
   .mapplic-clear-button {
     background-image: url("../img/map/reset@2x.png");
@@ -1378,4 +1382,11 @@ path.mapplic-clickable:hover,
   -webkit-transition: fill 0.2s;
   -moz-transition: fill 0.2s;
   transition: fill 0.2s;
+}
+
+a.mapplic-pin.circular.narino {
+
+  svg #america .mapplic-element #narino {
+    fill: red !important;
+  }
 }

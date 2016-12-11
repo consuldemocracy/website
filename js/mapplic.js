@@ -78,7 +78,8 @@
 				this.title = $('<h4></h4>').addClass('mapplic-tooltip-title').appendTo(this.el);
 				this.content = $('<div></div>').addClass('mapplic-tooltip-content').appendTo(this.el);
 				this.desc = $('<div></div>').addClass('mapplic-tooltip-description').appendTo(this.content);
-				this.link = $('<a>More</a>').addClass('mapplic-tooltip-link').attr('href', '#').hide().appendTo(this.el);
+				this.link = $("<a target='blank'>Visitar página</a>").addClass('mapplic-tooltip-link').attr('href', '#').hide().appendTo(this.el);
+				this.github = $("<a target='blank'>Código en github</a>").addClass('mapplic-tooltip-github').attr('href', '#').hide().appendTo(this.el);
 				$('<div></div>').addClass('mapplic-tooltip-triangle').prependTo(this.el);
 
 				// Append
@@ -94,6 +95,9 @@
 
 					if (location.link) this.link.attr('href', location.link).show();
 					else this.link.hide();
+
+					if (location.github) this.github.attr('href', location.github).show();
+					else this.github.hide();
 
 					this.title.text(location.title);
 					this.desc.html(location.description);
@@ -124,6 +128,9 @@
 
 					if (location.link) this.link.attr('href', location.link).show();
 					else this.link.hide();
+
+					if (location.github) this.github.attr('href', location.github).show();
+					else this.github.hide();
 
 					this.title.text(location.title);
 					this.desc.html(location.description);
@@ -725,6 +732,7 @@
 								if (value.fill) pin.css('background-color', value.fill);
 								pin.attr('data-location', value.id);
 								pin.addClass(value.pin);
+								pin.addClass(value.id);
 							}
 						}
 
