@@ -103,8 +103,8 @@
           "label" : "Castellón de la Plana",
           "title": "Ayuntamiento de Castellón de la Plana",
           "description" : "Preparando lanzamiento",
-          "x": "0.8300",
-          "y": "0.5500",
+          "x": "0.8350",
+          "y": "0.5600",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -334,8 +334,8 @@
           "label" : "Nariño",
           "title": "Nariño",
           "description" : "Preparando lanzamiento",
-          "x": "0.0310",
-          "y": "0.2980",
+          "x": "0.0270",
+          "y": "0.3180",
           "zoom" : "0",
           "pin" : "circular"
         },
