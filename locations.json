@@ -8,7 +8,7 @@
       "locations" : [
         {
           "id" : "a_coruna",
-          "label" : "A Coruña",
+          "label" : "Ayuntamiento de A Coruña",
           "title" : "Ayuntamiento de A Coruña",
           "link" : "https://aportaaberta.coruna.es/?locale=es",
           "github" : "https://github.com/ConcelloCoruna/aportaaberta",
@@ -19,7 +19,7 @@
         },
         {
           "id" : "alicante",
-          "label" : "Alicante",
+          "label" : "Ayuntamiento de Alicante",
           "title" : "Ayuntamiento de Alicante",
           "description" : "Preparando lanzamiento",
           "x": "0.8350",
@@ -39,8 +39,8 @@
         },
         {
           "id" : "barcelona",
-          "label" : "Ayuntamiento de Barcelona",
-          "title": "Ayuntamiento de Barcelona",
+          "label" : "Ajuntament de Barcelona",
+          "title": "Ajuntament de Barcelona",
           "link" : "https://decidim.barcelona/?locale=es",
           "github" : "https://github.com/AjuntamentdeBarcelona/decidim.barcelona",
           "x": "0.9500",
@@ -50,7 +50,7 @@
         },
         {
           "id" : "benalmadena",
-          "label" : "Benalmádena",
+          "label" : "Ayuntamiento de Benalmádena",
           "title": "Ayuntamiento de Benalmádena",
           "description" : "Preparando lanzamiento",
           "x": "0.6500",
@@ -60,7 +60,7 @@
         },
         {
           "id" : "bunol",
-          "label" : "Buñol",
+          "label" : "Ayuntamiento de Buñol",
           "title": "Ayuntamiento de Buñol",
           "description" : "Preparando lanzamiento",
           "x": "0.8161",
@@ -70,7 +70,7 @@
         },
         {
           "id" : "cadiz",
-          "label" : "Cádiz",
+          "label" : "Ayuntamiento de Cádiz",
           "title": "Ayuntamiento de Cádiz",
           "description" : "Preparando lanzamiento",
           "x": "0.5830",
@@ -80,8 +80,8 @@
         },
         {
           "id" : "calvia",
-          "label" : "Ayuntamiento de Calvià",
-          "title": "Ayuntamiento de Calvià",
+          "label" : "Ajuntament de Calvià",
+          "title": "Ajuntament de Calvià",
           "link" : "https://www.participacalvia.es/",
           "x": "0.9350",
           "y": "0.4940",
@@ -90,7 +90,7 @@
         },
         {
           "id" : "asturias",
-          "label" : "Carreño",
+          "label" : "Ayuntamiento de Carreño",
           "title": "Ayuntamiento de Carreño",
           "description" : "Preparando lanzamiento",
           "x": "0.6320",
@@ -110,7 +110,7 @@
         },
         {
           "id" : "chiloeches",
-          "label" : "Chiloeches",
+          "label" : "Ayuntamiento de Chiloeches",
           "title": "Ayuntamiento de Chiloeches",
           "description" : "Preparando lanzamiento",
           "x": "0.7240",
@@ -120,7 +120,7 @@
         },
         {
           "id" : "ciempozuelos",
-          "label" : "Ciempozuelos",
+          "label" : "Ayuntamiento de Ciempozuelos",
           "title": "Ayuntamiento de Ciempozuelos",
           "description" : "Preparando lanzamiento",
           "x": "0.7167",
@@ -130,7 +130,7 @@
         },
         {
           "id" : "getafe",
-          "label" : "Getafe",
+          "label" : "Ayuntamiento de Getafe",
           "title": "Ayuntamiento de Getafe",
           "description" : "Preparando lanzamiento",
           "x": "0.6947",
@@ -140,7 +140,7 @@
         },
         {
           "id" : "golmayo",
-          "label" : "Golmayo",
+          "label" : "Ayuntamiento de Golmayo",
           "title": "Ayuntamiento de Golmayo",
           "description" : "Preparando lanzamiento",
           "x": "0.7315",
@@ -150,7 +150,7 @@
         },
         {
           "id" : "huesca",
-          "label" : "Huesca",
+          "label" : "Ayuntamiento de Huesca",
           "title": "Ayuntamiento de Huesca",
           "description" : "Preparando lanzamiento",
           "x": "0.8278",
@@ -181,8 +181,8 @@
         },
         {
           "id" : "palma_mallorca",
-          "label" : "Ayuntamiento de Palma de Mallorca",
-          "title": "Ayuntamiento de Palma de Mallorca",
+          "label" : "Ajuntament de Palma de Mallorca",
+          "title": "Ajuntament de Palma de Mallorca",
           "description" : "Preparando lanzamiento",
           "x": "0.9520",
           "y": "0.5080",
@@ -191,7 +191,7 @@
         },
         {
           "id" : "pamplona",
-          "label" : "Pamplona",
+          "label" : "Ayuntamiento de Pamplona",
           "title": "Ayuntamiento de Pamplona",
           "description" : "Preparando lanzamiento",
           "x": "0.7770",
@@ -201,7 +201,7 @@
         },
         {
           "id" : "rivas_vaciamadrid",
-          "label" : "Rivas-Vaciamadrid",
+          "label" : "Ayuntamiento de Rivas-Vaciamadrid",
           "title": "Ayuntamiento de Rivas-Vaciamadrid",
           "description" : "Preparando lanzamiento",
           "x": "0.7074",
@@ -211,7 +211,7 @@
         },
         {
           "id" : "san_sebastian_reyes",
-          "label" : "San Sebastián de los Reyes",
+          "label" : "Ayuntamiento de San Sebastián de los Reyes",
           "title": "Ayuntamiento de San Sebastián de los Reyes",
           "description" : "Preparando lanzamiento",
           "x": "0.6949",
@@ -221,8 +221,8 @@
         },
         {
           "id" : "sitges",
-          "label" : "Sitges",
-          "title": "Ayuntamiento de Sitges",
+          "label" : "Ajuntament de Sitges",
+          "title": "Ajuntament de Sitges",
           "description" : "Preparando lanzamiento",
           "x": "0.9250",
           "y": "0.4120",
@@ -241,8 +241,8 @@
         },
         {
           "id" : "tarragona",
-          "label" : "Tarragona",
-          "title": "Ayuntamiento de Tarragona",
+          "label" : "Ajuntament de Tarragona",
+          "title": "Ajuntament de Tarragona",
           "description" : "Preparando lanzamiento",
           "x": "0.8950",
           "y": "0.4260",
@@ -251,7 +251,7 @@
         },
         {
           "id" : "toledo",
-          "label" : "Toledo",
+          "label" : "Ayuntamiento de Toledo",
           "title": "Ayuntamiento de Toledo",
           "description" : "Preparando lanzamiento",
           "x": "0.6793",
@@ -261,7 +261,7 @@
         },
         {
           "id" : "valdemorillo",
-          "label" : "Valdemorillo",
+          "label" : "Ayuntamiento de Valdemorillo",
           "title": "Ayuntamiento de Valdemorillo",
           "description" : "Preparando lanzamiento",
           "x": "0.6720",
@@ -271,7 +271,7 @@
         },
         {
           "id" : "valencia",
-          "label" : "Valencia",
+          "label" : "Ayuntamiento de Valencia",
           "title": "Ayuntamiento de Valencia",
           "link" : "https://decidimvlc.valencia.es/",
           "x": "0.8290",
