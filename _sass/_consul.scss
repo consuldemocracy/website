@@ -79,7 +79,7 @@ ul {
   }
 }
 
-.menu > li > a {
+.menu > li > h1 > a, .menu > li > a {
   color: black;
   font-weight: $font-weight-light;
   line-height: $line-height*2;
@@ -105,7 +105,7 @@ figcaption {
   line-height: $line-height;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: black;
   font-family: $font-family-heading;
   margin-bottom: 0;
@@ -113,13 +113,6 @@ h1, h2, h3 {
 
 h1 {
   line-height: $line-height*2;
-}
-
-@media screen and (min-width:40em) {
-
-  h2 {
-    font-size:2rem;
-  }
 }
 
 .margin {
@@ -204,6 +197,17 @@ a {
   }
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 // 03. Intro
 // ------------------------
 
@@ -219,6 +223,7 @@ a {
 
   h2 {
     color: $text;
+    font-size: 36px;
   }
 
   .button {
@@ -323,7 +328,7 @@ a {
 .more-features {
   background: $highlight-background;
 
-  h3 {
+  p.lead, h3 {
     color: $text;
     font-size: $font-size-big;
   }
