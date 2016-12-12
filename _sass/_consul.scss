@@ -337,7 +337,6 @@ a {
 .who-use-it {
 
   .logos {
-    margin-bottom: $line-height*2;
   }
 }
 
@@ -345,7 +344,9 @@ a {
 // ------------------------
 
 footer {
-  border-top: 1px solid $highlight-background;
+  border-top: 1px solid $border;
+  clear: both;
+  margin-top: $line-height*2;
   padding-top: $line-height;
 
   h1 {
