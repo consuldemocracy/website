@@ -9,7 +9,7 @@
         {
           "id" : "a_coruna",
           "label" : "A Coruña",
-          "title": "Ayuntamiento de A Coruña",
+          "title" : "Ayuntamiento de A Coruña",
           "link" : "https://aportaaberta.coruna.es/?locale=es",
           "github" : "https://github.com/ConcelloCoruna/aportaaberta",
           "x": "0.5050",
@@ -99,12 +99,22 @@
           "pin" : "circular"
         },
         {
+          "id" : "castellon_plana",
+          "label" : "Castellón de la Plana",
+          "title": "Ayuntamiento de Castellón de la Plana",
+          "description" : "Preparando lanzamiento",
+          "x": "0.8300",
+          "y": "0.5500",
+          "zoom" : "2",
+          "pin" : "circular"
+        },
+        {
           "id" : "chiloeches",
           "label" : "Chiloeches",
           "title": "Ayuntamiento de Chiloeches",
           "description" : "Preparando lanzamiento",
-          "x": "0.7040",
-          "y": "0.4810",
+          "x": "0.7240",
+          "y": "0.4510",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -191,8 +201,8 @@
         },
         {
           "id" : "rivas_vaciamadrid",
-          "label" : "Rivas Vaciamadrid",
-          "title": "Ayuntamiento de Rivas Vaciamadrid",
+          "label" : "Rivas-Vaciamadrid",
+          "title": "Ayuntamiento de Rivas-Vaciamadrid",
           "description" : "Preparando lanzamiento",
           "x": "0.7074",
           "y": "0.4976",
@@ -221,11 +231,11 @@
         },
         {
           "id" : "talamanca",
-          "label" : "Talamanca",
-          "title": "Ayuntamiento de Talamanca",
+          "label" : "Talamanca del Jarama",
+          "title": "Ayuntamiento de Talamanca del Jarama",
           "description" : "Preparando lanzamiento",
-          "x": "0.9310",
-          "y": "0.3760",
+          "x": "0.7040",
+          "y": "0.4510",
           "zoom" : "2",
           "pin" : "circular"
         },
