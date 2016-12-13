@@ -92,7 +92,7 @@
           "id" : "asturias",
           "label" : "Ayuntamiento de Carreño",
           "title": "Ayuntamiento de Carreño",
-          "description" : "Preparando lanzamiento",
+          "link" : "https://decide.carreno.es/",
           "x": "0.6320",
           "y": "0.2350",
           "zoom" : "2",
