@@ -132,7 +132,7 @@
           "id" : "getafe",
           "label" : "Ayuntamiento de Getafe",
           "title": "Ayuntamiento de Getafe",
-          "description" : "Preparando lanzamiento",
+          "link" : "https://participa.getafe.es",
           "x": "0.6947",
           "y": "0.5148",
           "zoom" : "2",
