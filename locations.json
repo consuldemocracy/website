@@ -100,9 +100,9 @@
         },
         {
           "id" : "castellon_plana",
-          "label" : "Castellón de la Plana",
-          "title": "Ayuntamiento de Castellón de la Plana",
-          "description" : "Preparando lanzamiento",
+          "label" : "Ajuntament de Castelló",
+          "title": "Ajuntament de Castelló",
+          "link" : "https://decidim.castello.es/",
           "x": "0.8350",
           "y": "0.5600",
           "zoom" : "2",
