@@ -200,6 +200,16 @@
           "pin" : "circular"
         },
         {
+          "id" : "paris",
+          "label" : "París (Budget participatif de la RIVP)",
+          "title": "París (Budget participatif de la RIVP)",
+          "link" : "https://budget-participatif.rivp.fr/budgets",
+          "x": "0.8500",
+          "y": "0.1500",
+          "zoom" : "2",
+          "pin" : "circular"
+        },
+        {
           "id" : "rivas_vaciamadrid",
           "label" : "Ayuntamiento de Rivas-Vaciamadrid",
           "title": "Ayuntamiento de Rivas-Vaciamadrid",
