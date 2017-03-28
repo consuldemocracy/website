@@ -725,6 +725,9 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
+  // For show correctly map of France
+  width: 130%;
+  left: -15%;
 }
 
 .mapplic-map.mapplic-zoomable.mapplic-dragging .mapplic-map-image {
