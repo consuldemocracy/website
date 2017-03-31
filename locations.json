@@ -1,6 +1,6 @@
 {
   "mapwidth": "1200",
-  "mapheight": "800",
+  "mapheight": "900",
   "levels" : [
     {
       "id"  : "spain",
@@ -13,7 +13,7 @@
           "link" : "https://aportaaberta.coruna.es/?locale=es",
           "github" : "https://github.com/ConcelloCoruna/aportaaberta",
           "x": "0.5050",
-          "y": "0.2500",
+          "y": "0.3300",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -23,7 +23,7 @@
           "title" : "Ayuntamiento de Alicante",
           "description" : "Preparando lanzamiento",
           "x": "0.8350",
-          "y": "0.6600",
+          "y": "0.7000",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -33,7 +33,7 @@
           "title": "Ayuntamiento de Arona",
           "description" : "Preparando lanzamiento",
           "x": "0.3130",
-          "y": "0.8640",
+          "y": "0.8740",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -44,7 +44,7 @@
           "link" : "https://decidim.barcelona/?locale=es",
           "github" : "https://github.com/AjuntamentdeBarcelona/decidim.barcelona",
           "x": "0.9500",
-          "y": "0.3880",
+          "y": "0.4600",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -54,7 +54,7 @@
           "title": "Ayuntamiento de Benalmádena",
           "link" : "https://benalmadenaparticipa.es",
           "x": "0.6500",
-          "y": "0.8300",
+          "y": "0.8500",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -64,7 +64,7 @@
           "title": "Ayuntamiento de Buñol",
           "description" : "Preparando lanzamiento",
           "x": "0.8161",
-          "y": "0.6000",
+          "y": "0.6500",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -74,7 +74,7 @@
           "title": "Ayuntamiento de Cádiz",
           "description" : "Preparando lanzamiento",
           "x": "0.5830",
-          "y": "0.8300",
+          "y": "0.8500",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -84,7 +84,7 @@
           "title": "Ajuntament de Calvià",
           "link" : "https://www.participacalvia.es/",
           "x": "0.9350",
-          "y": "0.4940",
+          "y": "0.5500",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -94,7 +94,7 @@
           "title": "Ayuntamiento de Carreño",
           "link" : "https://decide.carreno.es/",
           "x": "0.6320",
-          "y": "0.2350",
+          "y": "0.3250",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -104,7 +104,7 @@
           "title": "Ajuntament de Castelló",
           "link" : "https://decidim.castello.es/",
           "x": "0.8350",
-          "y": "0.5600",
+          "y": "0.6100",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -114,7 +114,7 @@
           "title": "Ayuntamiento de Chiloeches",
           "description" : "Preparando lanzamiento",
           "x": "0.7240",
-          "y": "0.4510",
+          "y": "0.5100",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -124,7 +124,7 @@
           "title": "Ayuntamiento de Ciempozuelos",
           "description" : "Preparando lanzamiento",
           "x": "0.7167",
-          "y": "0.5154",
+          "y": "0.5700",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -134,7 +134,7 @@
           "title": "Ayuntamiento de Getafe",
           "link" : "https://participa.getafe.es",
           "x": "0.6947",
-          "y": "0.5148",
+          "y": "0.5700",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -144,7 +144,7 @@
           "title": "Ayuntamiento de Golmayo",
           "description" : "Preparando lanzamiento",
           "x": "0.7315",
-          "y": "0.4060",
+          "y": "0.4700",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -154,7 +154,7 @@
           "title": "Ayuntamiento de Huesca",
           "description" : "Preparando lanzamiento",
           "x": "0.8278",
-          "y": "0.3652",
+          "y": "0.4400",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -165,7 +165,7 @@
           "link": "https://decide.madrid.es",
           "github" : "https://github.com/AyuntamientoMadrid/consul",
           "x": "0.6910",
-          "y": "0.4880",
+          "y": "0.5400",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -175,7 +175,7 @@
           "title": "Ayuntamiento de Oviedo",
           "link" : "http://www.consultaoviedo.es/",
           "x": "0.6110",
-          "y": "0.2480",
+          "y": "0.3300",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -185,7 +185,7 @@
           "title": "Ajuntament de Palma de Mallorca",
           "description" : "Preparando lanzamiento",
           "x": "0.9520",
-          "y": "0.5080",
+          "y": "0.5600",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -195,7 +195,7 @@
           "title": "Ayuntamiento de Pamplona",
           "description" : "Preparando lanzamiento",
           "x": "0.7770",
-          "y": "0.3160",
+          "y": "0.3900",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -205,7 +205,7 @@
           "title": "París (Budget participatif de la RIVP)",
           "link" : "https://budget-participatif.rivp.fr/budgets",
           "x": "0.9500",
-          "y": "0.1000",
+          "y": "0.0900",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -215,7 +215,7 @@
           "title": "Ayuntamiento de Rivas-Vaciamadrid",
           "description" : "Preparando lanzamiento",
           "x": "0.7074",
-          "y": "0.4976",
+          "y": "0.5500",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -225,7 +225,7 @@
           "title": "Ayuntamiento de San Sebastián de los Reyes",
           "description" : "Preparando lanzamiento",
           "x": "0.6949",
-          "y": "0.4600",
+          "y": "0.5200",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -235,7 +235,7 @@
           "title": "Ajuntament de Sitges",
           "description" : "Preparando lanzamiento",
           "x": "0.9250",
-          "y": "0.4120",
+          "y": "0.4800",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -245,7 +245,7 @@
           "title": "Ayuntamiento de Talamanca del Jarama",
           "description" : "Preparando lanzamiento",
           "x": "0.7040",
-          "y": "0.4510",
+          "y": "0.5100",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -255,7 +255,7 @@
           "title": "Ajuntament de Tarragona",
           "description" : "Preparando lanzamiento",
           "x": "0.8950",
-          "y": "0.4260",
+          "y": "0.4900",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -265,7 +265,7 @@
           "title": "Ayuntamiento de Toledo",
           "description" : "Preparando lanzamiento",
           "x": "0.6793",
-          "y": "0.5721",
+          "y": "0.6200",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -275,7 +275,7 @@
           "title": "Ayuntamiento de Valdemorillo",
           "description" : "Preparando lanzamiento",
           "x": "0.6720",
-          "y": "0.5000",
+          "y": "0.5600",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -285,7 +285,7 @@
           "title": "Ayuntamiento de Valencia",
           "link" : "https://decidimvlc.valencia.es/",
           "x": "0.8290",
-          "y": "0.6000",
+          "y": "0.6500",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -295,7 +295,7 @@
           "title": "Buenos Aires",
           "description" : "Preparando lanzamiento",
           "x": "0.1750",
-          "y": "0.6950",
+          "y": "0.7300",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -305,7 +305,7 @@
           "title": "Cabildo de Gran Canaria",
           "description" : "Preparando lanzamiento",
           "x": "0.3650",
-          "y": "0.8900",
+          "y": "0.9000",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -315,7 +315,7 @@
           "title": "Consell de Mallorca",
           "description" : "Preparando lanzamiento",
           "x": "0.9440",
-          "y": "0.4640",
+          "y": "0.5200",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -325,7 +325,7 @@
           "title": "Diputación de Valencia",
           "description" : "Preparando lanzamiento",
           "x": "0.8285",
-          "y": "0.6220",
+          "y": "0.6700",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -335,7 +335,7 @@
           "title": "Mendoza",
           "description" : "Preparando lanzamiento",
           "x": "0.1440",
-          "y": "0.6130",
+          "y": "0.6600",
           "zoom" : "2",
           "pin" : "circular"
         },
@@ -345,7 +345,7 @@
           "title": "Nariño",
           "description" : "Preparando lanzamiento",
           "x": "0.0270",
-          "y": "0.3180",
+          "y": "0.4000",
           "zoom" : "0",
           "pin" : "circular"
         },
@@ -355,7 +355,7 @@
           "title": "Universidad Complutense de Madrid",
           "description" : "Preparando lanzamiento",
           "x": "0.6860",
-          "y": "0.4914",
+          "y": "0.5500",
           "zoom" : "2",
           "pin" : "circular"
         }
