@@ -293,7 +293,7 @@
           "id" : "buenos_aries",
           "label" : "Buenos Aires",
           "title": "Buenos Aires",
-          "description" : "Preparando lanzamiento",
+          "link" : "https://baelige.buenosaires.gob.ar/",
           "x": "0.1750",
           "y": "0.7300",
           "zoom" : "2",
