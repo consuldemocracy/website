@@ -112,7 +112,7 @@
           "id" : "chiloeches",
           "label" : "Ayuntamiento de Chiloeches",
           "title": "Ayuntamiento de Chiloeches",
-          "description" : "Preparando lanzamiento",
+          "link" : "https://decide.aytochiloeches.es",
           "x": "0.7240",
           "y": "0.5100",
           "zoom" : "2",
