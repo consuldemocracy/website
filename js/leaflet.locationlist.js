@@ -41,9 +41,9 @@ L.Control.LocationList = L.Control.extend({
 		{title: 'Mendoza', latlng: [-32.8894587, -68.84583859999998], zoom: 6},
 		{title: 'Nariño', latlng: [1.289151, -77.35793999999999], zoom: 6},
 		{title: 'Universidad Complutense de Madrid', latlng: [40.4478246, -3.7285871999999927], zoom: 6}],
-		nextText : '->',
+		nextText : '',
 		nextTitle : 'Siguiente',
-		prevText : '<-',
+		prevText : '',
 		prevTitle : 'Anterior'
 	},
 
