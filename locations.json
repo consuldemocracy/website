@@ -159,6 +159,16 @@
           "pin" : "circular"
         },
         {
+          "id" : "libertad_peru",
+          "label" : "La Libertad (Perú)",
+          "title": "La Libertad (Perú)",
+          "description" : "Preparando lanzamiento",
+          "x": "0.0250",
+          "y": "0.4850",
+          "zoom" : "0",
+          "pin" : "circular"
+        },
+        {
           "id" : "madrid",
           "label" : "Ayuntamiento de Madrid",
           "title": "Ayuntamiento de Madrid",
