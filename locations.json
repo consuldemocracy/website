@@ -368,6 +368,16 @@
           "y": "0.5500",
           "zoom" : "2",
           "pin" : "circular"
+        },
+        {
+          "id" : "zamora",
+          "label" : "Ayuntamiento de Zamora",
+          "title": "Ayuntamiento de Zamora",
+          "link" : "https://zamoraparticipa.com/",
+          "x": "0.6150",
+          "y": "0.4700",
+          "zoom" : "2",
+          "pin" : "circular"
         }
       ]
     }
