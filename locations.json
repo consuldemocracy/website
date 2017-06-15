@@ -180,6 +180,16 @@
           "pin" : "circular"
         },
         {
+          "id" : "murcia",
+          "label" : "Ayuntamiento de Molina de Segura",
+          "title": "Ayuntamiento de Molina de Segura",
+          "link": "https://decide.molinadesegura.es/",
+          "x": "0.7950",
+          "y": "0.7300",
+          "zoom" : "2",
+          "pin" : "circular"
+        },
+        {
           "id" : "oviedo",
           "label" : "Oviedo",
           "title": "Ayuntamiento de Oviedo",
