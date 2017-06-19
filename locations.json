@@ -370,6 +370,16 @@
           "pin" : "circular"
         },
         {
+          "id" : "valladolid",
+          "label" : "Ayuntamiento de Valladolid",
+          "title": "Ayuntamiento de Valladolid",
+          "link" : "https://www10.ava.es/presupuestosparticipativos/",
+          "x": "0.6500",
+          "y": "0.4500",
+          "zoom" : "2",
+          "pin" : "circular"
+        },
+        {
           "id" : "zamora",
           "label" : "Ayuntamiento de Zamora",
           "title": "Ayuntamiento de Zamora",
