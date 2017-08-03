@@ -343,7 +343,7 @@
           "id" : "mendoza",
           "label" : "Mendoza",
           "title": "Mendoza",
-          "description" : "Preparando lanzamiento",
+          "link" : "http://participa.ciudaddemendoza.gob.ar/",
           "x": "0.1440",
           "y": "0.6600",
           "zoom" : "2",
