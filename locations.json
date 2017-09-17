@@ -38,17 +38,6 @@
           "pin" : "circular"
         },
         {
-          "id" : "barcelona",
-          "label" : "Ajuntament de Barcelona",
-          "title": "Ajuntament de Barcelona",
-          "link" : "https://decidim.barcelona/?locale=es",
-          "github" : "https://github.com/AjuntamentdeBarcelona/decidim.barcelona",
-          "x": "0.9500",
-          "y": "0.4600",
-          "zoom" : "2",
-          "pin" : "circular"
-        },
-        {
           "id" : "benalmadena",
           "label" : "Ayuntamiento de Benalmádena",
           "title": "Ayuntamiento de Benalmádena",
