@@ -203,7 +203,7 @@
           "id" : "palma_mallorca",
           "label" : "Ajuntament de Palma de Mallorca",
           "title": "Ajuntament de Palma de Mallorca",
-          "description" : "Preparando lanzamiento",
+          "link" : "https://tufas.palma.cat/",
           "x": "0.9520",
           "y": "0.5600",
           "zoom" : "2",
