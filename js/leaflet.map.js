@@ -1,5 +1,5 @@
 var mymap = L.map('mapid', { zoomControl: false }).setView([33.58,-25.59], 3);
-    L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+    L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
     {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
       subdomains: 'abcd',
@@ -19,6 +19,7 @@ mymap.addControl(viewCenter);
 
 // Tiles themes
 // http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}
+// http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
 // http://tile.stamen.com/toner/{z}/{x}/{y}.png
 // http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg
 // http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg
