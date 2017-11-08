@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00---LANDING" transform="translate(-1067.000000, -297.000000)">
+            <g id="LANDING">
+                <g id="close" transform="translate(1068.000000, 298.000000)">
+                    <circle id="Oval-4" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" cx="20.5" cy="20.5" r="20.5"></circle>
+                    <text id="X" font-family="Lato-Black, Lato" font-size="24" font-weight="700" fill="#36424A">
+                        <tspan x="12.206" y="30.5">X</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

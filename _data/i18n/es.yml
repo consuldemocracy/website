@@ -1,7 +1,12 @@
 consul: "CONSUL"
-title: "CONSUL | Gobierno abierto y Participación ciudadana"
+title: "Welcome to"
 description: "Software libre de Gobierno abierto y Participación ciudadana."
 menu:
+  community: Community
+  features: Features
+  documentation: Documentation
+  contact: Contact
+  demo: Try the demo
   screenshots: "Capturas de pantalla"
   license: "Licencia / Código"
   contact: "Contacto"

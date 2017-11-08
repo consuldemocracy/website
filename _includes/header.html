@@ -1,25 +1,53 @@
-<div class="top-bar">
+<div class="container">
   <div class="row">
-    <div class="top-bar-left">
-      <ul class="menu">
-        <li>
-          <h1>
-            <a href="/{{ page.locale  }}" class="logo">{{ site.data.i18n[page.locale].consul }}</a>
-          </h1>
-        </li>
-      </ul>
+    <div class="col-6">
+      <h1>
+        <a href="/{{ page.locale  }}" class="logo">
+          <span>{{ site.data.i18n[page.locale].title }}</span>
+          {{ site.data.i18n[page.locale].consul }}
+        </a>
+      </h1>
+
+      <p class="lead">Free software for citizen participation</p>
+
+      <a href="https://consul-demo.herokuapp.com/" target="_blank" class="button">Try the demo</a>
+      <a href="https://github.com/consul/consul" target="_blank" class="button hollow">See code on github</a>
     </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><a href="/{{ page.locale }}/screenshots.html">{{ site.data.i18n[page.locale].menu.screenshots }}</a></li>
-        <li><a href="/{{ page.locale }}/license.html">{{ site.data.i18n[page.locale].menu.license }}</a></li>
-        <li><a href="/{{ page.locale }}/contact.html">{{ site.data.i18n[page.locale].menu.contact }}</a></li>
-      </ul>
+
+    <div class="col-6">
+      <nav>
+        <h2 class="show-for-sr">Descubre CONSUL</h2>
+        <a href="#">{{ site.data.i18n[page.locale].menu.community }}</a>
+        <a href="#">{{ site.data.i18n[page.locale].menu.features }}</a>
+        <a href="#">{{ site.data.i18n[page.locale].menu.documentation }}</a>
+        <a href="#">{{ site.data.i18n[page.locale].menu.contact }}</a>
+        <a href="#">{{ site.data.i18n[page.locale].menu.demo }}</a>
+      </nav>
     </div>
   </div>
 </div>
 
-<div class="locale-selector">
+<div class="header-video">
+  <div class="header-video-container">
+    <img src="#"
+         class="header-video-media"
+         data-video-URL="https://www.youtube.com/embed/vO1jRu25B9E"
+         data-video-width="560"
+         data-video-height="315"
+         alt="">
+    <a href="https://www.youtube.com/embed/vO1jRu25B9E" class="header-video-play" id="header-video__play-trigger">
+      <img src="../img/play_icon.svg" alt="Ver vídeo">
+    </a>
+    <a class="header-video-close" id="header-video-close">
+      <img src="../img/close_icon.svg" alt="Cerrar vídeo">
+    </a>
+  </div>
+</div>
+
+
+
+
+<!-- <div class="locale-selector">
   {% for i18n in site.data.i18n %}
     {% assign class = " " %}
     {% if page.locale == i18n[0] %}
@@ -29,3 +57,4 @@
     <a href="/{{ i18n[0] }}/{{ path }}" class="{{ class }}">{{ i18n[0] }}</a>
   {% endfor %}
 </div>
+ -->

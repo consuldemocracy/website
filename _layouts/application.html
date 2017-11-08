@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    <div class="wrap">
+      <header>
+        {% include header.html %}
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+    </div>
+
+    <!-- <footer class="footer">
+      {% include footer.html %}
+    </footer> -->
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/what-input.js"></script>
+    <script src="/js/foundation.js"></script>
+    <script src="/js/featherlight.min.js"></script>
+    <script src="/js/featherlight.gallery.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/hammer.min.js"></script>
+    <script src="/js/jquery.easing.js"></script>
+    <script src="/js/jquery.mousewheel.js"></script>
+    <script src="/js/smoothscroll.js"></script>
+    <script src="/js/mapplic.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#mapplic').mapplic({
+          source: '/locations.json',
+          height: 600,
+          sidebar: true,
+          search: false,
+          minimap: false,
+          locations: true,
+          fullscreen: true,
+          hovertip: true,
+          maxscale: 2
+        });
+      });
+    </script>
+    <script>
+  $(document).ready(function() {
+    $('.header-video').each(function(i, elem) {
+        headerVideo = new HeaderVideo({
+          element: elem,
+          media: '.header-video-media',
+          playTrigger: '.header-video-play',
+          closeTrigger: '.header-video-close'
+        });
+    });
+  });
+</script>
+  </body>
+</html>

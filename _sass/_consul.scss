@@ -1,123 +1,41 @@
 // Table of Contents
 //
 // 01. Variables
-// 02. Foundation overrides
-// 03. Intro
-// 04. Summary
-// 05. Features
-// 06. Footer
-// 07. Screenshots
-// 08. Featherlight
-// 09. Map
+// 02. Reset & global styles
+// 03. Header
+// 04. Intro
 //
-
-@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i,800,800i|PT+Sans:400,700);
 
 // 01. Variables
 // ------------------------
 
-$font-family: 'Open Sans', Helvetica, sans-serif;
-$font-family-heading: 'PT Serif', sans-serif;
+$line-height: 30px;
+$font-size:   18px;
 
-$font-weight-light: 300;
-$font-weight-regular: 400;
-$font-weight-bold: 700;
-$font-weight-extra-bold: 800;
+$dark:        #36424a;
+$light:       #f5f7fc;
 
-$font-size-base: 1rem;
-$font-size-small: 0.88rem;
-$font-size-big: 1.19rem;
-
-$line-height: 1.75rem;
-
-$brand: #004A83;
-$brand-light: lighten($brand, 10%);
-$border: #f4f4f4;
-$text: #686b75;
-$highlight-background: #f7f9Fb;
-
-// 02. Foundation overrides
+// 02. Reset & global styles
 // ------------------------
 
-* {
-  margin: 0;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  background: white;
-  font-family: $font-family;
-  font-size: $font-size-base;
-  line-height: $line-height;
-}
-
-p {
-  color: $text;
-  font-weight: $font-weight-light;
-  line-height: $line-height;
-  margin-bottom: $line-height;
-}
-
-ul {
-  margin-bottom: 0;
-}
-
-.top-bar, .top-bar ul {
-  background: white;
-  padding: 0;
-}
-
-.top-bar {
-  border-bottom: 1px solid black;
-
-  @media screen and (min-width:40em) {
-    border-bottom: 0;
-    padding-top: $line-height;
-  }
-}
-
-.menu > li > h1 > a, .menu > li > a {
-  color: black;
-  font-weight: $font-weight-light;
-  line-height: $line-height*2;
-  padding: 0 1rem;
-}
-
-.menu li {
-  display: inline-block;
-}
-
-.logo {
-  font-family: $font-family-heading;
-  font-size: 1.5rem;
-  font-weight: $font-weight-bold !important;
-}
-
-figure {
-  margin: 0;
-}
-
-figcaption {
-  display: inline-block;
-  line-height: $line-height;
-}
-
-h1, h2, h3, h4 {
-  color: black;
-  font-family: $font-family-heading;
-  margin-bottom: 0;
-}
-
-h1 {
-  line-height: $line-height*2;
-}
-
-.margin {
-  margin-bottom: $line-height;
-  margin-top: $line-height;
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+header,
+nav,
+section {
+  margin:0;
+  padding:0;
+  border:0;
 }
 
 .margin-bottom {
@@ -128,1274 +46,1594 @@ h1 {
   margin-top: $line-height;
 }
 
-.padding {
-  padding-bottom: $line-height;
-  padding-top: $line-height;
+.margin {
+  margin-bottom: $line-height;
+  margin-top: $line-height;
 }
 
-.button {
-  background: white;
-  border: 1px solid black;
-  color: black;
-  font-size: $font-size-base;
-  height: $line-height*2;
-  line-height: $line-height;
-  margin-bottom: $line-height/2;
-  min-width: 12.50rem;
+.show-for-sr {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
+}
 
-  &:hover, &:focus {
-    background: black;
-    color: white;
+// 03. Header
+// ------------------------
+
+header {
+  background: #36424a;
+  background: -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+  background: -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+  background: linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36424a', endColorstr='#3a778b',GradientType=1 );
+  min-height: $line-height * 20;
+  position: relative;
+
+  @media only screen and (min-width: $breakpoint-large) {
+    background: url("../img/keyboard.svg"), #36424a;
+    background: url("../img/keyboard.svg"), -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+    background: url("../img/keyboard.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+    background: url("../img/keyboard.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
   }
 }
 
-.page {
-  padding-top: $line-height*2;
+nav {
+  line-height: $line-height * 2;
 
-  h1 {
-    margin-bottom: $line-height;
+  @media only screen and (min-width: $breakpoint-large) {
+    float: right;
   }
-}
-
-a {
-
-  &.external {
-    position: relative;
-
-    &::after {
-      background-image: url("../img/icon_external.png");
-      content: "";
-      height: 16px;
-      position: absolute;
-      right: -20px;
-      top: 5px;
-      width: 16px;
-    }
-  }
-}
-
-.locale-selector {
-  border: 1px solid black;
-  position: absolute;
-  right: 14px;
-  top: -1px;
 
   a {
-    color: black;
-    padding: 0 $line-height/2;
-    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    margin-bottom: $line-height;
+    text-decoration: none;
 
-    &:first-child {
-      // padding-right: $line-height/2;
-      border-right: 1px solid black;
+    @media only screen and (min-width: $breakpoint-large) {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-left: $line-height;
     }
 
-    &.active {
-      font-weight: bold;
+    &:hover {
       text-decoration: underline;
     }
   }
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+h1 {
+  font-size: 2.22rem;
+  padding-top: $line-height * 2;
+
+  a {
+    color: #fff;
+    line-height: $line-height * 2;
+    text-decoration: none;
+  }
+
+  span {
+    color: #fff;
+    display: block;
+    font-size: 1.33rem;
+    font-weight: 200;
+    line-height: $line-height;
+  }
 }
 
-// 03. Intro
+.lead {
+  color: #fff;
+  font-size: 1.89rem;
+  line-height: $line-height * 2;
+  margin: $line-height 0;
+}
+
+.button {
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  color: $dark;
+  display: block;
+  font-weight: bold;
+  height: $line-height * 2;
+  line-height: $line-height * 2;
+  margin-bottom: $line-height;
+  padding: 0 $line-height;
+  text-align: center;
+  text-decoration: none;
+
+  @media only screen and (min-width: $breakpoint-large) {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  &.hollow {
+    background: none;
+    color: #fff;
+  }
+}
+
+.button ~ .button {
+  @media only screen and (min-width: $breakpoint-large) {
+    margin-left: $line-height / 2;
+  }
+}
+
+.header-video {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+
+  iframe,
+  video {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  video {
+    width: 100%;
+  }
+}
+
+.header-video-container {
+  position: relative;
+  height: $line-height * 20;
+}
+
+.header-video-teaser {
+  width: 100%;
+  height: auto;
+}
+
+.header-video-media {
+  width: 100%;
+  height: auto;
+}
+
+.header-video-play {
+  cursor: pointer;
+  left: 50%;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  z-index: 5;
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  transition: opacity .3s;
+
+  @media only screen and (min-width: $breakpoint-med) {
+    left: 50%;
+    margin-left: -43px;
+    margin-top: -43px;
+    top: 50%;
+  }
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.header-video-close {
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  z-index: 99;
+}
+
+// 04. Intro
 // ------------------------
 
 .intro {
-  margin-top: $line-height;
-  min-height: $line-height*6;
+  background: $light;
+  font-size: 1.33rem;
+  padding: $line-height 0;
   text-align: center;
-
-  @media screen and (min-width:40em) {
-    margin-top: $line-height*2;
-    text-align: left;
-  }
-
-  h2 {
-    color: $text;
-    font-size: 36px;
-  }
-
-  .button {
-    font-size: $font-size-small;
-    margin-top: $line-height;
-  }
-
-  a.small {
-    font-size: $font-size-small;
-    display: inline-block;
-    clear: both;
-  }
 }
 
-.jumbo {
-  background: url("../img/jumbo.jpg") no-repeat;
-  background-size: cover;
-  height: $line-height*5;
-  margin: $line-height 0;
 
-  @media screen and (min-width:40em) {
-    height: $line-height*10;
-    margin: $line-height*2.5 0 $line-height*2;
-  }
-}
+// BASE 18
+// BASE LINE 30
 
-.admin-es, .admin-en {
-  height: $line-height*10;
-  margin: $line-height 0;
+// $font-family: 'Open Sans', Helvetica, sans-serif;
+// $font-family-heading: 'PT Serif', sans-serif;
 
-  @media screen and (min-width:40em) {
-    height: $line-height*15;
-    margin: $line-height*2.5 0 $line-height*2;
-  }
-}
+// $font-weight-light: 300;
+// $font-weight-regular: 400;
+// $font-weight-bold: 700;
+// $font-weight-extra-bold: 800;
 
-.admin-es {
-  background: url("../img/admin_es.jpg") no-repeat;
-  background-position: 0 20%;
-  background-size: cover;
-}
+// $font-size-base: 1rem;
+// $font-size-small: 0.88rem;
+// $font-size-big: 1.19rem;
 
-.admin-en {
-  background: url("../img/admin_en.jpg") no-repeat;
-  background-position: 0 20%;
-  background-size: cover;
-}
+// $line-height: 1.75rem;
 
-// 04. Summary
+// $brand: #004A83;
+// $brand-light: lighten($brand, 10%);
+// $border: #f4f4f4;
+// $text: #686b75;
+// $highlight-background: #f7f9Fb;
+
+// 02. Foundation overrides
 // ------------------------
 
-.summary {
-
-  h2 {
-    line-height: $line-height*2;
-    margin-bottom: $line-height;
-
-    @media screen and (min-width:40em) {
-      margin-bottom: $line-height*2;
-    }
-  }
-
-  h3 {
-    line-height: $line-height;
-
-    @media screen and (min-width:40em) {
-      margin-bottom: $line-height;
-    }
-  }
-}
-
-// 05. Features
-// ------------------------
-
-.feature {
-  border-top: 1px solid $border;
-  margin-top: -1px;
-  padding-top: $line-height*2;
-
-  .text {
-    margin-top: $line-height;
-  }
-
-  h2 {
-    line-height: $line-height*2;
-  }
-
-  p {
-    font-size: $font-size-big;
-  }
-
-  ul {
-    list-style-image: url("../img/icon_check.png");
-
-    li {
-      margin-bottom: $line-height;
-      margin-top: $line-height;
-    }
-  }
-}
-
-.more-features {
-  background: $highlight-background;
-
-  p.lead, h3 {
-    color: $text;
-    font-size: $font-size-big;
-  }
-}
-
-.who-use-it {
-
-  .logos {
-  }
-}
-
-// 06. Footer
-// ------------------------
-
-footer {
-  border-top: 1px solid $border;
-  clear: both;
-  margin-top: $line-height*2;
-  padding-top: $line-height;
-
-  h1 {
-    font-size: 2.25rem;
-  }
-
-  p {
-    color: #777b85;
-  }
-
-  ul {
-    list-style-type: none;
-    margin-top: $line-height;
-
-    li {
-      line-height: $line-height;
-
-      a {
-        color: black;
-        text-decoration: underline;
-      }
-    }
-  }
-}
-
-.wrap {
-  min-height: 100%;
-  margin-bottom: -168px;
-
-  &:after {
-    content: "";
-    display: block;
-  }
-}
-
-.footer, .wrap:after {
-  height: 168px;
-}
-
-// 07. Screenshots
-// ------------------------
-
-.screenshots {
-  margin-top: $line-height*2;
-
-  .thumbnail {
-    margin-right: $line-height/2;
-  }
-}
-
-// 08. Featherlight
-// ------------------------
-
-/**
- * Featherlight – ultra slim jQuery lightbox
- * Version 1.5.0 - http://noelboss.github.io/featherlight/
- *
- * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
- * MIT Licensed.
-**/
-
-@media all {
-  .featherlight {
-    display: none;
-    position:fixed;
-    top: 0; right: 0; bottom: 0; left: 0;
-    z-index: 2147483647;
-    text-align: center;
-    white-space: nowrap;
-    cursor: pointer;
-    background: #333;
-    background: rgba(0, 0, 0, 0);
-  }
-
-  .featherlight:last-of-type {
-    background: rgba(0, 0, 0, 0.8);
-  }
-
-  .featherlight:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    margin-right: -0.25em;
-  }
-
-  .featherlight .featherlight-content {
-    position: relative;
-    text-align: left;
-    vertical-align: middle;
-    display: inline-block;
-    overflow: auto;
-    padding: 25px 25px 0;
-    border-bottom: 25px solid transparent;
-    margin-left: 5%;
-    margin-right: 5%;
-    max-height: 95%;
-    background: #fff;
-    cursor: auto;
-    white-space: normal;
-  }
-
-  .featherlight .featherlight-inner {
-    display: block;
-  }
-
-  .featherlight .featherlight-close-icon {
-    position: absolute;
-    z-index: 9999;
-    top: 0;
-    right: 0;
-    line-height: 25px;
-    width: 25px;
-    cursor: pointer;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.3);
-    color: #000;
-  }
-
-
-  .featherlight .featherlight-image {
-    /* styling */
-    width: 100%;
-  }
-
-
-  .featherlight-iframe .featherlight-content {
-    border-bottom: 0;
-    padding: 0;
-  }
-
-  .featherlight iframe {
-    border: none;
-  }
-
-  .featherlight * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .featherlight .featherlight-content {
-    margin-left: 10px;
-    margin-right: 10px;
-    max-height: 98%;
-
-    padding: 10px 10px 0;
-    border-bottom: 10px solid transparent;
-  }
-}
-
-/**
- * Featherlight Gallery – an extension for the ultra slim jQuery lightbox
- * Version 1.5.0 - http://noelboss.github.io/featherlight/
- *
- * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
- * MIT Licensed.
-**/
-
-@media all {
-  .featherlight-next,
-  .featherlight-previous {
-    display: block;
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    bottom: 0;
-    left: 80%;
-    cursor: pointer;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background: rgba(0,0,0,0);
-  }
-
-  .featherlight-previous {
-    left: 25px;
-    right: 80%;
-  }
-
-  .featherlight-next:hover,
-  .featherlight-previous:hover {
-    background: rgba(0,0,0,0.25);
-  }
-
-
-  .featherlight-next span,
-  .featherlight-previous span {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    width: 82%;
-    text-align: center;
-    font-size: 80px;
-    line-height: 80px;
-    margin-top: -40px;
-    text-shadow: 0px 0px 5px #fff;
-    color: #fff;
-    font-style: normal;
-    font-weight: normal;
-  }
-
-  .featherlight-next span {
-    right: 5%;
-    left: auto;
-  }
-
-  .featherlight-next:hover span,
-  .featherlight-previous:hover span {
-    display: inline-block;
-  }
-
-  .featherlight-loading .featherlight-previous, .featherlight-loading .featherlight-next {
-    display:none;
-  }
-}
-
-@media only screen and (max-device-width: 1024px){
-  .featherlight-next:hover,
-  .featherlight-previous:hover {
-    background: none;
-  }
-  .featherlight-next span,
-  .featherlight-previous span {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .featherlight-next,
-  .featherlight-previous {
-    top: 10px;
-    right: 10px;
-    left: 85%;
-  }
-
-  .featherlight-previous {
-    left: 10px;
-    right: 85%;
-  }
-
-  .featherlight-next span,
-  .featherlight-previous span {
-    margin-top: -30px;
-    font-size: 40px;
-  }
-}
-
-// 09. Map
-// ------------------------
-
-#landmarks-ground polygon.mapplic-active,
-#landmarks-ground path.mapplic-active {
-  fill: #ADDB2C;
-}
-
-#landmarks-underground polygon.mapplic-active,
-#landmarks-underground path.mapplic-active {
-  fill: #7EE0CD;
-}
-
-#landmarks-level1 polygon.mapplic-active,
-#landmarks-level1 path.mapplic-active {
-  fill: #F9684B;
-}
-
-/* Mapplic 3.0 */
-
-.mapplic-element a {
-  color: #333;
-  text-decoration: none !important;
-}
-
-.mapplic-element input,
-.mapplic-element button {
-  outline: none;
-}
-
-.mapplic-element * { -webkit-tap-highlight-color: rgba(0,0,0,0); }
-
-.mapplic-element {
-  background-color: #fff;
-  font-size: 0;
-  overflow: visible;
-}
-
-/* Fullscreen */
-:-webkit-full-screen {
-  width: 100%;
-  height: 100% !important;
-}
-
-:-webkit-full-screen .mapplic-fullscreen-button {
-  background-image: url("../img/map/fullscreen-exit.png");
-}
-
-/* Preloader */
-.mapplic-element.mapplic-loading {
-  background: #f4f4f4 url("../img/map/loader.gif") no-repeat center;
-}
-
-.mapplic-element > * {
-  opacity: 1;
-  -webkit-transition: opacity 0.6s;
-  -moz-transition: opacity 0.6s;
-  transition: opacity 0.6s;
-}
-
-.mapplic-element.mapplic-loading > * {
-  opacity: 0;
-}
-
-/* Main elements */
-.mapplic-container {
-  background: #c6e4ff; /* Old browsers */
-  background: -moz-linear-gradient(left, #c6e4ff 2%, #ecf6ff 60%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #c6e4ff 2%,#ecf6ff 60%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #c6e4ff 2%,#ecf6ff 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6e4ff', endColorstr='#ecf6ff',GradientType=1 );
-  display: inline-block;
-  overflow: hidden;
-  position: relative;
-  width: 70%;
-  height: 100%;
-}
-
-// Removes sidebar on fullscreen
-:fullscreen .mapplic-sidebar { display: none !important;}
-:-webkit-full-screen .mapplic-sidebar { display: none !important;}
-:-moz-full-screen .mapplic-sidebar { display: none !important;}
-:-moz-full-screen-ancestor .mapplic-sidebar { display: none !important;}
-:-ms-fullscreen .mapplic-sidebar { display: none !important;}
-
-:fullscreen .mapplic-container { width: 100% !important;}
-:-webkit-full-screen .mapplic-container { width: 100% !important;}
-:-moz-full-screen .mapplic-container { width: 100% !important;}
-:-moz-full-screen-ancestor .mapplic-container { width: 100% !important;}
-:-ms-fullscreen .mapplic-container { width: 100% !important;}
-
-.mapplic-map {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-/* Map layer */
-.mapplic-layer {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  -ms-user-select: none;
-  -moz-user-select: -moz-none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-.mapplic-layer img {
-  width: 100%;
-}
-
-.mapplic-map.mapplic-zoomable .mapplic-map-image {
-  cursor: url("../img/map/openhand.cur"), default;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  // For show correctly map of France
-  width: 130%;
-  left: -15%;
-}
-
-.mapplic-map.mapplic-zoomable.mapplic-dragging .mapplic-map-image {
-  cursor: url("../img/map/closedhand.cur"), move;
-}
-
-.mapplic-locations {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.mapplic-pin {
-  width: 18px;
-  height: 24px;
-  margin-top: -23px;
-  margin-left: -9px;
-  position: absolute;
-
-  &.circular {
-    background-image: none;
-    background-color: #1da8d4;
-    border-radius: 16px;
-    border: 2px solid rgba(0,0,0,.2);
-    width: 11px;
-    height: 11px;
-    margin-left: -6px;
-    margin-top: -6px;
-  }
-}
-
-.mapplic-pin.mapplic-animate {
-  -webkit-animation: bounce-in 0.4s forwards;
-  animation: bounce-in 0.4s forwards;
-}
-
-@-webkit-keyframes bounce-in {
-  0%   {margin-top: -120px; opacity: 0;}
-  33%  {margin-top: -25px; opacity: 1;}
-  66%  {margin-top: -30px;}
-  100% {margin-top: -23px; opacity: 1;}
-}
-
-/* Minimap */
-.mapplic-minimap {
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 2px;
-  position: absolute;
-  width: 140px;
-  margin: 10px;
-  bottom: 0;
-  right: 0;
-  opacity: 0.5;
-  overflow: hidden;
-  -webkit-transition: opacity 0.6s;
-  -moz-transition: opacity 0.6s;
-  transition: opacity 0.6s;
-}
-
-.mapplic-minimap img {
-  width: 100%;
-}
-
-.mapplic-minimap-overlay {
-  background-color: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.mapplic-minimap .mapplic-minimap-active {
-  position: absolute;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  -webkit-transition: clip 0.1s;
-  -moz-transition: clip 0.1s;
-  transition: clip 0.1s;
-}
-
-.mapplic-minimap-background {
-  -webkit-filter: blur(2px);
-}
-
-/* Clear Button */
-.mapplic-clear-button {
-  background-color: #fff;
-  background-image: url("../img/map/reset.png");
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #eee;
-  border-bottom: 1px solid #ddd;
-  border-radius: 3px;
-  margin: 10px;
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.mapplic-clear-button:active {
-  background-color: #eee;
-}
-
-/* Zoom Buttons */
-.mapplic-zoom-buttons {
-  margin: 10px;
-  position: absolute;
-  left: 0;
-  bottom: 40px;
-}
-
-.mapplic-zoom-buttons a {
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #eee;
-  border-bottom: 1px solid #ddd;
-  color: #fff !important;
-  display: block;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-  text-align: center;
-  line-height: 24px;
-  width: 28px;
-  height: 28px;
-}
-
-.mapplic-zoom-buttons a:active {
-  background-color: #f4f4f4;
-}
-
-.mapplic-zoom-buttons a.mapplic-disabled {
-  background-color: #eee;
-  cursor: default;
-}
-
-a.mapplic-zoomin-button {
-  background-image: url("../img/map/plus.png");
-  background-size: 10px 10px;
-  border-radius: 3px 3px 0 0;
-}
-
-a.mapplic-zoomout-button {
-  background-image: url("../img/map/minus.png");
-  background-size: 10px 10px;
-  border-radius: 0 0 3px 3px;
-  border-top: none;
-}
-
-/* Fullscreen Button */
-.mapplic-fullscreen-button {
-  background-color: #fff;
-  background-image: url("../img/map/fullscreen.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #eee;
-  border-bottom: 1px solid #ddd;
-  border-radius: 2px;
-  margin: 10px;
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-/* Levels */
-.mapplic-levels {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 10px;
-  overflow: hidden;
-}
-
-.mapplic-levels > * {
-  border: 1px solid #eee;
-  display: block;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.mapplic-levels-select {
-  background-color: #fff;
-  border-top: none;
-  color: #666;
-  margin: 0;
-  padding: 6px 2px;
-  font-size: 14px;
-  outline: none;
-}
-
-.mapplic-levels a {
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-  height: 24px;
-  width: 100%;
-}
-
-.mapplic-levels a:active {
-  background-color: #f8f8f8;
-}
-
-.mapplic-levels .mapplic-levels-up {
-  background-image: url("../img/map/arrow-up.png");
-  background-size: 8px 4px;
-  border-radius: 3px 3px 0 0;
-}
-
-.mapplic-levels .mapplic-levels-down {
-  background-image: url("../img/map/arrow-down.png");
-  background-size: 8px 4px;
-  border-top: none;
-  border-radius: 0 0 3px 3px;
-}
-
-.mapplic-levels a.mapplic-disabled {
-  background-color: #eee;
-  cursor: default;
-}
-
-/* Sidebar */
-.mapplic-sidebar {
-  background-color: #f8f8f8;
-  width: 30%;
-  height: 100%;
-  float: left;
-  position: relative;
-}
-
-/* Search */
-.mapplic-search-form {
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #eee;
-  border-right: 1px solid #f4f4f4;
-  padding: 14px 12px;
-  margin: 0;
-  width: 100%;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.mapplic-search-input {
-  background-image: url("../img/map/viewer.png");
-  background-size: 17px 16px;
-  background-repeat: no-repeat;
-  background-position: 8px;
-  border: 2px solid #eee;
-  border-radius: 2px;
-  font-size: 14px;
-  font-family: inherit;
-  line-height: 20px;
-  height: 38px;
-  margin: 0;
-  padding: 8px 32px;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-
-  -webkit-transition: border-color 0.1s;
-  -moz-transition: border-color 0.1s;
-  transition: border-color 0.1s;
-}
-
-.mapplic-search-input:focus {
-  border-color: #6ed8dd;
-}
-
-.mapplic-search-clear {
-  background-image: url("../img/map/cross.png");
-  background-size: 8px 8px;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  display: none;
-  position: absolute;
-  right: 14px;
-  margin: 22px 0;
-  width: 34px;
-  height: 34px;
-}
-
-.mapplic-not-found {
-  color: #bbb;
-  display: none;
-  font-size: 13px;
-  padding: 0 30px;
-  position: absolute;
-  text-align: center;
-  top: 100px;
-}
-
-/* List */
-.mapplic-list-container {
-  padding-top: 67px;
-  height: 100%;
-  overflow-y: auto;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.mapplic-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  overflow-y: auto;
-  height: 100%;
-}
-
-.mapplic-list-container ol {
-  border-color: #eee;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.mapplic-list-container li {
-  border-color: inherit;
-}
-
-.mapplic-list-category > a {
-  background-color: #B7A6BD;
-  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.05) inset;
-  color: #fff;
-  display: block;
-  font-size: 14px;
-  line-height: 26px;
-  padding: 10px 12px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-}
-
-.mapplic-list-category ol {
-  border-bottom: 2px solid #eee !important;
-}
-
-.mapplic-list-thumbnail {
-  border-radius: 2px;
-  float: left;
-  margin-right: 10px;
-}
-
-.mapplic-list-category > a .mapplic-list-count {
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
-  float: right;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 20px;
-  padding: 0 6px;
-  margin-left: 10px;
-  text-align: center;
-  margin-top: 4px;
-  -webkit-transition: border-radius 0.2s;
-  -moz-transition: border-radius 0.2s;
-  transition: border-radius 0.2s;
-
-}
-
-.mapplic-list-location {
-  border-bottom: 1px solid #eee;
-}
-
-.mapplic-list-location > a {
-  background-color: #fff;
-  border-left: 1px solid transparent;
-  display: block;
-  font-size: 14px;
-  padding: 10px;
-  min-height: 50px;
-  -webkit-transition: border 0.2s;
-  -moz-transition: border 0.2s;
-  transition: border 0.2s;
-}
-
-.mapplic-list-location > a:hover {
-  background-color: #ecf6ff;
-  border-left: 2px solid;
-  border-color: inherit;
-}
-
-.mapplic-list-location h4 {
-  color: #444;
-  font-size: 16px;
-  font-weight: normal;
-  margin: 4px 0 8px 0;
-  text-align: left;
-}
-
-.mapplic-list-location span { /* 42 -20 13 30*/
-  color: #bbb;
-  font-size: 13px;
-  font-weight: normal;
-}
-
-/* Tooltip */
-.mapplic-tooltip {
-  background-color: #fff;
-  border-radius: 2px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-  display: none;
-  // max-width: 280px;
-  min-width: 120px;
-  margin-top: -76px;
-  padding: 16px;
-  position: absolute;
-}
-
-.mapplic-tooltip-title {
-  color: #222;
-  font-size: 14px;
-  font-weight: bold;
-  margin: 0 30px 12px 0;
-}
-
-.mapplic-hovertip {
-  min-width: 30px;
-  padding: 10px 14px;
-  pointer-events: none;
-}
-
-.mapplic-hovertip .mapplic-tooltip-title {
-  margin: 0;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.mapplic-tooltip-content {
-  max-height: 160px;
-  overflow-y: auto;
-
-  p {
-    margin-top: 0;
-  }
-}
-
-.mapplic-tooltip-image {
-  width: 40%;
-  margin: 5px 20px 5px 0;
-  float: left;
-}
-
-.mapplic-tooltip-description,
-.mapplic-tooltip p {
-  color: #aaa;
-  font-size: 13px;
-  line-height: 20px;
-}
-
-.mapplic-tooltip-link {
-  background-color: #6CB5F4;
-  border-radius: 2px;
-  color: #fff !important;
-  display: block;
-  font-size: 14px;
-  line-height: 32px;
-  padding: 0 12px;
-  margin-top: 10px;
-  -webkit-transition: background-color 0.2s;
-  -moz-transition: background-color 0.2s;
-  transition: background-color 0.2s;
-  text-align: center;
-
-  &:hover {
-    background-color: #888;
-  }
-}
-
-.mapplic-tooltip-github {
-  clear: both;
-  color: #6CB5F4 !important;
-  display: block;
-  font-size: 13px;
-  line-height: 32px;
-  text-decoration: underline !important;
-}
-
-.mapplic-tooltip img {
-  max-width: 100%;
-}
-
-.mapplic-tooltip-close {
-  background-image: url("../img/map/cross.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 8px 8px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  float: right;
-  margin: -10px -14px 0 0;
-  padding: 10px 12px;
-  width: 10px;
-  height: 10px;
-  opacity: 0.5;
-  -webkit-transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  transition: opacity 0.2s;
-
-  &:hover {
-    opacity: 1.0;
-  }
-}
-
-.mapplic-tooltip-triangle {
-  border-color: #fff transparent transparent transparent;
-  border-style: solid;
-  border-width: 8px 7px 0 7px;
-  width: 0;
-  height: 0;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin-bottom: -8px;
-  margin-left: -7px;
-}
-
-/* Tooltip down */
-.mapplic-tooltip-down .mapplic-tooltip-triangle {
-  border-width: 0 7px 8px 7px;
-  border-color: transparent transparent #fff transparent;
-  top: 0;
-  margin-top: -8px;
-}
-
-/* Coordinates */
-.mapplic-coordinates {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #333;
-  position: absolute;
-  margin: 10px;
-  margin-left: -80px;
-  padding: 4px 6px;
-  font-size: 14px;
-  top: 0;
-  left: 50%;
-  pointer-events: none;
-}
-
-/* Responsive layout */
-@media all and (max-width: 667px) {
-  .mapplic-container,
-  .mapplic-sidebar {
-    width: 100%;
-  }
-
-  .mapplic-tooltip {
-    max-width: 240px;
-  }
-
-  .mapplic-minimap {
-    width: 120px;
-  }
-
-  .mapplic-element {
-    height: auto !important;
-  }
-
-  .mapplic-fullscreen-button {
-    display: none;
-  }
-
-  .mapplic-search-form {
-    border-right: none;
-  }
-}
-
-/* RETINA */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .mapplic-search-clear,
-  .mapplic-tooltip-close {
-    background-image: url("../img/map/cross@2x.png");
-  }
-
-  .mapplic-levels .mapplic-levels-up {
-    background-image: url("../img/map/arrow-up@2x.png");
-  }
-
-  .mapplic-levels .mapplic-levels-down {
-    background-image: url("../img/map/arrow-down@2x.png");
-  }
-
-  a.mapplic-zoomin-button {
-    background-image: url("../img/map/plus@2x.png");
-  }
-
-  a.mapplic-zoomout-button {
-    background-image: url("../img/map/minus@2x.png");
-  }
-
-  .mapplic-search-input {
-    background-image: url("../img/map/viewer@2x.png");
-  }
-
-  .mapplic-pin { background-image: url("../img/map/pin@2x.png"); }
-
-  .mapplic-clear-button {
-    background-image: url("../img/map/reset@2x.png");
-  }
-}
-
-/* Map */
-svg {
-  width: 100%;
-  height: 100%;
-}
-
-svg a {
-  cursor: pointer;
-}
-
-.mapplic-active,
-a.mapplic-active > path,
-.mapplic-active path {
-  fill: #343F4B;
-  opacity: 1.0;
-}
-
-path.mapplic-clickable,
-.mapplic-clickable > * {
-  cursor: pointer;
-  fill: #4d5e6d;
-  opacity: 0.4;
-  -webkit-transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  transition: opacity 0.2s;
-}
-
-path.mapplic-clickable:hover,
-.mapplic-clickable:hover > * {
-  opacity: 0.8;
-}
-
-.mapplic-map-image *[id^=nopointer] {
-  pointer-events: none;
-}
-
-[id^=landmarks] polygon.mapplic-clickable,
-[id^=landmarks] path.mapplic-clickable {
-  cursor: pointer;
-  -webkit-transition: fill 0.2s;
-  -moz-transition: fill 0.2s;
-  transition: fill 0.2s;
-}
-
-a.mapplic-pin.circular.narino {
-
-  svg #america .mapplic-element #narino {
-    fill: red !important;
-  }
-}
+// * {
+//   margin: 0;
+// }
+
+// html, body {
+//   height: 100%;
+// }
+
+// body {
+//   background: white;
+//   font-family: $font-family;
+//   font-size: $font-size-base;
+//   line-height: $line-height;
+// }
+
+// p {
+//   color: $text;
+//   font-weight: $font-weight-light;
+//   line-height: $line-height;
+//   margin-bottom: $line-height;
+// }
+
+// ul {
+//   margin-bottom: 0;
+// }
+
+// .top-bar, .top-bar ul {
+//   background: white;
+//   padding: 0;
+// }
+
+// .top-bar {
+//   border-bottom: 1px solid black;
+
+//   @media screen and (min-width:40em) {
+//     border-bottom: 0;
+//     padding-top: $line-height;
+//   }
+// }
+
+// .menu > li > h1 > a, .menu > li > a {
+//   color: black;
+//   font-weight: $font-weight-light;
+//   line-height: $line-height*2;
+//   padding: 0 1rem;
+// }
+
+// .menu li {
+//   display: inline-block;
+// }
+
+// .logo {
+//   font-family: $font-family-heading;
+//   font-size: 1.5rem;
+//   font-weight: $font-weight-bold !important;
+// }
+
+// figure {
+//   margin: 0;
+// }
+
+// figcaption {
+//   display: inline-block;
+//   line-height: $line-height;
+// }
+
+// h1, h2, h3, h4 {
+//   color: black;
+//   font-family: $font-family-heading;
+//   margin-bottom: 0;
+// }
+
+// h1 {
+//   line-height: $line-height*2;
+// }
+
+// .margin {
+//   margin-bottom: $line-height;
+//   margin-top: $line-height;
+// }
+
+// .margin-bottom {
+//   margin-bottom: $line-height;
+// }
+
+// .margin-top {
+//   margin-top: $line-height;
+// }
+
+// .padding {
+//   padding-bottom: $line-height;
+//   padding-top: $line-height;
+// }
+
+// .button {
+//   background: white;
+//   border: 1px solid black;
+//   color: black;
+//   font-size: $font-size-base;
+//   height: $line-height*2;
+//   line-height: $line-height;
+//   margin-bottom: $line-height/2;
+//   min-width: 12.50rem;
+
+//   &:hover, &:focus {
+//     background: black;
+//     color: white;
+//   }
+// }
+
+// .page {
+//   padding-top: $line-height*2;
+
+//   h1 {
+//     margin-bottom: $line-height;
+//   }
+// }
+
+// a {
+
+//   &.external {
+//     position: relative;
+
+//     &::after {
+//       background-image: url("../img/icon_external.png");
+//       content: "";
+//       height: 16px;
+//       position: absolute;
+//       right: -20px;
+//       top: 5px;
+//       width: 16px;
+//     }
+//   }
+// }
+
+// .locale-selector {
+//   border: 1px solid black;
+//   position: absolute;
+//   right: 14px;
+//   top: -1px;
+
+//   a {
+//     color: black;
+//     padding: 0 $line-height/2;
+//     text-transform: uppercase;
+
+//     &:first-child {
+//       // padding-right: $line-height/2;
+//       border-right: 1px solid black;
+//     }
+
+//     &.active {
+//       font-weight: bold;
+//       text-decoration: underline;
+//     }
+//   }
+// }
+
+// .sr-only {
+//   position: absolute;
+//   width: 1px;
+//   height: 1px;
+//   padding: 0;
+//   margin: -1px;
+//   overflow: hidden;
+//   clip: rect(0, 0, 0, 0);
+//   border: 0;
+// }
+
+// // 03. Intro
+// // ------------------------
+
+// .intro {
+//   margin-top: $line-height;
+//   min-height: $line-height*6;
+//   text-align: center;
+
+//   @media screen and (min-width:40em) {
+//     margin-top: $line-height*2;
+//     text-align: left;
+//   }
+
+//   h2 {
+//     color: $text;
+//     font-size: 36px;
+//   }
+
+//   .button {
+//     font-size: $font-size-small;
+//     margin-top: $line-height;
+//   }
+
+//   a.small {
+//     font-size: $font-size-small;
+//     display: inline-block;
+//     clear: both;
+//   }
+// }
+
+// .jumbo {
+//   background: url("../img/jumbo.jpg") no-repeat;
+//   background-size: cover;
+//   height: $line-height*5;
+//   margin: $line-height 0;
+
+//   @media screen and (min-width:40em) {
+//     height: $line-height*10;
+//     margin: $line-height*2.5 0 $line-height*2;
+//   }
+// }
+
+// .admin-es, .admin-en {
+//   height: $line-height*10;
+//   margin: $line-height 0;
+
+//   @media screen and (min-width:40em) {
+//     height: $line-height*15;
+//     margin: $line-height*2.5 0 $line-height*2;
+//   }
+// }
+
+// .admin-es {
+//   background: url("../img/admin_es.jpg") no-repeat;
+//   background-position: 0 20%;
+//   background-size: cover;
+// }
+
+// .admin-en {
+//   background: url("../img/admin_en.jpg") no-repeat;
+//   background-position: 0 20%;
+//   background-size: cover;
+// }
+
+// // 04. Summary
+// // ------------------------
+
+// .summary {
+
+//   h2 {
+//     line-height: $line-height*2;
+//     margin-bottom: $line-height;
+
+//     @media screen and (min-width:40em) {
+//       margin-bottom: $line-height*2;
+//     }
+//   }
+
+//   h3 {
+//     line-height: $line-height;
+
+//     @media screen and (min-width:40em) {
+//       margin-bottom: $line-height;
+//     }
+//   }
+// }
+
+// // 05. Features
+// // ------------------------
+
+// .feature {
+//   border-top: 1px solid $border;
+//   margin-top: -1px;
+//   padding-top: $line-height*2;
+
+//   .text {
+//     margin-top: $line-height;
+//   }
+
+//   h2 {
+//     line-height: $line-height*2;
+//   }
+
+//   p {
+//     font-size: $font-size-big;
+//   }
+
+//   ul {
+//     list-style-image: url("../img/icon_check.png");
+
+//     li {
+//       margin-bottom: $line-height;
+//       margin-top: $line-height;
+//     }
+//   }
+// }
+
+// .more-features {
+//   background: $highlight-background;
+
+//   p.lead, h3 {
+//     color: $text;
+//     font-size: $font-size-big;
+//   }
+// }
+
+// .who-use-it {
+
+//   .logos {
+//   }
+// }
+
+// // 06. Footer
+// // ------------------------
+
+// footer {
+//   border-top: 1px solid $border;
+//   clear: both;
+//   margin-top: $line-height*2;
+//   padding-top: $line-height;
+
+//   h1 {
+//     font-size: 2.25rem;
+//   }
+
+//   p {
+//     color: #777b85;
+//   }
+
+//   ul {
+//     list-style-type: none;
+//     margin-top: $line-height;
+
+//     li {
+//       line-height: $line-height;
+
+//       a {
+//         color: black;
+//         text-decoration: underline;
+//       }
+//     }
+//   }
+// }
+
+// .wrap {
+//   min-height: 100%;
+//   margin-bottom: -168px;
+
+//   &:after {
+//     content: "";
+//     display: block;
+//   }
+// }
+
+// .footer, .wrap:after {
+//   height: 168px;
+// }
+
+// // 07. Screenshots
+// // ------------------------
+
+// .screenshots {
+//   margin-top: $line-height*2;
+
+//   .thumbnail {
+//     margin-right: $line-height/2;
+//   }
+// }
+
+// // 08. Featherlight
+// // ------------------------
+
+// /**
+//  * Featherlight – ultra slim jQuery lightbox
+//  * Version 1.5.0 - http://noelboss.github.io/featherlight/
+//  *
+//  * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
+//  * MIT Licensed.
+// **/
+
+// @media all {
+//   .featherlight {
+//     display: none;
+//     position:fixed;
+//     top: 0; right: 0; bottom: 0; left: 0;
+//     z-index: 2147483647;
+//     text-align: center;
+//     white-space: nowrap;
+//     cursor: pointer;
+//     background: #333;
+//     background: rgba(0, 0, 0, 0);
+//   }
+
+//   .featherlight:last-of-type {
+//     background: rgba(0, 0, 0, 0.8);
+//   }
+
+//   .featherlight:before {
+//     content: '';
+//     display: inline-block;
+//     height: 100%;
+//     vertical-align: middle;
+//     margin-right: -0.25em;
+//   }
+
+//   .featherlight .featherlight-content {
+//     position: relative;
+//     text-align: left;
+//     vertical-align: middle;
+//     display: inline-block;
+//     overflow: auto;
+//     padding: 25px 25px 0;
+//     border-bottom: 25px solid transparent;
+//     margin-left: 5%;
+//     margin-right: 5%;
+//     max-height: 95%;
+//     background: #fff;
+//     cursor: auto;
+//     white-space: normal;
+//   }
+
+//   .featherlight .featherlight-inner {
+//     display: block;
+//   }
+
+//   .featherlight .featherlight-close-icon {
+//     position: absolute;
+//     z-index: 9999;
+//     top: 0;
+//     right: 0;
+//     line-height: 25px;
+//     width: 25px;
+//     cursor: pointer;
+//     text-align: center;
+//     font-family: Arial, sans-serif;
+//     background: #fff;
+//     background: rgba(255, 255, 255, 0.3);
+//     color: #000;
+//   }
+
+
+//   .featherlight .featherlight-image {
+//     /* styling */
+//     width: 100%;
+//   }
+
+
+//   .featherlight-iframe .featherlight-content {
+//     border-bottom: 0;
+//     padding: 0;
+//   }
+
+//   .featherlight iframe {
+//     border: none;
+//   }
+
+//   .featherlight * {
+//     -webkit-box-sizing: border-box;
+//     -moz-box-sizing: border-box;
+//     box-sizing: border-box;
+//   }
+// }
+
+// @media only screen and (max-width: 1024px) {
+//   .featherlight .featherlight-content {
+//     margin-left: 10px;
+//     margin-right: 10px;
+//     max-height: 98%;
+
+//     padding: 10px 10px 0;
+//     border-bottom: 10px solid transparent;
+//   }
+// }
+
+// /**
+//  * Featherlight Gallery – an extension for the ultra slim jQuery lightbox
+//  * Version 1.5.0 - http://noelboss.github.io/featherlight/
+//  *
+//  * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
+//  * MIT Licensed.
+// **/
+
+// @media all {
+//   .featherlight-next,
+//   .featherlight-previous {
+//     display: block;
+//     position: absolute;
+//     top: 25px;
+//     right: 25px;
+//     bottom: 0;
+//     left: 80%;
+//     cursor: pointer;
+//     -webkit-touch-callout: none;
+//     -webkit-user-select: none;
+//     -khtml-user-select: none;
+//     -moz-user-select: none;
+//     -ms-user-select: none;
+//     user-select: none;
+//     background: rgba(0,0,0,0);
+//   }
+
+//   .featherlight-previous {
+//     left: 25px;
+//     right: 80%;
+//   }
+
+//   .featherlight-next:hover,
+//   .featherlight-previous:hover {
+//     background: rgba(0,0,0,0.25);
+//   }
+
+
+//   .featherlight-next span,
+//   .featherlight-previous span {
+//     display: none;
+//     position: absolute;
+//     top: 50%;
+//     left: 5%;
+//     width: 82%;
+//     text-align: center;
+//     font-size: 80px;
+//     line-height: 80px;
+//     margin-top: -40px;
+//     text-shadow: 0px 0px 5px #fff;
+//     color: #fff;
+//     font-style: normal;
+//     font-weight: normal;
+//   }
+
+//   .featherlight-next span {
+//     right: 5%;
+//     left: auto;
+//   }
+
+//   .featherlight-next:hover span,
+//   .featherlight-previous:hover span {
+//     display: inline-block;
+//   }
+
+//   .featherlight-loading .featherlight-previous, .featherlight-loading .featherlight-next {
+//     display:none;
+//   }
+// }
+
+// @media only screen and (max-device-width: 1024px){
+//   .featherlight-next:hover,
+//   .featherlight-previous:hover {
+//     background: none;
+//   }
+//   .featherlight-next span,
+//   .featherlight-previous span {
+//     display: block;
+//   }
+// }
+
+// @media only screen and (max-width: 1024px) {
+//   .featherlight-next,
+//   .featherlight-previous {
+//     top: 10px;
+//     right: 10px;
+//     left: 85%;
+//   }
+
+//   .featherlight-previous {
+//     left: 10px;
+//     right: 85%;
+//   }
+
+//   .featherlight-next span,
+//   .featherlight-previous span {
+//     margin-top: -30px;
+//     font-size: 40px;
+//   }
+// }
+
+// // 09. Map
+// // ------------------------
+
+// #landmarks-ground polygon.mapplic-active,
+// #landmarks-ground path.mapplic-active {
+//   fill: #ADDB2C;
+// }
+
+// #landmarks-underground polygon.mapplic-active,
+// #landmarks-underground path.mapplic-active {
+//   fill: #7EE0CD;
+// }
+
+// #landmarks-level1 polygon.mapplic-active,
+// #landmarks-level1 path.mapplic-active {
+//   fill: #F9684B;
+// }
+
+// /* Mapplic 3.0 */
+
+// .mapplic-element a {
+//   color: #333;
+//   text-decoration: none !important;
+// }
+
+// .mapplic-element input,
+// .mapplic-element button {
+//   outline: none;
+// }
+
+// .mapplic-element * { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+// .mapplic-element {
+//   background-color: #fff;
+//   font-size: 0;
+//   overflow: visible;
+// }
+
+// /* Fullscreen */
+// :-webkit-full-screen {
+//   width: 100%;
+//   height: 100% !important;
+// }
+
+// :-webkit-full-screen .mapplic-fullscreen-button {
+//   background-image: url("../img/map/fullscreen-exit.png");
+// }
+
+// /* Preloader */
+// .mapplic-element.mapplic-loading {
+//   background: #f4f4f4 url("../img/map/loader.gif") no-repeat center;
+// }
+
+// .mapplic-element > * {
+//   opacity: 1;
+//   -webkit-transition: opacity 0.6s;
+//   -moz-transition: opacity 0.6s;
+//   transition: opacity 0.6s;
+// }
+
+// .mapplic-element.mapplic-loading > * {
+//   opacity: 0;
+// }
+
+// /* Main elements */
+// .mapplic-container {
+//   background: #c6e4ff; /* Old browsers */
+//   background: -moz-linear-gradient(left, #c6e4ff 2%, #ecf6ff 60%); /* FF3.6-15 */
+//   background: -webkit-linear-gradient(left, #c6e4ff 2%,#ecf6ff 60%); /* Chrome10-25,Safari5.1-6 */
+//   background: linear-gradient(to right, #c6e4ff 2%,#ecf6ff 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6e4ff', endColorstr='#ecf6ff',GradientType=1 );
+//   display: inline-block;
+//   overflow: hidden;
+//   position: relative;
+//   width: 70%;
+//   height: 100%;
+// }
+
+// // Removes sidebar on fullscreen
+// :fullscreen .mapplic-sidebar { display: none !important;}
+// :-webkit-full-screen .mapplic-sidebar { display: none !important;}
+// :-moz-full-screen .mapplic-sidebar { display: none !important;}
+// :-moz-full-screen-ancestor .mapplic-sidebar { display: none !important;}
+// :-ms-fullscreen .mapplic-sidebar { display: none !important;}
+
+// :fullscreen .mapplic-container { width: 100% !important;}
+// :-webkit-full-screen .mapplic-container { width: 100% !important;}
+// :-moz-full-screen .mapplic-container { width: 100% !important;}
+// :-moz-full-screen-ancestor .mapplic-container { width: 100% !important;}
+// :-ms-fullscreen .mapplic-container { width: 100% !important;}
+
+// .mapplic-map {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+// }
+
+// /* Map layer */
+// .mapplic-layer {
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   -ms-user-select: none;
+//   -moz-user-select: -moz-none;
+//   -khtml-user-select: none;
+//   -webkit-user-select: none;
+//   user-select: none;
+// }
+
+// .mapplic-layer img {
+//   width: 100%;
+// }
+
+// .mapplic-map.mapplic-zoomable .mapplic-map-image {
+//   cursor: url("../img/map/openhand.cur"), default;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   // For show correctly map of France
+//   width: 130%;
+//   left: -15%;
+// }
+
+// .mapplic-map.mapplic-zoomable.mapplic-dragging .mapplic-map-image {
+//   cursor: url("../img/map/closedhand.cur"), move;
+// }
+
+// .mapplic-locations {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+// }
+
+// .mapplic-pin {
+//   width: 18px;
+//   height: 24px;
+//   margin-top: -23px;
+//   margin-left: -9px;
+//   position: absolute;
+
+//   &.circular {
+//     background-image: none;
+//     background-color: #1da8d4;
+//     border-radius: 16px;
+//     border: 2px solid rgba(0,0,0,.2);
+//     width: 11px;
+//     height: 11px;
+//     margin-left: -6px;
+//     margin-top: -6px;
+//   }
+// }
+
+// .mapplic-pin.mapplic-animate {
+//   -webkit-animation: bounce-in 0.4s forwards;
+//   animation: bounce-in 0.4s forwards;
+// }
+
+// @-webkit-keyframes bounce-in {
+//   0%   {margin-top: -120px; opacity: 0;}
+//   33%  {margin-top: -25px; opacity: 1;}
+//   66%  {margin-top: -30px;}
+//   100% {margin-top: -23px; opacity: 1;}
+// }
+
+// /* Minimap */
+// .mapplic-minimap {
+//   border: 1px solid rgba(0, 0, 0, 0.2);
+//   border-radius: 2px;
+//   position: absolute;
+//   width: 140px;
+//   margin: 10px;
+//   bottom: 0;
+//   right: 0;
+//   opacity: 0.5;
+//   overflow: hidden;
+//   -webkit-transition: opacity 0.6s;
+//   -moz-transition: opacity 0.6s;
+//   transition: opacity 0.6s;
+// }
+
+// .mapplic-minimap img {
+//   width: 100%;
+// }
+
+// .mapplic-minimap-overlay {
+//   background-color: rgba(0, 0, 0, 0.4);
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   top: 0;
+//   left: 0;
+// }
+
+// .mapplic-minimap .mapplic-minimap-active {
+//   position: absolute;
+//   opacity: 1;
+//   top: 0;
+//   left: 0;
+//   -webkit-transition: clip 0.1s;
+//   -moz-transition: clip 0.1s;
+//   transition: clip 0.1s;
+// }
+
+// .mapplic-minimap-background {
+//   -webkit-filter: blur(2px);
+// }
+
+// /* Clear Button */
+// .mapplic-clear-button {
+//   background-color: #fff;
+//   background-image: url("../img/map/reset.png");
+//   background-size: 16px 16px;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   border: 1px solid #eee;
+//   border-bottom: 1px solid #ddd;
+//   border-radius: 3px;
+//   margin: 10px;
+//   width: 28px;
+//   height: 28px;
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+// }
+
+// .mapplic-clear-button:active {
+//   background-color: #eee;
+// }
+
+// /* Zoom Buttons */
+// .mapplic-zoom-buttons {
+//   margin: 10px;
+//   position: absolute;
+//   left: 0;
+//   bottom: 40px;
+// }
+
+// .mapplic-zoom-buttons a {
+//   background-color: #fff;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   border: 1px solid #eee;
+//   border-bottom: 1px solid #ddd;
+//   color: #fff !important;
+//   display: block;
+//   font-size: 14px;
+//   font-weight: bold;
+//   cursor: pointer;
+//   text-align: center;
+//   line-height: 24px;
+//   width: 28px;
+//   height: 28px;
+// }
+
+// .mapplic-zoom-buttons a:active {
+//   background-color: #f4f4f4;
+// }
+
+// .mapplic-zoom-buttons a.mapplic-disabled {
+//   background-color: #eee;
+//   cursor: default;
+// }
+
+// a.mapplic-zoomin-button {
+//   background-image: url("../img/map/plus.png");
+//   background-size: 10px 10px;
+//   border-radius: 3px 3px 0 0;
+// }
+
+// a.mapplic-zoomout-button {
+//   background-image: url("../img/map/minus.png");
+//   background-size: 10px 10px;
+//   border-radius: 0 0 3px 3px;
+//   border-top: none;
+// }
+
+// /* Fullscreen Button */
+// .mapplic-fullscreen-button {
+//   background-color: #fff;
+//   background-image: url("../img/map/fullscreen.png");
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   border: 1px solid #eee;
+//   border-bottom: 1px solid #ddd;
+//   border-radius: 2px;
+//   margin: 10px;
+//   width: 28px;
+//   height: 28px;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+// }
+
+// /* Levels */
+// .mapplic-levels {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   margin: 10px;
+//   overflow: hidden;
+// }
+
+// .mapplic-levels > * {
+//   border: 1px solid #eee;
+//   display: block;
+//   width: 100%;
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+
+// .mapplic-levels-select {
+//   background-color: #fff;
+//   border-top: none;
+//   color: #666;
+//   margin: 0;
+//   padding: 6px 2px;
+//   font-size: 14px;
+//   outline: none;
+// }
+
+// .mapplic-levels a {
+//   background-color: #fff;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   cursor: pointer;
+//   height: 24px;
+//   width: 100%;
+// }
+
+// .mapplic-levels a:active {
+//   background-color: #f8f8f8;
+// }
+
+// .mapplic-levels .mapplic-levels-up {
+//   background-image: url("../img/map/arrow-up.png");
+//   background-size: 8px 4px;
+//   border-radius: 3px 3px 0 0;
+// }
+
+// .mapplic-levels .mapplic-levels-down {
+//   background-image: url("../img/map/arrow-down.png");
+//   background-size: 8px 4px;
+//   border-top: none;
+//   border-radius: 0 0 3px 3px;
+// }
+
+// .mapplic-levels a.mapplic-disabled {
+//   background-color: #eee;
+//   cursor: default;
+// }
+
+// /* Sidebar */
+// .mapplic-sidebar {
+//   background-color: #f8f8f8;
+//   width: 30%;
+//   height: 100%;
+//   float: left;
+//   position: relative;
+// }
+
+// /* Search */
+// .mapplic-search-form {
+//   background-color: #f8f8f8;
+//   border-bottom: 1px solid #eee;
+//   border-right: 1px solid #f4f4f4;
+//   padding: 14px 12px;
+//   margin: 0;
+//   width: 100%;
+//   position: absolute;
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+
+// .mapplic-search-input {
+//   background-image: url("../img/map/viewer.png");
+//   background-size: 17px 16px;
+//   background-repeat: no-repeat;
+//   background-position: 8px;
+//   border: 2px solid #eee;
+//   border-radius: 2px;
+//   font-size: 14px;
+//   font-family: inherit;
+//   line-height: 20px;
+//   height: 38px;
+//   margin: 0;
+//   padding: 8px 32px;
+//   width: 100%;
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+
+//   -webkit-transition: border-color 0.1s;
+//   -moz-transition: border-color 0.1s;
+//   transition: border-color 0.1s;
+// }
+
+// .mapplic-search-input:focus {
+//   border-color: #6ed8dd;
+// }
+
+// .mapplic-search-clear {
+//   background-image: url("../img/map/cross.png");
+//   background-size: 8px 8px;
+//   background-repeat: no-repeat;
+//   background-color: transparent;
+//   background-position: center;
+//   border: none;
+//   cursor: pointer;
+//   display: none;
+//   position: absolute;
+//   right: 14px;
+//   margin: 22px 0;
+//   width: 34px;
+//   height: 34px;
+// }
+
+// .mapplic-not-found {
+//   color: #bbb;
+//   display: none;
+//   font-size: 13px;
+//   padding: 0 30px;
+//   position: absolute;
+//   text-align: center;
+//   top: 100px;
+// }
+
+// /* List */
+// .mapplic-list-container {
+//   padding-top: 67px;
+//   height: 100%;
+//   overflow-y: auto;
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+
+// .mapplic-list {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+//   overflow-y: auto;
+//   height: 100%;
+// }
+
+// .mapplic-list-container ol {
+//   border-color: #eee;
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// .mapplic-list-container li {
+//   border-color: inherit;
+// }
+
+// .mapplic-list-category > a {
+//   background-color: #B7A6BD;
+//   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.05) inset;
+//   color: #fff;
+//   display: block;
+//   font-size: 14px;
+//   line-height: 26px;
+//   padding: 10px 12px;
+//   white-space: nowrap;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   box-sizing: border-box;
+// }
+
+// .mapplic-list-category ol {
+//   border-bottom: 2px solid #eee !important;
+// }
+
+// .mapplic-list-thumbnail {
+//   border-radius: 2px;
+//   float: left;
+//   margin-right: 10px;
+// }
+
+// .mapplic-list-category > a .mapplic-list-count {
+//   background-color: rgba(0, 0, 0, 0.1);
+//   border-radius: 2px;
+//   float: right;
+//   font-size: 12px;
+//   font-weight: bold;
+//   line-height: 20px;
+//   padding: 0 6px;
+//   margin-left: 10px;
+//   text-align: center;
+//   margin-top: 4px;
+//   -webkit-transition: border-radius 0.2s;
+//   -moz-transition: border-radius 0.2s;
+//   transition: border-radius 0.2s;
+
+// }
+
+// .mapplic-list-location {
+//   border-bottom: 1px solid #eee;
+// }
+
+// .mapplic-list-location > a {
+//   background-color: #fff;
+//   border-left: 1px solid transparent;
+//   display: block;
+//   font-size: 14px;
+//   padding: 10px;
+//   min-height: 50px;
+//   -webkit-transition: border 0.2s;
+//   -moz-transition: border 0.2s;
+//   transition: border 0.2s;
+// }
+
+// .mapplic-list-location > a:hover {
+//   background-color: #ecf6ff;
+//   border-left: 2px solid;
+//   border-color: inherit;
+// }
+
+// .mapplic-list-location h4 {
+//   color: #444;
+//   font-size: 16px;
+//   font-weight: normal;
+//   margin: 4px 0 8px 0;
+//   text-align: left;
+// }
+
+// .mapplic-list-location span { /* 42 -20 13 30*/
+//   color: #bbb;
+//   font-size: 13px;
+//   font-weight: normal;
+// }
+
+// /* Tooltip */
+// .mapplic-tooltip {
+//   background-color: #fff;
+//   border-radius: 2px;
+//   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+//   display: none;
+//   // max-width: 280px;
+//   min-width: 120px;
+//   margin-top: -76px;
+//   padding: 16px;
+//   position: absolute;
+// }
+
+// .mapplic-tooltip-title {
+//   color: #222;
+//   font-size: 14px;
+//   font-weight: bold;
+//   margin: 0 30px 12px 0;
+// }
+
+// .mapplic-hovertip {
+//   min-width: 30px;
+//   padding: 10px 14px;
+//   pointer-events: none;
+// }
+
+// .mapplic-hovertip .mapplic-tooltip-title {
+//   margin: 0;
+//   text-align: center;
+//   white-space: nowrap;
+// }
+
+// .mapplic-tooltip-content {
+//   max-height: 160px;
+//   overflow-y: auto;
+
+//   p {
+//     margin-top: 0;
+//   }
+// }
+
+// .mapplic-tooltip-image {
+//   width: 40%;
+//   margin: 5px 20px 5px 0;
+//   float: left;
+// }
+
+// .mapplic-tooltip-description,
+// .mapplic-tooltip p {
+//   color: #aaa;
+//   font-size: 13px;
+//   line-height: 20px;
+// }
+
+// .mapplic-tooltip-link {
+//   background-color: #6CB5F4;
+//   border-radius: 2px;
+//   color: #fff !important;
+//   display: block;
+//   font-size: 14px;
+//   line-height: 32px;
+//   padding: 0 12px;
+//   margin-top: 10px;
+//   -webkit-transition: background-color 0.2s;
+//   -moz-transition: background-color 0.2s;
+//   transition: background-color 0.2s;
+//   text-align: center;
+
+//   &:hover {
+//     background-color: #888;
+//   }
+// }
+
+// .mapplic-tooltip-github {
+//   clear: both;
+//   color: #6CB5F4 !important;
+//   display: block;
+//   font-size: 13px;
+//   line-height: 32px;
+//   text-decoration: underline !important;
+// }
+
+// .mapplic-tooltip img {
+//   max-width: 100%;
+// }
+
+// .mapplic-tooltip-close {
+//   background-image: url("../img/map/cross.png");
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: 8px 8px;
+//   background-color: transparent;
+//   border: none;
+//   cursor: pointer;
+//   float: right;
+//   margin: -10px -14px 0 0;
+//   padding: 10px 12px;
+//   width: 10px;
+//   height: 10px;
+//   opacity: 0.5;
+//   -webkit-transition: opacity 0.2s;
+//   -moz-transition: opacity 0.2s;
+//   transition: opacity 0.2s;
+
+//   &:hover {
+//     opacity: 1.0;
+//   }
+// }
+
+// .mapplic-tooltip-triangle {
+//   border-color: #fff transparent transparent transparent;
+//   border-style: solid;
+//   border-width: 8px 7px 0 7px;
+//   width: 0;
+//   height: 0;
+//   position: absolute;
+//   bottom: 0;
+//   left: 50%;
+//   margin-bottom: -8px;
+//   margin-left: -7px;
+// }
+
+// /* Tooltip down */
+// .mapplic-tooltip-down .mapplic-tooltip-triangle {
+//   border-width: 0 7px 8px 7px;
+//   border-color: transparent transparent #fff transparent;
+//   top: 0;
+//   margin-top: -8px;
+// }
+
+// /* Coordinates */
+// .mapplic-coordinates {
+//   background-color: rgba(255, 255, 255, 0.9);
+//   color: #333;
+//   position: absolute;
+//   margin: 10px;
+//   margin-left: -80px;
+//   padding: 4px 6px;
+//   font-size: 14px;
+//   top: 0;
+//   left: 50%;
+//   pointer-events: none;
+// }
+
+// /* Responsive layout */
+// @media all and (max-width: 667px) {
+//   .mapplic-container,
+//   .mapplic-sidebar {
+//     width: 100%;
+//   }
+
+//   .mapplic-tooltip {
+//     max-width: 240px;
+//   }
+
+//   .mapplic-minimap {
+//     width: 120px;
+//   }
+
+//   .mapplic-element {
+//     height: auto !important;
+//   }
+
+//   .mapplic-fullscreen-button {
+//     display: none;
+//   }
+
+//   .mapplic-search-form {
+//     border-right: none;
+//   }
+// }
+
+// /* RETINA */
+// @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//   .mapplic-search-clear,
+//   .mapplic-tooltip-close {
+//     background-image: url("../img/map/cross@2x.png");
+//   }
+
+//   .mapplic-levels .mapplic-levels-up {
+//     background-image: url("../img/map/arrow-up@2x.png");
+//   }
+
+//   .mapplic-levels .mapplic-levels-down {
+//     background-image: url("../img/map/arrow-down@2x.png");
+//   }
+
+//   a.mapplic-zoomin-button {
+//     background-image: url("../img/map/plus@2x.png");
+//   }
+
+//   a.mapplic-zoomout-button {
+//     background-image: url("../img/map/minus@2x.png");
+//   }
+
+//   .mapplic-search-input {
+//     background-image: url("../img/map/viewer@2x.png");
+//   }
+
+//   .mapplic-pin { background-image: url("../img/map/pin@2x.png"); }
+
+//   .mapplic-clear-button {
+//     background-image: url("../img/map/reset@2x.png");
+//   }
+// }
+
+// /* Map */
+// svg {
+//   width: 100%;
+//   height: 100%;
+// }
+
+// svg a {
+//   cursor: pointer;
+// }
+
+// .mapplic-active,
+// a.mapplic-active > path,
+// .mapplic-active path {
+//   fill: #343F4B;
+//   opacity: 1.0;
+// }
+
+// path.mapplic-clickable,
+// .mapplic-clickable > * {
+//   cursor: pointer;
+//   fill: #4d5e6d;
+//   opacity: 0.4;
+//   -webkit-transition: opacity 0.2s;
+//   -moz-transition: opacity 0.2s;
+//   transition: opacity 0.2s;
+// }
+
+// path.mapplic-clickable:hover,
+// .mapplic-clickable:hover > * {
+//   opacity: 0.8;
+// }
+
+// .mapplic-map-image *[id^=nopointer] {
+//   pointer-events: none;
+// }
+
+// [id^=landmarks] polygon.mapplic-clickable,
+// [id^=landmarks] path.mapplic-clickable {
+//   cursor: pointer;
+//   -webkit-transition: fill 0.2s;
+//   -moz-transition: fill 0.2s;
+//   transition: fill 0.2s;
+// }
+
+// a.mapplic-pin.circular.narino {
+
+//   svg #america .mapplic-element #narino {
+//     fill: red !important;
+//   }
+// }
