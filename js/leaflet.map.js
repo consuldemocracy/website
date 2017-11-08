@@ -1,9 +1,28 @@
 var mymap = L.map('mapid', { zoomControl: false }).setView([33.58,-25.59], 3);
-    L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
-    {
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-      subdomains: 'abcd',
-    }).addTo(mymap);
+
+
+//var map = L.map('map', {
+//    center: [-4, 25],
+//    zoom: 6,
+//    layers:[
+//      L.tileLayer(<base tile url>),
+//      L.tileLayer(<overlay tile url>)
+//    ]
+//});
+
+//var map = L.map('map', {
+//    center: [-4, 25],
+//    zoom: 6,
+//});
+//
+//var baselayer = L.tileLayer(<base tileset url>).addTo(map);
+//var topLayer =L.tileLayer(<overlay tileset url>).addTo(map);
+
+var baselayer = L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg').addTo(mymap);
+var topLayer = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png',
+                {
+                opacity: 0.25}).addTo(mymap);
+
 
 // Adds fullscreen button
 var zoomFS = new L.Control.ZoomFS();
@@ -18,6 +37,7 @@ var viewCenter = new L.Control.ViewCenter();
 mymap.addControl(viewCenter);
 
 // Tiles themes
+// https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png
 // http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}
 // http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
 // http://tile.stamen.com/toner/{z}/{x}/{y}.png
