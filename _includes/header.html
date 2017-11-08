@@ -19,6 +19,10 @@
       </a>
     </div>
 
+    <button class="header-video-play" id="js-header-video-trigger" type="button">
+      <img src="../img/play_icon.svg" alt="Ver vídeo">
+    </button>
+
     <div class="col-7">
       <nav>
         <h2 class="show-for-sr">Descubre CONSUL</h2>
@@ -32,18 +36,16 @@
   </div>
 </div>
 
-<div class="header-video">
+<div class="header-video" style="display: none;">
   <div class="header-video-container">
     <img src="#"
+         id="js-header-video-media"
          class="header-video-media"
          data-video-URL="https://www.youtube.com/embed/vO1jRu25B9E"
          data-video-width="560"
          data-video-height="315"
          alt="">
-    <a href="https://www.youtube.com/embed/vO1jRu25B9E" class="header-video-play" id="header-video__play-trigger">
-      <img src="../img/play_icon.svg" alt="Ver vídeo">
-    </a>
-    <a class="header-video-close" id="header-video-close">
+    <a class="header-video-close" id="js-header-video-close">
       <img src="../img/close_icon.svg" alt="Cerrar vídeo">
     </a>
   </div>

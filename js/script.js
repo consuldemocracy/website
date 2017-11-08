@@ -32,10 +32,12 @@ HeaderVideo.prototype.bindUIActions = function() {
     var that = this;
     $(this.settings.playTrigger).on('click', function(e) {
         e.preventDefault();
+        that.$element.show();
         that.appendIframe();
     });
     $(this.settings.closeTrigger).on('click', function(e){
         e.preventDefault();
+        that.$element.hide();
         that.removeIframe();
     });
 };
