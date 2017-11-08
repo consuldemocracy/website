@@ -1,20 +1,25 @@
 <div class="container">
   <div class="row">
-    <div class="col-6">
+    <div class="col-5">
       <h1>
         <a href="/{{ page.locale  }}" class="logo">
-          <span>{{ site.data.i18n[page.locale].title }}</span>
-          {{ site.data.i18n[page.locale].consul }}
+          <span>{{ site.data.i18n[page.locale].header.welcome }}</span>
+          {{ site.data.i18n[page.locale].header.consul }}
         </a>
       </h1>
 
-      <p class="lead">Free software for citizen participation</p>
+      <p class="lead">{{ site.data.i18n[page.locale].header.description }}</p>
 
-      <a href="https://consul-demo.herokuapp.com/" target="_blank" class="button">Try the demo</a>
-      <a href="https://github.com/consul/consul" target="_blank" class="button hollow">See code on github</a>
+      <a href="https://consul-demo.herokuapp.com/" target="_blank" class="button">
+        {{ site.data.i18n[page.locale].header.button_demo }}
+      </a>
+
+      <a href="https://github.com/consul/consul" target="_blank" class="button hollow">
+        {{ site.data.i18n[page.locale].header.button_github }}
+      </a>
     </div>
 
-    <div class="col-6">
+    <div class="col-7">
       <nav>
         <h2 class="show-for-sr">Descubre CONSUL</h2>
         <a href="#">{{ site.data.i18n[page.locale].menu.community }}</a>

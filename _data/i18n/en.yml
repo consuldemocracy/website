@@ -1,13 +1,18 @@
-consul: "CONSUL"
-title: "CONSUL | Citizen Participation and Open Government"
-description: "Citizen Participation and Open Government free software."
+title: "CONSUL | Citizen Participation and Open Government free software"
+header:
+  welcome: "Welcome to"
+  consul: "CONSUL"
+  description: "Citizen Participation and Open Government free software."
+  button_demo: Try the demo
+  button_github: "See code on github"
 menu:
-  screenshots: "Screenshots"
-  license: "License / Code"
+  community: "Community"
+  features: "Features"
+  documentation: "Documentation"
   contact: "Contact"
-welcome: "Welcome to CONSUL"
-tagline: "Free software for citizen participation"
-button_github: "See code on github"
+  demo: "Try the demo"
+tagline: "CONSUL is the most complete citizen participation tool for an open, transparent and democratic government."
+trusted: "Trusted by +50 cities and organizations"
 repositories_list: "Complete list of repositories"
 participation: "It's time for smart cities"
 summary:

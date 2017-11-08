@@ -1,18 +1,18 @@
-consul: "CONSUL"
-title: "Welcome to"
-description: "Software libre de Gobierno abierto y Participación ciudadana."
+title: "CONSUL | Software libre de Gobierno abierto y Participación ciudadana"
+header:
+  welcome: "Bienvenido a"
+  consul: "CONSUL"
+  description: "Software libre de Gobierno abierto y Participación ciudadana."
+  button_demo: "Probar la demo"
+  button_github: "Ver código en github"
 menu:
-  community: Community
-  features: Features
-  documentation: Documentation
-  contact: Contact
-  demo: Try the demo
-  screenshots: "Capturas de pantalla"
-  license: "Licencia / Código"
+  community: "Comunidad"
+  features: "Funcionalidades"
+  documentation: "Documentación"
   contact: "Contacto"
-welcome: "Bienvenido a CONSUL"
-tagline: "Software libre para participación ciudadana"
-button_github: "Ver código en github"
+  demo: "Prueba la demo"
+tagline: "CONSUL es la herramienta de participación ciudadana más completa para un gobierno abierto, transparente y democrático."
+trusted: "Ya lo usan más de 50 ciudades y organizaciones"
 repositories_list: "Lista completa de repositorios"
 participation: "Es la hora de las ciudades inteligentes"
 summary:
@@ -84,7 +84,6 @@ organizations:
   description: "Ya son muchos los Ayuntamientos y organizaciones que actualmente utilizan CONSUL como herramienta de participación."
   preparing: "Preparando lanzamiento"
   organization_1: "Ayuntamiento de Madrid"
-  organization_2: "Ayuntamiento de Barcelona"
   organization_3: "Ayuntamiento de Oviedo"
   organization_4: "Ayuntamiento de A Coruña"
   organization_5: "Ayuntamiento de Calvià Mallorca"

@@ -3,7 +3,7 @@
 // 01. Variables
 // 02. Reset & global styles
 // 03. Header
-// 04. Intro
+// 04. Summary
 //
 
 // 01. Variables
@@ -14,6 +14,7 @@ $font-size:   18px;
 
 $dark:        #36424a;
 $light:       #f5f7fc;
+$link:        #00a8e1;
 
 // 02. Reset & global styles
 // ------------------------
@@ -36,6 +37,19 @@ section {
   margin:0;
   padding:0;
   border:0;
+}
+
+body {
+  padding-bottom:200px;
+}
+
+a {
+  color: $link;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .margin-bottom {
@@ -62,6 +76,14 @@ section {
   position: absolute !important;
   white-space: nowrap;
   width: 1px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 // 03. Header
@@ -221,7 +243,7 @@ h1 {
   transition: opacity .3s;
 
   @media only screen and (min-width: $breakpoint-med) {
-    left: 50%;
+    left: 80%;
     margin-left: -43px;
     margin-top: -43px;
     top: 50%;
@@ -240,16 +262,84 @@ h1 {
   z-index: 99;
 }
 
-// 04. Intro
+// 04. Summary
 // ------------------------
 
-.intro {
+.highlight {
   background: $light;
   font-size: 1.33rem;
   padding: $line-height 0;
   text-align: center;
 }
 
+.summary {
+
+  h3::before {
+    content: url('../img/checkmark_icon.svg');
+    display: block;
+    height: $line-height * 2;
+  }
+}
+
+.who-use-consul {
+  img {
+    max-width: 100%;
+    mix-blend-mode: multiply;
+  }
+}
+
+.link-to-video {
+  padding-left: 1.39rem;
+  position: relative;
+
+  &::before {
+    content: url('../img/video_icon.svg');
+    left: 0;
+    position: absolute;
+    top: 1px;
+  }
+}
+
+.features-timeline {
+
+  h3 {
+    position: relative;
+  }
+
+  .row [class^="col"] {
+    margin: 0;
+
+    &.feature-left,
+    &.feature-right {
+      padding-bottom: $line-height * 2;
+    }
+
+    &.feature-left {
+      border-right: 1px solid $link;
+      padding-right: 1.5rem;
+
+      h3::after {
+        content: url('../img/timeline_point_icon.svg');
+        right: -33px;
+        position: absolute;
+        top: 0;
+      }
+    }
+
+    &.feature-right {
+      border-left: 1px solid $link;
+      padding-left: 1.5rem;
+      margin-left: 1.5rem;
+
+      h3::before {
+        content: url('../img/timeline_point_icon.svg');
+        left: -33px;
+        position: absolute;
+        top: -12px;
+      }
+    }
+  }
+}
 
 // BASE 18
 // BASE LINE 30
