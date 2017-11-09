@@ -1,6 +1,18 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
+<html lang="{{ site.data.i18n[page.locale].lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.data.i18n[page.locale].title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.data.i18n[page.locale].title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  </head>
 
   <body>
     <div class="wrap">
@@ -18,43 +30,29 @@
     </footer> -->
 
     <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-modal-video.min.js"></script>
+    <script src="/js/modal-video.min.js"></script>
     <script src="/js/modernizr.js"></script>
-    <script src="/js/script.js"></script>
-    <script src="/js/what-input.js"></script>
-    <script src="/js/foundation.js"></script>
-    <script src="/js/featherlight.min.js"></script>
-    <script src="/js/featherlight.gallery.min.js"></script>
-    <script src="/js/app.js"></script>
-    <script src="/js/hammer.min.js"></script>
-    <script src="/js/jquery.easing.js"></script>
-    <script src="/js/jquery.mousewheel.js"></script>
-    <script src="/js/mapplic.js"></script>
-    <script type="text/javascript">
+    <script src="/js/header_video.js"></script>
+    <script>
       $(document).ready(function() {
-        $('#mapplic').mapplic({
-          source: '/locations.json',
-          height: 600,
-          sidebar: true,
-          search: false,
-          minimap: false,
-          locations: true,
-          fullscreen: true,
-          hovertip: true,
-          maxscale: 2
+        $('.header-video').each(function(i, elem) {
+          headerVideo = new HeaderVideo({
+            element: elem,
+            media: '#js-header-video-media',
+            playTrigger: '#js-header-video-trigger',
+            closeTrigger: '#js-header-video-close'
+          });
         });
       });
     </script>
     <script>
-  $(document).ready(function() {
-    $('.header-video').each(function(i, elem) {
-        headerVideo = new HeaderVideo({
-          element: elem,
-          media: '#js-header-video-media',
-          playTrigger: '#js-header-video-trigger',
-          closeTrigger: '#js-header-video-close'
-        });
-    });
-  });
-</script>
+      $(".js-video-button").modalVideo({
+        youtube:{
+          controls:0,
+          nocookie: true
+        }
+      });
+    </script>
   </body>
 </html>
