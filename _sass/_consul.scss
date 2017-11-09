@@ -104,10 +104,10 @@ header {
   position: relative;
 
   @media only screen and (min-width: $breakpoint-large) {
-    background: url("../img/keyboard.svg"), #36424a;
-    background: url("../img/keyboard.svg"), -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
-    background: url("../img/keyboard.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
-    background: url("../img/keyboard.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+    background: url("../img/home/keyboard.svg"), #36424a;
+    background: url("../img/home/keyboard.svg"), -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+    background: url("../img/home/keyboard.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+    background: url("../img/home/keyboard.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
     background-repeat: no-repeat;
     background-position: 100% 50%;
   }
@@ -308,7 +308,7 @@ h1 {
 .summary {
 
   h3::before {
-    content: url('../img/checkmark_icon.svg');
+    content: url('../img/home/checkmark_icon.svg');
     display: block;
     height: $line-height * 2;
   }
@@ -330,11 +330,11 @@ h1 {
 }
 
 .leaflet-control-fullscreen {
-  background-image: url("../img/map/fullscreen.png");
+  background-image: url("../img/map/fullscreen.svg");
 }
 
 .leaflet-control-locationlist-arrow-next {
-  background-image: url('../img/map/icon-next.png');
+  background-image: url('../img/map/icon_next.svg');
   float: left;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
@@ -343,7 +343,7 @@ h1 {
 }
 
 .leaflet-control-locationlist-arrow-prev {
-  background-image: url('../img/map/icon-prev.png');
+  background-image: url('../img/map/icon_prev.svg');
   float: left;
   border-top-left-radius: 4px !important;
   border-bottom-left-radius: 4px !important;
@@ -376,7 +376,7 @@ h1 {
 }
 
 .leaflet-control-view-center {
-  background-image: url('../img/map/icon-viewcenter.png');
+  background-image: url('../img/map/icon_viewcenter.svg');
 }
 
 // 06. Features
@@ -387,7 +387,7 @@ h1 {
   position: relative;
 
   &::before {
-    content: url('../img/video_icon.svg');
+    content: url('../img/home/video_icon.svg');
     left: 0;
     position: absolute;
     top: 1px;
@@ -430,7 +430,7 @@ h1 {
         padding-right: 1.5rem;
 
         h3::after {
-          content: url('../img/timeline_point_icon.svg');
+          content: url('../img/home/timeline_point_icon.svg');
           right: -33px;
           position: absolute;
           top: 0;
@@ -443,7 +443,7 @@ h1 {
         margin-left: 1.5rem;
 
         h3::before {
-          content: url('../img/timeline_point_icon.svg');
+          content: url('../img/home/timeline_point_icon.svg');
           left: -33px;
           position: absolute;
           top: 0;
