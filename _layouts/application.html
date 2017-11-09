@@ -9,6 +9,7 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/leaflet.css" | prepend: site.baseurl }}">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.data.i18n[page.locale].title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
@@ -34,6 +35,11 @@
     <script src="/js/modal-video.min.js"></script>
     <script src="/js/modernizr.js"></script>
     <script src="/js/header_video.js"></script>
+    <script src="/js/leaflet.js"></script>
+    <script src="/js/leaflet.zoomfs.js"></script>
+    <script src="/js/leaflet.locationlist.js"></script>
+    <script src="/js/leaflet.viewcenter.js"></script>
+    <script src="/js/leaflet.map.js"></script>
     <script>
       $(document).ready(function() {
         $('.header-video').each(function(i, elem) {

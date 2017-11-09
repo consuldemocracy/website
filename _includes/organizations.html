@@ -1,194 +1,200 @@
 <section class="organizations">
-  <div class="row margin">
-    <h2>{{ site.data.i18n[page.locale].trusted }}</h2>
+  <div class="container">
+    <div class="row margin-bottom">
+      <h2>{{ site.data.i18n[page.locale].trusted }}</h2>
+    </div>
   </div>
 
-  <div class="row">
-    <div class="col-3 margin">
-      <a href="https://decide.madrid.es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.madrid }}">
-        <img src="/img/logos/madrid.png" alt="{{ site.data.i18n[page.locale].organizations.madrid }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <a href="http://www.consultaoviedo.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.oviedo }}">
-        <img src="/img/logos/oviedo.png" alt="{{ site.data.i18n[page.locale].organizations.oviedo }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://aportaaberta.coruna.es/?locale=es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.coruna }}">
-        <img src="/img/logos/acoruna.png" alt="{{ site.data.i18n[page.locale].organizations.coruna }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://decidimvlc.valencia.es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.valencia }}">
-        <img src="/img/logos/valencia.png" alt="{{ site.data.i18n[page.locale].organizations.valencia }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://www.participacalvia.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.calvia }}">
-        <img src="/img/logos/calvia.png" alt="{{ site.data.i18n[page.locale].organizations.calvia }}">
-      </a>
-    </div>
+  <div id="mapid"></div>
 
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/alicante.png" alt="{{ site.data.i18n[page.locale].organizations.alicante }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/arona.png" alt="{{ site.data.i18n[page.locale].organizations.arona }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://benalmadenaparticipa.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.benalmadena }}">
-        <img src="/img/logos/benalmadena.png" alt="{{ site.data.i18n[page.locale].organizations.benalmadena }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/bunol.png" alt="{{ site.data.i18n[page.locale].organizations.bunol }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/cadiz.png" alt="{{ site.data.i18n[page.locale].organizations.cadiz }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://decide.carreno.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.carreno }}">
-        <img src="/img/logos/carreno.png" alt="{{ site.data.i18n[page.locale].organizations.carreno }}">
-      </a>
-    </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-3 margin">
+        <a href="https://decide.madrid.es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.madrid }}">
+          <img src="/img/logos/madrid.png" alt="{{ site.data.i18n[page.locale].organizations.madrid }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <a href="http://www.consultaoviedo.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.oviedo }}">
+          <img src="/img/logos/oviedo.png" alt="{{ site.data.i18n[page.locale].organizations.oviedo }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://aportaaberta.coruna.es/?locale=es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.coruna }}">
+          <img src="/img/logos/acoruna.png" alt="{{ site.data.i18n[page.locale].organizations.coruna }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://decidimvlc.valencia.es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.valencia }}">
+          <img src="/img/logos/valencia.png" alt="{{ site.data.i18n[page.locale].organizations.valencia }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://www.participacalvia.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.calvia }}">
+          <img src="/img/logos/calvia.png" alt="{{ site.data.i18n[page.locale].organizations.calvia }}">
+        </a>
+      </div>
 
-    <div class="col-3 margin">
-      <a href="https://decidim.castello.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.castellon_plana }}">
-        <img src="/img/logos/castellon_plana.png" alt="{{ site.data.i18n[page.locale].organizations.castellon_plana }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://decide.aytochiloeches.es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.chiloeches }}">
-        <img src="/img/logos/chiloeches.png" alt="{{ site.data.i18n[page.locale].organizations.chiloeches }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/ciempozuelos.png" alt="{{ site.data.i18n[page.locale].organizations.ciempozuelos }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://participa.getafe.es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.getafe }}">
-        <img src="/img/logos/getafe.png" alt="{{ site.data.i18n[page.locale].organizations.getafe }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/golmayo.png" alt="{{ site.data.i18n[page.locale].organizations.golmayo }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/huesca.png" alt="{{ site.data.i18n[page.locale].organizations.huesca }}">
-      </span>
-    </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/alicante.png" alt="{{ site.data.i18n[page.locale].organizations.alicante }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/arona.png" alt="{{ site.data.i18n[page.locale].organizations.arona }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://benalmadenaparticipa.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.benalmadena }}">
+          <img src="/img/logos/benalmadena.png" alt="{{ site.data.i18n[page.locale].organizations.benalmadena }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/bunol.png" alt="{{ site.data.i18n[page.locale].organizations.bunol }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/cadiz.png" alt="{{ site.data.i18n[page.locale].organizations.cadiz }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://decide.carreno.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.carreno }}">
+          <img src="/img/logos/carreno.png" alt="{{ site.data.i18n[page.locale].organizations.carreno }}">
+        </a>
+      </div>
 
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/palma_mallorca.png" alt="{{ site.data.i18n[page.locale].organizations.palma_mallorca }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/rivas_vaciamadrid.png" alt="{{ site.data.i18n[page.locale].organizations.rivas_vaciamadrid }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/san_sebastian_reyes.png" alt="{{ site.data.i18n[page.locale].organizations.san_sebastian_reyes }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/sitges.png" alt="{{ site.data.i18n[page.locale].organizations.sitges }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/talamanca_jarama.png" alt="{{ site.data.i18n[page.locale].organizations.talamanca_jarama }}">
-      </span>
-    </div>
+      <div class="col-3 margin">
+        <a href="https://decidim.castello.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.castellon_plana }}">
+          <img src="/img/logos/castellon_plana.png" alt="{{ site.data.i18n[page.locale].organizations.castellon_plana }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://decide.aytochiloeches.es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.chiloeches }}">
+          <img src="/img/logos/chiloeches.png" alt="{{ site.data.i18n[page.locale].organizations.chiloeches }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/ciempozuelos.png" alt="{{ site.data.i18n[page.locale].organizations.ciempozuelos }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://participa.getafe.es" target="_blank" title="{{ site.data.i18n[page.locale].organizations.getafe }}">
+          <img src="/img/logos/getafe.png" alt="{{ site.data.i18n[page.locale].organizations.getafe }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/golmayo.png" alt="{{ site.data.i18n[page.locale].organizations.golmayo }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/huesca.png" alt="{{ site.data.i18n[page.locale].organizations.huesca }}">
+        </span>
+      </div>
 
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/tarragona.png" alt="{{ site.data.i18n[page.locale].organizations.tarragona }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/toledo.png" alt="{{ site.data.i18n[page.locale].organizations.toledo }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/valdemorillo.png" alt="{{ site.data.i18n[page.locale].organizations.valdemorillo }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://baelige.buenosaires.gob.ar/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.buenos_aires }}">
-        <img src="/img/logos/buenos_aires.png" alt="{{ site.data.i18n[page.locale].organizations.buenos_aires }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/cabildo_gran_canaria.png" alt="{{ site.data.i18n[page.locale].organizations.cabildo_gran_canaria }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/consell_mallorca.png" alt="{{ site.data.i18n[page.locale].organizations.consell_mallorca }}">
-      </span>
-    </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/palma_mallorca.png" alt="{{ site.data.i18n[page.locale].organizations.palma_mallorca }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/rivas_vaciamadrid.png" alt="{{ site.data.i18n[page.locale].organizations.rivas_vaciamadrid }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/san_sebastian_reyes.png" alt="{{ site.data.i18n[page.locale].organizations.san_sebastian_reyes }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/sitges.png" alt="{{ site.data.i18n[page.locale].organizations.sitges }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/talamanca_jarama.png" alt="{{ site.data.i18n[page.locale].organizations.talamanca_jarama }}">
+        </span>
+      </div>
 
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/diputacion_valencia.png" alt="{{ site.data.i18n[page.locale].organizations.diputacion_valencia }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <a href="http://participa.ciudaddemendoza.gob.ar/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.mendoza }}">
-        <img src="/img/logos/mendoza.png" alt="{{ site.data.i18n[page.locale].organizations.mendoza }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/narino.png" alt="{{ site.data.i18n[page.locale].organizations.narino }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
-        <img src="/img/logos/universidad_complutense.png" alt="{{ site.data.i18n[page.locale].organizations.ucm }}">
-      </span>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://mxv.peoplesmomentum.com/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.momentum }}">
-        <img src="/img/logos/momentum.png" alt="{{ site.data.i18n[page.locale].organizations.momentum }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://budget-participatif.rivp.fr/budgets" target="_blank" title="{{ site.data.i18n[page.locale].organizations.rivp }}">
-        <img src="/img/logos/rivp.png" alt="{{ site.data.i18n[page.locale].organizations.rivp }}">
-      </a>
-    </div>
-    <div class="col-3 margin">
-      <a href="https://www10.ava.es/presupuestosparticipativos/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.valladolid }}">
-        <img src="/img/logos/valladolid.png" alt="{{ site.data.i18n[page.locale].organizations.valladolid }}">
-      </a>
-    </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/tarragona.png" alt="{{ site.data.i18n[page.locale].organizations.tarragona }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/toledo.png" alt="{{ site.data.i18n[page.locale].organizations.toledo }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/valdemorillo.png" alt="{{ site.data.i18n[page.locale].organizations.valdemorillo }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://baelige.buenosaires.gob.ar/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.buenos_aires }}">
+          <img src="/img/logos/buenos_aires.png" alt="{{ site.data.i18n[page.locale].organizations.buenos_aires }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/cabildo_gran_canaria.png" alt="{{ site.data.i18n[page.locale].organizations.cabildo_gran_canaria }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/consell_mallorca.png" alt="{{ site.data.i18n[page.locale].organizations.consell_mallorca }}">
+        </span>
+      </div>
 
-    <div class="col-3 margin">
-      <a href="https://decide.puertoreal.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.puerto_real }}">
-        <img src="/img/logos/puerto_real.png" alt="{{ site.data.i18n[page.locale].organizations.puerto_real }}">
-      </a>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/diputacion_valencia.png" alt="{{ site.data.i18n[page.locale].organizations.diputacion_valencia }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <a href="http://participa.ciudaddemendoza.gob.ar/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.mendoza }}">
+          <img src="/img/logos/mendoza.png" alt="{{ site.data.i18n[page.locale].organizations.mendoza }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/narino.png" alt="{{ site.data.i18n[page.locale].organizations.narino }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <span title="{{ site.data.i18n[page.locale].organizations.preparing }}">
+          <img src="/img/logos/universidad_complutense.png" alt="{{ site.data.i18n[page.locale].organizations.ucm }}">
+        </span>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://mxv.peoplesmomentum.com/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.momentum }}">
+          <img src="/img/logos/momentum.png" alt="{{ site.data.i18n[page.locale].organizations.momentum }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://budget-participatif.rivp.fr/budgets" target="_blank" title="{{ site.data.i18n[page.locale].organizations.rivp }}">
+          <img src="/img/logos/rivp.png" alt="{{ site.data.i18n[page.locale].organizations.rivp }}">
+        </a>
+      </div>
+      <div class="col-3 margin">
+        <a href="https://www10.ava.es/presupuestosparticipativos/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.valladolid }}">
+          <img src="/img/logos/valladolid.png" alt="{{ site.data.i18n[page.locale].organizations.valladolid }}">
+        </a>
+      </div>
+
+      <div class="col-3 margin">
+        <a href="https://decide.puertoreal.es/" target="_blank" title="{{ site.data.i18n[page.locale].organizations.puerto_real }}">
+          <img src="/img/logos/puerto_real.png" alt="{{ site.data.i18n[page.locale].organizations.puerto_real }}">
+        </a>
+      </div>
     </div>
   </div>
 </section>
