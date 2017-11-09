@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-5">
       <h1>
-        <a href="/{{ page.locale  }}" class="logo">
+        <a href="/{{ page.locale  }}">
           <span>{{ site.data.i18n[page.locale].header.welcome }}</span>
           {{ site.data.i18n[page.locale].header.consul }}
         </a>
@@ -20,12 +20,12 @@
     </div>
 
     <button class="header-video-play" id="js-header-video-trigger" type="button">
-      <img src="../img/play_icon.svg" alt="Ver vídeo">
+      <img src="../img/play_icon.svg" alt="{{ site.data.i18n[page.locale].video.play }}">
     </button>
 
     <div class="col-7">
       <nav>
-        <h2 class="show-for-sr">Descubre CONSUL</h2>
+        <h2 class="show-for-sr">{{ site.data.i18n[page.locale].menu.title }}</h2>
         <a href="#">{{ site.data.i18n[page.locale].menu.community }}</a>
         <a href="#">{{ site.data.i18n[page.locale].menu.features }}</a>
         <a href="#">{{ site.data.i18n[page.locale].menu.documentation }}</a>
@@ -46,15 +46,12 @@
          data-video-height="315"
          alt="">
     <a class="header-video-close" id="js-header-video-close">
-      <img src="../img/close_icon.svg" alt="Cerrar vídeo">
+      <img src="../img/close_icon.svg" alt="{{ site.data.i18n[page.locale].video.close }}">
     </a>
   </div>
 </div>
 
-
-
-
-<!-- <div class="locale-selector">
+<div class="locale-selector">
   {% for i18n in site.data.i18n %}
     {% assign class = " " %}
     {% if page.locale == i18n[0] %}
@@ -64,4 +61,3 @@
     <a href="/{{ i18n[0] }}/{{ path }}" class="{{ class }}">{{ i18n[0] }}</a>
   {% endfor %}
 </div>
- -->
