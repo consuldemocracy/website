@@ -1,9 +1,9 @@
 lang: en
-title: "CONSUL | Citizen Participation and Open Government free software"
+title: "CONSUL | Free software for citizen participation"
 header:
   welcome: "Welcome to"
   consul: "CONSUL"
-  description: "Citizen Participation and Open Government free software."
+  description: "Free software for citizen participation."
   button_demo: Try the demo
   button_github: "See code on github"
 menu:
@@ -152,9 +152,10 @@ license:
   repositories_list: "Complete list of repositories"
 contact:
   title: "Contact"
-  text:
-    "Use CONSUL for free in your city or organization. You can also help to improve it, it's free software.
-
-
-    From the City Council of Madrid we will help you as much as possible to be able to use it, avoiding any technical, organizational and legal difficulties. If you are interested, please contact to <mailto: extension.institucional@madrid.es>"
-contact_us: "Contact us"
+  text_1:
+    "Use CONSUL for free in your city or organization. You can also help to improve it, it's free software."
+  text_2:
+    "From the City Council of Madrid we will help you as much as possible to be able to use it, avoiding any technical, organizational and legal difficulties. If you are interested, please contact to <mailto: extension.institucional@madrid.es>"
+footer:
+  title: "CONSUL"
+  description: "Free software for citizen participation"

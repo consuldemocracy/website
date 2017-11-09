@@ -152,9 +152,10 @@ license:
   repositories_list: "Lista completa de repositorios"
 contact:
     title: "Contacto"
-    text:
-      Utiliza CONSUL libremente y de manera gratuita en tu institución u organización. También puedes ayudarnos a mejorarlo, es software libre.
-
-
-      Desde el Ayuntamiento de Madrid vamos a ayudarte todo lo posible a que puedas usarlo, sin que ninguna dificultad técnica, organizativa o legal te cause problemas. Si estás interesado, escríbenos a <mailto:extension.institucional@madrid.es>
-contact_us: "Contacta con nosotros en"
+    text_1:
+      "Utiliza CONSUL libremente y de manera gratuita en tu institución u organización. También puedes ayudarnos a mejorarlo, es software libre."
+    text_2:
+      "Desde el Ayuntamiento de Madrid vamos a ayudarte todo lo posible a que puedas usarlo, sin que ninguna dificultad técnica, organizativa o legal te cause problemas. Si estás interesado, escríbenos a <mailto:extension.institucional@madrid.es>"
+footer:
+  title: "CONSUL"
+  description: "Software libre de Gobierno abierto y Participación ciudadana."

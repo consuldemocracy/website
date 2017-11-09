@@ -1,9 +1,8 @@
-<div class="row margin page">
-  <div class="small-12 medium-9 column">
+<div class="row">
+  <div class="col-6">
+    <h2>{{ site.data.i18n[page.locale].contact.title }}</h2>
 
-    <h1>{{ site.data.i18n[page.locale].contact.title }}</h1>
-
-    {{ site.data.i18n[page.locale].contact.text | markdownify }}
-
+    {{ site.data.i18n[page.locale].contact.text_1 | markdownify }}
+    {{ site.data.i18n[page.locale].contact.text_2 | markdownify }}
   </div>
 </div>

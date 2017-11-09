@@ -6,6 +6,9 @@
 // 04. Summary & organizations
 // 05. Map
 // 06. Features
+// 07. Contact
+// 08. Footer
+//
 
 // 01. Variables
 // ------------------------
@@ -452,3 +455,48 @@ h1 {
     }
   }
 }
+
+// 07. Contact
+// ------------------------
+
+.contact {
+  background: #36424a;
+  background: -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+  background: -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+  background: linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36424a', endColorstr='#3a778b',GradientType=1 );
+  padding: $line-height * 2 0 $line-height;
+
+  h2,
+  p {
+    color: #fff;
+    margin-bottom: $line-height;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+// 08. Footer
+// ------------------------
+
+.footer {
+  padding: $line-height 0;
+
+  ul {
+    list-style-type: none;
+    margin-top: $line-height;
+
+    li {
+      display: inline-block;
+      margin-left: $line-height / 2;
+    }
+  }
+}
+
+
+
+
+
+
