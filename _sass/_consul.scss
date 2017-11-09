@@ -163,7 +163,7 @@ h1 {
 .lead {
   color: #fff;
   font-size: 1.89rem;
-  line-height: $line-height * 2;
+  line-height: 1.33;
   margin: $line-height 0;
 }
 
@@ -487,16 +487,16 @@ h1 {
   ul {
     list-style-type: none;
     margin-top: $line-height;
+    padding-left: 0;
 
     li {
       display: inline-block;
-      margin-left: $line-height / 2;
+      margin-right: $line-height / 2;
+
+      @media only screen and (min-width: $breakpoint-med) {
+        margin-left: $line-height / 2;
+        margin-right: 0;
+      }
     }
   }
 }
-
-
-
-
-
-
