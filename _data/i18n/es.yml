@@ -1,7 +1,6 @@
 lang: es
 title: "CONSUL | Software libre de Gobierno abierto y Participación ciudadana"
 header:
-  welcome: "Bienvenido a"
   consul: "CONSUL"
   description: "Software libre de Gobierno abierto y Participación ciudadana."
   button_demo: "Probar la demo"

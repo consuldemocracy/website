@@ -1,7 +1,6 @@
 lang: en
 title: "CONSUL | Free software for citizen participation"
 header:
-  welcome: "Welcome to"
   consul: "CONSUL"
   description: "Free software for citizen participation."
   button_demo: Try the demo
