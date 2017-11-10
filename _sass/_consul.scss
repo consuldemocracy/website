@@ -313,7 +313,7 @@ h1 {
   h3::before {
     content: url('../img/home/checkmark_icon.svg');
     display: block;
-    height: $line-height * 2;
+    height: $line-height * 1.5;
   }
 }
 
