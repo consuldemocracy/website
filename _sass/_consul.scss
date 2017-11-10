@@ -407,6 +407,12 @@ h1 {
     }
   }
 
+  img {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    max-width: $line-height * 12;
+    margin-top: $line-height / 2;
+  }
+
   .row {
     border-bottom: 1px solid $link;
     padding: $line-height / 2 0;
@@ -425,7 +431,7 @@ h1 {
 
       &.feature-left,
       &.feature-right {
-        padding-bottom: $line-height * 2;
+        padding-bottom: $line-height * 3;
       }
 
       &.feature-left {
