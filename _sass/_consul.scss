@@ -107,12 +107,12 @@ header {
   position: relative;
 
   @media only screen and (min-width: $breakpoint-large) {
-    background: url("../img/home/keyboard.svg"), #36424a;
-    background: url("../img/home/keyboard.svg"), -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
-    background: url("../img/home/keyboard.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
-    background: url("../img/home/keyboard.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+    background: url("../img/home/city.svg"), #36424a;
+    background: url("../img/home/city.svg"), -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+    background: url("../img/home/city.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+    background: url("../img/home/city.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
     background-repeat: no-repeat;
-    background-position: 100% 50%;
+    background-position: 100% 90%;
   }
 }
 
@@ -256,10 +256,10 @@ h1 {
   transition: opacity .3s;
 
   @media only screen and (min-width: $breakpoint-med) {
-    left: 90%;
+    left: 70%;
     margin-left: -43px;
     margin-top: -43px;
-    top: 70%;
+    top: 75%;
   }
 
   &:hover {
