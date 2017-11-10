@@ -10,9 +10,9 @@
 var mymap = L.map('mapid', { zoomControl: false }).setView([33.58,-25.59], 3);
 
 var baselayer = L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg').addTo(mymap);
-var topLayer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+var topLayer = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png',
                 {
-                opacity: 0.75}).addTo(mymap);
+                opacity: 0.30}).addTo(mymap);
 
 
 // Adds fullscreen button
