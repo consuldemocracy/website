@@ -5,8 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="play_icon" transform="translate(2.000000, 2.000000)" fill-rule="nonzero" fill="#000000">
-            <circle id="Oval-4" stroke="#000000" stroke-width="4" fill-opacity="0.3" cx="41" cy="41" r="41"></circle>
+        <g id="play_icon" transform="translate(2.000000, 2.000000)" fill-rule="nonzero" fill="#36424A">
+            <circle id="Oval-4" stroke="#36424A" stroke-width="4" fill-opacity="0.3" cx="41" cy="41" r="41"></circle>
             <polygon id="Triangle-3" transform="translate(44.153846, 42.576923) rotate(90.000000) translate(-44.153846, -42.576923) " points="44.153846 28.3846154 59.9230767 56.7692308 28.3846152 56.7692308"></polygon>
         </g>
     </g>
