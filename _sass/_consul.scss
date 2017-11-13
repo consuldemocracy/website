@@ -161,7 +161,7 @@ h1 {
 
 .button {
   background: #fff;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-radius: 8px;
   color: $dark;
   cursor: pointer;
@@ -180,6 +180,7 @@ h1 {
 
   &.hollow {
     background: none;
+    border: 1px solid #fff;
     color: #fff;
   }
 
