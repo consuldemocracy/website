@@ -347,6 +347,7 @@ h1 {
 }
 
 .leaflet-control-locationlist {
+  display: none;
   background-color : transparent;
   text-align:center;
 }
@@ -365,6 +366,7 @@ h1 {
 }
 
 .leaflet-control-locationlist-list {
+  display: none;
   border: 0;
   border-radius: 4px;
   margin-bottom: 0;
