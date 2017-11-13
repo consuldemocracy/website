@@ -7,7 +7,7 @@
 // http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg
 // http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg
 
-var mymap = L.map('mapid', { zoomControl: false }).setView([33.58,-25.59], 3);
+var mymap = L.map('mapid', { zoomControl: false }).setView([33.58,-25.59], 2);
 
 var baselayer = L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg').addTo(mymap);
 var topLayer = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png',
