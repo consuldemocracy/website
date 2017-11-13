@@ -318,9 +318,21 @@ h1 {
 }
 
 .organizations {
+
   img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     max-width: 100%;
     mix-blend-mode: multiply;
+    opacity: 0.75;
+
+    &:hover {
+      filter: none;
+      -webkit-filter: none;
+      opacity: 1;
+      transition: filter 0.25s;
+      transition: opacity 0.25s;
+    }
   }
 }
 
