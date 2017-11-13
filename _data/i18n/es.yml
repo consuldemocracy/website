@@ -101,7 +101,7 @@ more_features:
   feature_4_title: "Sistema avanzado de roles"
   feature_4_description: "Posibilidad de definir múltiples tipos de usuarios con accesos diferentes a la herramienta (ej: administradores, moderadores, evaluadores, cargos, etc.)"
 organizations:
-  title: "¿Quién está usando CONSUL?"
+  title: "Organizaciones que están usando CONSUL"
   description: "Ya son muchos los Ayuntamientos y organizaciones que actualmente utilizan CONSUL como herramienta de participación."
   preparing: "Preparando lanzamiento"
   madrid: "Ayuntamiento de Madrid"
@@ -165,6 +165,10 @@ data_video_id:
 documentation:
   title: "Documentación"
   resources:
-    brand_guidelines: "Manual de marca CONSUL"
-    dossier: "Dossier CONSUL"
+    brand_guidelines:
+      title: "Manual de marca CONSUL"
+      description: "Guías de estilo para el uso de la marca CONSUL y material gráfico oficial."
+    dossier:
+      title: "Dossier CONSUL"
+      description: "Documentación infográfica acerca de CONSUL y sus funcionalidades."
   download: Descargar
