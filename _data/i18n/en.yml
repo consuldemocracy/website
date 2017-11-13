@@ -17,7 +17,7 @@ video:
   play: "Play video"
   close: "Close video"
 tagline: "CONSUL is the most complete citizen participation tool for an open, transparent and democratic government."
-trusted: "Trusted by cities and organizations all over the world"
+trusted: "Used by cities and organizations all over the world"
 repositories_list: "Complete list of repositories"
 participation: "It's time for smart cities"
 summary:
@@ -83,7 +83,7 @@ legislation:
   feature_3: "Widely configurable previous discussions."
   image_alt: "An example of collaborative legislation"
 processes:
-  title: "Sectoral Processes"
+  title: "Advanced Processes"
   description: "Advanced Section to develop complex processes of participation as urban developments, highly complex normative or processes that require a specific set of participation phases."
   feature_1: "Maximum possibility of defining each of the phases of the processes to fit each specific need."
   feature_2: "Wide variety of voting and questions systems."

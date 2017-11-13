@@ -1,9 +1,9 @@
 lang: es
 title: "CONSUL"
-description: "Software libre de Gobierno abierto y Participación ciudadana"
+description: "Software libre para la participación ciudadana"
 header:
   consul: "CONSUL"
-  description: "Software libre de Gobierno abierto y Participación ciudadana."
+  description: "Software libre para la participación ciudadana"
   button_demo: "Probar la demo"
   button_github: "Ver código en github"
 menu:
@@ -17,14 +17,14 @@ video:
   play: "Ver vídeo"
   close: "Cerrar vídeo"
 tagline: "CONSUL es la herramienta de participación ciudadana más completa para un gobierno abierto, transparente y democrático."
-trusted: "Ya lo usan ciudades y organizaciones por todo el mundo"
+trusted: "Usado por ciudades y organizaciones de todo el mundo"
 repositories_list: "Lista completa de repositorios"
 participation: "Es la hora de las ciudades inteligentes"
 summary:
   free_title: "Gratuito"
   free_description: "Al ser una plataforma de software libre todo su código está a disposición de cualquier individuo y entidad."
   adaptable_title: "Adaptable"
-  adaptable_description: "Cualquier entidad o administración puede modi carlo y utilizarlo libremente, adaptándolo a sus objetivos y necesidades."
+  adaptable_description: "Cualquier entidad o administración puede modificarlo y utilizarlo libremente, adaptándolo a sus objetivos y necesidades."
   up_to_date_title: "Siempre actualizado"
   up_to_date_description: "Todas las administraciones e instituciones que trabajan con CONSUL pueden aportar mejoras que hacen que la herramienta evolucione e incluya nuevas opciones y posibilidades."
   functional_title: "Funcional"
@@ -83,7 +83,7 @@ legislation:
   feature_3: "Debates previos ampliamente configurables."
   image_alt: "Ejemplo de legislación colaborativa"
 processes:
-  title: "Procesos sectoriales"
+  title: "Procesos avanzados"
   description: "Sección avanzada para desarrollar procesos complejos de participación como desarrollos urbanísticos, normativa compleja o procesos que necesitan una serie de fases de participación específica."
   feature_1: "Máxima posibilidad de definir cada una de las fases de los procesos para ajustarse a cada necesidad concreta."
   feature_2: "Amplia variedad de sistemas de votación y pregunta."
@@ -152,11 +152,11 @@ license:
   repositories_list: "Lista completa de repositorios"
 contact:
   title: "Contacto"
-  text: "Queremos ayudarte tanto como sea posible para que puedas utilizar CONSUL, asesorándote en asuntos técnicos de organización y legales."
+  text: "Queremos ayudarte tanto como sea posible para que puedas utilizar CONSUL, asesorándote en asuntos técnicos, de organización y legales."
   button: "Envíanos un email"
 footer:
   title: "CONSUL"
-  description: "Software libre de Gobierno abierto y Participación ciudadana."
+  description: "Software libre para la participación ciudadana."
 data_video_id:
   debates: "GFy5GnsRlhU"
   proposals: "ccGI2jZk6Lw"
