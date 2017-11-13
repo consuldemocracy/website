@@ -161,10 +161,11 @@ h1 {
 
 .button {
   background: #fff;
-  border: 2px solid #fff;
+  border: 2px solid transparent;
   border-radius: 8px;
   color: $dark;
   display: block;
+  font-size: $font-size;
   font-weight: bold;
   margin-bottom: $line-height;
   padding: $line-height / 2 $line-height;
@@ -183,6 +184,11 @@ h1 {
 
   &.success {
     background: $success;
+    color: #fff;
+  }
+
+  &.secondary {
+    background: $link;
     color: #fff;
   }
 }
@@ -463,12 +469,11 @@ h1 {
   background: -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
   background: linear-gradient(135deg, #36424a 0%,#3a778b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36424a', endColorstr='#3a778b',GradientType=1 );
-  padding: $line-height * 2 0 $line-height;
+  padding: $line-height 0;
 
   h2,
   p {
     color: #fff;
-    margin-bottom: $line-height;
   }
 
   a {

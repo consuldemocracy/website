@@ -151,10 +151,8 @@ license:
   repositories_list: "Complete list of repositories"
 contact:
   title: "Contact"
-  text_1:
-    "Use CONSUL for free in your city or organization. You can also help to improve it, it's free software."
-  text_2:
-    "From the City Council of Madrid we will help you as much as possible to be able to use it, avoiding any technical, organizational and legal difficulties. If you are interested, please contact to <mailto: extension.institucional@madrid.es>"
+  text: "We will help you as much as possible to be able to use it, avoiding any technical, organizational and legal difficulties."
+  button: "Send us an email"
 footer:
   title: "CONSUL"
   description: "Free software for citizen participation"

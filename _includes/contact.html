@@ -1,8 +1,11 @@
 <div id="contact" class="row">
   <div class="col-6">
     <h2>{{ site.data.i18n[page.locale].contact.title }}</h2>
-
-    {{ site.data.i18n[page.locale].contact.text_1 | markdownify }}
-    {{ site.data.i18n[page.locale].contact.text_2 | markdownify }}
+    <p>{{ site.data.i18n[page.locale].contact.text }}</p>
+  </div>
+  <div class="col-6 text-center">
+    <button href="mailto:extension.institucional@madrid.es" class="button secondary" type="button">
+      {{ site.data.i18n[page.locale].contact.button }}
+    </button>
   </div>
 </div>
