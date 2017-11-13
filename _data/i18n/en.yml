@@ -164,3 +164,7 @@ data_video_id:
   processes: "Pj0rk2HRskg"
 documentation:
   title: "Documentation"
+  resources:
+    brand_guidelines: "CONSUL brand guidelines"
+    dossier: "Consul dossier"
+  download: Download

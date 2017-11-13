@@ -164,3 +164,7 @@ data_video_id:
   processes: "if-ouEDdnDk"
 documentation:
   title: "Documentación"
+  resources:
+    brand_guidelines: "Manual de marca CONSUL"
+    dossier: "Dossier CONSUL"
+  download: Descargar

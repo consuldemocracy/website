@@ -1,5 +1,30 @@
 <div class="row">
-  <div class="col-12 text-center">
-    <h2 id="documentation">{{ site.data.i18n[page.locale].documentation.title }}</h2>
+  <div class="documentation col-12 text-center">
+    <div class="margin-bottom">
+      <h2 class="margin" id="documentation">{{ site.data.i18n[page.locale].documentation.title }}</h2>
+    </div>
+
+    <div class="row margin-bottom">
+      <div class="doc-container col-3">
+        <div class="docs-info right">
+          <div class="doc-size">6MB</div>
+          <div class="doc-type">ZIP</div>
+        </div>
+        <p class="doc-title left">{{ site.data.i18n[page.locale].documentation.resources.brand_guidelines }}</p>
+        <button class="doc-download" type="button">
+          <a href="/consul_brand.zip">{{ site.data.i18n[page.locale].documentation.download }}</a>
+        </button>
+      </div>
+      <div class="doc-container col-3">
+        <div class="docs-info right">
+          <div class="doc-size">3MB</div>
+          <div class="doc-type">ZIP</div>
+        </div>
+        <p class="doc-title left">{{ site.data.i18n[page.locale].documentation.resources.dossier }}</p>
+        <button class="doc-download" type="button">
+          <a href="/consul_dossier.zip">{{ site.data.i18n[page.locale].documentation.download }}</a>
+        </button>
+      </div>
+    </div>
   </div>
 </div>
