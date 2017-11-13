@@ -501,18 +501,21 @@ h1 {
 // ------------------------
 
 .documentation {
+
   .doc-container {
-    border: 1px solid #DEDDDD;
+    border: 1px solid #dedddd;
     border-radius: 8px;
-    padding: 16px;
-    margin: 0 auto;
+    padding: $line-height / 2;
+    margin: 0 auto $line-height;
     display: inline-block;
 
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: $line-height / 2;
     }
   }
+
   .docs-info {
+
     .doc-size {
       padding: 4px 8px;
       display: inline-block;
@@ -547,7 +550,6 @@ h1 {
     background-color: $link;
     border: none;
     margin: 16px 0 0 0;
-    text-transform: uppercase;
 
     a {
       display: inline-block;

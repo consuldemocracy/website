@@ -164,11 +164,5 @@ data_video_id:
   processes: "if-ouEDdnDk"
 documentation:
   title: "Documentación"
-  resources:
-    brand_guidelines:
-      title: "Manual de marca CONSUL"
-      description: "Guías de estilo para el uso de la marca CONSUL y material gráfico oficial."
-    dossier:
-      title: "Dossier CONSUL"
-      description: "Documentación infográfica acerca de CONSUL y sus funcionalidades."
-  download: Descargar
+  dossier: "Descargar Dossier CONSUL"
+  brochure: "Descargar Dossier Ejecutivo CONSUL"

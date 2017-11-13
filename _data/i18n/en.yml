@@ -164,11 +164,5 @@ data_video_id:
   processes: "Pj0rk2HRskg"
 documentation:
   title: "Documentation"
-  resources:
-    brand_guidelines:
-      title: "CONSUL brand guidelines"
-      description: "CONSUL brand style guidelines and official graphic resources."
-    dossier:
-      title: "CONSUL dossier"
-      description: "Infographic documentation about CONSUL and its features."
-  download: Download
+  dossier: "Download CONSUL Dossier"
+  brochure: "Download CONSUL Executive Dossier"
