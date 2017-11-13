@@ -3,7 +3,7 @@ title: "CONSUL"
 description: "Software libre para la participación ciudadana"
 header:
   consul: "CONSUL"
-  description: "Software libre para la participación ciudadana"
+  description: "Software libre para la participación ciudadana."
   button_demo: "Probar la demo"
   button_github: "Ver código en github"
 menu:
