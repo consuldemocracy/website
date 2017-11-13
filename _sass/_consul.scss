@@ -357,7 +357,8 @@ h1 {
 
 #mapid {
   height: 500px;
-  margin-bottom: 48px;
+  margin-bottom: $line-height;
+  z-index: 99;
 }
 
 .leaflet-control-fullscreen {
