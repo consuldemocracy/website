@@ -45,11 +45,6 @@ var arona = L.marker([28.099950, -16.679977]).addTo(mymap);
     arona.bindTooltip("<strong>Ayuntamiento de Arona</strong>");
     arona.bindPopup("<strong>Ayuntamiento de Arona</strong><br><span>Preparando lanzamiento</span>");
 
-// Ajuntament de Barcelona
-var barcelona = L.marker([41.385064, 2.173403]).addTo(mymap);
-    barcelona.bindTooltip("<strong>Ajuntament de Barcelona</strong>");
-    barcelona.bindPopup("<strong>Ajuntament de Barcelona</strong><br><a href='https://decidim.barcelona/?locale=es' target='_blank'>Visitar página</a><br><a href='https://github.com/AjuntamentdeBarcelona/decidim.barcelona'>Código en github</a>");
-
 // Ayuntamiento de Benalmádena
 var benalmadena = L.marker([36.598797, -4.516806]).addTo(mymap);
     benalmadena.bindTooltip("<strong>Ayuntamiento de Benalmádena</strong>");
@@ -120,10 +115,10 @@ var palma_mallorca =  L.marker([39.5696005, 2.6501603000000387]).addTo(mymap);
     palma_mallorca.bindTooltip("<strong>Ajuntament de Palma de Mallorca</strong>");
     palma_mallorca.bindPopup("<strong>Ajuntament de Palma de Mallorca</strong><br><span>Preparando lanzamiento</span>");
 
-// París (Budget participatif de la RIVP)
+// París
 var paris = L.marker([48.85661400000001, 2.3522219000000177]).addTo(mymap);
-    paris.bindTooltip("<strong>París (Budget participatif de la RIVP)</strong>");
-    paris.bindPopup("<strong>París (Budget participatif de la RIVP)</strong><br><a href='https://budget-participatif.rivp.fr/budgets' target='_blank'>Visitar página</a>");
+    paris.bindTooltip("<strong>París (RIVP)</strong>");
+    paris.bindPopup("<strong>París (RIVP)</strong><br><a href='https://budget-participatif.rivp.fr/budgets' target='_blank'>Visitar página</a>");
 
 // Ayuntamiento de Rivas-Vaciamadrid
 var rivas_vaciamadrid = L.marker([40.34696510000001, -3.530676500000027]).addTo(mymap);
@@ -166,14 +161,14 @@ var valencia =  L.marker([39.4699075, -0.3762881000000107]).addTo(mymap);
     valencia.bindPopup("<strong>Ayuntamiento de Valencia</strong><br><a href='https://decidimvlc.valencia.es/' target='_blank'>Visitar página</a>");
 
 // Buenos Aires
-var buenos_aries =  L.marker([-34.60368440000001, -58.381559100000004]).addTo(mymap);
-    buenos_aries.bindTooltip("<strong>Buenos Aires</strong>");
-    buenos_aries.bindPopup("<strong>Buenos Aires</strong><br><span>Preparando lanzamiento</span>");
+var buenos_aires =  L.marker([-34.60368440000001, -58.381559100000004]).addTo(mymap);
+    buenos_aires.bindTooltip("<strong>Buenos Aires</strong>");
+    buenos_aires.bindPopup("<strong>Buenos Aires</strong><br><a href='https://baelige.buenosaires.gob.ar/' target='_blank'>Visitar página</a>");
 
 // Cabildo de Gran Canaria
 var gran_canaria =  L.marker([28.1235459, -15.436257399999931]).addTo(mymap);
     gran_canaria.bindTooltip("<strong>Cabildo de Gran Canaria</strong>");
-    gran_canaria.bindPopup("<strong>Cabildo de Gran Canaria</strong><br><span>Preparando lanzamiento</span>");
+    gran_canaria.bindPopup("<strong>Cabildo de Gran Canaria</strong><br><a href='https://participa.grancanaria.com/' target='_blank'>Visitar página</a>");
 
 // Consell de Mallorca
 var mallorca_consell =  L.marker([39.5692762, 2.6497878999999784]).addTo(mymap);
@@ -188,7 +183,7 @@ var valencia_diputacion = L.marker([39.4771151, -0.37681850000001305]).addTo(mym
 // Mendoza
 var mendoza = L.marker([-32.8894587, -68.84583859999998]).addTo(mymap);
     mendoza.bindTooltip("<strong>Mendoza</strong>");
-    mendoza.bindPopup("<strong>Mendoza</strong><br><span>Preparando lanzamiento</span>");
+    mendoza.bindPopup("<strong>Mendoza</strong><br><a href='http://participa.ciudaddemendoza.gob.ar/' target='_blank'>Visitar página</a>");
 
 // Nariño
 var narino =  L.marker([1.289151, -77.35793999999999]).addTo(mymap);
@@ -200,10 +195,10 @@ var universidad_complutense = L.marker([40.4478246, -3.7285871999999927]).addTo(
     universidad_complutense.bindTooltip("<strong>Universidad Complutense de Madrid</strong>");
     universidad_complutense.bindPopup("<strong>Universidad Complutense de Madrid</strong><br><span>Preparando lanzamiento</span>");
 
-// La Libertad (Perú)
+// La Libertad
 var mendoza = L.marker([-7.9637949, -78.8495556]).addTo(mymap);
-    mendoza.bindTooltip("<strong>La Libertad (Perú)</strong>");
-    mendoza.bindPopup("<strong>La Libertad (Perú)</strong><br><span>Preparando lanzamiento</span>");
+    mendoza.bindTooltip("<strong>La Libertad</strong>");
+    mendoza.bindPopup("<strong>La Libertad</strong><br><span>Preparando lanzamiento</span>");
 
 // Ayuntamiento de Molina de Segura
 var mendoza = L.marker([38.0591761, -1.2276177]).addTo(mymap);
@@ -224,3 +219,74 @@ var mendoza = L.marker([41.651113, -4.7273606]).addTo(mymap);
 var mendoza = L.marker([41.5038406, -5.7620456]).addTo(mymap);
     mendoza.bindTooltip("<strong>Ayuntamiento de Zamora</strong>");
     mendoza.bindPopup("<strong>Ayuntamiento de Zamora</strong><br><a href='https://zamoraparticipa.com/' target='_blank'>Visitar página</a>");
+
+// Ayuntamiento de Cheste
+var cheste = L.marker([39.4944628,-0.6897149]).addTo(mymap);
+    cheste.bindTooltip("<strong>Ayuntamiento de Cheste</strong>");
+    cheste.bindPopup("<strong>Ayuntamiento de Cheste</strong><br><a href='https://cheste.participago.dival.es/' target='_blank'>Visitar página</a>");
+
+// Córdoba
+var cordoba_arg = L.marker([-31.399401,-64.2643837]).addTo(mymap);
+    cordoba_arg.bindTooltip("<strong>Córdoba</strong>");
+    cordoba_arg.bindPopup("<strong>Córdoba</strong><br>Preparando Lanzamiento");
+
+// Guadalajara
+var guadalajara_mex = L.marker([20.6737883,-103.3704326]).addTo(mymap);
+    guadalajara_mex.bindTooltip("<strong>Guadalajara</strong>");
+    guadalajara_mex.bindPopup("<strong>Guadalajara</strong><br>Preparando Lanzamiento");
+
+// Jalisco
+var jalisco_mex = L.marker([20.834412,-104.7241366]).addTo(mymap);
+    jalisco_mex.bindTooltip("<strong>Jalisco</strong>");
+    jalisco_mex.bindPopup("<strong>Jalisco</strong><br>Preparando Lanzamiento");
+
+// Lima
+var lima_per = L.marker([-12.0266034,-77.1278634]).addTo(mymap);
+    lima_per.bindTooltip("<strong>Lima</strong>");
+    lima_per.bindPopup("<strong>Lima</strong><br>Preparando Lanzamiento");
+
+// Montes de Oca
+var montesdeoca = L.marker([9.9399955,-84.0285016]).addTo(mymap);
+    montesdeoca.bindTooltip("<strong>Montes de Oca</strong>");
+    montesdeoca.bindPopup("<strong>Montes de Oca</strong><br>Preparando Lanzamiento");
+
+// Montevideo
+var montevideo = L.marker([-34.8210782,-56.3064783]).addTo(mymap);
+    montevideo.bindTooltip("<strong>Montevideo</strong>");
+    montevideo.bindPopup("<strong>Montevideo</strong><br>Preparando Lanzamiento");
+
+// Porto Alegre
+var portoalegre = L.marker([-30.1087957,-51.3172251]).addTo(mymap);
+    portoalegre.bindTooltip("<strong>Porto Alegre</strong>");
+    portoalegre.bindPopup("<strong>Porto Alegre</strong><br>Preparando Lanzamiento");
+
+// Puerto Montt
+var puertomontt = L.marker([-41.4629843,-72.9655277]).addTo(mymap);
+    puertomontt.bindTooltip("<strong>Puerto Montt</strong>");
+    puertomontt.bindPopup("<strong>Puerto Montt</strong><br>Preparando Lanzamiento");
+
+// Quito
+var quito = L.marker([-0.1865938,-78.5706226]).addTo(mymap);
+    quito.bindTooltip("<strong>Quito</strong>");
+    quito.bindPopup("<strong>Quito</strong><br>Preparando Lanzamiento");
+
+// Torino
+var torino = L.marker([45.0701176,7.6000499]).addTo(mymap);
+    torino.bindTooltip("<strong>Torino</strong>");
+    torino.bindPopup("<strong>Torino</strong><br>Preparando Lanzamiento");
+
+// Gwangju
+var gwangju = L.marker([35.176695,126.8087806]).addTo(mymap);
+    gwangju.bindTooltip("<strong>Gwangju</strong>");
+    gwangju.bindPopup("<strong>Gwangju</strong><br>Preparando Lanzamiento");
+
+// Universidade da Coruña
+var uni_a_coruna = L.marker([39.4944628,-0.6897149]).addTo(mymap);
+    uni_a_coruna.bindTooltip("<strong>Universidade da Coruña</strong>");
+    uni_a_coruna.bindPopup("<strong>Universidade da Coruña</strong><br><a href='https://udcdecide.udc.gal/debates' target='_blank'>Visitar página</a>");
+
+// Ciudad de Guatemala
+var guatemala = L.marker([14.6262174,-90.5275799]).addTo(mymap);
+    guatemala.bindTooltip("<strong>Ciudad de Guatemala</strong>");
+    guatemala.bindPopup("<strong>Ciudad de Guatemala</strong><br>Preparando Lanzamiento");
+
