@@ -120,11 +120,6 @@ var palma_mallorca =  L.marker([39.5696005, 2.6501603000000387]).addTo(mymap);
     palma_mallorca.bindTooltip("<strong>Ajuntament de Palma de Mallorca</strong>");
     palma_mallorca.bindPopup("<strong>Ajuntament de Palma de Mallorca</strong><br><span>Preparando lanzamiento</span>");
 
-// Ayuntamiento de Pamplona
-var pamplona =  L.marker([42.8125211, -1.645774500000016]).addTo(mymap);
-    pamplona.bindTooltip("<strong>Ayuntamiento de Pamplona</strong>");
-    pamplona.bindPopup("<strong>Ayuntamiento de Pamplona</strong><br><span>Preparando lanzamiento</span>");
-
 // París (Budget participatif de la RIVP)
 var paris = L.marker([48.85661400000001, 2.3522219000000177]).addTo(mymap);
     paris.bindTooltip("<strong>París (Budget participatif de la RIVP)</strong>");
@@ -204,3 +199,28 @@ var narino =  L.marker([1.289151, -77.35793999999999]).addTo(mymap);
 var universidad_complutense = L.marker([40.4478246, -3.7285871999999927]).addTo(mymap);
     universidad_complutense.bindTooltip("<strong>Universidad Complutense de Madrid</strong>");
     universidad_complutense.bindPopup("<strong>Universidad Complutense de Madrid</strong><br><span>Preparando lanzamiento</span>");
+
+// La Libertad (Perú)
+var mendoza = L.marker([-7.9637949, -78.8495556]).addTo(mymap);
+    mendoza.bindTooltip("<strong>La Libertad (Perú)</strong>");
+    mendoza.bindPopup("<strong>La Libertad (Perú)</strong><br><span>Preparando lanzamiento</span>");
+
+// Ayuntamiento de Molina de Segura
+var mendoza = L.marker([38.0591761, -1.2276177]).addTo(mymap);
+    mendoza.bindTooltip("<strong>Ayuntamiento de Molina de Segura</strong>");
+    mendoza.bindPopup("<strong>Ayuntamiento de Molina de Segura</strong><br><a href='https://decide.molinadesegura.es/' target='_blank'>Visitar página</a>");
+
+// Ayuntamiento de Puerto Real
+var mendoza = L.marker([36.5310785, -6.1934328]).addTo(mymap);
+    mendoza.bindTooltip("<strong>Ayuntamiento de Puerto Real</strong>");
+    mendoza.bindPopup("<strong>Ayuntamiento de Puerto Real</strong><br><a href='https://decide.puertoreal.es/' target='_blank'>Visitar página</a>");
+
+// Ayuntamiento de Valladolid
+var mendoza = L.marker([41.651113, -4.7273606]).addTo(mymap);
+    mendoza.bindTooltip("<strong>Ayuntamiento de Valladolid</strong>");
+    mendoza.bindPopup("<strong>Ayuntamiento de Valladolid</strong><br><a href='https://www10.ava.es/presupuestosparticipativos/' target='_blank'>Visitar página</a>");
+
+// Ayuntamiento de Zamora
+var mendoza = L.marker([41.5038406, -5.7620456]).addTo(mymap);
+    mendoza.bindTooltip("<strong>Ayuntamiento de Zamora</strong>");
+    mendoza.bindPopup("<strong>Ayuntamiento de Zamora</strong><br><a href='https://zamoraparticipa.com/' target='_blank'>Visitar página</a>");
