@@ -119,6 +119,11 @@ header {
 
 nav {
   line-height: $line-height * 2;
+  padding-top: $line-height;
+
+  @media only screen and (min-width: $breakpoint-med) {
+    padding-top: 0;
+  }
 
   @media only screen and (min-width: $breakpoint-large) {
     float: right;
@@ -170,9 +175,15 @@ h1 {
   font-size: $font-size;
   font-weight: bold;
   margin-bottom: $line-height;
-  padding: $line-height / 2 $line-height;
+  padding: $line-height / 2 0;
   text-align: center;
   text-decoration: none;
+  width: 100%;
+
+  @media only screen and (min-width: $breakpoint-med) {
+    padding: $line-height / 2 $line-height;
+    width: auto;
+  }
 
   @media only screen and (min-width: $breakpoint-large) {
     display: inline-block;
@@ -244,23 +255,26 @@ h1 {
 
 .header-video-play {
   border: 0;
-  background: none;
+  background: url("../img/home/city.svg");
+  background-position: center;
+  background-size: cover;
   cursor: pointer;
-  left: 50%;
+  height: $line-height * 7;
   opacity: 1;
-  position: absolute;
   text-align: center;
-  top: 10%;
-  z-index: 5;
   -webkit-transition: opacity .3s;
   -moz-transition: opacity .3s;
   transition: opacity .3s;
+  width: 100%;
 
   @media only screen and (min-width: $breakpoint-med) {
+    background: none;
     left: 70%;
     margin-left: -43px;
     margin-top: -43px;
+    position: absolute;
     top: 75%;
+    width: auto;
   }
 
   &:hover {
