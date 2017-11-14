@@ -28,10 +28,10 @@
                     <circle id="Oval-4" stroke="#00A8E1" stroke-width="2" fill-opacity="0.1" fill="#00A8E1" fill-rule="nonzero" cx="58" cy="132" r="20"></circle>
                     <polygon id="Triangle-3" fill="#00A8E1" fill-rule="nonzero" transform="translate(59.538461, 132.769231) rotate(90.000000) translate(-59.538461, -132.769231) " points="59.5384614 125.846154 67.2307691 139.692308 51.8461537 139.692308"></polygon>
                 </g>
-                <text id="How-do-SECTORAL-PROC" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold" line-spacing="30">
+                <text id="How-do-PROCESSES-wor" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold" line-spacing="30">
                     <tspan x="21" y="68" fill="#333447">How do</tspan>
-                    <tspan x="21" y="98" fill="#00A8E1">SECTORAL PROCESSES</tspan>
-                    <tspan x="277.572" y="98" fill="#333447"></tspan>
+                    <tspan x="21" y="98" fill="#00A8E1">PROCESSES</tspan>
+                    <tspan x="152.532" y="98" fill="#333447"></tspan>
                     <tspan x="21" y="128" fill="#333447">work in CONSUL?</tspan>
                 </text>
             </g>

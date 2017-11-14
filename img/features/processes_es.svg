@@ -30,8 +30,8 @@
                 </g>
                 <text id="¿Cómo-funcionan-los" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold" line-spacing="30">
                     <tspan x="21" y="68" fill="#333447">¿Cómo funcionan los</tspan>
-                    <tspan x="21" y="98" font-size="20" fill="#00A8E1">PROCESOS SECTORALES</tspan>
-                    <tspan x="250.8" y="98" fill="#333447"></tspan>
+                    <tspan x="21" y="98" font-size="20" fill="#00A8E1">PROCESOS</tspan>
+                    <tspan x="124.42" y="98" fill="#333447"></tspan>
                     <tspan x="21" y="128" fill="#333447">en CONSUL?</tspan>
                 </text>
             </g>
