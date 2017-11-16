@@ -313,6 +313,19 @@ h1 {
   }
 }
 
+.external-link {
+  padding-right: 20px;
+  position: relative;
+
+  &::after {
+    content: url('../img/external_link.svg');
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 1px;
+  }
+}
+
 // 04. Summary & organizations
 // ---------------------------
 

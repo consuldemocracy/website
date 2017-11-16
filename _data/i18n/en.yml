@@ -12,6 +12,7 @@ menu:
   features: "Features"
   documentation: "Documentation"
   contact: "Contact"
+  manual: "Manual"
   demo: "Try the demo"
 video:
   play: "Play video"
