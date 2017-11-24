@@ -233,7 +233,7 @@ var guadalajara_mex = L.marker([20.6737883,-103.3704326]).addTo(mymap);
 // Jalisco
 var jalisco_mex = L.marker([20.834412,-104.7241366]).addTo(mymap);
     jalisco_mex.bindTooltip("<strong>Jalisco</strong>");
-    jalisco_mex.bindPopup("<strong>Jalisco</strong><br>Preparando Lanzamiento");
+    jalisco_mex.bindPopup("<strong>Jalisco</strong><br><a href='https://participa.jalisco.mx/' target='_blank'>Visitar página</a>");
 
 // Lima
 var lima_per = L.marker([-12.0266034,-77.1278634]).addTo(mymap);
