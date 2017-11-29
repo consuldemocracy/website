@@ -161,7 +161,7 @@ var buenos_aires =  L.marker([-34.60368440000001, -58.381559100000004]).addTo(my
     buenos_aires.bindPopup("<strong>Buenos Aires</strong><br><a href='https://baelige.buenosaires.gob.ar/' target='_blank'>Visitar página</a>");
 
 // Cabildo de Gran Canaria
-var gran_canaria =  L.marker([28.1235459, -15.436257399999931]).addTo(mymap);
+var gran_canaria =  L.marker([27.9732236, -15.7010391]).addTo(mymap);
     gran_canaria.bindTooltip("<strong>Cabildo de Gran Canaria</strong>");
     gran_canaria.bindPopup("<strong>Cabildo de Gran Canaria</strong><br><a href='https://participa.grancanaria.com/' target='_blank'>Visitar página</a>");
 
@@ -308,7 +308,7 @@ var cartagena_mur = L.marker([37.6174104,-1.006017]).addTo(mymap);
 // Las Palmas de Gran Canaria
 var palmas = L.marker([28.1173563,-15.4746365]).addTo(mymap);
     palmas.bindTooltip("<strong>Las Palmas de Gran Canaria</strong>");
-    palmas.bindPopup("<strong>Las Palmas de Gran Canaria</strong><br>Preparando Lanzamiento");
+    palmas.bindPopup("<strong>Las Palmas de Gran Canaria</strong><br><a href='https://decide.laspalmasgc.es' target='_blank'>Visitar página</a>");
 
 // Móstoles
 var mostoles = L.marker([40.3231233,-3.8851408]).addTo(mymap);

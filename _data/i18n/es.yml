@@ -144,6 +144,7 @@ organizations:
   puerto_real: "Ayuntamiento de Puerto Real"
   jalisco: "Gobierno del Estado de Jalisco"
   torino: "Ciudad de Torino"
+  palmas_gran_canaria: "Ayuntamiento de las Palmas de Gran Canaria"
 license:
   title: "Licencia"
   button: "Ver código en github"
