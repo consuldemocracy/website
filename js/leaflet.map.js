@@ -268,7 +268,7 @@ var quito = L.marker([-0.1865938,-78.5706226]).addTo(mymap);
 // Torino
 var torino = L.marker([45.0701176,7.6000499]).addTo(mymap);
     torino.bindTooltip("<strong>Torino</strong>");
-    torino.bindPopup("<strong>Torino</strong><br>Preparando Lanzamiento");
+    torino.bindPopup("<strong>Torino</strong><br><a href='https://deciditorino.it/' target='_blank'>Visitar página</a>");
 
 // Gwangju
 var gwangju = L.marker([35.176695,126.8087806]).addTo(mymap);
