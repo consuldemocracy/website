@@ -78,7 +78,7 @@ var castellon_plana = L.marker([39.986356, -0.051325]).addTo(mymap);
 // Ayuntamiento de Chiloeches
 var chiloeches =  L.marker([40.5806832, -3.1880082999999786]).addTo(mymap);
     chiloeches.bindTooltip("<strong>Ayuntamiento de Chiloeches</strong>");
-    chiloeches.bindPopup("<strong>Ayuntamiento de Chiloeches</strong><br><span>Preparando lanzamiento</span>");
+    chiloeches.bindPopup("<strong>Ayuntamiento de Chiloeches</strong><br><a href='https://decide.aytochiloeches.es/' target='_blank'>Visitar página</a>");
 
 // Ayuntamiento de Ciempozuelos
 var ciempozuelos =  L.marker([40.1402985, -3.611649400000033]).addTo(mymap);
@@ -148,7 +148,7 @@ var toledo =  L.marker([39.86283160000001, -4.02732309999999]).addTo(mymap);
 // Ayuntamiento de Valdemorillo
 var valdemorillo =  L.marker([40.5030007, -4.049107700000036]).addTo(mymap);
     valdemorillo.bindTooltip("<strong>Ayuntamiento de Valdemorillo</strong>");
-    valdemorillo.bindPopup("<strong>Ayuntamiento de Valdemorillo</strong><br><a href='https://aportaaberta.coruna.es/?locale=es' target='_blank'>Visitar página</a><br><a href='https://github.com/ConcelloCoruna/aportaaberta'>Código en github</a>");
+    valdemorillo.bindPopup("<strong>Ayuntamiento de Valdemorillo</strong><br><span>Preparando lanzamiento</span>");
 
 // Ayuntamiento de Valencia
 var valencia =  L.marker([39.4699075, -0.3762881000000107]).addTo(mymap);
