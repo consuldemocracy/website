@@ -98,7 +98,7 @@ var golmayo = L.marker([41.7086972, -2.7182728000000225]).addTo(mymap);
 // Ayuntamiento de Huesca
 var huesca =  L.marker([42.13618419999999, -0.4082190999999966]).addTo(mymap);
     huesca.bindTooltip("<strong>Ayuntamiento de Huesca</strong>");
-    huesca.bindPopup("<strong>Ayuntamiento de Huesca</strong><br><span>Preparando lanzamiento</span>");
+    huesca.bindPopup("<strong>Ayuntamiento de Huesca</strong><br><a href='http://participa.huesca.es' target='_blank'>Visitar página</a>");
 
 // Ayuntamiento de Madrid
 var madrid =  L.marker([40.4167754, -3.7037901999999576]).addTo(mymap);
@@ -113,7 +113,7 @@ var oviedo =  L.marker([43.3619145, -5.848425328731537]).addTo(mymap);
 // Ajuntament de Palma de Mallorca
 var palma_mallorca =  L.marker([39.5696005, 2.6501603000000387]).addTo(mymap);
     palma_mallorca.bindTooltip("<strong>Ajuntament de Palma de Mallorca</strong>");
-    palma_mallorca.bindPopup("<strong>Ajuntament de Palma de Mallorca</strong><br><span>Preparando lanzamiento</span>");
+    palma_mallorca.bindPopup("<strong>Ajuntament de Palma de Mallorca</strong><br><a href='https://tufas.palma.cat/' target='_blank'>Visitar página</a>");
 
 // París
 var paris = L.marker([48.85661400000001, 2.3522219000000177]).addTo(mymap);
@@ -193,7 +193,7 @@ var universidad_complutense = L.marker([40.4478246, -3.7285871999999927]).addTo(
 // La Libertad
 var lalibertad = L.marker([-7.9637949, -78.8495556]).addTo(mymap);
     lalibertad.bindTooltip("<strong>La Libertad</strong>");
-    lalibertad.bindPopup("<strong>La Libertad</strong><br><span>Preparando lanzamiento</span>");
+    lalibertad.bindPopup("<strong>La Libertad</strong><br><a href='http://www.decidelalibertad.pe/' target='_blank'>Visitar página</a>");
 
 // Ayuntamiento de Molina de Segura
 var molinadesegura = L.marker([38.0591761, -1.2276177]).addTo(mymap);

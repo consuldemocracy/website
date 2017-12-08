@@ -145,6 +145,11 @@ organizations:
   jalisco: "Gobierno del Estado de Jalisco"
   torino: "Ciudad de Torino"
   palmas_gran_canaria: "Ayuntamiento de las Palmas de Gran Canaria"
+  zamora: "Ayuntamiento de Zamora"
+  udc: "Universidad de Coruña"
+  molina_segura: "Ayuntamiento de Molina de Segura"
+  la_libertad: "La Libertad"
+  cheste: "Ayuntamiento de Cheste"
 license:
   title: "Licencia"
   button: "Ver código en github"
