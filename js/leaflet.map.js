@@ -38,12 +38,12 @@ var a_coruna = L.marker([43.365738, -8.410968]).addTo(mymap);
 // Ayuntamiento de Alicante
 var alicante = L.marker([38.345996, -0.490686]).addTo(mymap);
     alicante.bindTooltip("<strong>Ayuntamiento de Alicante</strong>");
-    alicante.bindPopup("<strong>Ayuntamiento de Alicante</strong><br><span>Preparando lanzamiento</span>");
+    alicante.bindPopup("<strong>Ayuntamiento de Alicante</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Arona
 var arona = L.marker([28.099950, -16.679977]).addTo(mymap);
     arona.bindTooltip("<strong>Ayuntamiento de Arona</strong>");
-    arona.bindPopup("<strong>Ayuntamiento de Arona</strong><br><span>Preparando lanzamiento</span>");
+    arona.bindPopup("<strong>Ayuntamiento de Arona</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Benalmádena
 var benalmadena = L.marker([36.598797, -4.516806]).addTo(mymap);
@@ -53,12 +53,12 @@ var benalmadena = L.marker([36.598797, -4.516806]).addTo(mymap);
 // Ayuntamiento de Buñol
 var bunol = L.marker([39.420344, -0.790133]).addTo(mymap);
     bunol.bindTooltip("<strong>Ayuntamiento de Buñol</strong>");
-    bunol.bindPopup("<strong>Ayuntamiento de Buñol</strong><br><span>Preparando lanzamiento</span>");
+    bunol.bindPopup("<strong>Ayuntamiento de Buñol</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Cádiz
 var cadiz = L.marker([36.527061, -6.288596]).addTo(mymap);
     cadiz.bindTooltip("<strong>Ayuntamiento de Cádiz</strong>");
-    cadiz.bindPopup("<strong>Ayuntamiento de Cádiz</strong><br><span>Preparando lanzamiento</span>");
+    cadiz.bindPopup("<strong>Ayuntamiento de Cádiz</strong><br><span>Trabajando</span>");
 
 // Ajuntament de Calvià
 var calvia =  L.marker([39.565348, 2.503368]).addTo(mymap);
@@ -83,7 +83,7 @@ var chiloeches =  L.marker([40.5806832, -3.1880082999999786]).addTo(mymap);
 // Ayuntamiento de Ciempozuelos
 var ciempozuelos =  L.marker([40.1402985, -3.611649400000033]).addTo(mymap);
     ciempozuelos.bindTooltip("<strong>Ayuntamiento de Ciempozuelos</strong>");
-    ciempozuelos.bindPopup("<strong>Ayuntamiento de Ciempozuelos</strong><br><span>Preparando lanzamiento</span>");
+    ciempozuelos.bindPopup("<strong>Ayuntamiento de Ciempozuelos</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Getafe
 var getafe =  L.marker([40.3082633, -3.7325855000000274]).addTo(mymap);
@@ -93,7 +93,7 @@ var getafe =  L.marker([40.3082633, -3.7325855000000274]).addTo(mymap);
 // Ayuntamiento de Golmayo
 var golmayo = L.marker([41.7086972, -2.7182728000000225]).addTo(mymap);
     golmayo.bindTooltip("<strong>Ayuntamiento de Golmayo</strong>");
-    golmayo.bindPopup("<strong>Ayuntamiento de Golmayo</strong><br><span>Preparando lanzamiento</span>");
+    golmayo.bindPopup("<strong>Ayuntamiento de Golmayo</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Huesca
 var huesca =  L.marker([42.13618419999999, -0.4082190999999966]).addTo(mymap);
@@ -123,32 +123,32 @@ var paris = L.marker([48.85661400000001, 2.3522219000000177]).addTo(mymap);
 // Ayuntamiento de San Sebastián de los Reyes
 var san_sebastian_reyes = L.marker([40.5589672, -3.6261976000000686]).addTo(mymap);
     san_sebastian_reyes.bindTooltip("<strong>Ayuntamiento de San Sebastián de los Reyes</strong>");
-    san_sebastian_reyes.bindPopup("<strong>Ayuntamiento de San Sebastián de los Reyes</strong><br><span>Preparando lanzamiento</span>");
+    san_sebastian_reyes.bindPopup("<strong>Ayuntamiento de San Sebastián de los Reyes</strong><br><span>Trabajando</span>");
 
 // Ajuntament de Sitges
 var sitges =  L.marker([41.2558303, 1.8611011000000417]).addTo(mymap);
     sitges.bindTooltip("<strong>Ajuntament de Sitges</strong>");
-    sitges.bindPopup("<strong>Ajuntament de Sitges</strong><br><span>Preparando lanzamiento</span>");
+    sitges.bindPopup("<strong>Ajuntament de Sitges</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Talamanca del Jarama
 var talamanca = L.marker([40.73418429999999, -3.4902391000000534]).addTo(mymap);
     talamanca.bindTooltip("<strong>Ayuntamiento de Talamanca del Jarama</strong>");
-    talamanca.bindPopup("<strong>Ayuntamiento de Talamanca del Jarama</strong><br><span>Preparando lanzamiento</span>");
+    talamanca.bindPopup("<strong>Ayuntamiento de Talamanca del Jarama</strong><br><span>Trabajando</span>");
 
 // Ajuntament de Tarragona
 var tarragona = L.marker([41.1188827, 1.2444908999999598]).addTo(mymap);
     tarragona.bindTooltip("<strong>Ajuntament de Tarragona</strong>");
-    tarragona.bindPopup("<strong>Ajuntament de Tarragona</strong><br><span>Preparando lanzamiento</span>");
+    tarragona.bindPopup("<strong>Ajuntament de Tarragona</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Toledo
 var toledo =  L.marker([39.86283160000001, -4.02732309999999]).addTo(mymap);
     toledo.bindTooltip("<strong>Ayuntamiento de Toledo</strong>");
-    toledo.bindPopup("<strong>Ayuntamiento de Toledo</strong><br><span>Preparando lanzamiento</span>");
+    toledo.bindPopup("<strong>Ayuntamiento de Toledo</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Valdemorillo
 var valdemorillo =  L.marker([40.5030007, -4.049107700000036]).addTo(mymap);
     valdemorillo.bindTooltip("<strong>Ayuntamiento de Valdemorillo</strong>");
-    valdemorillo.bindPopup("<strong>Ayuntamiento de Valdemorillo</strong><br><span>Preparando lanzamiento</span>");
+    valdemorillo.bindPopup("<strong>Ayuntamiento de Valdemorillo</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Valencia
 var valencia =  L.marker([39.4699075, -0.3762881000000107]).addTo(mymap);
@@ -168,12 +168,12 @@ var gran_canaria =  L.marker([27.9732236, -15.7010391]).addTo(mymap);
 // Consell de Mallorca
 var mallorca_consell =  L.marker([39.5692762, 2.6497878999999784]).addTo(mymap);
     mallorca_consell.bindTooltip("<strong>Consell de Mallorca</strong>");
-    mallorca_consell.bindPopup("<strong>Consell de Mallorca</strong><br><span>Preparando lanzamiento</span>");
+    mallorca_consell.bindPopup("<strong>Consell de Mallorca</strong><br><span>Trabajando</span>");
 
 // Diputación de Valencia
 var valencia_diputacion = L.marker([39.4771151, -0.37681850000001305]).addTo(mymap);
     valencia_diputacion.bindTooltip("<strong>Diputación de Valencia</strong>");
-    valencia_diputacion.bindPopup("<strong>Diputación de Valencia</strong><br><span>Preparando lanzamiento</span>");
+    valencia_diputacion.bindPopup("<strong>Diputación de Valencia</strong><br><span>Trabajando</span>");
 
 // Mendoza
 var mendoza = L.marker([-32.8894587, -68.84583859999998]).addTo(mymap);
@@ -183,12 +183,12 @@ var mendoza = L.marker([-32.8894587, -68.84583859999998]).addTo(mymap);
 // Nariño
 var narino =  L.marker([1.289151, -77.35793999999999]).addTo(mymap);
     narino.bindTooltip("<strong>Nariño</strong>");
-    narino.bindPopup("<strong>Nariño</strong><br><span>Preparando lanzamiento</span>");
+    narino.bindPopup("<strong>Nariño</strong><br><span>Trabajando</span>");
 
 // Universidad Complutense de Madrid
 var universidad_complutense = L.marker([40.4478246, -3.7285871999999927]).addTo(mymap);
     universidad_complutense.bindTooltip("<strong>Universidad Complutense de Madrid</strong>");
-    universidad_complutense.bindPopup("<strong>Universidad Complutense de Madrid</strong><br><span>Preparando lanzamiento</span>");
+    universidad_complutense.bindPopup("<strong>Universidad Complutense de Madrid</strong><br><span>Trabajando</span>");
 
 // La Libertad
 var lalibertad = L.marker([-7.9637949, -78.8495556]).addTo(mymap);
@@ -223,12 +223,12 @@ var cheste = L.marker([39.4944628,-0.6897149]).addTo(mymap);
 // Córdoba
 var cordoba_arg = L.marker([-31.399401,-64.2643837]).addTo(mymap);
     cordoba_arg.bindTooltip("<strong>Córdoba</strong>");
-    cordoba_arg.bindPopup("<strong>Córdoba</strong><br>Preparando Lanzamiento");
+    cordoba_arg.bindPopup("<strong>Córdoba</strong><br>Trabajando");
 
 // Guadalajara
 var guadalajara_mex = L.marker([20.6737883,-103.3704326]).addTo(mymap);
     guadalajara_mex.bindTooltip("<strong>Guadalajara</strong>");
-    guadalajara_mex.bindPopup("<strong>Guadalajara</strong><br>Preparando Lanzamiento");
+    guadalajara_mex.bindPopup("<strong>Guadalajara</strong><br>Trabajando");
 
 // Jalisco
 var jalisco_mex = L.marker([20.834412,-104.7241366]).addTo(mymap);
@@ -238,32 +238,32 @@ var jalisco_mex = L.marker([20.834412,-104.7241366]).addTo(mymap);
 // Lima
 var lima_per = L.marker([-12.0266034,-77.1278634]).addTo(mymap);
     lima_per.bindTooltip("<strong>Lima</strong>");
-    lima_per.bindPopup("<strong>Lima</strong><br>Preparando Lanzamiento");
+    lima_per.bindPopup("<strong>Lima</strong><br>Trabajando");
 
 // Montes de Oca
 var montesdeoca = L.marker([9.9399955,-84.0285016]).addTo(mymap);
     montesdeoca.bindTooltip("<strong>Montes de Oca</strong>");
-    montesdeoca.bindPopup("<strong>Montes de Oca</strong><br>Preparando Lanzamiento");
+    montesdeoca.bindPopup("<strong>Montes de Oca</strong><br>Trabajando");
 
 // Montevideo
 var montevideo = L.marker([-34.8210782,-56.3064783]).addTo(mymap);
     montevideo.bindTooltip("<strong>Montevideo</strong>");
-    montevideo.bindPopup("<strong>Montevideo</strong><br>Preparando Lanzamiento");
+    montevideo.bindPopup("<strong>Montevideo</strong><br>Trabajando");
 
 // Porto Alegre
 var portoalegre = L.marker([-30.1087957,-51.3172251]).addTo(mymap);
     portoalegre.bindTooltip("<strong>Porto Alegre</strong>");
-    portoalegre.bindPopup("<strong>Porto Alegre</strong><br>Preparando Lanzamiento");
+    portoalegre.bindPopup("<strong>Porto Alegre</strong><br>Trabajando");
 
 // Puerto Montt
 var puertomontt = L.marker([-41.4629843,-72.9655277]).addTo(mymap);
     puertomontt.bindTooltip("<strong>Puerto Montt</strong>");
-    puertomontt.bindPopup("<strong>Puerto Montt</strong><br>Preparando Lanzamiento");
+    puertomontt.bindPopup("<strong>Puerto Montt</strong><br>Trabajando");
 
 // Quito
 var quito = L.marker([-0.1865938,-78.5706226]).addTo(mymap);
     quito.bindTooltip("<strong>Quito</strong>");
-    quito.bindPopup("<strong>Quito</strong><br>Preparando Lanzamiento");
+    quito.bindPopup("<strong>Quito</strong><br>Trabajando");
 
 // Torino
 var torino = L.marker([45.0701176,7.6000499]).addTo(mymap);
@@ -273,7 +273,7 @@ var torino = L.marker([45.0701176,7.6000499]).addTo(mymap);
 // Gwangju
 var gwangju = L.marker([35.176695,126.8087806]).addTo(mymap);
     gwangju.bindTooltip("<strong>Gwangju</strong>");
-    gwangju.bindPopup("<strong>Gwangju</strong><br>Preparando Lanzamiento");
+    gwangju.bindPopup("<strong>Gwangju</strong><br>Trabajando");
 
 // Universidade da Coruña
 var uni_a_coruna = L.marker([43.3618474,-8.4477032]).addTo(mymap);
@@ -283,27 +283,27 @@ var uni_a_coruna = L.marker([43.3618474,-8.4477032]).addTo(mymap);
 // Ciudad de Guatemala
 var guatemala = L.marker([14.6262174,-90.5275799]).addTo(mymap);
     guatemala.bindTooltip("<strong>Ciudad de Guatemala</strong>");
-    guatemala.bindPopup("<strong>Ciudad de Guatemala</strong><br>Preparando Lanzamiento");
+    guatemala.bindPopup("<strong>Ciudad de Guatemala</strong><br>Trabajando");
 
 // Alcalá de Henares
 var alcala = L.marker([40.4947687,-3.4367158]).addTo(mymap);
     alcala.bindTooltip("<strong>Alcalá de Henares</strong>");
-    alcala.bindPopup("<strong>Alcalá de Henares</strong><br>Preparando Lanzamiento");
+    alcala.bindPopup("<strong>Alcalá de Henares</strong><br>Trabajando");
 
 // Avilés
 var aviles = L.marker([43.5574185,-5.93553]).addTo(mymap);
     aviles.bindTooltip("<strong>Avilés</strong>");
-    aviles.bindPopup("<strong>Avilés</strong><br>Preparando Lanzamiento");
+    aviles.bindPopup("<strong>Avilés</strong><br>Trabajando");
 
 // Barú
 var baru = L.marker([8.3006432,-83.1524684]).addTo(mymap);
     baru.bindTooltip("<strong>Barú</strong>");
-    baru.bindPopup("<strong>Barú</strong><br>Preparando Lanzamiento");
+    baru.bindPopup("<strong>Barú</strong><br>Trabajando");
 
 // Cartagena
 var cartagena_mur = L.marker([37.6174104,-1.006017]).addTo(mymap);
     cartagena_mur.bindTooltip("<strong>Cartagena</strong>");
-    cartagena_mur.bindPopup("<strong>Cartagena</strong><br>Preparando Lanzamiento");
+    cartagena_mur.bindPopup("<strong>Cartagena</strong><br>Trabajando");
 
 // Las Palmas de Gran Canaria
 var palmas = L.marker([28.1173563,-15.4746365]).addTo(mymap);
@@ -313,14 +313,60 @@ var palmas = L.marker([28.1173563,-15.4746365]).addTo(mymap);
 // Móstoles
 var mostoles = L.marker([40.3231233,-3.8851408]).addTo(mymap);
     mostoles.bindTooltip("<strong>Móstoles</strong>");
-    mostoles.bindPopup("<strong>Móstoles</strong><br>Preparando Lanzamiento");
+    mostoles.bindPopup("<strong>Móstoles</strong><br>Trabajando");
 
 // Torremolinos
 var torremolinos = L.marker([36.6262107,-4.5359552]).addTo(mymap);
     torremolinos.bindTooltip("<strong>Torremolinos</strong>");
-    torremolinos.bindPopup("<strong>Torremolinos</strong><br>Preparando Lanzamiento");
+    torremolinos.bindPopup("<strong>Torremolinos</strong><br>Trabajando");
 
 // Torre-Pacheco
 var torrepacheco = L.marker([37.7413063,-0.9620597]).addTo(mymap);
     torrepacheco.bindTooltip("<strong>Torre-Pacheco</strong>");
-    torrepacheco.bindPopup("<strong>Torre-Pacheco</strong><br>Preparando Lanzamiento");
+    torrepacheco.bindPopup("<strong>Torre-Pacheco</strong><br>Trabajando");
+
+// Ayuntamiento de Aspe
+var aspe = L.marker([38.3459766,-0.7762791]).addTo(mymap);
+    aspe.bindTooltip("<strong>Ayuntamiento de Aspe</strong>");
+    aspe.bindPopup("<strong>Ayuntamiento de Aspe</strong><br><span>Trabajando</span>");
+
+// Ayuntamiento de Sant Joan d'Alacant
+var sant_joan = L.marker([38.4020435,-0.4474429]).addTo(mymap);
+    sant_joan.bindTooltip("<strong>Ayuntamiento de Sant Joan d'Alacant</strong>");
+    sant_joan.bindPopup("<strong>Ayuntamiento de Sant Joan d'Alacant</strong><br><span>Trabajando</span>");
+
+// Ayuntamiento de El Rosario
+var rosario = L.marker([28.4327695,-16.3922438]).addTo(mymap);
+    rosario.bindTooltip("<strong>Ayuntamiento de El Rosario</strong>");
+    rosario.bindPopup("<strong>Ayuntamiento de El Rosario</strong><br><span>Trabajando</span>");
+
+// Ayuntamiento de Bullas
+var bullas = L.marker([38.0452146,-1.6765886]).addTo(mymap);
+    bullas.bindTooltip("<strong>Ayuntamiento de Bullas</strong>");
+    bullas.bindPopup("<strong>Ayuntamiento de Bullas</strong><br><span>Trabajando</span>");
+
+// Municipio de Godoy Cruz
+var godoy_cruz = L.marker([-32.928786,-68.8672155]).addTo(mymap);
+    godoy_cruz.bindTooltip("<strong>Municipio de Godoy Cruz</strong>");
+    godoy_cruz.bindPopup("<strong>Municipio de Godoy Cruz</strong><br><span>Trabajando</span>");
+
+// Ayuntamiento de Xirivella
+var xirivella = L.marker([39.4616567,-0.4424935]).addTo(mymap);
+    xirivella.bindTooltip("<strong>Ayuntamiento de Xirivella</strong>");
+    xirivella.bindPopup("<strong>Ayuntamiento de Xirivella</strong><br><span>Trabajando</span>");
+
+// Ayuntamiento de Faura
+var faura = L.marker([39.7258726,-0.2692253]).addTo(mymap);
+    faura.bindTooltip("<strong>Ayuntamiento de Faura</strong>");
+    faura.bindPopup("<strong>Ayuntamiento de Faura</strong><br><span>Trabajando</span>");
+
+// Ayuntamiento de Alginet
+var alginet = L.marker([39.2608679,-0.4768122]).addTo(mymap);
+    alginet.bindTooltip("<strong>Ayuntamiento de Alginet</strong>");
+    alginet.bindPopup("<strong>Ayuntamiento de Alginet</strong><br><span>Trabajando</span>");
+
+// Municipio de Lujan de cuyo
+var lujan_cuyo = L.marker([-33.0000377,-68.9019889]).addTo(mymap);
+    lujan_cuyo.bindTooltip("<strong>Municipio de Lujan de cuyo</strong>");
+    lujan_cuyo.bindPopup("<strong>Municipio de Lujan de cuyo</strong><br><span>Trabajando</span>");
+
