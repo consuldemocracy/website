@@ -143,7 +143,7 @@ var tarragona = L.marker([41.1188827, 1.2444908999999598]).addTo(mymap);
 // Ayuntamiento de Toledo
 var toledo =  L.marker([39.86283160000001, -4.02732309999999]).addTo(mymap);
     toledo.bindTooltip("<strong>Ayuntamiento de Toledo</strong>");
-    toledo.bindPopup("<strong>Ayuntamiento de Toledo</strong><br><span>Trabajando</span>");
+    toledo.bindPopup("<strong>Ayuntamiento de Toledo</strong><br><a href='https://participa.toledo.es/' target='_blank'>Visitar página</a>");
 
 // Ayuntamiento de Valdemorillo
 var valdemorillo =  L.marker([40.5030007, -4.049107700000036]).addTo(mymap);
