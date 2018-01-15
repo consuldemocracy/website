@@ -176,6 +176,7 @@ footer:
   title: "CONSUL"
   description: "Free software for citizen participation"
   madrid: "Madrid City Council, "
+  madrid_alt: "Madrid City Council Logo"
 data_video_id:
   general: "https://www.youtube.com/embed/_51lRi-YJjk"
   debates: "zU_0UN4VajY"
