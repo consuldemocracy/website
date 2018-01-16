@@ -248,7 +248,7 @@ var montesdeoca = L.marker([9.9399955,-84.0285016]).addTo(mymap);
 // Montevideo
 var montevideo = L.marker([-34.8210782,-56.3064783]).addTo(mymap);
     montevideo.bindTooltip("<strong>Montevideo</strong>");
-    montevideo.bindPopup("<strong>Montevideo</strong><br>Trabajando");
+    montevideo.bindPopup("<strong>Montevideo</strong><br><a href='https://decide.montevideo.gub.uy/' target='_blank'>Visitar página</a>");
 
 // Porto Alegre
 var portoalegre = L.marker([-30.1087957,-51.3172251]).addTo(mymap);
