@@ -159,6 +159,7 @@ organizations:
   faura: "Ayuntamiento de Faura"
   alginet: "Ayuntamiento de Alginet"
   lujan_cuyo: "Municipio de Luján de Cuyo"
+  montevideo: "Intendencia de montevideo"
 license:
   title: "Licencia"
   button: "Ver código en github"
