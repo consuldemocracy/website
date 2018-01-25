@@ -368,5 +368,5 @@ var alginet = L.marker([39.2608679,-0.4768122]).addTo(mymap);
 // Municipio de Lujan de cuyo
 var lujan_cuyo = L.marker([-33.0000377,-68.9019889]).addTo(mymap);
     lujan_cuyo.bindTooltip("<strong>Municipio de Lujan de cuyo</strong>");
-    lujan_cuyo.bindPopup("<strong>Municipio de Lujan de cuyo</strong><br><span>Trabajando</span>");
+    lujan_cuyo.bindPopup("<strong>Municipio de Lujan de cuyo</strong><br><a href='http://decide.lujandecuyo.gob.ar/' target='_blank'>Visitar página</a>");
 
