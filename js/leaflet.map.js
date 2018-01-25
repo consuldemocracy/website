@@ -358,7 +358,7 @@ var xirivella = L.marker([39.4616567,-0.4424935]).addTo(mymap);
 // Ayuntamiento de Faura
 var faura = L.marker([39.7258726,-0.2692253]).addTo(mymap);
     faura.bindTooltip("<strong>Ayuntamiento de Faura</strong>");
-    faura.bindPopup("<strong>Ayuntamiento de Faura</strong><br><span>Trabajando</span>");
+    faura.bindPopup("<strong>Ayuntamiento de Faura</strong><br><a href='https://faura.participago.dival.es' target='_blank'>Visitar página</a>");
 
 // Ayuntamiento de Alginet
 var alginet = L.marker([39.2608679,-0.4768122]).addTo(mymap);
