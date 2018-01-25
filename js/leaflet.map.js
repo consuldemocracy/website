@@ -353,7 +353,7 @@ var godoy_cruz = L.marker([-32.928786,-68.8672155]).addTo(mymap);
 // Ayuntamiento de Xirivella
 var xirivella = L.marker([39.4616567,-0.4424935]).addTo(mymap);
     xirivella.bindTooltip("<strong>Ayuntamiento de Xirivella</strong>");
-    xirivella.bindPopup("<strong>Ayuntamiento de Xirivella</strong><br><span>Trabajando</span>");
+    xirivella.bindPopup("<strong>Ayuntamiento de Xirivella</strong><br><a href='https://xirivella.participago.dival.es' target='_blank'>Visitar página</a>");
 
 // Ayuntamiento de Faura
 var faura = L.marker([39.7258726,-0.2692253]).addTo(mymap);
