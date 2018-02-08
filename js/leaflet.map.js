@@ -12,7 +12,7 @@ var mymap = L.map('mapid', { zoomControl: false }).setView([33.58,-25.59], 2);
 var baselayer = L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg').addTo(mymap);
 var topLayer = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png',
                 {
-                opacity: 0.30}).addTo(mymap);
+                opacity: 0.20}).addTo(mymap);
 
 
 // Adds fullscreen button
