@@ -370,3 +370,17 @@ var lujan_cuyo = L.marker([-33.0000377,-68.9019889]).addTo(mymap);
     lujan_cuyo.bindTooltip("<strong>Municipio de Lujan de cuyo</strong>");
     lujan_cuyo.bindPopup("<strong>Municipio de Lujan de cuyo</strong><br><a href='http://decide.lujandecuyo.gob.ar/' target='_blank'>Visitar página</a>");
 
+// Ayuntamiento de Rivas Vaciamadrid
+var rivas_vaciamadrid = L.marker([40.3477434,-3.547396]).addTo(mymap);
+    rivas_vaciamadrid.bindTooltip("<strong>Ayuntamiento de Rivas Vaciamadrid</strong>");
+    rivas_vaciamadrid.bindPopup("<strong>Ayuntamiento de Rivas Vaciamadrid</strong><br><span>Trabajando</span>");
+
+// Municipio de La Paz
+var la_paz = L.marker([-16.5205361,-68.1941173]).addTo(mymap);
+    la_paz.bindTooltip("<strong>Municipio de La Paz</strong>");
+    la_paz.bindPopup("<strong>Municipio de La Paz</strong><br><span>Trabajando</span>");
+
+// Ayuntamiento de Santa Cruz de Tenerife
+var tenerife = L.marker([28.4578025,-16.3563748]).addTo(mymap);
+    tenerife.bindTooltip("<strong>Ayuntamiento de Santa Cruz de Tenerife</strong>");
+    tenerife.bindPopup("<strong>Ayuntamiento de Santa Cruz de Tenerife</strong><br><a href='https://participa.santacruzdetenerife.es/' target='_blank'>Visitar página</a>");
