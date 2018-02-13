@@ -176,7 +176,7 @@ var valencia_diputacion = L.marker([39.4771151, -0.37681850000001305]).addTo(mym
     valencia_diputacion.bindPopup("<strong>Diputación de Valencia</strong><br><span>Trabajando</span>");
 
 // Mendoza
-var mendoza = L.marker([-32.8894587, -68.84583859999998]).addTo(mymap);
+var mendoza = L.marker([-32.8833303,-68.8935386]).addTo(mymap);
     mendoza.bindTooltip("<strong>Mendoza</strong>");
     mendoza.bindPopup("<strong>Mendoza</strong><br><a href='http://participa.ciudaddemendoza.gob.ar/' target='_blank'>Visitar página</a>");
 
@@ -384,3 +384,8 @@ var la_paz = L.marker([-16.5205361,-68.1941173]).addTo(mymap);
 var tenerife = L.marker([28.4578025,-16.3563748]).addTo(mymap);
     tenerife.bindTooltip("<strong>Ayuntamiento de Santa Cruz de Tenerife</strong>");
     tenerife.bindPopup("<strong>Ayuntamiento de Santa Cruz de Tenerife</strong><br><a href='https://participa.santacruzdetenerife.es/' target='_blank'>Visitar página</a>");
+
+// Municipio de Bahía Blanca
+var bahia_blanca = L.marker([-39.2595572,-62.742406]).addTo(mymap);
+    bahia_blanca.bindTooltip("<strong>Municipio de Bahía Blanca</strong>");
+    bahia_blanca.bindPopup("<strong>Municipio de Bahía Blanca</strong><br><span>Trabajando</span>");
