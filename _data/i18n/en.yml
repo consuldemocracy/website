@@ -179,6 +179,7 @@ organizations:
   la_paz: "Municipality of La Paz"
   tenerife: "City of Santa Cruz de Tenerife"
   bahia_blanca: "Municipality of Bahía Blanca"
+  valletta: "City of Valletta"
 license:
   title: "License"
   button: "View code on github"

@@ -389,3 +389,8 @@ var tenerife = L.marker([28.4578025,-16.3563748]).addTo(mymap);
 var bahia_blanca = L.marker([-39.2595572,-62.742406]).addTo(mymap);
     bahia_blanca.bindTooltip("<strong>Municipio de Bahía Blanca</strong>");
     bahia_blanca.bindPopup("<strong>Municipio de Bahía Blanca</strong><br><span>Trabajando</span>");
+
+// Ciudad de La Valeta
+var valletta = L.marker([35.8984802,14.5044102]).addTo(mymap);
+    valletta.bindTooltip("<strong>Ciudad de La Valeta</strong>");
+    valletta.bindPopup("<strong>Ciudad de La Valeta</strong><br><span>Trabajando</span>");
