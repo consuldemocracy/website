@@ -17,8 +17,8 @@ $purple: #282776;
 body {
 
   &.landing {
-    background: $purple url('../img/consulcon/consulcon_background.jpg');
-    background-position: 50% 100%;
+    background: #fff url('../img/consulcon/consulcon_background.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 0;
 
@@ -46,9 +46,15 @@ body {
     }
 
     footer {
-      bottom: 0;
-      position: absolute;
-      width: 100%;
+      background: #fff;
+      margin-top: -10px;
+
+      @media only screen and (min-width: $breakpoint-med) {
+        background: transparent;
+        bottom: 0;
+        position: absolute;
+        width: 100%
+      }
     }
   }
 }
@@ -56,6 +62,14 @@ body {
 .gallery {
   color: white;
   font-size: 1rem;
+}
+
+.waves {
+  height: 230px;
+
+  @media only screen and (min-width: $breakpoint-med) {
+    height: auto;
+  }
 }
 
 .footer {
