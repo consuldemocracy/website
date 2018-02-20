@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CONSULCON2018 Madrid | 23rd - 24th November</title>
+    <meta name="description" content="CONSULCON2018 Madrid | 23rd - 24th November">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.data.i18n[page.locale].title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  </head>
+
+  <body class="landing">
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>
+              <a href="http://consulproject.org/en/">
+                <img src="/img/consulcon/consul_quotes.png" alt="CONSUL">
+              </a>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <div class="container footer landing">
+        <div class="row">
+          <div class="text-center">
+            <img src="/img/ayuntamiento_madrid.png" alt="{{ site.data.i18n[page.locale].footer.madrid_alt }}">
+            <br>
+            <small>{{ site.data.i18n[page.locale].footer.madrid }} {{ 'now' | date: "%Y" }}.</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

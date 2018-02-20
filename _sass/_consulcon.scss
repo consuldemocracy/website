@@ -1,0 +1,96 @@
+// Table of Contents
+//
+// 01. Variables
+// 02. CONSULCON Landing
+//
+
+// Variables
+// ------------------------
+
+$consul: #0c9edd;
+$blue:   #0f7feb;
+$purple: #282776;
+
+// CONSULCON Landing
+// ------------------------
+
+body {
+
+  &.landing {
+    background: $purple url('../img/consulcon/consulcon_background.jpg');
+    background-position: 50% 100%;
+    background-size: cover;
+    padding-bottom: 0;
+
+    header {
+      background: none;
+      min-height: 0;
+    }
+
+    h3,
+    p {
+      font-family: 'Karla', sans-serif;
+    }
+
+    .title {
+      color: $blue;
+      font-size: 1.4rem;
+      font-weight: bold;
+      padding-left: 6px;
+      margin-top: -15px;
+
+      @media only screen and (min-width: $breakpoint-med) {
+        font-size: 2.1rem;
+        padding-left: 12px;
+      }
+    }
+
+    footer {
+      bottom: 0;
+      position: absolute;
+      width: 100%;
+    }
+  }
+}
+
+.gallery {
+  color: white;
+  font-size: 1rem;
+}
+
+.footer {
+
+  &.landing {
+    padding: $line-height 0;
+  }
+}
+
+.consulcon {
+  margin: 0 auto;
+  width: 100%;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.flickr {
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+
+  &.mobile {
+
+    @media only screen and (min-width: $breakpoint-med) {
+      display: none;
+    }
+  }
+
+  &.desktop {
+    display: none;
+
+    @media only screen and (min-width: $breakpoint-med) {
+      display: block;
+    }
+  }
+}
