@@ -1,6 +1,11 @@
-# Consul website
-Code for the future static public Consul website
+# CONSUL
 
-# Use Simple Grid
+Free software for citizen participation.
 
-Developed by Zach Cole (http://simplegrid.io) [Open source under the MIT License.]
+[See code on github](https://github.com/consul/consul)
+
+Visit live website on [http://consulproject.org/en/](http://consulproject.org/en/)
+
+## Notes
+
+For CSS grid we use [Simple Grid](http://simplegrid.io)
