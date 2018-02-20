@@ -29,16 +29,20 @@ body {
 
     main {
 
-      &::after {
-        bottom: 0;
-        content: url('../img/consulcon/waves.svg');
-        position: absolute;
-        z-index: -1;
+      @media only screen and (min-width: $breakpoint-med) {
+
+        &::after {
+          bottom: 0;
+          content: url('../img/consulcon/waves.svg');
+          position: absolute;
+          z-index: -1;
+        }
       }
     }
 
     h3,
-    p {
+    p,
+    a {
       font-family: 'Karla', sans-serif;
     }
 
@@ -56,10 +60,13 @@ body {
     }
 
     footer {
-      margin-top: -10px;
+      background: #fff;
+      margin-top: 100px;
 
       @media only screen and (min-width: $breakpoint-med) {
+        background: transparent;
         bottom: 0;
+        margin-top: -10px;
         position: absolute;
         width: 100%
       }
@@ -68,10 +75,12 @@ body {
 }
 
 .gallery {
+  color: $blue;
+  display: block;
   font-size: 1rem;
 
-  @media only screen and (min-width: $breakpoint-med) {
-    color: white;
+  &:hover {
+    text-decoration: underline;
   }
 }
 
@@ -103,19 +112,19 @@ body {
   margin: 0 auto;
   max-width: 100%;
   text-align: center;
+}
 
-  &.mobile {
+.mobile {
 
-    @media only screen and (min-width: $breakpoint-med) {
-      display: none;
-    }
-  }
-
-  &.desktop {
+  @media only screen and (min-width: $breakpoint-med) {
     display: none;
+  }
+}
 
-    @media only screen and (min-width: $breakpoint-med) {
-      display: block;
-    }
+.desktop {
+  display: none;
+
+  @media only screen and (min-width: $breakpoint-med) {
+    display: block;
   }
 }
