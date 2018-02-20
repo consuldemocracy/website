@@ -51,10 +51,10 @@ body {
       font-size: 1rem;
       font-weight: bold;
       padding-left: 6px;
-      margin-top: -15px;
 
       @media only screen and (min-width: $breakpoint-large) {
         font-size: 2rem;
+        margin-top: -15px;
         padding-left: 12px;
       }
     }
