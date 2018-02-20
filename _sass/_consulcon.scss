@@ -14,6 +14,12 @@ $purple: #282776;
 // CONSULCON Landing
 // ------------------------
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
 
   &.landing {
@@ -21,23 +27,25 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 0;
+    overflow-x: hidden;
+
+
+    .wrapper {
+      min-height: 100%;
+
+      /* Equal to height of footer */
+      /* But also accounting for potential margin-bottom of last child */
+      margin-bottom: -50px;
+    }
+
+    .footer,
+    .push {
+      height: 50px;
+    }
 
     header {
       background: none;
       min-height: 0;
-    }
-
-    main {
-
-      @media only screen and (min-width: $breakpoint-med) {
-
-        &::after {
-          bottom: 0;
-          content: url('../img/consulcon/waves.svg');
-          position: absolute;
-          z-index: -1;
-        }
-      }
     }
 
     h3,
@@ -48,7 +56,6 @@ body {
 
     .title {
       color: $blue;
-      font-size: 1rem;
       font-weight: bold;
       padding-left: 6px;
 
@@ -61,23 +68,30 @@ body {
 
     footer {
       background: #fff;
-      margin-top: 100px;
+      position: relative;
+
+      &::before {
+        bottom: 100px;
+        content: url('../img/consulcon/waves.svg');
+        position: absolute;
+        z-index: -1;
+      }
 
       @media only screen and (min-width: $breakpoint-med) {
-        background: transparent;
         bottom: 0;
-        margin-top: -10px;
         position: absolute;
-        width: 100%
+        width: 100%;
       }
     }
   }
 }
 
 .gallery {
-  color: $blue;
-  display: block;
+  background: $purple;
+  color: #fff;
+  display: inline-block;
   font-size: 1rem;
+  padding: 0 $line-height / 2;
 
   &:hover {
     text-decoration: underline;
@@ -111,7 +125,6 @@ body {
 .flickr {
   margin: $line-height * 2 auto;
   max-width: 100%;
-  text-align: center;
 
   @media only screen and (min-width: $breakpoint-med) {
     margin: 0 auto;
