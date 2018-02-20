@@ -53,7 +53,7 @@ body {
       padding-left: 6px;
       margin-top: -15px;
 
-      @media only screen and (min-width: $breakpoint-med) {
+      @media only screen and (min-width: $breakpoint-large) {
         font-size: 2rem;
         padding-left: 12px;
       }
@@ -109,9 +109,13 @@ body {
 }
 
 .flickr {
-  margin: 0 auto;
+  margin: $line-height * 2 auto;
   max-width: 100%;
   text-align: center;
+
+  @media only screen and (min-width: $breakpoint-med) {
+    margin: 0 auto;
+  }
 }
 
 .mobile {
