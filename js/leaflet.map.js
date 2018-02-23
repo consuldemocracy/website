@@ -183,7 +183,7 @@ var mendoza = L.marker([-32.8833303,-68.8935386]).addTo(mymap);
 // Nariño
 var narino =  L.marker([1.289151, -77.35793999999999]).addTo(mymap);
     narino.bindTooltip("<strong>Nariño</strong>");
-    narino.bindPopup("<strong>Nariño</strong><br><span>Trabajando</span>");
+    narino.bindPopup("<strong>Nariño</strong><br><a href='https://ganapienso.narino.gov.co/' target='_blank'>Visitar página</a>");
 
 // Universidad Complutense de Madrid
 var universidad_complutense = L.marker([40.4478246, -3.7285871999999927]).addTo(mymap);
