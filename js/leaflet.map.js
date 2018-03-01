@@ -381,9 +381,9 @@ var la_paz = L.marker([-16.5205361,-68.1941173]).addTo(mymap);
     la_paz.bindPopup("<strong>Municipio de La Paz</strong><br><span>Trabajando</span>");
 
 // Ayuntamiento de Santa Cruz de Tenerife
-var tenerife = L.marker([28.4578025,-16.3563748]).addTo(mymap);
+var tenerife = L.marker([28.4636135,-16.2870514]).addTo(mymap);
     tenerife.bindTooltip("<strong>Ayuntamiento de Santa Cruz de Tenerife</strong>");
-    tenerife.bindPopup("<strong>Ayuntamiento de Santa Cruz de Tenerife</strong><br><a href='https://participa.santacruzdetenerife.es/' target='_blank'>Visitar página</a>");
+    tenerife.bindPopup("<strong>Ayuntamiento de Santa Cruz de Tenerife</strong><br><a href='https://www.santacruzdetenerife.es/participa/' target='_blank'>Visitar página</a>");
 
 // Municipio de Bahía Blanca
 var bahia_blanca = L.marker([-39.2595572,-62.742406]).addTo(mymap);
