@@ -394,3 +394,8 @@ var bahia_blanca = L.marker([-39.2595572,-62.742406]).addTo(mymap);
 var valletta = L.marker([35.8984802,14.5044102]).addTo(mymap);
     valletta.bindTooltip("<strong>Ciudad de La Valeta</strong>");
     valletta.bindPopup("<strong>Ciudad de La Valeta</strong><br><span>Trabajando</span>");
+
+// Ayuntamiento de Moixent
+var moixent = L.marker([38.8740569,-0.7538327]).addTo(mymap);
+    moixent.bindTooltip("<strong>Ayuntamiento de Moixent</strong>");
+    moixent.bindPopup("<strong>Ayuntamiento de Moixent</strong><br><a href='http://www.moixentparticipa.es' target='_blank'>Visitar página</a>");
