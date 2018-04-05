@@ -399,3 +399,8 @@ var valletta = L.marker([35.8984802,14.5044102]).addTo(mymap);
 var moixent = L.marker([38.8740569,-0.7538327]).addTo(mymap);
     moixent.bindTooltip("<strong>Ayuntamiento de Moixent</strong>");
     moixent.bindPopup("<strong>Ayuntamiento de Moixent</strong><br><a href='http://www.moixentparticipa.es' target='_blank'>Visitar página</a>");
+
+// Departamento de Aude
+var aude = L.marker([43.0490173,1.3431907]).addTo(mymap);
+    aude.bindTooltip("<strong>Departamento de Aude</strong>");
+    aude.bindPopup("<strong>Departamento de Aude</strong><br><a href='http://cdj.aude.fr/' target='_blank'>Visitar página</a>");
