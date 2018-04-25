@@ -404,3 +404,8 @@ var moixent = L.marker([38.8740569,-0.7538327]).addTo(mymap);
 var aude = L.marker([43.0490173,1.3431907]).addTo(mymap);
     aude.bindTooltip("<strong>Departamento de Aude</strong>");
     aude.bindPopup("<strong>Departamento de Aude</strong><br><a href='http://cdj.aude.fr/' target='_blank'>Visitar página</a>");
+
+// Uruguay
+var uruguay = L.marker([-32.8439715,-55.8992231]).addTo(mymap);
+    uruguay.bindTooltip("<strong>República Oriental del Uruguay</strong>");
+    uruguay.bindPopup("<strong>República Oriental del Uruguay</strong><br><a href='https://plan-gobiernoabierto.agesic.gub.uy/' target='_blank'>Visitar página</a>");
