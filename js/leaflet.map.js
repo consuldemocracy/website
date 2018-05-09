@@ -409,3 +409,8 @@ var aude = L.marker([43.0490173,1.3431907]).addTo(mymap);
 var uruguay = L.marker([-32.8439715,-55.8992231]).addTo(mymap);
     uruguay.bindTooltip("<strong>República Oriental del Uruguay</strong>");
     uruguay.bindPopup("<strong>República Oriental del Uruguay</strong><br><a href='https://plan-gobiernoabierto.agesic.gub.uy/' target='_blank'>Visitar página</a>");
+
+// Ayuntamiento de Ondara
+var ondara = L.marker([38.825502,0.0119995]).addTo(mymap);
+    ondara.bindTooltip("<strong>Ayuntamiento de Ondara</strong>");
+    ondara.bindPopup("<strong>Ayuntamiento de Ondara</strong><br><a href='https://participa.ondara.org/' target='_blank'>Visitar página</a>");
