@@ -414,3 +414,8 @@ var uruguay = L.marker([-32.8439715,-55.8992231]).addTo(mymap);
 var ondara = L.marker([38.825502,0.0119995]).addTo(mymap);
     ondara.bindTooltip("<strong>Ayuntamiento de Ondara</strong>");
     ondara.bindPopup("<strong>Ayuntamiento de Ondara</strong><br><a href='https://participa.ondara.org/' target='_blank'>Visitar página</a>");
+
+// Ayuntamiento de Arcos de la Frontera
+var arcos_frontera = L.marker([36.7515356,-5.8255479]).addTo(mymap);
+    arcos_frontera.bindTooltip("<strong>Ayuntamiento de Arcos de la Frontera</strong>");
+    arcos_frontera.bindPopup("<strong>Ayuntamiento de Arcos de la Frontera</strong><br><a href='http://decidearcos.es/' target='_blank'>Visitar página</a>");
