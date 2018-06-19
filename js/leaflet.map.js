@@ -296,7 +296,7 @@ var aviles = L.marker([43.5574185,-5.93553]).addTo(mymap);
     aviles.bindPopup("<strong>Avilés</strong><br>Trabajando");
 
 // Barú
-var baru = L.marker([8.3006432,-83.1524684]).addTo(mymap);
+var baru = L.marker([8.3013227,-83.1524706]).addTo(mymap);
     baru.bindTooltip("<strong>Barú</strong>");
     baru.bindPopup("<strong>Barú</strong><br>Trabajando");
 
@@ -365,7 +365,7 @@ var alginet = L.marker([39.2608679,-0.4768122]).addTo(mymap);
     alginet.bindTooltip("<strong>Ayuntamiento de Alginet</strong>");
     alginet.bindPopup("<strong>Ayuntamiento de Alginet</strong><br><span>Trabajando</span>");
 
-// Municipio de Lujan de cuyo
+// Municipio de Lujan de Cuyo
 var lujan_cuyo = L.marker([-33.0000377,-68.9019889]).addTo(mymap);
     lujan_cuyo.bindTooltip("<strong>Municipio de Lujan de cuyo</strong>");
     lujan_cuyo.bindPopup("<strong>Municipio de Lujan de cuyo</strong><br><a href='http://decide.lujandecuyo.gob.ar/' target='_blank'>Visitar página</a>");
@@ -419,3 +419,83 @@ var ondara = L.marker([38.825502,0.0119995]).addTo(mymap);
 var arcos_frontera = L.marker([36.7515356,-5.8255479]).addTo(mymap);
     arcos_frontera.bindTooltip("<strong>Ayuntamiento de Arcos de la Frontera</strong>");
     arcos_frontera.bindPopup("<strong>Ayuntamiento de Arcos de la Frontera</strong><br><a href='http://decidearcos.es/' target='_blank'>Visitar página</a>");
+
+// Diputación de A Coruña
+var dipcoruna = L.marker([43.280974, -8.469744]).addTo(mymap);
+    dipcoruna.bindTooltip("<strong>Diputación de A Coruña</strong>");
+    dipcoruna.bindPopup("<strong>Diputación de A Coruña</strong>");
+
+// Arroyomolinos
+var arroyomolinos = L.marker([40.2427857,-3.8664734]).addTo(mymap);
+    arroyomolinos.bindTooltip("<strong>Arroyomolinos</strong>");
+    arroyomolinos.bindPopup("<strong>Arroyomolinos</strong><br><span>Trabajando</span>");
+
+// Cieza
+var cieza = L.marker([38.2413028,-1.4289604]).addTo(mymap);
+    cieza.bindTooltip("<strong>Cieza</strong>");
+    cieza.bindPopup("<strong>Cieza</strong><br><span>Trabajando</span>");
+
+// Cabildo Insular de la Gomera
+var cab_gomera = L.marker([28.0914408,-17.1144071]).addTo(mymap);
+    cab_gomera.bindTooltip("<strong>Cabildo Insular de la Gomera</strong>");
+    cab_gomera.bindPopup("<strong>Cabildo Insular de la Gomera</strong><br><span>Trabajando</span>");
+
+// Mijas
+var mijas = L.marker([36.5958944,-4.645]).addTo(mymap);
+    mijas.bindTooltip("<strong>Mijas</strong>");
+    mijas.bindPopup("<strong>Mijas</strong><br><span>Trabajando</span>");
+
+// Soria
+var soria = L.marker([41.7671522,-2.4920886]).addTo(mymap);
+    soria.bindTooltip("<strong>Soria</strong>");
+    soria.bindPopup("<strong>Soria</strong><br><span>Trabajando</span>");
+
+// Torrevieja
+var torrevieja = L.marker([37.9892108,-0.6950663]).addTo(mymap);
+    torrevieja.bindTooltip("<strong>Torrevieja</strong>");
+    torrevieja.bindPopup("<strong>Torrevieja</strong><br><span>Trabajando</span>");
+
+// Universidad de Málaga
+var uni_malaga = L.marker([36.7199549,-4.4182814]).addTo(mymap);
+    uni_malaga.bindTooltip("<strong>Universidad de Málaga</strong>");
+    uni_malaga.bindPopup("<strong>Universidad de Málaga</strong><br><span>Trabajando</span>");
+
+// Universidad de Zaragoza
+var uni_zaragoza = L.marker([41.6590236,-0.9000049]).addTo(mymap);
+    uni_zaragoza.bindTooltip("<strong>Universidad de Zaragoza</strong>");
+    uni_zaragoza.bindPopup("<strong>Universidad de Zaragoza</strong><br><span>Trabajando</span>");
+
+// Diputación de Badajoz
+var dip_badajoz = L.marker([38.8794416,-7.022698]).addTo(mymap);
+    dip_badajoz.bindTooltip("<strong>Diputación de Badajoz</strong>");
+    dip_badajoz.bindPopup("<strong>Diputación de Badajoz</strong><br><span>Trabajando</span>");
+
+// Ciudad Real
+var ciudadreal = L.marker([38.9860758,-3.944497]).addTo(mymap);
+    ciudadreal.bindTooltip("<strong>Ciudad Real</strong>");
+    ciudadreal.bindPopup("<strong>Ciudad Real</strong><br><span>Trabajando</span>");
+
+// Córdoba
+var cordoba_esp = L.marker([37.8916485,-4.8195048]).addTo(mymap);
+    cordoba_esp.bindTooltip("<strong>Córdoba</strong>");
+    cordoba_esp.bindPopup("<strong>Córdoba</strong><br><span>Trabajando</span>");
+
+// Medellín
+var medellin = L.marker([6.268844,-75.666432]).addTo(mymap);
+    medellin.bindTooltip("<strong>Medellín</strong>");
+    medellin.bindPopup("<strong>Medellín</strong><br><span>Trabajando</span>");
+
+// San Nicolás
+var sannicolas = L.marker([-33.6313883,-60.7136]).addTo(mymap);
+    sannicolas.bindTooltip("<strong>San Nicolás</strong>");
+    sannicolas.bindPopup("<strong>San Nicolás</strong><br><span>Trabajando</span>");
+
+// Tirana
+var tirana = L.marker([41.3310413,19.782803]).addTo(mymap);
+    tirana.bindTooltip("<strong>Tirana</strong>");
+    tirana.bindPopup("<strong>Tirana</strong><br><span>Trabajando</span>");
+
+// Veracruz
+var veracruz = L.marker([19.7955228,-98.3889]).addTo(mymap);
+    veracruz.bindTooltip("<strong>Veracruz</strong>");
+    veracruz.bindPopup("<strong>Veracruz</strong><br><span>Trabajando</span>");
