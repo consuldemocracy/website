@@ -3,7 +3,7 @@
 // 01. Variables
 // 02. Reset & global styles
 // 03. Header
-// 04. Summary & organizations
+// 04. Intro, Summary & organizations
 // 05. Map
 // 06. Features
 // 07. Contact
@@ -69,6 +69,11 @@ a {
 .margin {
   margin-bottom: $line-height;
   margin-top: $line-height;
+}
+
+.padding {
+  padding-bottom: $line-height;
+  padding-top: $line-height;
 }
 
 .show-for-sr {
@@ -302,7 +307,6 @@ h1 {
     text-transform: uppercase;
 
     &:first-child {
-      // padding-right: $line-height/2;
       border-right: 1px solid black;
     }
 
@@ -326,8 +330,76 @@ h1 {
   }
 }
 
-// 04. Summary & organizations
+// 04. Intro, Summary & organizations
 // ---------------------------
+
+.intro {
+
+  .un-card {
+
+    a {
+      border: 1px solid #dedddd;
+      border-radius: 3px;
+      display: block;
+      min-height: 200px;
+      padding: $line-height / 2;
+
+      &:hover {
+        box-shadow: 5px 5px 5px 0 rgba(247, 247, 247, 1);
+        text-decoration: none;
+      }
+    }
+
+    span,
+    strong {
+      color: $link;
+      font-size: 1.5rem;
+    }
+  }
+
+  .development {
+    border-bottom: 1px solid $light;
+
+    img {
+      border: 1px solid $light;
+      height: 50px;
+    }
+
+    span {
+      color: $link;
+      display: inline-block;
+      font-size: 0.9rem;
+      height: 50px;
+      margin-left: 12px;
+      margin-top: 16px;
+      vertical-align: top;
+    }
+  }
+
+  .number,
+  .number-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .number {
+    color: $link;
+  }
+
+  .number-title {
+    display: inline-block;
+    margin-left: $line-height / 2;
+  }
+
+  @media only screen and (max-width: $breakpoint-med) {
+
+    .number,
+    .number-title {
+      display: block;
+      text-align: center;
+    }
+  }
+}
 
 .highlight {
   background: $light;
