@@ -29,7 +29,7 @@ intro:
   countries: "Países"
   governments_number: "90"
   governments: "Gobiernos"
-  citizens_number: "60"
+  citizens_number: "70"
   citizens: "Millones de ciudadanos"
   idb: "Código para el Desarrollo Banco Inter-Americano para el Desarollo (BID)"
   idb_url: "https://code.iadb.org/es/repositorio/47/consul"

@@ -29,7 +29,7 @@ intro:
   countries: "Countries"
   governments_number: "90"
   governments: "Governments"
-  citizens_number: "60"
+  citizens_number: "70"
   citizens: "Millions of citizens"
   idb: "Code for Development Inter-American Development Bank (IADB)"
   idb_url: "https://code.iadb.org/en/repository/47/consul"
