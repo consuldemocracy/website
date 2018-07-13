@@ -401,7 +401,7 @@ var moixent = L.marker([38.8740569,-0.7538327]).addTo(mymap);
     moixent.bindPopup("<strong>Ayuntamiento de Moixent</strong><br><a href='http://www.moixentparticipa.es' target='_blank'>Visitar página</a>");
 
 // Departamento de Aude
-var aude = L.marker([43.0490173,1.3431907]).addTo(mymap);
+var aude = L.marker([43.2171871,2.3660783]).addTo(mymap);
     aude.bindTooltip("<strong>Departamento de Aude</strong>");
     aude.bindPopup("<strong>Departamento de Aude</strong><br><a href='http://cdj.aude.fr/' target='_blank'>Visitar página</a>");
 
