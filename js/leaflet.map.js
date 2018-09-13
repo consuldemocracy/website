@@ -499,3 +499,8 @@ var tirana = L.marker([41.3310413,19.782803]).addTo(mymap);
 var veracruz = L.marker([19.7955228,-98.3889]).addTo(mymap);
     veracruz.bindTooltip("<strong>Veracruz</strong>");
     veracruz.bindPopup("<strong>Veracruz</strong><br><span>Trabajando</span>");
+
+// Ayuntamiento de Marchamalo
+var marchamalo = L.marker([40.6686813,-3.2115238]).addTo(mymap);
+    marchamalo.bindTooltip("<strong>Ayuntamiento de Marchamalo</strong>");
+    marchamalo.bindPopup("<strong>Ayuntamiento de Marchamalo</strong><br><a href='https://decide.marchamalo.es/' target='_blank'>Visitar página</a>");
