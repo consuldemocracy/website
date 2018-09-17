@@ -200,6 +200,8 @@ organizations:
   ondara: "City of Ondara"
   arcos_de_la_frontera: "City of Arcos de las Frontera"
   marchamalo: "City of Marchamalo"
+  tudela_duero: "City of Tudela de Duero"
+  diputacion_valladolid: "Diputación de Valladolid"
 license:
   title: "License"
   button: "View code on github"

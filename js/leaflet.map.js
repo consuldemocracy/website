@@ -504,3 +504,13 @@ var veracruz = L.marker([19.7955228,-98.3889]).addTo(mymap);
 var marchamalo = L.marker([40.6686813,-3.2115238]).addTo(mymap);
     marchamalo.bindTooltip("<strong>Ayuntamiento de Marchamalo</strong>");
     marchamalo.bindPopup("<strong>Ayuntamiento de Marchamalo</strong><br><a href='https://decide.marchamalo.es/' target='_blank'>Visitar página</a>");
+
+// Ayuntamiento de Tudela de Duero
+var tudela_duero = L.marker([41.5835921,-4.5820784]).addTo(mymap);
+    tudela_duero.bindTooltip("<strong>Ayuntamiento de Tudela de Duero</strong>");
+    tudela_duero.bindPopup("<strong>Ayuntamiento de Tudela de Duero</strong><br><a href='https://participatudela.ayuntamientosdevalladolid.es/' target='_blank'>Visitar página</a>");
+
+// Diputación de Valladolid
+var dip_valladolid = L.marker([41.6566896,-4.7244242]).addTo(mymap);
+    dip_valladolid.bindTooltip("<strong>Diputación de Valladolid</strong>");
+    dip_valladolid.bindPopup("<strong>Diputación de Valladolid</strong><br><a href='http://participa.diputaciondevalladolid.es/' target='_blank'>Visitar página</a>");
