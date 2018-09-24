@@ -514,3 +514,8 @@ var tudela_duero = L.marker([41.5835921,-4.5820784]).addTo(mymap);
 var dip_valladolid = L.marker([41.6566896,-4.7244242]).addTo(mymap);
     dip_valladolid.bindTooltip("<strong>Diputación de Valladolid</strong>");
     dip_valladolid.bindPopup("<strong>Diputación de Valladolid</strong><br><a href='http://participa.diputaciondevalladolid.es/' target='_blank'>Visitar página</a>");
+
+// Kranjska Gora (Eslovenia)
+var kranjska = L.marker([46.4604035,13.700742]).addTo(mymap);
+    kranjska.bindTooltip("<strong>Kranjska Gora</strong>");
+    kranjska.bindPopup("<strong>Kranjska Gora</strong><br><a href='https://sodeluj.es/' target='_blank'>Visitar página</a>");
