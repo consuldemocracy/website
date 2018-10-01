@@ -519,3 +519,8 @@ var dip_valladolid = L.marker([41.6566896,-4.7244242]).addTo(mymap);
 var kranjska = L.marker([46.4604035,13.700742]).addTo(mymap);
     kranjska.bindTooltip("<strong>Kranjska Gora</strong>");
     kranjska.bindPopup("<strong>Kranjska Gora</strong><br><a href='https://sodeluj.es/' target='_blank'>Visitar página</a>");
+
+// Cabildo de El Hierro
+var el_hierro = L.marker([27.7655635,-18.0211811]).addTo(mymap);
+    el_hierro.bindTooltip("<strong>Cabildo El Hierro</strong>");
+    el_hierro.bindPopup("<strong>Cabildo El Hierro</strong><br><a href='https://participa.elhierro.es/' target='_blank'>Visitar página</a>");

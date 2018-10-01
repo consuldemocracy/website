@@ -203,6 +203,7 @@ organizations:
   tudela_duero: "Ayuntamiento de Tudela de Duero"
   diputacion_valladolid: "Diputación de Valladolid"
   kranjska: "Ciudad de Kranjska Gora"
+  cabildo_el_hierro: "Cabildo de El Hierro"
 license:
   title: "Licencia"
   button: "Ver código en github"
