@@ -440,11 +440,6 @@ var cab_gomera = L.marker([28.0914408,-17.1144071]).addTo(mymap);
     cab_gomera.bindTooltip("<strong>Cabildo Insular de la Gomera</strong>");
     cab_gomera.bindPopup("<strong>Cabildo Insular de la Gomera</strong><br><span>Trabajando</span>");
 
-// Mijas
-var mijas = L.marker([36.5958944,-4.645]).addTo(mymap);
-    mijas.bindTooltip("<strong>Mijas</strong>");
-    mijas.bindPopup("<strong>Mijas</strong><br><span>Trabajando</span>");
-
 // Soria
 var soria = L.marker([41.7671522,-2.4920886]).addTo(mymap);
     soria.bindTooltip("<strong>Soria</strong>");
@@ -524,3 +519,8 @@ var kranjska = L.marker([46.4604035,13.700742]).addTo(mymap);
 var el_hierro = L.marker([27.7655635,-18.0211811]).addTo(mymap);
     el_hierro.bindTooltip("<strong>Cabildo El Hierro</strong>");
     el_hierro.bindPopup("<strong>Cabildo El Hierro</strong><br><a href='https://participa.elhierro.es/' target='_blank'>Visitar página</a>");
+
+// Ayuntamiento de Mijas
+var mijas = L.marker([36.5958801,-4.6759882]).addTo(mymap);
+    mijas.bindTooltip("<strong>Ayuntamiento de Mijas</strong>");
+    mijas.bindPopup("<strong>Ayuntamiento de Mijas</strong><br><a href='https://participa.mijas.es/' target='_blank'>Visitar página</a>");
