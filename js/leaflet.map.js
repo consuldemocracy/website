@@ -263,7 +263,7 @@ var puertomontt = L.marker([-41.4629843,-72.9655277]).addTo(mymap);
 // Quito
 var quito = L.marker([-0.1865938,-78.5706226]).addTo(mymap);
     quito.bindTooltip("<strong>Quito</strong>");
-    quito.bindPopup("<strong>Quito</strong><br>Trabajando");
+    quito.bindPopup("<strong>Quito</strong><br><a href='http://www.decide.quito.gob.ec/' target='_blank'>Visitar página</a>");
 
 // Torino
 var torino = L.marker([45.0701176,7.6000499]).addTo(mymap);
