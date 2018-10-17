@@ -524,3 +524,8 @@ var el_hierro = L.marker([27.7655635,-18.0211811]).addTo(mymap);
 var mijas = L.marker([36.5958801,-4.6759882]).addTo(mymap);
     mijas.bindTooltip("<strong>Ayuntamiento de Mijas</strong>");
     mijas.bindPopup("<strong>Ayuntamiento de Mijas</strong><br><a href='https://participa.mijas.es/' target='_blank'>Visitar página</a>");
+
+// Catamarca
+var catamarca = L.marker([-27.4861657,-66.3861678]).addTo(mymap);
+    catamarca.bindTooltip("<strong>Catamarca</strong>");
+    catamarca.bindPopup("<strong>Catamarca</strong><br><a href='https://decide.catamarca.gob.ar' target='_blank'>Visitar página</a>");
