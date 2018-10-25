@@ -430,10 +430,10 @@ var arroyomolinos = L.marker([40.2427857,-3.8664734]).addTo(mymap);
     arroyomolinos.bindTooltip("<strong>Arroyomolinos</strong>");
     arroyomolinos.bindPopup("<strong>Arroyomolinos</strong><br><span>Trabajando</span>");
 
-// Cieza
+// Ayuntamiento de Cieza
 var cieza = L.marker([38.2413028,-1.4289604]).addTo(mymap);
-    cieza.bindTooltip("<strong>Cieza</strong>");
-    cieza.bindPopup("<strong>Cieza</strong><br><span>Trabajando</span>");
+    cieza.bindTooltip("<strong>Ayuntamiento de Cieza</strong>");
+    cieza.bindPopup("<strong>Ayuntamiento de Cieza</strong><br><a href='http://decide.cieza.es' target='_blank'>Visitar página</a>");
 
 // Cabildo Insular de la Gomera
 var cab_gomera = L.marker([28.0914408,-17.1144071]).addTo(mymap);
