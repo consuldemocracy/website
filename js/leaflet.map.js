@@ -534,3 +534,8 @@ var catamarca = L.marker([-27.4861657,-66.3861678]).addTo(mymap);
 var colombia = L.marker([4.6482837,-74.2478912]).addTo(mymap);
     colombia.bindTooltip("<strong>Gobierno de Colombia</strong>");
     colombia.bindPopup("<strong>Gobierno de Colombia</strong><br><a href='https://www.pactoporcolombia.gov.co/' target='_blank'>Visitar página</a>");
+
+// IES Aixerrota BHI Getxo
+var aixerrota = L.marker([43.3664517,-3.0229836]).addTo(mymap);
+    aixerrota.bindTooltip("<strong>IES Aixerrota BHI Getxo</strong>");
+    aixerrota.bindPopup("<strong>IES Aixerrota BHI Getxo</strong><br><a href='https://consul.aixerrotabhi.eu/' target='_blank'>Visitar página</a>");
