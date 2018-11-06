@@ -529,3 +529,8 @@ var mijas = L.marker([36.5958801,-4.6759882]).addTo(mymap);
 var catamarca = L.marker([-27.4861657,-66.3861678]).addTo(mymap);
     catamarca.bindTooltip("<strong>Catamarca</strong>");
     catamarca.bindPopup("<strong>Catamarca</strong><br><a href='https://decide.catamarca.gob.ar' target='_blank'>Visitar página</a>");
+
+// Gobierno de Colombia
+var colombia = L.marker([4.6482837,-74.2478912]).addTo(mymap);
+    colombia.bindTooltip("<strong>Gobierno de Colombia</strong>");
+    colombia.bindPopup("<strong>Gobierno de Colombia</strong><br><a href='https://www.pactoporcolombia.gov.co/' target='_blank'>Visitar página</a>");

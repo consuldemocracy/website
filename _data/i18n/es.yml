@@ -207,6 +207,7 @@ organizations:
   mijas: "Ayuntamiento de Mijas"
   catamarca: "Catamarca"
   cieza: "Ayuntamiento de Cieza"
+  colombia: "Gobierno de Colombia"
 license:
   title: "Licencia"
   button: "Ver código en github"
