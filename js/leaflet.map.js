@@ -539,3 +539,8 @@ var colombia = L.marker([4.6482837,-74.2478912]).addTo(mymap);
 var aixerrota = L.marker([43.3664517,-3.0229836]).addTo(mymap);
     aixerrota.bindTooltip("<strong>IES Aixerrota BHI Getxo</strong>");
     aixerrota.bindPopup("<strong>IES Aixerrota BHI Getxo</strong><br><a href='https://consul.aixerrotabhi.eu/' target='_blank'>Visitar página</a>");
+
+// New York City
+var new_york = L.marker([40.6974034,-74.119763]).addTo(mymap);
+    new_york.bindTooltip("<strong>New York City</strong>");
+    new_york.bindPopup("<strong>New York City</strong><br><a href='https://pbnyc.participatorybudgeting.org/budgets' target='_blank'>Visitar página</a>");
