@@ -253,7 +253,7 @@ var montevideo = L.marker([-34.8210782,-56.3064783]).addTo(mymap);
 // Porto Alegre
 var portoalegre = L.marker([-30.1087957,-51.3172251]).addTo(mymap);
     portoalegre.bindTooltip("<strong>Porto Alegre</strong>");
-    portoalegre.bindPopup("<strong>Porto Alegre</strong><br>Trabajando");
+    portoalegre.bindPopup("<strong>Porto Alegre</strong><br><a href='https://opdigital.prefeitura.poa.br/' target='_blank'>Visitar página</a>");
 
 // Puerto Montt
 var puertomontt = L.marker([-41.4629843,-72.9655277]).addTo(mymap);
