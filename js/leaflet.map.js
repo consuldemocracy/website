@@ -544,3 +544,18 @@ var aixerrota = L.marker([43.3664517,-3.0229836]).addTo(mymap);
 var new_york = L.marker([40.6974034,-74.119763]).addTo(mymap);
     new_york.bindTooltip("<strong>New York City</strong>");
     new_york.bindPopup("<strong>New York City</strong><br><a href='https://pbnyc.participatorybudgeting.org/budgets' target='_blank'>Visitar página</a>");
+
+// Praia (Cabo Verde)
+var praia = L.marker([14.9364469,-23.5242391]).addTo(mymap);
+    praia.bindTooltip("<strong>Praia</strong>");
+    praia.bindPopup("<strong>Praia</strong><br><span>Trabajando</span>");
+
+// Sucre (Bolivia)
+var sucre = L.marker([-19.0206471,-65.2948116]).addTo(mymap);
+    sucre.bindTooltip("<strong>Sucre</strong>");
+    sucre.bindPopup("<strong>Sucre</strong><br><span>Trabajando</span>");
+
+// Mogadiscio (Somalia)
+var mogadiscio = L.marker([2.0592004,45.2716455]).addTo(mymap);
+    mogadiscio.bindTooltip("<strong>Mogadiscio</strong>");
+    mogadiscio.bindPopup("<strong>Mogadiscio</strong><br><span>Trabajando</span>");
