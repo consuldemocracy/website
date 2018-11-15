@@ -559,3 +559,8 @@ var sucre = L.marker([-19.0206471,-65.2948116]).addTo(mymap);
 var mogadiscio = L.marker([2.0592004,45.2716455]).addTo(mymap);
     mogadiscio.bindTooltip("<strong>Mogadiscio</strong>");
     mogadiscio.bindPopup("<strong>Mogadiscio</strong><br><span>Trabajando</span>");
+
+// Ajuntament d'Alfafar
+var alfafar = L.marker([39.4165592,-0.4071673]).addTo(mymap);
+    alfafar.bindTooltip("<strong>Ajuntament d'Alfafar</strong>");
+    alfafar.bindPopup("<strong>Ajuntament d'Alfafar</strong><br><a href='https://www.decidealfafar.es' target='_blank'>Visitar página</a>");
