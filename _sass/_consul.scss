@@ -384,6 +384,8 @@ h1 {
 
   .number {
     color: $link;
+    display: inline-block;
+    width: 60px;
   }
 
   .number-title {
