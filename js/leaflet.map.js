@@ -138,7 +138,7 @@ var talamanca = L.marker([40.73418429999999, -3.4902391000000534]).addTo(mymap);
 // Ajuntament de Tarragona
 var tarragona = L.marker([41.1188827, 1.2444908999999598]).addTo(mymap);
     tarragona.bindTooltip("<strong>Ajuntament de Tarragona</strong>");
-    tarragona.bindPopup("<strong>Ajuntament de Tarragona</strong><br><span>Trabajando</span>");
+    tarragona.bindPopup("<strong>Ajuntament de Tarragona</strong><br><a href='https://participa.tarragona.cat/' target='_blank'>Visitar página</a>");
 
 // Ayuntamiento de Toledo
 var toledo =  L.marker([39.86283160000001, -4.02732309999999]).addTo(mymap);
