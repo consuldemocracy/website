@@ -564,3 +564,9 @@ var mogadiscio = L.marker([2.0592004,45.2716455]).addTo(mymap);
 var alfafar = L.marker([39.4165592,-0.4071673]).addTo(mymap);
     alfafar.bindTooltip("<strong>Ajuntament d'Alfafar</strong>");
     alfafar.bindPopup("<strong>Ajuntament d'Alfafar</strong><br><a href='https://www.decidealfafar.es' target='_blank'>Visitar página</a>");
+
+// Universidad de Girona
+var universidad_girona = L.marker([41.9632862,2.8282376]).addTo(mymap);
+    universidad_girona.bindTooltip("<strong>Universidad de Girona</strong>");
+    universidad_girona.bindPopup("<strong>Universidad de Girona</strong><br><a href='https://som.udg.edu/' target='_blank'>Visitar página</a>");
+
