@@ -33,7 +33,7 @@ mymap.addControl(viewCenter);
 // Ayuntamiento de A Coruña
 var a_coruna = L.marker([43.365738, -8.410968]).addTo(mymap);
     a_coruna.bindTooltip("<strong>Ayuntamiento de A Coruña</strong>");
-    a_coruna.bindPopup("<strong>Ayuntamiento de A Coruña</strong><br><a href='https://aportaaberta.coruna.es/?locale=es' target='_blank'>Visitar página</a><br><a href='https://github.com/ConcelloCoruna/aportaaberta'>Código en github</a>");
+    a_coruna.bindPopup("<strong>Ayuntamiento de A Coruña</strong><br><a href='https://aportaaberta.coruna.es/?locale=es' target='_blank'>Visitar página</a><br><a href='https://github.com/ConcelloCoruna/aportaaberta' target='_blank'>Código en github</a>");
 
 // Ayuntamiento de Alicante
 var alicante = L.marker([38.345996, -0.490686]).addTo(mymap);
@@ -73,7 +73,7 @@ var carreno =  L.marker([43.361395, -5.859327]).addTo(mymap);
 // Ajuntament de Castelló
 var castellon_plana = L.marker([39.986356, -0.051325]).addTo(mymap);
     castellon_plana.bindTooltip("<strong>Ajuntament de Castelló</strong>");
-    castellon_plana.bindPopup("<strong>Ajuntament de Castelló</strong><br><a href='https://decidim.castello.es/' target='_blank'>Visitar página</a>");
+    castellon_plana.bindPopup("<strong>Ajuntament de Castelló</strong><br><a href='https://decidim.castello.es/' target='_blank'>Visitar página</a><br><a href='https://github.com/AjuntamentdeCastello/consul' target='_blank'>Código en github</a>");
 
 // Ayuntamiento de Chiloeches
 var chiloeches =  L.marker([40.5806832, -3.1880082999999786]).addTo(mymap);
@@ -103,7 +103,7 @@ var huesca =  L.marker([42.13618419999999, -0.4082190999999966]).addTo(mymap);
 // Ayuntamiento de Madrid
 var madrid =  L.marker([40.4167754, -3.7037901999999576]).addTo(mymap);
     madrid.bindTooltip("<strong>Ayuntamiento de Madrid</strong>");
-    madrid.bindPopup("<strong>Ayuntamiento de Madrid</strong><br><a href='https://decide.madrid.es' target='_blank'>Visitar página</a><br><a href='https://github.com/AyuntamientoMadrid/consul'>Código en github</a>");
+    madrid.bindPopup("<strong>Ayuntamiento de Madrid</strong><br><a href='https://decide.madrid.es' target='_blank'>Visitar página</a><br><a href='https://github.com/AyuntamientoMadrid/consul' target='_blank'>Código en github</a>");
 
 // Ayuntamiento de Oviedo
 var oviedo =  L.marker([43.3619145, -5.848425328731537]).addTo(mymap);
@@ -193,7 +193,7 @@ var universidad_complutense = L.marker([40.4478246, -3.7285871999999927]).addTo(
 // La Libertad
 var lalibertad = L.marker([-7.9637949, -78.8495556]).addTo(mymap);
     lalibertad.bindTooltip("<strong>La Libertad</strong>");
-    lalibertad.bindPopup("<strong>La Libertad</strong><br><a href='http://www.decidelalibertad.pe/' target='_blank'>Visitar página</a>");
+    lalibertad.bindPopup("<strong>La Libertad</strong><br><a href='http://www.decidelalibertad.pe/' target='_blank'>Visitar página</a><br><a href='https://github.com/lalibertad/consul' target='_blank'>Código en github</a>");
 
 // Ayuntamiento de Molina de Segura
 var molinadesegura = L.marker([38.0591761, -1.2276177]).addTo(mymap);
@@ -213,7 +213,7 @@ var valladolid = L.marker([41.651113, -4.7273606]).addTo(mymap);
 // Ayuntamiento de Zamora
 var zamora = L.marker([41.5038406, -5.7620456]).addTo(mymap);
     zamora.bindTooltip("<strong>Ayuntamiento de Zamora</strong>");
-    zamora.bindPopup("<strong>Ayuntamiento de Zamora</strong><br><a href='https://zamoraparticipa.com/' target='_blank'>Visitar página</a>");
+    zamora.bindPopup("<strong>Ayuntamiento de Zamora</strong><br><a href='https://zamoraparticipa.com/' target='_blank'>Visitar página</a><br><a href='https://github.com/jaam1974/consul' target='_blank'>Código en github</a>");
 
 // Ayuntamiento de Cheste
 var cheste = L.marker([39.4944628,-0.6897149]).addTo(mymap);
@@ -266,9 +266,9 @@ var quito = L.marker([-0.1865938,-78.5706226]).addTo(mymap);
     quito.bindPopup("<strong>Quito</strong><br><a href='http://www.decide.quito.gob.ec/' target='_blank'>Visitar página</a>");
 
 // Torino
-var torino = L.marker([45.0701176,7.6000499]).addTo(mymap);
+var torino = L.marker([45.0701176,7.600049]).addTo(mymap);
     torino.bindTooltip("<strong>Torino</strong>");
-    torino.bindPopup("<strong>Torino</strong><br><a href='https://deciditorino.it/' target='_blank'>Visitar página</a>");
+    torino.bindPopup("<strong>Torino</strong><br><a href='https://deciditorino.it/' target='_blank'>Visitar página</a><br><a href='https://github.com/csipiemonte/consul' target='_blank'>Código en github</a>");
 
 // Gwangju
 var gwangju = L.marker([35.176695,126.8087806]).addTo(mymap);
@@ -508,7 +508,7 @@ var tudela_duero = L.marker([41.5835921,-4.5820784]).addTo(mymap);
 // Diputación de Valladolid
 var dip_valladolid = L.marker([41.6566896,-4.7244242]).addTo(mymap);
     dip_valladolid.bindTooltip("<strong>Diputación de Valladolid</strong>");
-    dip_valladolid.bindPopup("<strong>Diputación de Valladolid</strong><br><a href='http://participa.diputaciondevalladolid.es/' target='_blank'>Visitar página</a>");
+    dip_valladolid.bindPopup("<strong>Diputación de Valladolid</strong><br><a href='http://participa.diputaciondevalladolid.es/' target='_blank'>Visitar página</a><br><a href='https://github.com/DipVa/consul' target='_blank'>Código en github</a>");
 
 // Kranjska Gora (Eslovenia)
 var kranjska = L.marker([46.4604035,13.700742]).addTo(mymap);
