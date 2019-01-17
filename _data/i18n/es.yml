@@ -212,6 +212,7 @@ organizations:
   pbnyc: "Ciudad de New York"
   alfafar: "Ajuntament d'Alfafar"
   universidad_girona: "Universidad de Girona"
+  tirana: "Ciudad de Tirana"
 license:
   title: "Licencia"
   button: "Ver código en github"

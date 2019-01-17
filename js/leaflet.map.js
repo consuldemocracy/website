@@ -485,10 +485,10 @@ var sannicolas = L.marker([-33.6313883,-60.7136]).addTo(mymap);
     sannicolas.bindTooltip("<strong>San Nicolás</strong>");
     sannicolas.bindPopup("<strong>San Nicolás</strong><br><span>Trabajando</span>");
 
-// Tirana
+// Bashkia tirane (Tirana, Albania)
 var tirana = L.marker([41.3310413,19.782803]).addTo(mymap);
     tirana.bindTooltip("<strong>Tirana</strong>");
-    tirana.bindPopup("<strong>Tirana</strong><br><span>Trabajando</span>");
+    tirana.bindPopup("<strong>Tirana</strong><br><a href='http://merrpjese.tirana.al' target='_blank'>Visitar página</a><br><a href='https://github.com/eneoshoshari/consul/' target='_blank'>Código en github</a>");
 
 // Veracruz
 var veracruz = L.marker([19.7955228,-98.3889]).addTo(mymap);
