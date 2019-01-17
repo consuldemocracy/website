@@ -4,7 +4,7 @@
  * https://github.com/elidupuis/leaflet.zoomfs
  */
 L.Control.ZoomFS = L.Control.Zoom.extend({
-  includes: L.Mixin.Events,
+  includes: L.Evented,
   onAdd: function (map) {
     var zoomName = 'leaflet-control-zoom',
         barName = 'leaflet-bar',
