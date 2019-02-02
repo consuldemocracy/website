@@ -429,7 +429,6 @@ h1 {
     opacity: 0.75;
 
     &:hover {
-      cursor: pointer;
       filter: none;
       -webkit-filter: none;
       opacity: 1;
@@ -442,10 +441,10 @@ h1 {
 // 05. Map
 // ------------------------
 
-#mapid {
+#map {
   height: 500px;
-  margin-bottom: $line-height;
   z-index: 99;
+  background: linear-gradient(135deg, #131618 0%, #3a778b 100%);
 }
 
 .leaflet-control-fullscreen {

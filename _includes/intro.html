@@ -14,11 +14,13 @@
     <div class="col-6">
       <div class="row">
         <div class="col-12">
-          <span class="number">{{ site.data.i18n[page.locale].intro.countries_number }}</span>
+          {% assign countries = site.data.organizations | group_by: 'country' %}
+          <span class="number">{{ countries.size }}</span>
           <span class="number-title">{{ site.data.i18n[page.locale].intro.countries }}</span>
         </div>
         <div class="col-12">
-          <span class="number">{{ site.data.i18n[page.locale].intro.institutions_number }}</span>
+          {% assign sorted_organizations = site.data.organizations | sort: 'name' %}
+          <span class="number">{{ sorted_organizations.size }}</span>
           <span class="number-title">{{ site.data.i18n[page.locale].intro.institutions }}</span>
         </div>
         <div class="col-12">
