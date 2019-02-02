@@ -1,11 +1,4 @@
 <section>
-  <div class="container">
-    <div class="row margin-bottom">
-      {% assign sorted_organizations = site.data.organizations | sort: 'name' %}
-      <h2>{{ site.data.i18n[page.locale].organizations.title }} {{sorted_organizations.size }} {{ site.data.i18n[page.locale].organizations.name }}</h2>
-    </div>
-  </div>
-
   <div class="organizations">
     <div class="container">
       <div class="row">

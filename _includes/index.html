@@ -1,5 +1,9 @@
 <div class="container">
-  <h2>{{ site.data.i18n[page.locale].tagline }}</h2>
+    <div class="row">
+        <div class="documentation col-12 text-center">
+          <h2>{{ site.data.i18n[page.locale].tagline }}</h2>
+        </div>
+    </div>
 </div>
 
 
@@ -14,9 +18,16 @@
 <div class="container">
   {% include documentation.html %}
 </div>
-
+  
 <div class="container">
   {% include features.html %}
+</div>
+
+<div class="container">
+    <div class="row margin-bottom center">
+      {% assign sorted_organizations = site.data.organizations | sort: 'name' %}
+      <h2>{{ site.data.i18n[page.locale].organizations.title }} {{sorted_organizations.size }} {{ site.data.i18n[page.locale].organizations.name }}</h2>
+    </div>
 </div>
 
 {% include map.html %}
