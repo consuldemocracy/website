@@ -18,7 +18,7 @@ $(document).ready(function () {
     collection.filter(function (a) {
       //console.log(a.id);
       //console.log(feature);
-      return a.id.toLowerCase() == feature.id.toLowerCase
+      return a.id.toLowerCase() == feature.id.toLowerCase;
     })[0];
   }
   function showMap(cfallOrgs) {
@@ -83,7 +83,7 @@ $(document).ready(function () {
         $('#map-info').html('<em>' + layer.feature.properties.name + '</em>');
       } else {
         layer.setStyle({
-          color: '#3273dc'
+          color: '#00a8e1'
         });
 
         if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
