@@ -41,8 +41,13 @@ header,
 nav,
 section {
   margin:0;
-  padding:0;
+  padding: 0;
   border:0;
+  &.container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
 }
 
 body {

@@ -1,13 +1,14 @@
 <div id="contact" class="row">
-  <div class="col-6">
+  <div class="col-12">
     <h2>{{ site.data.i18n[page.locale].contact.title }}</h2>
-    <p>{{ site.data.i18n[page.locale].contact.text }}</p>
   </div>
-  <div class="col-6 text-center">
-    <button class="button secondary" type="button">
-      <a href="mailto:info@consulproject.nl">
-        {{ site.data.i18n[page.locale].contact.button }}
-      </a>
-    </button>
+</div>
+<div id="contact" class="row">
+  <div class="col-8">
+    <p>{{ site.data.i18n[page.locale].contact.text }}</p>
+  </div><div class="col-4">
+    <a class="button secondary" type="button" href="mailto:info@consulproject.nl">
+      {{ site.data.i18n[page.locale].contact.button }}
+  </a>
   </div>
 </div>
