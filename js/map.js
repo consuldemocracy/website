@@ -3,11 +3,10 @@ $(document).ready(function () {
   $.getJSON("/organizations.geojson", function (orgs){
     orgs.features.forEach(function (org) {
       org.properties.icon = {
-          iconSize: [60, 60],
-          shadowSize: [60, 60],
           className: 'marker',
-          iconUrl: org.properties.logo,
-          iconAnchor: [0, 25]
+          iconUrl: '/img/map/marker-icon.png',
+          iconSize: [24,24],
+          iconAnchor: [12, 12]
       };
     });
     showMap(orgs);
@@ -41,7 +40,7 @@ $(document).ready(function () {
     var map = L.map('map', options).setView(latlon, zoom);
 
     function iconOptions(feature) {
-      return Object.assign(options, { title: feature.properties.name });
+      return Object.assign(options, { icon: L.icon(feature.properties.icon), title: feature.properties.name });
     };
 
     function worldStyle(feature) {
