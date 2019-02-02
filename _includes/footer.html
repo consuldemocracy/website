@@ -1,12 +1,12 @@
-<div class="container footer">
+<div class="container footer" style="color: #fff !important;">
   <div class="row">
     <div class="col-8">
-      <h2>{{ site.data.i18n[page.locale].footer.title }}</h2>
+      <img src="/img/consul_logo.svg" alt="{{ site.data.i18n[page.locale].footer.organisation_alt }}">
       <p>
         {{ site.data.i18n[page.locale].footer.description }}<br>
       </p>
+      <small>{{ site.data.i18n[page.locale].footer.organisation }} {{ 'now' | date: "%Y" }}.</small>
     </div>
-
     <div class="col-4 text-right">
       <ul>
         <li>
@@ -21,12 +21,5 @@
         </li>
       </ul>
     </div>
-  </div>
-</div>
-<div class="container-fluid" style="background-color:#f5f7fc;padding:2em;">
-  <div class="text-center margin-top">
-    <img src="/img/consul_logo.svg" alt="{{ site.data.i18n[page.locale].footer.organisation_alt }}">
-    <br>
-    <small>{{ site.data.i18n[page.locale].footer.organisation }} {{ 'now' | date: "%Y" }}.</small>
   </div>
 </div>

@@ -122,6 +122,16 @@ header {
   }
 }
 
+footer {
+  background: #36424a;
+  background: -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+  background: -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+  background: linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36424a', endColorstr='#3a778b',GradientType=1 );
+  position: relative;
+  color: #fff !important;
+}
+
 nav {
   line-height: $line-height * 2;
   padding-top: $line-height;
@@ -527,7 +537,7 @@ h1 {
   }
 
   img {
-    max-width: $line-height * 12;
+    max-width: 100%;
   }
 
   .row {
@@ -583,15 +593,8 @@ h1 {
 // ------------------------
 
 .contact {
-  background: #36424a;
-  background: -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
-  background: -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
-  background: linear-gradient(135deg, #36424a 0%,#3a778b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36424a', endColorstr='#3a778b',GradientType=1 );
   padding: $line-height 0;
 
-  h2,
-  p,
   a {
     color: #fff;
   }
@@ -612,10 +615,6 @@ h1 {
     padding: $line-height / 2;
     margin: 0 auto $line-height;
     display: inline-block;
-
-    &:not(:last-child) {
-      margin-right: $line-height / 2;
-    }
   }
 
   .docs-info {
@@ -675,6 +674,7 @@ h1 {
 // ------------------------
 
 .footer {
+  
   padding: $line-height 0;
 
   ul {
