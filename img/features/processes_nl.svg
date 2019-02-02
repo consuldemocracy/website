@@ -29,10 +29,10 @@
                     <polygon id="Triangle-3" fill="#00A8E1" fill-rule="nonzero" transform="translate(59.538461, 132.769231) rotate(90.000000) translate(-59.538461, -132.769231) " points="59.5384614 125.846154 67.2307691 139.692308 51.8461537 139.692308"></polygon>
                 </g>
                 <text id="How-do-PROCESSES-wor" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold" line-spacing="30">
-                    <tspan x="21" y="68" fill="#333447">Hoe werken</tspan>
-                    <tspan x="21" y="98" fill="#00A8E1">Processen</tspan>
+                    <tspan x="21" y="68" fill="#333447">Concepten</tspan>
+                    <tspan x="21" y="98" fill="#00A8E1">transparant</tspan>
                     <tspan x="152.532" y="98" fill="#333447"></tspan>
-                    <tspan x="21" y="128" fill="#333447">in CONSUL?</tspan>
+                    <tspan x="21" y="128" fill="#333447">bespreken</tspan>
                 </text>
             </g>
         </g>
