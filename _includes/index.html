@@ -1,8 +1,7 @@
-<div class="highlight">
-  <div class="container">
-    <h2>{{ site.data.i18n[page.locale].tagline }}</h2>
-  </div>
+<div class="container highlight">
+  <h2>{{ site.data.i18n[page.locale].tagline }}</h2>
 </div>
+
 
 <div class="container margin">
   {% include intro.html %}
@@ -22,15 +21,10 @@
 
 {% include map.html %}
 
-<div class="highlight">
+<div class="container highlight">
   {% include organizations.html %}
 </div>
 
-
-
-
-<div class="contact">
-  <div class="container">
+<div class="container contact">
     {% include contact.html %}
-  </div>
 </div>

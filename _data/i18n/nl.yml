@@ -90,8 +90,8 @@ polls:
   image_alt: "Voting page"
   video: "Watch polls video"
 legislation:
-  title: "Collaborative Legislation"
-  description: "Any legislative text can be shared with the public to receive comments on any particular part of it. The comments are associated with the discussed parts using a color code, which allows an easy visualization of improvable parts. It also enables the creation of related debates previous to the text drafting, for better subsequent development."
+  title: "Concepten bespreken"
+  description: "Met CONSUL is het mogelijk op een transparante manier concepten te delen om commentaar, opmerkingen en verbeteringen te inventariseren en verzamelen. Vroegtijdig anderen betrekken zorgt voor betere formele documenten, bijvoorbeeld bij overheden."
   feature_1: "Associable comments from words to whole sections."
   feature_2: "Color system graded by number of comments for easy monitoring them."
   feature_3: "Widely configurable previous discussions."

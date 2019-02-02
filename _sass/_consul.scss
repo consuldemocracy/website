@@ -122,6 +122,16 @@ header {
   }
 }
 
+footer {
+  background: #36424a;
+  background: -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+  background: -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+  background: linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36424a', endColorstr='#3a778b',GradientType=1 );
+  position: relative;
+  color: #fff !important;
+}
+
 nav {
   line-height: $line-height * 2;
   padding-top: $line-height;
@@ -296,23 +306,26 @@ h1 {
 }
 
 .locale-selector {
-  border: 1px solid black;
   position: absolute;
-  right: 14px;
+  right: 1em;
   top: -1px;
 
   a {
-    color: black;
-    padding: 0 $line-height/2;
+    color: #00a8e1;
+    border: 1px solid #00a8e1;
+    padding: .4em;
+    margin: 0;
     text-transform: uppercase;
-
-    &:first-child {
-      border-right: 1px solid black;
-    }
 
     &.active {
       font-weight: bold;
-      text-decoration: underline;
+      background-color: #00a8e1;
+      color: #fff;
+      border: 1px solid transparent;
+    }
+    &:hover {
+      background-color: #00a8e1;
+      color: #fff;
     }
   }
 }
@@ -385,7 +398,6 @@ h1 {
   .number {
     color: $link;
     display: inline-block;
-    width: 60px;
   }
 
   .number-title {
@@ -525,7 +537,7 @@ h1 {
   }
 
   img {
-    max-width: $line-height * 12;
+    max-width: 100%;
   }
 
   .row {
@@ -581,15 +593,8 @@ h1 {
 // ------------------------
 
 .contact {
-  background: #36424a;
-  background: -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
-  background: -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
-  background: linear-gradient(135deg, #36424a 0%,#3a778b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36424a', endColorstr='#3a778b',GradientType=1 );
   padding: $line-height 0;
 
-  h2,
-  p,
   a {
     color: #fff;
   }
@@ -610,10 +615,6 @@ h1 {
     padding: $line-height / 2;
     margin: 0 auto $line-height;
     display: inline-block;
-
-    &:not(:last-child) {
-      margin-right: $line-height / 2;
-    }
   }
 
   .docs-info {
@@ -673,6 +674,7 @@ h1 {
 // ------------------------
 
 .footer {
+  
   padding: $line-height 0;
 
   ul {
