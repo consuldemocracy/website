@@ -1,19 +1,53 @@
 ---
-layout: application
+layout: default
 locale: en
 ---
 
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL='/nl'" />
+    <!--<meta http-equiv="refresh" content="0;" />-->
+    <script>
+      var sitelang = ['en','fr','es','nl']
+      var getFirstBrowserLanguage = function () {
+        var nav = window.navigator,
+        browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'],
+        i,
+        language;
+
+        // support for HTML 5.1 "navigator.languages"
+        if (Array.isArray(nav.languages)) {
+          for (i = 0; i < nav.languages.length; i++) {
+            language = nav.languages[i];
+            if (language && language.length) {
+              return language;
+            }
+          }
+        }
+
+        // support for other well known properties in browsers
+        for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
+          language = nav[browserLanguagePropertyKeys[i]];
+          if (language && language.length) {
+            return language;
+          }
+        }
+
+        return null;
+      };
+      var detected = getFirstBrowserLanguage();
+      if (sitelang.indexOf(detected) > -1){
+        window.location = "/" + detected;
+      } else {
+        window.location = "/en";
+      }
+    </script>
   </head>
   <body>
   <div class="row margin page">
     <div class="small-12 column">
       <div class="callout success">
         Je wordt automatisch door geleid, gebeurt dat niet? Klik dan op <a href="/nl">deze link</a>.
-        <script>window.location = "/nl";</script>
-      </div>)
+      </div>
     </div>
   </div>
   </body>
