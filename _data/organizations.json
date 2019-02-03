@@ -31,37 +31,43 @@
         "latitude": 39.420344,
         "longitude": -0.790133,
         "name": "Ayuntamiento de Buñol",
-        "logo": "/img/logos/bunol.png"
+        "logo": "/img/logos/bunol.png",
+        "country": "es"
     },{
         "latitude": 36.527061,
         "longitude": -6.288596,
         "name": "Ayuntamiento de Cádiz",
-        "logo": "/img/logos/cadiz.png"
+        "logo": "/img/logos/cadiz.png",
+        "country": "es"
     },{ 
         "latitude": 39.565348, 
         "longitude": 2.503368,
         "name": "Ajuntament de Calvià",
         "consul_website": "https://www.participacalvia.es",
-        "logo": "/img/logos/calvia.png"
+        "logo": "/img/logos/calvia.png",
+        "country": "es"
     },{
         "latitude": 43.361395, 
         "longitude": -5.859327,
         "name":"Ayuntamiento de Carreño",
         "consul_website": "https://decide.carreno.es",
-        "logo": "/img/logos/carreno.png"
+        "logo": "/img/logos/carreno.png",
+        "country": "es"
     },{
         "latitude": 39.986356, 
         "longitude": -0.051325,
         "name": "Ajuntament de Castelló",
         "consul_website": "https://decidim.castello.es",
         "source": "https://github.com/AjuntamentdeCastello/consul",
-        "logo": "/img/logos/castellon_plana.png"
+        "logo": "/img/logos/castellon_plana.png",
+        "country": "es"
     },{
         "latitude": 40.5806832, 
         "longitude": -3.1880082999999786,
         "name": "Ayuntamiento de Chiloeches",
         "consul_website": "https://decide.aytochiloeches.es/",
-        "logo": "/img/logos/chiloeches.png"
+        "logo": "/img/logos/chiloeches.png",
+        "country": "es"
     },{
         "latitude": 40.1402985, 
         "longitude": -3.611649400000033,
@@ -72,7 +78,8 @@
         "longitude": -3.7325855000000274,
         "name":"Ayuntamiento de Getafe",
         "consul_website": "https://participa.getafe.es",
-        "logo": "/img/logos/getafe.png"
+        "logo": "/img/logos/getafe.png",
+        "country": "es"
     },{
         "latitude": 41.7086972, 
         "longitude": -2.7182728000000225,
@@ -83,42 +90,49 @@
         "longitude": -0.4082190999999966,
         "name": "Ayuntamiento de Huesca",
         "consul_website": "http://participa.huesca.es",
-        "logo": "/img/logos/huesca.png"
+        "logo": "/img/logos/huesca.png",
+        "country": "es"
     },{
         "latitude": 40.4167754, 
         "longitude": -3.7037901999999576,
         "name": "Ayuntamiento de Madrid",
         "consul_website": "https://decide.madrid.es",
         "source": "https://github.com/AyuntamientoMadrid/consul",
-        "logo": "/img/logos/madrid.png"
+        "logo": "/img/logos/madrid.png",
+        "country": "es"
     }, {
         "latitude": 43.3619145, 
         "longitude": -5.848425328731537,
         "name": "Ayuntamiento de Oviedo",
         "consul_website": "http://www.consultaoviedo.es",
-        "logo": "/img/logos/oviedo.png"
+        "logo": "/img/logos/oviedo.png",
+        "country": "es"
     },{
         "latitude": 39.5696005, 
         "longitude": 2.6501603000000387,
         "name": "Ajuntament de Palma de Mallorca",
         "consul_website": "https://tufas.palma.cat",
-        "logo": "/img/logos/palma_mallorca.png"
+        "logo": "/img/logos/palma_mallorca.png",
+        "country": "es"
     },{
         "latitude": 48.85661400000001, 
         "longitude": 2.3522219000000177,
         "name": "París (RIVP)",
         "consul_website": "https://budget-participatif.rivp.fr/budgets",
-        "logo": "/img/logos/rivp.png"
+        "logo": "/img/logos/rivp.png",
+        "country": "fr"
     },{
         "latitude": 40.5589672, 
         "longitude": -3.6261976000000686,
         "name": "Ayuntamiento de San Sebastián de los Reyes",
-        "logo": "/img/logos/san_sebastian_reyes.png"
+        "logo": "/img/logos/san_sebastian_reyes.png",
+        "country": "es"
     },{
         "latitude": 41.2558303, 
         "longitude": 1.8611011000000417,
         "name": "Ajuntament de Sitges",
-        "logo": "/img/logos/sitges.png"
+        "logo": "/img/logos/sitges.png",
+        "country": "es"
     },{
         "latitude": 40.73418429999999, 
         "longitude": -3.4902391000000534,
@@ -129,13 +143,15 @@
         "longitude": 1.2444908999999598,
         "name": "Ajuntament de Tarragona",
         "consul_website": "https://participa.tarragona.cat",
-        "logo": "/img/logos/tarragona.png"
+        "logo": "/img/logos/tarragona.png",
+        "country": "es"
     },{
         "latitude": 39.86283160000001, 
         "longitude": -4.02732309999999,
         "name": "Ayuntamiento de Toledo",
         "consul_website": "https://participa.toledo.es",
-        "logo": "/img/logos/toledo.png"
+        "logo": "/img/logos/toledo.png",
+        "country": "es"
     },{
         "latitude": 40.5030007, 
         "longitude": -4.049107700000036,
@@ -146,7 +162,8 @@
         "longitude": -0.3762881000000107,
         "name": "Ayuntamiento de Valencia",
         "consul_website": "https://decidimvlc.valencia.es",
-        "logo": "/img/logos/valencia.png"
+        "logo": "/img/logos/valencia.png",
+        "country": "es"
     },{
         "latitude": -34.60368440000001,
         "longitude": -58.381559100000004,
@@ -207,7 +224,8 @@
         "longitude": -6.1934328,
         "name": "Ayuntamiento de Puerto Real",
         "consul_website": "https://decide.puertoreal.es",
-        "logo": "/img/logos/puerto_real.png"
+        "logo": "/img/logos/puerto_real.png",
+        "country": "es"
     },{
         "latitude": 41.651113,
         "longitude": -4.7273606,
@@ -346,7 +364,8 @@
     },{
         "latitude": 36.6262107,
         "longitude":-4.5359552,
-        "name": "Torremolinos"
+        "name": "Torremolinos",
+        "country": "es"
     },{
         "latitude": 37.7413063,
         "longitude":-0.9620597,
@@ -463,7 +482,8 @@
         "longitude":-5.8255479,
         "name": "Ayuntamiento de Arcos de la Frontera",
         "consul_website": "http://decidearcos.es",
-        "logo": "/img/logos/arcos_de_la_frontera.png"
+        "logo": "/img/logos/arcos_de_la_frontera.png",
+        "country": "es"
     },{
         "latitude": 43.280974, 
         "longitude":-8.469744,
@@ -497,11 +517,13 @@
     },{
         "latitude": 36.7199549,
         "longitude":-4.4182814,
-        "name": "Universidad de Málaga"
+        "name": "Universidad de Málaga",
+        "country": "es"
     },{
         "latitude": 41.6590236,
         "longitude":-0.9000049,
-        "name": "Universidad de Zaragoza"
+        "name": "Universidad de Zaragoza",
+        "country": "es"
     },{
         "latitude": 38.8794416,
         "longitude":-7.022698,
