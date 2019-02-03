@@ -180,7 +180,8 @@
         "longitude": -77.35793999999999,
         "name": "Nariño",
         "consul_website": "https://ganapienso.narino.gov.co",
-        "logo": "/img/logos/narino.png"
+        "logo": "/img/logos/narino.png",
+        "country": "co"
     },{
         "latitude": 40.4478246, 
         "longitude": -3.7285871999999927,
@@ -192,7 +193,8 @@
         "name": "La Libertad",
         "consul_website": "http://www.decidelalibertad.pe",
         "source": "https://github.com/lalibertad/consul",
-        "logo": "/img/logos/la_libertad.png"
+        "logo": "/img/logos/la_libertad.png",
+        "country": "pe"
     },{
         "latitude": 38.0591761,
         "longitude": -1.2276177,
@@ -233,7 +235,8 @@
         "latitude": 20.6737883,
         "longitude":-103.3704326,
         "name": "Guadalajara",
-        "logo": "/img/logos/guadalajara.png"
+        "logo": "/img/logos/guadalajara.png",
+        "country": "mx"
     },{
         "latitude": 20.834412,
         "longitude":-104.7241366,
@@ -251,7 +254,8 @@
         "latitude": 9.9399955,
         "longitude":-84.0285016,
         "name": "Montes de Oca",
-        "logo": "/img/logos/montes_de_oca.png"
+        "logo": "/img/logos/montes_de_oca.png",
+        "country": "cr"
     },{
         "latitude": -34.8210782,
         "longitude":-56.3064783,
@@ -270,7 +274,8 @@
         "latitude": -41.4629843,
         "longitude":-72.9655277,
         "name": "Puerto Montt",
-        "logo": "/img/logos/puerto_montt.png"
+        "logo": "/img/logos/puerto_montt.png",
+        "countr": "cl"
     },{
         "latitude": -0.1865938,
         "longitude":-78.5706226,
@@ -290,7 +295,8 @@
         "latitude": 35.176695,
         "longitude":126.8087806,
         "name": "Gwangju",
-        "logo": "/img/logos/gwangju.png"
+        "logo": "/img/logos/gwangju.png",
+        "country": "kr"
     },{
         "latitude": 43.3618474,
         "longitude":-8.4477032,
@@ -316,7 +322,8 @@
         "latitude": 8.3013227,
         "longitude":-83.1524706,
         "name": "Barú",
-        "logo": "/img/logos/baru.png"
+        "logo": "/img/logos/baru.png",
+        "country": "cr"
     },{
         "latitude": 37.6174104,
         "longitude":-1.006017,
@@ -401,7 +408,8 @@
         "latitude": -16.5205361,
         "longitude":-68.1941173,
         "name": "Municipio de La Paz",
-        "logo": "/img/logos/la_paz.png"
+        "logo": "/img/logos/la_paz.png",
+        "country": "bo"
     },{
         "latitude": 28.4636135,
         "longitude":-16.2870514,
@@ -472,7 +480,8 @@
     },{
         "latitude": 28.0914408,
         "longitude":-17.1144071,
-        "name": "Cabildo Insular de la Gomera"
+        "name": "Cabildo Insular de la Gomera",
+        "logo": "/img/logos/marchamalo.png"
     },{
         "latitude": 41.7671522,
         "longitude":-2.4920886,
@@ -504,7 +513,8 @@
     },{
         "latitude": 6.268844,
         "longitude":-75.666432,
-        "name": "Medellín"
+        "name": "Medellín",
+        "country": "co"
     },{
         "latitude": -33.6313883,
         "longitude":-60.7136,
@@ -520,17 +530,20 @@
     },{
         "latitude": 19.7955228,
         "longitude":-98.3889,
-        "name": "Veracruz"
+        "name": "Veracruz",
+        "country": "mx"
     },{
         "latitude": 40.6686813,
         "longitude":-3.2115238,
         "name": "Ayuntamiento de Marchamalo",
-        "consul_website": "https://decide.marchamalo.es"
+        "consul_website": "https://decide.marchamalo.es",
+        "logo": "/img/logos/marchamalo.png"
     },{
         "latitude": 41.5835921,
         "longitude":-4.5820784,
         "name": "Ayuntamiento de Tudela de Duero",
-        "consul_website": "https://participatudela.ayuntamientosdevalladolid.es"
+        "consul_website": "https://participatudela.ayuntamientosdevalladolid.es",
+        "logo": "/img/logos/tudela_duero.png"
     },{
         "latitude": 41.6566896,
         "longitude":-4.7244242,
@@ -541,7 +554,8 @@
         "latitude": 46.4604035,
         "longitude":13.700742,
         "name": "Kranjska Gora",
-        "consul_website": "https://sodeluj.es"
+        "consul_website": "https://sodeluj.es",
+        "country": "si"
     },{
         "latitude": 27.7655635,
         "longitude":-18.0211811,
