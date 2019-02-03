@@ -563,12 +563,6 @@
         "logo": "/img/logos/tirana.png",
         "country": "al"
     },{
-        "latitude": 19.7955228,
-        "longitude":-98.3889,
-        "name": "Veracruz",
-        "country": "mx",
-        "logo": "/img/logos/veracruz.png"
-    },{
         "latitude": 40.6686813,
         "longitude":-3.2115238,
         "name": "Ayuntamiento de Marchamalo",
