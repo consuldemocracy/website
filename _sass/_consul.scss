@@ -49,6 +49,13 @@ section {
   }
 
 }
+.map-highlight {
+  img {
+    opacity: 1 !important;
+    transition: filter 0.25s;
+    transition: opacity 0.25s;
+  }
+}
 
 body {
   padding-bottom:200px;

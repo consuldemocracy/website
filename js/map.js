@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  console.log("document ready");
   $.getJSON("/organizations.geojson", function (orgs){
     orgs.features.forEach(function (org) {
       org.properties.icon = {
@@ -15,12 +14,10 @@ $(document).ready(function () {
 
   function hasMatch(feature, collection) {
     collection.filter(function (a) {
-      //console.log(a.id);
-      //console.log(feature);
       return a.id.toLowerCase() == feature.id.toLowerCase;
     })[0];
   }
-  function showMap(cfallOrgs) {
+  function showMap(orgs) {
     // codeforamerica.j113mi4d - code for all
     // codeforamerica.map-hhckoiuj - brigade
     var worldLayer;
@@ -63,6 +60,13 @@ $(document).ready(function () {
         $('#' + layer.feature.id.toLowerCase()).addClass("map-highlight");
       } else {
         map.fitBounds(layer.getBounds());
+        if($("." + layer.feature.properties.iso2).length > 0) {
+          $('.org-card').hide();
+          $("." + layer.feature.properties.iso2).show();
+        } else {
+          $('.org-card').show();
+        }
+        
       }
     }
 
@@ -78,8 +82,7 @@ $(document).ready(function () {
     function highlightFeature(e) {
       var layer = e.target;
       if (layer.feature.id) {
-        $('#' + layer.feature.id.toLowerCase()).addClass("map-highlight");
-        $('#map-info').html('<em>' + layer.feature.properties.name + '</em>');
+        $('#' + layer.feature.id).clone().appendTo("#map-info");
       } else {
         layer.setStyle({
           color: '#00a8e1'
@@ -88,9 +91,7 @@ $(document).ready(function () {
         if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
           layer.bringToFront();
         }
-        $('#map-info').html('<i>' + layer.feature.properties.NAME + '</i>');
       }
-
     }
 
     function onEachFeature(feature, layer) {
@@ -103,15 +104,21 @@ $(document).ready(function () {
 
     // Add the worldmap
     $.getJSON(base_url + 'worldmap.geojson', function (response) {
-      worldLayer = L.geoJSON(response, { style: worldStyle, onEachFeature: onEachFeature }).addTo(map);
+      worldLayer = L.geoJSON(response, { 
+        style: worldStyle, 
+        onEachFeature: onEachFeature 
+      }).addTo(map);
     });
 
-    featureLayer = L.geoJSON(cfallOrgs, {
+    featureLayer = L.geoJSON(orgs, {
       pointToLayer: function (feature, latlng) {
-        return L.marker(latlng, iconOptions(feature)).on('click', () => {window.location.href = feature.properties.website});
+        if(feature.properties.consul_website){
+          return L.marker(latlng, iconOptions(feature)).on('click', () => {window.open(feature.properties.consul_website)});
+        } else {
+          return L.marker(latlng, iconOptions(feature));
+        }
       }, onEachFeature: onEachFeature
     }).addTo(map);
-    //map.fitBounds(featureLayer.getBounds());
   };
 
 });

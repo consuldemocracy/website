@@ -152,7 +152,8 @@
         "longitude": -58.381559100000004,
         "name":"Buenos Aires",
         "consul_website": "https://baelige.buenosaires.gob.ar",
-        "logo": "/img/logos/buenos_aires.png"
+        "logo": "/img/logos/buenos_aires.png",
+        "country": "ar"
     },{
         "latitude": 27.9732236, 
         "longitude": -15.7010391,
@@ -230,7 +231,8 @@
         "latitude": -31.399401,
         "longitude":-64.2643837,
         "name": "Córdoba",
-        "logo": "/img/logos/cordoba.png"
+        "logo": "/img/logos/cordoba_ar.png",
+        "country": "ar"
     },{
         "latitude": 20.6737883,
         "longitude":-103.3704326,
@@ -275,14 +277,14 @@
         "longitude":-72.9655277,
         "name": "Puerto Montt",
         "logo": "/img/logos/puerto_montt.png",
-        "countr": "cl"
+        "country": "cl"
     },{
         "latitude": -0.1865938,
         "longitude":-78.5706226,
         "name": "Quito",
         "consul_website": "http://www.decide.quito.gob.ec",
         "logo": "/img/logos/quito.png",
-        "country": "eq"
+        "country": "ec"
     },{
         "latitude": 45.0701176,
         "longitude":7.600049,
@@ -420,7 +422,8 @@
         "latitude": -39.2595572,
         "longitude":-62.742406,
         "name": "Municipio de Bahía Blanca",
-        "logo": "/img/logos/bahia_blanca.png"
+        "logo": "/img/logos/bahia_blanca.png",
+        "country": "ar"
     },{
         "latitude": 35.8984802,
         "longitude":14.5044102,
@@ -440,7 +443,7 @@
         "longitude":2.3660783,
         "name": "Departamento de Aude",
         "consul_website": "http://cdj.aude.fr",
-        "logo": "/img/logos/guatemala.png",
+        "logo": "/img/logos/aude.png",
         "country": "fr"
     },{
         "latitude": -32.8439715,
@@ -469,7 +472,8 @@
     },{
         "latitude": 40.2427857,
         "longitude":-3.8664734,
-        "name": "Arroyomolinos"
+        "name": "Arroyomolinos",
+        "logo": "/img/logos/arroyomolinos.png"
     },{
         "latitude": 38.2413028,
         "longitude":-1.4289604,
@@ -501,24 +505,33 @@
     },{
         "latitude": 38.8794416,
         "longitude":-7.022698,
-        "name": "Diputación de Badajoz"
+        "name": "Diputación de Badajoz",
+        "logo": "/img/logos/badajoz.png",
+        "country": "es"
     },{
         "latitude": 38.9860758,
         "longitude":-3.944497,
-        "name": "Ciudad Real"
+        "name": "Ciudad Real",
+        "logo": "/img/logos/ciudad_real.png",
+        "country": "es"
     },{
         "latitude": 37.8916485,
         "longitude":-4.8195048,
-        "name": "Córdoba"
+        "name": "Córdoba",
+        "logo": "/img/logos/cordoba_es.png",
+        "country": "es"
     },{
         "latitude": 6.268844,
         "longitude":-75.666432,
         "name": "Medellín",
+        "logo": "/img/logos/medellin.png",
         "country": "co"
     },{
         "latitude": -33.6313883,
         "longitude":-60.7136,
-        "name": "San Nicolás"
+        "name": "San Nicolás",
+        "country": "ar",
+        "logo": "/img/logos/san_nicolas_ar.png"
     },{
         "latitude": 41.3310413,
         "longitude":19.782803,
@@ -531,7 +544,8 @@
         "latitude": 19.7955228,
         "longitude":-98.3889,
         "name": "Veracruz",
-        "country": "mx"
+        "country": "mx",
+        "logo": "/img/logos/veracruz.png"
     },{
         "latitude": 40.6686813,
         "longitude":-3.2115238,
@@ -549,7 +563,8 @@
         "longitude":-4.7244242,
         "name": "Diputación de Valladolid",
         "consul_website": "http://participa.diputaciondevalladolid.es",
-        "source": "https://github.com/DipVa/consul"
+        "source": "https://github.com/DipVa/consul",
+        "logo": "/img/logos/diputacion_valladolid.png"
     },{
         "latitude": 46.4604035,
         "longitude":13.700742,
@@ -574,12 +589,14 @@
         "longitude":-66.3861678,
         "name": "Catamarca",
         "consul_website": "https://decide.catamarca.gob.ar",
+        "logo": "/img/logos/catamarca.png",
         "country": "ar"
     },{
         "latitude": 4.6482837,
         "longitude":-74.2478912,
         "name": "Gobierno de Colombia",
         "consul_website": "https://www.pactoporcolombia.gov.co",
+        "logo": "/img/logos/colombia.png",
         "country": "co"
     },{
         "latitude": 43.3664517,
@@ -591,7 +608,8 @@
         "longitude":-74.119763,
         "name": "New York City",
         "consul_website": "https://pbnyc.participatorybudgeting.org/budgets",
-        "country": "us"
+        "country": "us",
+        "logo": "/img/logos/pbnyc.png"
     },{
         "latitude": 14.9364469,
         "longitude":-23.5242391,
@@ -601,7 +619,8 @@
         "latitude": -19.0206471,
         "longitude":-65.2948116,
         "name": "Sucre",
-        "country": "bo"
+        "country": "bo",
+        "logo": "/img/logos/sucre_bo.png"
     },{
         "latitude": 2.0592004,
         "longitude":45.2716455,

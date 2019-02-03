@@ -1,28 +1,23 @@
-<section>
-  <div class="organizations">
-    <div class="container">
-      <div class="row">
-        
-        {% for org in sorted_organizations %}
-        <div class="col-3 margin">
-          {% if org.consul_website %}
-          <a href="{{ org.consul_website }}" target="_blank" title="{{ org.name }}">
-            {% if org.logo %}
-              <img src="{{ org.logo }}" alt="{{ org.name }}">
-            {% else %}
-            <p style="background-color:#ccc;">{{ org.name }}</p>
-            {% endif %}
-          </a>
-          {% else %}
-            {% if org.logo %}
-              <img src="{{ org.logo }}" alt="{{ org.name }}" style="background-color:#ccc;">
-            {% else %}
-              <p style="background-color:#ccc;">{{ org.name }}</p>
-            {% endif %}
-          {% endif %}
-        </div>
-        {% endfor %}
-      </div>
+<div class="row center">
+  {% for org in sorted_organizations %}
+  <div class="col-2 margin org-card {{ org.country }}">
+    {% if org.consul_website %}
+    <a id="{{ org.name | slugify: "latin" }}" href="{{ org.consul_website }}" target="_blank" title="{{ org.name }}">
+      {% if org.logo %}
+        <img src="{{ org.logo }}" alt="{{ org.name }}">
+      {% else %}
+      <p style="background-color:#ccc;">{{ org.name }}</p>
+      {% endif %}
+    </a>
+    {% else %}
+    <div id="{{ org.name | slugify: "latin" }}">
+      {% if org.logo %}
+        <img src="{{ org.logo }}" alt="{{ org.name }}" style="background-color:#ccc;border-radius: 0.4em;">
+      {% else %}
+        <p style="background-color:#ccc;">{{ org.name }}</p>
+      {% endif %}
     </div>
+    {% endif %}
   </div>
-</section>
+  {% endfor %}
+</div>
