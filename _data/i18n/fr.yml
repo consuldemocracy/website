@@ -149,3 +149,9 @@ documentation:
   title: "Documentation"
   dossier: "Dossier CONSUL"
   brochure: "Résumé CONSUL"
+government_level:
+  level_1: national
+  level_2: province
+  level_3: "municipalité"
+  level_4: mairie
+  level_5: mairie

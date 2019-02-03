@@ -148,3 +148,9 @@ documentation:
   title: "Documentación"
   dossier: "Descargar Dossier CONSUL"
   brochure: "Descargar Dossier Ejecutivo CONSUL"
+government_level:
+  level_1: nacional
+  level_2: provincia
+  level_3: municipio
+  level_4: ayuntamiento
+  level_5: cabildo

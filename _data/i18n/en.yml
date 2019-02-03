@@ -148,3 +148,9 @@ documentation:
   title: "Documentation"
   dossier: "Download CONSUL Dossier"
   brochure: "Download CONSUL Executive Dossier"
+government_level:
+  level_1: national
+  level_2: province
+  level_3: municipality
+  level_4: "city hall"
+  level_5: council
