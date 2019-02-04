@@ -41,14 +41,13 @@ $(document).ready(function () {
     };
 
     function worldStyle(feature) {
-      // background color
       var fillcolor = "#f5f7fc";
 
       return {
         fillColor: fillcolor,
-        weight: 1,
+        weight: 2,
         opacity: 1,
-        color: '#ECF7FD',
+        color: '#ccc',
         fillOpacity: 1
       };
     };
