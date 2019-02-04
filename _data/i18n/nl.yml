@@ -82,7 +82,7 @@ budgets:
   video: "Watch budgets video"
 polls:
   title: "Stemmen"
-  description: "Secure voting system for citizen proposals and enquiries from the institution. Everyone can decide easily on the most important issues from their phones."
+  description: "Met CONSUL kan iedereen veilig stemmen op voorstellen en ideeën op een computer, tablet of mobiele telefoon."
   feature_1: "Users verification system to avoid duplicate votes."
   feature_2: "Participation delimitable to specific districts/neighborhoods."
   feature_3: "Advanced system to establish physical points of voting, with traditional booths or digital voting system."
