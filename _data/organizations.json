@@ -348,7 +348,8 @@
         "latitude": 43.3618474,
         "longitude":-8.4477032,
         "name": "Universidade da Coruña",
-        "consul_website": "https://udcdecide.udc.gal/debates"
+        "consul_website": "https://udcdecide.udc.gal/debates",
+        "logo": "/img/logos/udc.png"
     },{
         "latitude": 14.6262174,
         "longitude":-90.5275799,
@@ -392,6 +393,7 @@
         "latitude": 36.6262107,
         "longitude":-4.5359552,
         "name": "Torremolinos",
+        "logo": "/img/logos/torremolinos.png",
         "country": "es"
     },{
         "latitude": 37.7413063,
@@ -613,6 +615,7 @@
         "longitude":13.700742,
         "name": "Kranjska Gora",
         "consul_website": "https://sodeluj.es",
+        "logo": "/img/logos/kranjska.png",
         "country": "si"
     },{
         "latitude": 27.7655635,
@@ -645,7 +648,8 @@
         "latitude": 43.3664517,
         "longitude":-3.0229836,
         "name": "IES Aixerrota BHI Getxo",
-        "consul_website": "https://consul.aixerrotabhi.eu"
+        "consul_website": "https://consul.aixerrotabhi.eu",
+        "logo": "/img/logos/aixerrota.png"
     },{
         "latitude": 40.6974034,
         "longitude":-74.119763,
@@ -681,6 +685,7 @@
         "longitude":2.8282376,
         "name": "Universidad de Girona",
         "consul_website":"https://som.udg.edu",
+        "logo": "/img/logos/universidad_girona.png",
         "country": "es"
     }
 ]
