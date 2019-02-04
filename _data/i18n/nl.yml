@@ -37,7 +37,7 @@ summary:
   free_title: "Vrij"
   free_description: "CONSUL is open source en kan worden gebruikt door iedereen."
   adaptable_title: "Op maat"
-  adaptable_description: "Iedereeen is vrij om CONSUL aan te passen aan de eigen behoefte."
+  adaptable_description: "Iedereeen is vrij om CONSUL aan te passen naar eigen behoefte."
   up_to_date_title: "Continue in ontwikkeling"
   up_to_date_description: "CONSUL gebruikers kunnen suggesties en nieuwe functionaliteit indienen en dragen hiermee bij aan de toekomst van CONSUL."
   functional_title: "Rijk aan functionaliteit"
@@ -56,7 +56,7 @@ button_features: "Bekijk de functionaliteit in onze demo omgeving"
 features_read_more: "Lees meer over de functionaliteit van CONSUL"
 debates:
   title: "Debat"
-  description: "Iedereen kan een debat starten over een willekeurig onderwerp. Elk debat krijgt een eigen plek waar mensen kunnen discussieren. Een debat krijgt meer waarde wanneer de activiteit hoog is, hierdoor komen belangrijke onderwerpen naar voren."
+  description: "Iedereen kan een debat starten over een willekeurig onderwerp. Elk debat krijgt een eigen plek waar mensen kunnen discussieren. Bij een hoge activiteit krijgt een debat meer waarde, hierdoor komen belangrijke onderwerpen vanzelf bovendrijven."
   feature_1: "Limitless discussions and comments, with ratings and collapsible elements for easy reading."
   feature_2: "Categories, labels, geographical location, trends and smart filters."
   feature_3: "Simple to use for anyone, without losing power and intelligence."
@@ -64,7 +64,7 @@ debates:
   video: "Watch debates video"
 proposals:
   title: "Voorstellen"
-  description: "Iedereen kan een voorstel plaatsen en op die manier op zoek gaan naar draagvlak. Wanneer een voorstel voldoende draagvlak bereikt wordt er gestemd en wordt gezamelijk bepaald of er actief mee aan de slag dient te worden gegaan."
+  description: "Iedereen kan een voorstel indienen en draagvlak verwerven. Wanneer een voorstel voldoende draagvlak heeft gekregen wordt het in stemming gebracht en zo wordt gezamelijk bepaald of er actief mee aan de slag dient te worden gegaan."
   feature_1: "Users verification system to avoid duplicate votes."
   feature_2: "Feature to include support signatures collected in paper."
   feature_3: "Advanced notification system, to enable authors to promote their proposals."
@@ -73,7 +73,7 @@ proposals:
   video: "Watch proposals video"
 budgets:
   title: "Budgeteren"
-  description: "Het budgeteren in CONSUL geeft iedereen de mogelijkheid aan te geven hoe (delen van) budget zou kunnen worden verdeeld. Hier kunnen instanties of overheden op inhaken en het budget daadwerkelijk vrij maken, maar ook de voortgang van het budget bewaken."
+  description: "Het budgeteren in CONSUL geeft iedereen de mogelijkheid gezamelijk budgetten samen te stellen en budgetten te verdelen. Hier kunnen instanties of overheden op inhaken en het budget daadwerkelijk vrij maken, maar ook de voortgang van het budget bewaken."
   feature_1: "Advanced interface for complex evaluation of proposals with minimal resources."
   feature_2: "Easily configurable process phases."
   feature_3: "Advanced vote system of multiple proposals."
@@ -82,15 +82,15 @@ budgets:
   video: "Watch budgets video"
 polls:
   title: "Stemmen"
-  description: "Met CONSUL kan iedereen veilig stemmen op voorstellen en ideeën op een computer, tablet of mobiele telefoon."
+  description: "Iedereen kan veilig stemmen op voorstellen en ideeën op een computer, tablet of smartphone. Bepaal eenvoudig welke onderwerpen belangrijk voor je zijn."
   feature_1: "Users verification system to avoid duplicate votes."
   feature_2: "Participation delimitable to specific districts/neighborhoods."
   feature_3: "Advanced system to establish physical points of voting, with traditional booths or digital voting system."
   image_alt: "Voting page"
   video: "Watch polls video"
 legislation:
-  title: "Concepten bespreken"
-  description: "Met CONSUL is het mogelijk op een transparante manier concepten te delen om commentaar, opmerkingen en verbeteringen te inventariseren en verzamelen. Vroegtijdig anderen betrekken zorgt voor betere formele documenten, bijvoorbeeld bij overheden."
+  title: "Voorstellen bespreken"
+  description: "Met CONSUL is het mogelijk op een transparante manier concept voorstellen te delen zodat aanpassingen gemakkelijk kunnen worden verzameld en geinventariseerd. Vroegtijdig worden stakeholders betrokken om verbeteringen en commentaar toe te voegen aan het document. Dit zorgt voor betere formele documenten met meer draagvlak, bijvoorbeeld voor overheidsinstanties."
   feature_1: "Associable comments from words to whole sections."
   feature_2: "Color system graded by number of comments for easy monitoring them."
   feature_3: "Widely configurable previous discussions."
@@ -130,7 +130,7 @@ license:
   repositories_list: "Complete list of repositories"
 contact:
   title: "Contact"
-  text: "Wij, of onze lokale  partners, bieden technische hulp en kunnen helpen CONSUL te implementeren en participatie te organiseren. Voor alle vragen over CONSUL kunt u bij ons terecht."
+  text: "Wij, of onze lokale  partners, bieden technische hulp en kunnen helpen CONSUL te implementeren, te hosten en participatie trajecten te organiseren. Voor alle vragen over CONSUL kunt u bij ons terecht."
   button: "Contact"
 footer:
   title: "CONSUL"
