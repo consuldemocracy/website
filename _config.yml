@@ -1,7 +1,7 @@
 # Site settings
 email: info@codefor.nl
 description: >
-  Open Source Software voor participatie projecten.
+  Open platform voor participatie projecten.
 baseurl: ""
 url: "http://www.consulproject.nl"
 twitter_username: codefornl

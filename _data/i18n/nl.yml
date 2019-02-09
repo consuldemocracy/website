@@ -1,9 +1,9 @@
 lang: nl
 title: "CONSUL"
-description: "Open Source Software voor participatie projecten."
+description: "Open platform voor participatie projecten."
 header:
   consul: "CONSUL"
-  description: "Open Source Software voor participatie projecten."
+  description: "Open platform voor participatie projecten."
   button_demo: Demo openen
   button_github: "Broncode op Github"
 menu:
@@ -134,7 +134,7 @@ contact:
   button: "Contact"
 footer:
   title: "CONSUL"
-  description: "Open Source Software voor participatie projecten."
+  description: "Open platform voor participatie projecten."
   organisation: "Stichting Consul, "
   organisation_alt: "Logo van stichting Consul"
   
