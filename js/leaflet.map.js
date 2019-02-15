@@ -570,3 +570,7 @@ var universidad_girona = L.marker([41.9632862,2.8282376]).addTo(mymap);
     universidad_girona.bindTooltip("<strong>Universidad de Girona</strong>");
     universidad_girona.bindPopup("<strong>Universidad de Girona</strong><br><a href='https://som.udg.edu/' target='_blank'>Visitar página</a>");
 
+// Ayuntamiento de El Puerto de Santa María
+var puerto_santa_maria = L.marker([36.5695307,-6.245687]).addTo(mymap);
+    puerto_santa_maria.bindTooltip("<strong>Ayuntamiento de El Puerto de Santa María</strong>");
+    puerto_santa_maria.bindPopup("<strong>Ayuntamiento de El Puerto de Santa María</strong><br><a href='http://participa.elpuertodesantamaria.es' target='_blank'>Visitar página</a>");
