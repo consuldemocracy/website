@@ -362,17 +362,14 @@ h1 {
 
     img {
       border: 1px solid $light;
-      height: 50px;
+      max-width: 100%;
     }
 
     span {
       color: $link;
       display: inline-block;
       font-size: 0.9rem;
-      height: 50px;
-      margin-left: 12px;
-      margin-top: 16px;
-      vertical-align: top;
+      margin-top: 1rem;
     }
   }
 

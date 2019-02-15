@@ -35,6 +35,7 @@ intro:
   idb_url: "https://code.iadb.org/es/repositorio/47/consul"
   undp: "Trabajando con el Programa de Naciones Unidas para el Desarrollo"
   undp_url: "http://www.undp.org/content/undp/es/home.html"
+  eu: "Unión Europea"
 summary:
   free_title: "Gratuito"
   free_description: "Al ser una plataforma de software libre todo su código está a disposición de cualquier individuo y entidad."
