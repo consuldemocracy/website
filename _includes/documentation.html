@@ -4,7 +4,7 @@
       <h2 class="margin" id="documentation">{{ site.data.i18n[page.locale].documentation.title }}</h2>
     </div>
 
-    <div class="row margin-bottom">
+    <div class="row">
       <div class="doc-container col-4">
         <div class="docs-info right">
           <div class="doc-size">819Kb</div>
@@ -21,6 +21,36 @@
         </div>
         <a href="/consul_dossier_{{ page.locale }}.pdf" class="doc-download" target="_blank">
           {{ site.data.i18n[page.locale].documentation.dossier }}
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="doc-container col-4">
+        <div class="docs-info right">
+          <div class="doc-size">{{ site.data.i18n[page.locale].documentation.use_guide_size }}</div>
+          <div class="doc-type">PDF</div>
+        </div>
+        <a href="/consul_use_guide_{{ page.locale }}.pdf" class="doc-download" target="_blank">
+          {{ site.data.i18n[page.locale].documentation.use_guide }}
+        </a>
+      </div>
+      <div class="doc-container col-4">
+        <div class="docs-info right">
+          <div class="doc-size">{{ site.data.i18n[page.locale].documentation.administration_guide_size }}</div>
+          <div class="doc-type">PDF</div>
+        </div>
+        <a href="/consul_administration_guide_{{ page.locale }}.pdf" class="doc-download" target="_blank">
+          {{ site.data.i18n[page.locale].documentation.administration_guide }}
+        </a>
+      </div>
+      <div class="doc-container col-4">
+        <div class="docs-info right">
+          <div class="doc-size">{{ site.data.i18n[page.locale].documentation.communication_guide_size }}</div>
+          <div class="doc-type">PDF</div>
+        </div>
+        <a href="/consul_communication_guide_{{ page.locale }}.pdf" class="doc-download" target="_blank">
+          {{ site.data.i18n[page.locale].documentation.communication_guide }}
         </a>
       </div>
     </div>
