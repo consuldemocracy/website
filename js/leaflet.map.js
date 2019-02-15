@@ -288,7 +288,7 @@ var guatemala = L.marker([14.6262174,-90.5275799]).addTo(mymap);
 // Alcalá de Henares
 var alcala = L.marker([40.4947687,-3.4367158]).addTo(mymap);
     alcala.bindTooltip("<strong>Alcalá de Henares</strong>");
-    alcala.bindPopup("<strong>Alcalá de Henares</strong><br>Trabajando");
+    alcala.bindPopup("<strong>Alcalá de Henares</strong><br><a href='https://decide.ayto-alcaladehenares.es/' target='_blank'>Visitar página</a>");
 
 // Avilés
 var aviles = L.marker([43.5574185,-5.93553]).addTo(mymap);
