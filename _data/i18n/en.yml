@@ -34,6 +34,7 @@ intro:
   undp: "Working with United Nations Development Programme"
   undp_url: "http://www.undp.org/"
   eu: "European Union"
+  eu_url: "https://ec.europa.eu/regional_policy/en/funding/erdf/"
 summary:
   free_title: "Free"
   free_description: "As it is an open software platform all its code can be used by any person or entity."
@@ -147,15 +148,15 @@ data_video_id:
   processes: "Pj0rk2HRskg"
 documentation:
   title: "Documentation"
-  dossier: "Download CONSUL Dossier"
-  brochure: "Download CONSUL Executive Dossier"
-  use_guide: "Download CONSUL Use Guide (v.0.16)"
+  dossier: "CONSUL Dossier"
+  brochure: "CONSUL Executive Dossier"
+  use_guide: "User guide - 0.16"
   use_guide_size: "5.1MB"
-  administration_guide: "Download Administration guide of CONSUL (v.0.15)"
+  administration_guide: "Administrator guide - 0.15"
   administration_guide_size: "3.2Mb"
-  communication_guide: "Download CONSUL Communication guide"
+  communication_guide: "Communication guide"
   communication_guide_size: "759Kb"
-  community: "More documentation, information and debates in the CONSUL Community."
+  community: "More documentation and information is available in the CONSUL Community."
 government_level:
   level_1: national
   level_2: province

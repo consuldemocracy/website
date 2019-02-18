@@ -34,6 +34,7 @@ intro:
   undp: "Trabajando con el Programa de Naciones Unidas para el Desarrollo"
   undp_url: "http://www.undp.org/content/undp/es/home.html"
   eu: "Unión Europea"
+  eu_url: "https://ciudades-abiertas.es/"
 summary:
   free_title: "Gratuito"
   free_description: "Al ser una plataforma de software libre todo su código está a disposición de cualquier individuo y entidad."
@@ -120,7 +121,6 @@ organizations:
   title: "CONSUL es utilizado por"
   description: "Ya son muchos los Ayuntamientos y organizaciones que actualmente utilizan CONSUL como herramienta de participación."
   preparing: "Trabajando..."
-<<<<<<< HEAD
 license:
   title: "Licencia"
   button: "Ver código en github"

@@ -33,6 +33,8 @@ intro:
   idb_url: "https://code.iadb.org/es/repositorio/47/consul"
   undp: "Treballant amb el Programa de Nacions Unides per al Desenvolupament"
   undp_url: "http://www.undp.org/content/undp/es/home.html"
+  eu: "European Union"
+  eu_url: "https://ec.europa.eu/regional_policy/es/funding/erdf/"
 summary:
   free_title: "Gratuït"
   free_description: "Com que és una plataforma de programari lliure tot el seu codi està a disposició de qualsevol individu i entitat."
@@ -79,7 +81,7 @@ budgets:
   feature_3: "Sistema de vot avançat de múltiples propostes."
   feature_4: "Creació de partides assignades a districtes / barris."
   image_alt: "Secció pressupostos participatius"
-  vídeo: "Veure vídeo de pressupostos participatius"
+  video: "Veure vídeo de pressupostos participatius"
 polls:
   title: "Votacions"
   description: "Sistema segur de votació, tant de propostes ciutadanes, com de qüestions proposades des de la institució. Permet decidir sobre els temes més importants fàcilment des del mòbil."
@@ -87,7 +89,7 @@ polls:
   feature_2: "Possibilitat de restringir la participació per districtes / barris."
   feature_3: "Sistema avançat per establir punts físics de votació, amb urnes tradicionals o sistemes de vot digital."
   image_alt: "Pàgina de votacions"
-  vídeo: "Veure vídeo de votacions"
+  video: "Veure vídeo de votacions"
 legislation:
   title: "Legislació col·laborativa"
   description: "Qualsevol text legislatiu pot ser compartit amb la ciutadania per rebre comentaris sobre qualsevol part concreta del mateix. Els comentaris s'associen a les parts comentades utilitzant addicionalment un codi de colors, que permet visualitzar de manera senzilla les parts millorables. També permet crear espais de debat previ associats al text, per a un millor desenvolupament posterior d'aquest. "
@@ -102,7 +104,7 @@ processes:
   feature_2: "Àmplia varietat de sistemes de votació i pregunta."
   feature_3: "Possibilitat d'incloure dissenys i material gràfic (ex: redissenys urbans, concursos oberts, etc.)"
   image_alt: "Votació sobre la Remodelació de la plaça Espanya"
-  vídeo: "Veure vídeo de processos sectorials"
+  video: "Veure vídeo de processos sectorials"
 more_features:
   title: "Més funcionalitats"
   tagline: "Moltes més funcionalitats, i programari en continu desenvolupament per afegir qualsevol funcionalitat que trobis útil."
@@ -139,15 +141,22 @@ footer:
   organisation_alt: "Logotip de l'Ajuntament de Madrid"
 data_video_id:
   general: "https://www.youtube.com/embed/vO1jRu25B9E"
-  debats: "GFy5GnsRlhU"
+  debates: "GFy5GnsRlhU"
   proposals: "ccGI2jZk6Lw"
   budgets: "fPNWwOgT75o"
   polls: "C2HsdaAYEFg"
   processes: "if-ouEDdnDk"
 documentation:
   title: "Documentació"
-  dossier: "Descarregar Dossier CONSUL"
-  brochure: "Descarregar Dossier Executiu CONSUL"
+  dossier: "Dossier CONSUL"
+  brochure: "Dossier Executiu CONSUL"
+  use_guide: "Guia d'ús - 0.16"
+  use_guide_size: "5.1MB"
+  administration_guide: "Guia d'administració - 0.15"
+  administration_guide_size: "3.2Mb"
+  communication_guide: "Guia de comunicació CONSUL"
+  communication_guide_size: "759Kb"
+  community: "Més documentació, informació i debats a la comunitat CONSUL"
 government_level:
   level_1: nacional
   level_2: província
