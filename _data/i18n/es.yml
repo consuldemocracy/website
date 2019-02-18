@@ -33,6 +33,7 @@ intro:
   idb_url: "https://code.iadb.org/es/repositorio/47/consul"
   undp: "Trabajando con el Programa de Naciones Unidas para el Desarrollo"
   undp_url: "http://www.undp.org/content/undp/es/home.html"
+  eu: "Unión Europea"
 summary:
   free_title: "Gratuito"
   free_description: "Al ser una plataforma de software libre todo su código está a disposición de cualquier individuo y entidad."
@@ -119,6 +120,7 @@ organizations:
   title: "CONSUL es utilizado por"
   description: "Ya son muchos los Ayuntamientos y organizaciones que actualmente utilizan CONSUL como herramienta de participación."
   preparing: "Trabajando..."
+<<<<<<< HEAD
 license:
   title: "Licencia"
   button: "Ver código en github"
@@ -148,6 +150,13 @@ documentation:
   title: "Documentación"
   dossier: "Descargar Dossier CONSUL"
   brochure: "Descargar Dossier Ejecutivo CONSUL"
+  use_guide: "Descargar Guía de Uso de CONSUL (v.0.16)"
+  use_guide_size: "7.1MB"
+  administration_guide: "Descargar Guía de Administración de CONSUL (v.0.15)"
+  administration_guide_size: "3.4Mb"
+  communication_guide: "Descargar Guía de comunicación CONSUL"
+  communication_guide_size: "744Kb"
+  community: "Más documentación, información y debates en la Comunidad de CONSUL."
 government_level:
   level_1: nacional
   level_2: provincia
