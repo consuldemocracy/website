@@ -4,7 +4,10 @@
     {% if org.consul_website %}
     <a id="{{ org.name | slugify: "latin" }}" href="{{ org.consul_website }}" target="_blank" title="{{ org.name }}">
       {% if org.logo %}
-        <img src="{{ org.logo }}" alt="{{ org.name }}">
+        <img src="{{ org.logo }}" alt="{{ org.name }}" class="img-org">
+        {% if org.status %}
+        <img src="/img/{{ org.status }}.png" alt="{{ org.name }}" class="img-beta">
+        {% endif %}
       {% else %}
       <p style="background-color:#ccc;">{{ org.name }}</p>
       {% endif %}
@@ -12,13 +15,15 @@
     {% else %}
     <div id="{{ org.name | slugify: "latin" }}">
       {% if org.logo %}
-        <img src="{{ org.logo }}" alt="{{ org.name }}" style="background-color:#ccc;border-radius: 0.4em;">
+        <img src="{{ org.logo }}" alt="{{ org.name }}" class="img-org" style="background-color:#ccc;border-radius: 0.4em;">
+        {% if org.status %}
+        <img src="/img/{{ org.status }}.png" alt="{{ org.name }}" class="img-beta">
+        {% endif %}
       {% else %}
         <p style="background-color:#ccc;">{{ org.name }}</p>
       {% endif %}
     </div>
     {% endif %}
   </div>
-<<<<<<< HEAD
   {% endfor %}
 </div>

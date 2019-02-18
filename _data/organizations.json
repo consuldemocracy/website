@@ -687,5 +687,53 @@
         "consul_website":"https://som.udg.edu",
         "logo": "/img/logos/universidad_girona.png",
         "country": "es"
+    },{
+        "latitude": 52.366667, 
+        "longitude": 6.666667,
+        "name": "Almelo",
+        "consul_website":"https://almelo.consulproject.nl",
+        "logo": "/img/logos/gemeente_almelo.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 52.783333, 
+        "longitude": 6.883333,
+        "name": "Emmen",
+        "consul_website":"https://emmen.consulproject.nl",
+        "logo": "/img/logos/gemeente_emmen.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 52.216667, 
+        "longitude": 6.883333,
+        "name": "Enschede",
+        "consul_website":"https://enschede.consulproject.nl",
+        "logo": "/img/logos/gemeente_enschede.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 53.184722, 
+        "longitude": 6.811111,
+        "name": "Midden-Groningen",
+        "consul_website":"https://midden-groningen.consulproject.nl",
+        "logo": "/img/logos/gemeente_midden_groningen.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 53.216667, 
+        "longitude": 6.566667,
+        "name": "Groningen",
+        "consul_website":"https://groningen.consulproject.nl",
+        "logo": "/img/logos/gemeente_groningen.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 52.083333,
+        "longitude": 5.116667,
+        "name": "Utrecht",
+        "consul_website":"https://utrecht.consulproject.nl",
+        "logo": "/img/logos/gemeente_utrecht.png",
+        "country": "nl",
+        "status": "beta"
     }
 ]

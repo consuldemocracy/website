@@ -442,7 +442,7 @@ h1 {
 
 .organizations {
 
-  img {
+  .img-org {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     max-width: 100%;
@@ -701,4 +701,22 @@ h1 {
       }
     }
   }
+}
+.org-card {
+  position: relative;
+}
+
+.img-org {
+  position: relative;
+}
+.img-beta {
+  position: absolute;
+  height: 20px;
+  right: 1em;
+  top: .5em;
+  -webkit-transform:rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
 }
