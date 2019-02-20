@@ -6,7 +6,7 @@
       {% if org.logo %}
         <img src="{{ org.logo }}" alt="{{ org.name }}" class="img-org">
         {% if org.status %}
-        <img src="/img/{{ org.status }}.png" alt="{{ org.name }}" class="img-beta">
+        <img src="/assets/images/{{ org.status }}.png" alt="{{ org.name }}" class="img-beta">
         {% endif %}
       {% else %}
       <p style="background-color:#ccc;">{{ org.name }}</p>
@@ -17,7 +17,7 @@
       {% if org.logo %}
         <img src="{{ org.logo }}" alt="{{ org.name }}" class="img-org" style="background-color:#ccc;border-radius: 0.4em;">
         {% if org.status %}
-        <img src="/img/{{ org.status }}.png" alt="{{ org.name }}" class="img-beta">
+        <img src="/assets/images/{{ org.status }}.png" alt="{{ org.name }}" class="img-beta">
         {% endif %}
       {% else %}
         <p style="background-color:#ccc;">{{ org.name }}</p>

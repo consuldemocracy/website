@@ -125,10 +125,10 @@ header {
   position: relative;
 
   @media only screen and (min-width: $breakpoint-large) {
-    background: url("../img/home/city.svg"), #36424a;
-    background: url("../img/home/city.svg"), -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
-    background: url("../img/home/city.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
-    background: url("../img/home/city.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+    background: url("/assets/images/home/city.svg"), #36424a;
+    background: url("/assets/images/home/city.svg"), -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+    background: url("/assets/images/home/city.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+    background: url("/assets/images/home/city.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
     background-repeat: no-repeat;
     background-position: 100% 90%;
   }
@@ -282,7 +282,7 @@ h1 {
 
 .header-video-play {
   border: 0;
-  background: url("../img/home/city.svg");
+  background: url("/assets/images/home/city.svg");
   background-position: center;
   background-size: cover;
   cursor: pointer;
@@ -347,7 +347,7 @@ h1 {
   position: relative;
 
   &::after {
-    content: url('../img/external_link.svg');
+    content: url('/assets/images/external_link.svg');
     opacity: 0.5;
     position: absolute;
     right: 0;
@@ -386,7 +386,6 @@ h1 {
     border-bottom: 1px solid $light;
 
     img {
-      border: 1px solid $light;
       max-width: 100%;
     }
 
@@ -434,7 +433,7 @@ h1 {
 .summary {
 
   h3::before {
-    content: url('../img/home/checkmark_icon.svg');
+    content: url('/assets/images/home/checkmark_icon.svg');
     display: block;
     height: $line-height * 1.5;
   }
@@ -469,11 +468,11 @@ h1 {
 }
 
 .leaflet-control-fullscreen {
-  background-image: url("../img/map/fullscreen.svg");
+  background-image: url("/assets/images/map/fullscreen.svg");
 }
 
 .leaflet-control-locationlist-arrow-next {
-  background-image: url('../img/map/icon_next.svg');
+  background-image: url('/assets/images/map/icon_next.svg');
   float: left;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
@@ -482,7 +481,7 @@ h1 {
 }
 
 .leaflet-control-locationlist-arrow-prev {
-  background-image: url('../img/map/icon_prev.svg');
+  background-image: url('/assets/images/map/icon_prev.svg');
   float: left;
   border-top-left-radius: 4px !important;
   border-bottom-left-radius: 4px !important;
@@ -517,7 +516,7 @@ h1 {
 }
 
 .leaflet-control-view-center {
-  background-image: url('../img/map/icon_viewcenter.svg');
+  background-image: url('/assets/images/map/icon_viewcenter.svg');
 }
 
 // 06. Features
@@ -528,7 +527,7 @@ h1 {
   position: relative;
 
   &::before {
-    content: url('../img/home/video_icon.svg');
+    content: url('/assets/images/home/video_icon.svg');
     left: 0;
     position: absolute;
     top: 1px;
@@ -575,7 +574,7 @@ h1 {
         padding-right: 1.5rem;
 
         h3::after {
-          content: url('../img/home/timeline_point_icon.svg');
+          content: url('/assets/images/home/timeline_point_icon.svg');
           right: -33px;
           position: absolute;
           top: 0;
@@ -588,7 +587,7 @@ h1 {
         margin-left: 1.5rem;
 
         h3::before {
-          content: url('../img/home/timeline_point_icon.svg');
+          content: url('/assets/images/home/timeline_point_icon.svg');
           left: -33px;
           position: absolute;
           top: 0;

@@ -33,8 +33,10 @@ intro:
   idb_url: "https://code.iadb.org/en/repository/47/consul"
   undp: "Deelnemer aan de Duurzame ontwikkelingsdoelen"
   undp_url: "https://www.sdgnederland.nl/"
-  eu: "European Union"
+  eu: "Mogelijk gemaakt door het European Regional Development Fund"
   eu_url: "https://ec.europa.eu/regional_policy/nl/funding/erdf/"
+  dcent: "Onderdeel van d-cent"
+  dcent_url: "http://tools.dcentproject.eu/"
 summary:
   free_title: "Vrij"
   free_description: "CONSUL is open source en kan worden gebruikt door iedereen."

@@ -23,7 +23,7 @@ body {
 body {
 
   &.landing {
-    background: #fff url('../img/consulcon/consulcon_background.jpg');
+    background: #fff url('/assets/images/consulcon/consulcon_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 0;
@@ -72,7 +72,7 @@ body {
 
       &::before {
         bottom: 100px;
-        content: url('../img/consulcon/waves.svg');
+        content: url('/assets/images/consulcon/waves.svg');
         position: absolute;
         z-index: -1;
       }
