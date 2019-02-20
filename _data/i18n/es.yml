@@ -35,6 +35,8 @@ intro:
   undp_url: "http://www.undp.org/content/undp/es/home.html"
   eu: "Unión Europea"
   eu_url: "https://ciudades-abiertas.es/"
+  dcent: "Parte de d-cent"
+  dcent_url: "http://tools.dcentproject.eu/"
 summary:
   free_title: "Gratuito"
   free_description: "Al ser una plataforma de software libre todo su código está a disposición de cualquier individuo y entidad."

@@ -35,6 +35,8 @@ intro:
   undp_url: "http://www.undp.org/"
   eu: "European Union"
   eu_url: "https://ec.europa.eu/regional_policy/fr/funding/erdf/"
+  dcent: "Un partie de d-cent"
+  dcent_url: "http://tools.dcentproject.eu/"
 summary:
   free_title: "Gratuit"
   free_description: "CONSUL est open source et peut être utilisé par n'importe qui."

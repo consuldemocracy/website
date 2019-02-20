@@ -35,6 +35,8 @@ intro:
   undp_url: "http://www.undp.org/"
   eu: "European Union"
   eu_url: "https://ec.europa.eu/regional_policy/en/funding/erdf/"
+  dcent: "Part of d-cent"
+  dcent_url: "http://tools.dcentproject.eu/"
 summary:
   free_title: "Free"
   free_description: "As it is an open software platform all its code can be used by any person or entity."
