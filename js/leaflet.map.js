@@ -574,3 +574,8 @@ var universidad_girona = L.marker([41.9632862,2.8282376]).addTo(mymap);
 var puerto_santa_maria = L.marker([36.5695307,-6.245687]).addTo(mymap);
     puerto_santa_maria.bindTooltip("<strong>Ayuntamiento de El Puerto de Santa María</strong>");
     puerto_santa_maria.bindPopup("<strong>Ayuntamiento de El Puerto de Santa María</strong><br><a href='http://participa.elpuertodesantamaria.es' target='_blank'>Visitar página</a>");
+
+// Pernambuco (Brasil)
+var pernambuco = L.marker([-6.6507501,-39.1185295]).addTo(mymap);
+    pernambuco.bindTooltip("<strong>Pernambuco</strong>");
+    pernambuco.bindPopup("<strong>Pernambuco</strong><br><a href='https://www.participa.pe.gov.br' target='_blank'>Visitar página</a>");
