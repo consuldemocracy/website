@@ -735,5 +735,12 @@
         "logo": "/assets/images/logos/gemeente_utrecht.png",
         "country": "nl",
         "status": "beta"
+    },{
+        "latitude": -6.6507501,
+        "longitude": -39.1185295,
+        "name": "Pernambuco",
+        "consul_website":"https://www.participa.pe.gov.br",
+        "logo": "/assets/images/logos/pernambuco.png",
+        "country": "br"
     }
 ]
