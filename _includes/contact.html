@@ -1,11 +1,14 @@
-<div id="contact" class="row">
-  <div class="col-6">
+<div id="contact" class="row center">
+  <div class="col-12">
     <h2>{{ site.data.i18n[page.locale].contact.title }}</h2>
-    <p>{{ site.data.i18n[page.locale].contact.text }}</p>
   </div>
-  <div class="col-6 text-center">
-    <a href="mailto:extension.institucional@madrid.es" class="button secondary">
+</div>
+<div class="row">
+  <div class="col-8">
+    <p>{{ site.data.i18n[page.locale].contact.text }}</p>
+  </div><div class="col-4">
+    <a class="button secondary" type="button" href="mailto:info@consulproject.nl">
       {{ site.data.i18n[page.locale].contact.button }}
-    </a>
+  </a>
   </div>
 </div>

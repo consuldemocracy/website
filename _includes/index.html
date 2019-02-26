@@ -1,10 +1,13 @@
-<div class="highlight">
-  <div class="container">
-    <h2>{{ site.data.i18n[page.locale].tagline }}</h2>
-  </div>
+<div class="container">
+    <div class="row">
+        <div class="documentation col-12 text-center">
+          <h2>{{ site.data.i18n[page.locale].tagline }}</h2>
+        </div>
+    </div>
 </div>
 
-<div class="container margin">
+
+<div class="container">
   {% include intro.html %}
 </div>
 
@@ -13,23 +16,29 @@
 </div>
 
 <div class="container">
-  {% include map.html %}
+  {% include documentation.html %}
 </div>
-
+  
 <div class="container">
   {% include features.html %}
 </div>
 
-<div class="highlight margin-top">
+<div class="container">
+    <div class="row margin-bottom center">
+      {% assign sorted_organizations = site.data.organizations | sort: 'name' %}
+      <h2>{{ site.data.i18n[page.locale].organizations.title }} {{sorted_organizations.size }} {{ site.data.i18n[page.locale].organizations.name }}</h2>
+    </div>
+</div>
+{% include map.html %}
+<div class="container">
+  <div class="row margin-bottom center">
+    <p id="map-info"></p>
+  </div>
+</div>
+<div class="organizations">
   {% include organizations.html %}
 </div>
 
 <div class="container">
-  {% include documentation.html %}
-</div>
-
-<div class="contact">
-  <div class="container">
     {% include contact.html %}
-  </div>
 </div>

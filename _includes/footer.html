@@ -1,33 +1,25 @@
-<div class="container footer">
+<div class="container footer" style="color: #fff !important;">
   <div class="row">
     <div class="col-8">
-      <h2>{{ site.data.i18n[page.locale].footer.title }}</h2>
-      <p>
+      <img src="/assets/images/consul_logo.svg" alt="{{ site.data.i18n[page.locale].footer.organisation_alt }}">
+      <p style="color:#fff;">
         {{ site.data.i18n[page.locale].footer.description }}<br>
       </p>
+      <small style="color:#fff;">{{ site.data.i18n[page.locale].footer.organisation }} {{ 'now' | date: "%Y" }}.</small>
     </div>
-
     <div class="col-4 text-right">
       <ul>
         <li>
           <a href="https://github.com/consul/consul/" target="_blank">
-            <img src="../img/icon_github.svg" alt="github">
+            <img src="/assets/images/icon_github.svg" alt="github">
           </a>
         </li>
         <li>
           <a href="https://twitter.com/consul_dev" target="_blank">
-            <img src="../img/icon_twitter.svg" alt="twitter">
+            <img src="/assets/images/icon_twitter.svg" alt="twitter">
           </a>
         </li>
       </ul>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="text-center margin-top">
-      <img src="/img/ayuntamiento_madrid.png" alt="{{ site.data.i18n[page.locale].footer.madrid_alt }}">
-      <br>
-      <small>{{ site.data.i18n[page.locale].footer.madrid }} {{ 'now' | date: "%Y" }}.</small>
     </div>
   </div>
 </div>

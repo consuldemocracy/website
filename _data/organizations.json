@@ -1,0 +1,746 @@
+[
+    {
+        "latitude": 43.365738, 
+        "longitude": -8.410968,
+        "name": "Ayuntamiento de A Coruña",
+        "logo": "/assets/images/logos/acoruna.png",
+        "consul_website": "https://aportaaberta.coruna.es/?locale=es",
+        "website": "www.coruna.gal",
+        "source": "https://github.com/ConcelloCoruna/aportaaberta",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 38.345996,
+        "longitude": -0.490686,
+        "name": "Ayuntamiento de Alicante",
+        "logo": "/assets/images/logos/alicante.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 28.099950,
+        "longitude": -16.679977,
+        "name": "Ayuntamiento de Arona",
+        "logo": "/assets/images/logos/arona.png",
+        "country": "es",
+        "level": 4
+    },
+    {
+        "latitude": 36.598797,
+        "longitude": -4.516806,
+        "name": "Ayuntamiento de Benalmádena",
+        "logo": "/assets/images/logos/benalmadena.png",
+        "consul_website": "https://benalmadenaparticipa.es",
+        "country": "es",
+        "level": 34
+    },{
+        "latitude": 39.420344,
+        "longitude": -0.790133,
+        "name": "Ayuntamiento de Buñol",
+        "logo": "/assets/images/logos/bunol.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 36.527061,
+        "longitude": -6.288596,
+        "name": "Ayuntamiento de Cádiz",
+        "logo": "/assets/images/logos/cadiz.png",
+        "country": "es",
+        "level": 4
+    },{ 
+        "latitude": 39.565348, 
+        "longitude": 2.503368,
+        "name": "Ajuntament de Calvià",
+        "consul_website": "https://www.participacalvia.es",
+        "logo": "/assets/images/logos/calvia.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 43.361395, 
+        "longitude": -5.859327,
+        "name":"Ayuntamiento de Carreño",
+        "consul_website": "https://decide.carreno.es",
+        "logo": "/assets/images/logos/carreno.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 39.986356, 
+        "longitude": -0.051325,
+        "name": "Ajuntament de Castelló",
+        "consul_website": "https://decidim.castello.es",
+        "source": "https://github.com/AjuntamentdeCastello/consul",
+        "logo": "/assets/images/logos/castellon_plana.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 40.5806832, 
+        "longitude": -3.1880082999999786,
+        "name": "Ayuntamiento de Chiloeches",
+        "consul_website": "https://decide.aytochiloeches.es/",
+        "logo": "/assets/images/logos/chiloeches.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 40.1402985, 
+        "longitude": -3.611649400000033,
+        "name":"Ayuntamiento de Ciempozuelos",
+        "logo": "/assets/images/logos/ciempozuelos.png",
+        "level": 4
+    },{
+        "latitude": 40.3082633,
+        "longitude": -3.7325855000000274,
+        "name":"Ayuntamiento de Getafe",
+        "consul_website": "https://participa.getafe.es",
+        "logo": "/assets/images/logos/getafe.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 41.7086972, 
+        "longitude": -2.7182728000000225,
+        "name": "Ayuntamiento de Golmayo",
+        "logo": "/assets/images/logos/golmayo.png",
+        "level": 4
+    },{
+        "latitude": 42.13618419999999, 
+        "longitude": -0.4082190999999966,
+        "name": "Ayuntamiento de Huesca",
+        "consul_website": "http://participa.huesca.es",
+        "logo": "/assets/images/logos/huesca.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 40.4167754, 
+        "longitude": -3.7037901999999576,
+        "name": "Ayuntamiento de Madrid",
+        "consul_website": "https://decide.madrid.es",
+        "source": "https://github.com/AyuntamientoMadrid/consul",
+        "logo": "/assets/images/logos/madrid.png",
+        "country": "es",
+        "level": 4
+    }, {
+        "latitude": 43.3619145, 
+        "longitude": -5.848425328731537,
+        "name": "Ayuntamiento de Oviedo",
+        "consul_website": "http://www.consultaoviedo.es",
+        "logo": "/assets/images/logos/oviedo.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 39.5696005, 
+        "longitude": 2.6501603000000387,
+        "name": "Ajuntament de Palma de Mallorca",
+        "consul_website": "https://tufas.palma.cat",
+        "logo": "/assets/images/logos/palma_mallorca.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 48.85661400000001, 
+        "longitude": 2.3522219000000177,
+        "name": "París (RIVP)",
+        "consul_website": "https://budget-participatif.rivp.fr/budgets",
+        "logo": "/assets/images/logos/rivp.png",
+        "country": "fr"
+    },{
+        "latitude": 40.5589672, 
+        "longitude": -3.6261976000000686,
+        "name": "Ayuntamiento de San Sebastián de los Reyes",
+        "logo": "/assets/images/logos/san_sebastian_reyes.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 41.2558303, 
+        "longitude": 1.8611011000000417,
+        "name": "Ajuntament de Sitges",
+        "logo": "/assets/images/logos/sitges.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 40.73418429999999, 
+        "longitude": -3.4902391000000534,
+        "name": "Ayuntamiento de Talamanca del Jarama",
+        "logo": "/assets/images/logos/talamanca_jarama.png",
+        "level": 4
+    },{
+        "latitude": 41.1188827,
+        "longitude": 1.2444908999999598,
+        "name": "Ajuntament de Tarragona",
+        "consul_website": "https://participa.tarragona.cat",
+        "logo": "/assets/images/logos/tarragona.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 39.86283160000001, 
+        "longitude": -4.02732309999999,
+        "name": "Ayuntamiento de Toledo",
+        "consul_website": "https://participa.toledo.es",
+        "logo": "/assets/images/logos/toledo.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 40.5030007, 
+        "longitude": -4.049107700000036,
+        "name": "Ayuntamiento de Valdemorillo",
+        "logo": "/assets/images/logos/valdemorillo.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": 39.4699075, 
+        "longitude": -0.3762881000000107,
+        "name": "Ayuntamiento de Valencia",
+        "consul_website": "https://decidimvlc.valencia.es",
+        "logo": "/assets/images/logos/valencia.png",
+        "country": "es",
+        "level": 4
+    },{
+        "latitude": -34.60368440000001,
+        "longitude": -58.381559100000004,
+        "name":"Buenos Aires",
+        "consul_website": "https://baelige.buenosaires.gob.ar",
+        "logo": "/assets/images/logos/buenos_aires.png",
+        "country": "ar"
+    },{
+        "latitude": 27.9732236, 
+        "longitude": -15.7010391,
+        "name": "Cabildo de Gran Canaria",
+        "consul_website": "https://participa.grancanaria.com",
+        "logo": "/assets/images/logos/cabildo_gran_canaria.png",
+        "level": 5
+    },{
+        "latitude": 39.5692762, 
+        "longitude": 2.6497878999999784,
+        "name": "Consell de Mallorca",
+        "logo": "/assets/images/logos/consell_mallorca.png"
+    },{
+        "latitude": 39.4771151, 
+        "longitude": -0.37681850000001305,
+        "name": "Diputación de Valencia",
+        "logo": "/assets/images/logos/diputacion_valencia.png"
+    },{
+        "latitude": -32.8833303,
+        "longitude": -68.8935386,
+        "name": "Mendoza",
+        "consul_website": "http://participa.ciudaddemendoza.gob.ar",
+        "logo": "/assets/images/logos/mendoza.png"
+    },{
+        "latitude": 1.289151, 
+        "longitude": -77.35793999999999,
+        "name": "Nariño",
+        "consul_website": "https://ganapienso.narino.gov.co",
+        "logo": "/assets/images/logos/narino.png",
+        "country": "co"
+    },{
+        "latitude": 40.4478246, 
+        "longitude": -3.7285871999999927,
+        "name": "Universidad Complutense de Madrid",
+        "logo": "/assets/images/logos/universidad_complutense.png"
+    },{
+        "latitude": -7.9637949, 
+        "longitude": -78.8495556,
+        "name": "La Libertad",
+        "consul_website": "http://www.decidelalibertad.pe",
+        "source": "https://github.com/lalibertad/consul",
+        "logo": "/assets/images/logos/la_libertad.png",
+        "country": "pe"
+    },{
+        "latitude": 38.0591761,
+        "longitude": -1.2276177,
+        "name": "Ayuntamiento de Molina de Segura",
+        "consul_website":"https://decide.molinadesegura.es",
+        "logo": "/assets/images/logos/molina_segura.png"
+    },{
+        "latitude": 36.5310785,
+        "longitude": -6.1934328,
+        "name": "Ayuntamiento de Puerto Real",
+        "consul_website": "https://decide.puertoreal.es",
+        "logo": "/assets/images/logos/puerto_real.png",
+        "country": "es"
+    },{
+        "latitude": 41.651113,
+        "longitude": -4.7273606,
+        "name": "Ayuntamiento de Valladolid",
+        "consul_website": "https://www10.ava.es/presupuestosparticipativos/",
+        "logo": "/assets/images/logos/valladolid.png"
+    },{
+        "latitude": 41.5038406,
+        "longitude": -5.7620456,
+        "name": "Ayuntamiento de Zamora",
+        "consul_website": "https://zamoraparticipa.com",
+        "source": "https://github.com/jaam1974/consul",
+        "logo": "/assets/images/logos/zamora.png"
+    },{
+        "latitude": 39.4944628,
+        "longitude":-0.6897149,
+        "name": "Ayuntamiento de Cheste",
+        "consul_website": "https://cheste.participago.dival.es",
+        "logo": "/assets/images/logos/cheste.png"
+    },{
+        "latitude": -31.399401,
+        "longitude":-64.2643837,
+        "name": "Córdoba",
+        "logo": "/assets/images/logos/cordoba_ar.png",
+        "country": "ar"
+    },{
+        "latitude": 20.6737883,
+        "longitude":-103.3704326,
+        "name": "Guadalajara",
+        "logo": "/assets/images/logos/guadalajara.png",
+        "country": "mx"
+    },{
+        "latitude": 20.834412,
+        "longitude":-104.7241366,
+        "name": "Jalisco",
+        "consul_website": "https://participa.jalisco.mx",
+        "logo": "/assets/images/logos/jalisco.png",
+        "country": "mx"
+    },{
+        "latitude": -12.0266034,
+        "longitude":-77.1278634,
+        "name": "Lima",
+        "logo": "/assets/images/logos/lima.png",
+        "country": "pe"
+    },{
+        "latitude": 9.9399955,
+        "longitude":-84.0285016,
+        "name": "Montes de Oca",
+        "logo": "/assets/images/logos/montes_de_oca.png",
+        "country": "cr"
+    },{
+        "latitude": -34.8210782,
+        "longitude":-56.3064783,
+        "name": "Montevideo",
+        "consul_website": "https://decide.montevideo.gub.uy",
+        "logo": "/assets/images/logos/montevideo.png",
+        "country": "uy"
+    },{
+        "latitude": -30.1087957,
+        "longitude":-51.3172251,
+        "name": "Porto Alegre",
+        "consul_website": "https://opdigital.prefeitura.poa.br",
+        "logo": "/assets/images/logos/porto_alegre.png",
+        "country": "br"
+    },{
+        "latitude": -41.4629843,
+        "longitude":-72.9655277,
+        "name": "Puerto Montt",
+        "logo": "/assets/images/logos/puerto_montt.png",
+        "country": "cl"
+    },{
+        "latitude": -0.1865938,
+        "longitude":-78.5706226,
+        "name": "Quito",
+        "consul_website": "http://www.decide.quito.gob.ec",
+        "logo": "/assets/images/logos/quito.png",
+        "country": "ec"
+    },{
+        "latitude": 45.0701176,
+        "longitude":7.600049,
+        "name": "Torino",
+        "consul_website": "https://deciditorino.it",
+        "source": "https://github.com/csipiemonte/consul",
+        "logo": "/assets/images/logos/torino.png",
+        "country": "it"
+    },{
+        "latitude": 35.176695,
+        "longitude":126.8087806,
+        "name": "Gwangju",
+        "logo": "/assets/images/logos/gwangju.png",
+        "country": "kr"
+    },{
+        "latitude": 43.3618474,
+        "longitude":-8.4477032,
+        "name": "Universidade da Coruña",
+        "consul_website": "https://udcdecide.udc.gal/debates",
+        "logo": "/assets/images/logos/udc.png"
+    },{
+        "latitude": 14.6262174,
+        "longitude":-90.5275799,
+        "name": "Ciudad de Guatemala",
+        "logo": "/assets/images/logos/guatemala.png",
+        "country": "gt"
+    },{
+        "latitude": 40.4947687,
+        "longitude":-3.4367158,
+        "name": "Alcalá de Henares",
+        "logo": "/assets/images/logos/alcala_henares.png"
+    },{
+        "latitude": 43.5574185,
+        "longitude":-5.93553,
+        "name": "Avilés",
+        "logo": "/assets/images/logos/aviles.png"
+    },{
+        "latitude": 8.3013227,
+        "longitude":-83.1524706,
+        "name": "Barú",
+        "logo": "/assets/images/logos/baru.png",
+        "country": "cr"
+    },{
+        "latitude": 37.6174104,
+        "longitude":-1.006017,
+        "name": "Cartagena",
+        "logo": "/assets/images/logos/cartagena.png"
+    },{
+        "latitude": 28.1173563,
+        "longitude":-15.4746365,
+        "name": "Las Palmas de Gran Canaria",
+        "consul_website": "https://decide.laspalmasgc.es",
+        "logo": "/assets/images/logos/palmas_gran_canaria.png",
+        "country": "es"
+    },{
+        "latitude": 40.3231233,
+        "longitude":-3.8851408,
+        "name": "Móstoles",
+        "logo": "/assets/images/logos/mostoles.png"
+    },{
+        "latitude": 36.6262107,
+        "longitude":-4.5359552,
+        "name": "Torremolinos",
+        "logo": "/assets/images/logos/torremolinos.png",
+        "country": "es"
+    },{
+        "latitude": 37.7413063,
+        "longitude":-0.9620597,
+        "name": "Torre-Pacheco",
+        "logo": "/assets/images/logos/torre_pacheco.png"
+    },{
+        "latitude": 38.3459766,
+        "longitude":-0.7762791,
+        "name": "Ayuntamiento de Aspe",
+        "logo": "/assets/images/logos/aspe.png"
+    },{
+        "latitude": 38.4020435,
+        "longitude":-0.4474429,
+        "name": "Ayuntamiento de Sant Joan d'Alacant",
+        "logo": "/assets/images/logos/sant_joan.png"
+    },{
+        "latitude": 28.4327695,
+        "longitude":-16.3922438,
+        "name": "Ayuntamiento de El Rosario",
+        "logo": "/assets/images/logos/rosario.png"
+    },{
+        "latitude": 38.0452146,
+        "longitude":-1.6765886,
+        "name": "Ayuntamiento de Bullas",
+        "logo": "/assets/images/logos/bullas.png"
+    },{
+        "latitude": -32.928786,
+        "longitude":-68.8672155,
+        "name": "Municipio de Godoy Cruz",
+        "logo": "/assets/images/logos/godoy_cruz.png"
+    },{
+        "latitude": 39.4616567,
+        "longitude":-0.4424935,
+        "name": "Ayuntamiento de Xirivella",
+        "consul_website": "https://xirivella.participago.dival.es",
+        "logo": "/assets/images/logos/xirivella.png"
+    },{
+        "latitude": 39.7258726,
+        "longitude":-0.2692253,
+        "name": "Ayuntamiento de Faura",
+        "consul_website": "https://faura.participago.dival.es",
+        "logo": "/assets/images/logos/faura.png"
+    },{
+        "latitude": 39.2608679,
+        "longitude":-0.4768122,
+        "name": "Ayuntamiento de Alginet",
+        "logo": "/assets/images/logos/alginet.png"
+    },{
+        "latitude": -33.0000377,
+        "longitude":-68.9019889,
+        "name": "Municipio de Lujan de cuyo",
+        "consul_website": "http://decide.lujandecuyo.gob.ar",
+        "logo": "/assets/images/logos/lujan_cuyo.png",
+        "country": "ar"
+    },{
+        "latitude": 40.3477434,
+        "longitude":-3.547396,
+        "name": "Ayuntamiento de Rivas Vaciamadrid",
+        "logo": "/assets/images/logos/rivas_vaciamadrid.png"
+    },{
+        "latitude": -16.5205361,
+        "longitude":-68.1941173,
+        "name": "Municipio de La Paz",
+        "logo": "/assets/images/logos/la_paz.png",
+        "country": "bo"
+    },{
+        "latitude": 28.4636135,
+        "longitude":-16.2870514,
+        "name": "Ayuntamiento de Santa Cruz de Tenerife",
+        "consul_website": "https://www.santacruzdetenerife.es/participa/",
+        "logo": "/assets/images/logos/tenerife.png"
+    },{
+        "latitude": -39.2595572,
+        "longitude":-62.742406,
+        "name": "Municipio de Bahía Blanca",
+        "logo": "/assets/images/logos/bahia_blanca.png",
+        "country": "ar"
+    },{
+        "latitude": 35.8984802,
+        "longitude":14.5044102,
+        "name": "Ciudad de La Valletta",
+        "logo": "/assets/images/logos/valletta.png",
+        "country": "mt"
+    },{
+        "latitude": 38.8740569,
+        "longitude":-0.7538327,
+        "name": "Ayuntamiento de Moixent",
+        "consul_website": "http://www.moixentparticipa.es",
+        "logo": "/assets/images/logos/moixent.png",
+        "country": "es"
+
+    },{
+        "latitude": 43.2171871,
+        "longitude":2.3660783,
+        "name": "Departamento de Aude",
+        "consul_website": "http://cdj.aude.fr",
+        "logo": "/assets/images/logos/aude.png",
+        "country": "fr"
+    },{
+        "latitude": -32.8439715,
+        "longitude":-55.8992231,
+        "name": "República Oriental del Uruguay",
+        "consul_website": "https://plan.gobiernoabierto.gub.uy",
+        "logo": "/assets/images/logos/uruguay.png",
+        "country": "uy"
+    },{
+        "latitude": 38.825502,
+        "longitude":0.0119995,
+        "name": "Ayuntamiento de Ondara",
+        "consul_website": "https://participa.ondara.org",
+        "logo": "/assets/images/logos/ondara.png"
+    },{
+        "latitude": 36.7515356,
+        "longitude":-5.8255479,
+        "name": "Ayuntamiento de Arcos de la Frontera",
+        "consul_website": "http://decidearcos.es",
+        "logo": "/assets/images/logos/arcos_de_la_frontera.png",
+        "country": "es"
+    },{
+        "latitude": 43.280974, 
+        "longitude":-8.469744,
+        "name": "Diputación de A Coruña",
+        "logo": "/assets/images/logos/acoruna.png"
+    },{
+        "latitude": 40.2427857,
+        "longitude":-3.8664734,
+        "name": "Arroyomolinos",
+        "logo": "/assets/images/logos/arroyomolinos.png"
+    },{
+        "latitude": 38.2413028,
+        "longitude":-1.4289604,
+        "name": "Ayuntamiento de Cieza",
+        "consul_website": "http://decide.cieza.es",
+        "logo": "/assets/images/logos/cieza.png",
+        "country": "es"
+    },{
+        "latitude": 28.0914408,
+        "longitude":-17.1144071,
+        "name": "Cabildo Insular de la Gomera",
+        "logo": "/assets/images/logos/marchamalo.png"
+    },{
+        "latitude": 41.7671522,
+        "longitude":-2.4920886,
+        "name": "Soria"
+    },{
+        "latitude": 37.9892108,
+        "longitude":-0.6950663,
+        "name": "Torrevieja"
+    },{
+        "latitude": 36.7199549,
+        "longitude":-4.4182814,
+        "name": "Universidad de Málaga",
+        "country": "es"
+    },{
+        "latitude": 41.6590236,
+        "longitude":-0.9000049,
+        "name": "Universidad de Zaragoza",
+        "country": "es"
+    },{
+        "latitude": 38.8794416,
+        "longitude":-7.022698,
+        "name": "Diputación de Badajoz",
+        "logo": "/assets/images/logos/badajoz.png",
+        "country": "es"
+    },{
+        "latitude": 38.9860758,
+        "longitude":-3.944497,
+        "name": "Ciudad Real",
+        "logo": "/assets/images/logos/ciudad_real.png",
+        "country": "es"
+    },{
+        "latitude": 37.8916485,
+        "longitude":-4.8195048,
+        "name": "Córdoba",
+        "logo": "/assets/images/logos/cordoba_es.png",
+        "country": "es"
+    },{
+        "latitude": 6.268844,
+        "longitude":-75.666432,
+        "name": "Medellín",
+        "logo": "/assets/images/logos/medellin.png",
+        "country": "co"
+    },{
+        "latitude": -33.6313883,
+        "longitude":-60.7136,
+        "name": "San Nicolás",
+        "country": "ar",
+        "logo": "/assets/images/logos/san_nicolas_ar.png"
+    },{
+        "latitude": 41.3310413,
+        "longitude":19.782803,
+        "name": "Tirana",
+        "consul_website": "http://merrpjese.tirana.al",
+        "source": "https://github.com/eneoshoshari/consul",
+        "logo": "/assets/images/logos/tirana.png",
+        "country": "al"
+    },{
+        "latitude": 40.6686813,
+        "longitude":-3.2115238,
+        "name": "Ayuntamiento de Marchamalo",
+        "consul_website": "https://decide.marchamalo.es",
+        "logo": "/assets/images/logos/marchamalo.png"
+    },{
+        "latitude": 41.5835921,
+        "longitude":-4.5820784,
+        "name": "Ayuntamiento de Tudela de Duero",
+        "consul_website": "https://participatudela.ayuntamientosdevalladolid.es",
+        "logo": "/assets/images/logos/tudela_duero.png"
+    },{
+        "latitude": 41.6566896,
+        "longitude":-4.7244242,
+        "name": "Diputación de Valladolid",
+        "consul_website": "http://participa.diputaciondevalladolid.es",
+        "source": "https://github.com/DipVa/consul",
+        "logo": "/assets/images/logos/diputacion_valladolid.png"
+    },{
+        "latitude": 46.4604035,
+        "longitude":13.700742,
+        "name": "Kranjska Gora",
+        "consul_website": "https://sodeluj.es",
+        "logo": "/assets/images/logos/kranjska.png",
+        "country": "si"
+    },{
+        "latitude": 27.7655635,
+        "longitude":-18.0211811,
+        "name": "Cabildo El Hierro",
+        "consul_website": "https://participa.elhierro.es",
+        "logo": "/assets/images/logos/cabildo_el_hierro.png"
+    },{
+        "latitude": 36.5958801,
+        "longitude":-4.6759882,
+        "name": "Ayuntamiento de Mijas",
+        "consul_website": "https://participa.mijas.es",
+        "logo": "/assets/images/logos/mijas.png",
+        "country": "es"
+    },{
+        "latitude": -27.4861657,
+        "longitude":-66.3861678,
+        "name": "Catamarca",
+        "consul_website": "https://decide.catamarca.gob.ar",
+        "logo": "/assets/images/logos/catamarca.png",
+        "country": "ar"
+    },{
+        "latitude": 4.6482837,
+        "longitude":-74.2478912,
+        "name": "Gobierno de Colombia",
+        "consul_website": "https://www.pactoporcolombia.gov.co",
+        "logo": "/assets/images/logos/colombia.png",
+        "country": "co"
+    },{
+        "latitude": 43.3664517,
+        "longitude":-3.0229836,
+        "name": "IES Aixerrota BHI Getxo",
+        "consul_website": "https://consul.aixerrotabhi.eu",
+        "logo": "/assets/images/logos/aixerrota.png"
+    },{
+        "latitude": 40.6974034,
+        "longitude":-74.119763,
+        "name": "New York City",
+        "consul_website": "https://pbnyc.participatorybudgeting.org/budgets",
+        "country": "us",
+        "logo": "/assets/images/logos/pbnyc.png"
+    },{
+        "latitude": 14.9364469,
+        "longitude":-23.5242391,
+        "name": "Praia",
+        "country": "cv"
+    },{
+        "latitude": -19.0206471,
+        "longitude":-65.2948116,
+        "name": "Sucre",
+        "country": "bo",
+        "logo": "/assets/images/logos/sucre_bo.png"
+    },{
+        "latitude": 2.0592004,
+        "longitude":45.2716455,
+        "name": "Mogadishu",
+        "country": "so"
+    },{
+        "latitude": 39.4165592,
+        "longitude":-0.4071673,
+        "name": "Ajuntament d'Alfafar",
+        "consul_website": "https://www.decidealfafar.es",
+        "country": "es",
+        "logo": "/assets/images/logos/alfafar.png"
+    },{
+        "latitude": 41.9632862,
+        "longitude":2.8282376,
+        "name": "Universidad de Girona",
+        "consul_website":"https://som.udg.edu",
+        "logo": "/assets/images/logos/universidad_girona.png",
+        "country": "es"
+    },{
+        "latitude": 52.366667, 
+        "longitude": 6.666667,
+        "name": "Almelo",
+        "consul_website":"https://almelo.consulproject.nl",
+        "logo": "/assets/images/logos/gemeente_almelo.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 52.783333, 
+        "longitude": 6.883333,
+        "name": "Emmen",
+        "consul_website":"https://emmen.consulproject.nl",
+        "logo": "/assets/images/logos/gemeente_emmen.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 52.216667, 
+        "longitude": 6.883333,
+        "name": "Enschede",
+        "consul_website":"https://enschede.consulproject.nl",
+        "logo": "/assets/images/logos/gemeente_enschede.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 53.184722, 
+        "longitude": 6.811111,
+        "name": "Midden-Groningen",
+        "consul_website":"https://midden-groningen.consulproject.nl",
+        "logo": "/assets/images/logos/gemeente_midden_groningen.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 53.216667, 
+        "longitude": 6.566667,
+        "name": "Groningen",
+        "consul_website":"https://groningen.consulproject.nl",
+        "logo": "/assets/images/logos/gemeente_groningen.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": 52.083333,
+        "longitude": 5.116667,
+        "name": "Utrecht",
+        "consul_website":"https://utrecht.consulproject.nl",
+        "logo": "/assets/images/logos/gemeente_utrecht.png",
+        "country": "nl",
+        "status": "beta"
+    },{
+        "latitude": -6.6507501,
+        "longitude": -39.1185295,
+        "name": "Pernambuco",
+        "consul_website":"https://www.participa.pe.gov.br",
+        "logo": "/assets/images/logos/pernambuco.png",
+        "country": "br"
+    }
+]
