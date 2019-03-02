@@ -41,8 +41,20 @@ header,
 nav,
 section {
   margin:0;
-  padding:0;
+  padding: 0;
   border:0;
+  &.container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+}
+.map-highlight {
+  img {
+    opacity: 1 !important;
+    transition: filter 0.25s;
+    transition: opacity 0.25s;
+  }
 }
 
 body {
@@ -113,13 +125,23 @@ header {
   position: relative;
 
   @media only screen and (min-width: $breakpoint-large) {
-    background: url("../img/home/city.svg"), #36424a;
-    background: url("../img/home/city.svg"), -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
-    background: url("../img/home/city.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
-    background: url("../img/home/city.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+    background: url("/assets/images/home/city.svg"), #36424a;
+    background: url("/assets/images/home/city.svg"), -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+    background: url("/assets/images/home/city.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+    background: url("/assets/images/home/city.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
     background-repeat: no-repeat;
     background-position: 100% 90%;
   }
+}
+
+footer {
+  background: #36424a;
+  background: -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
+  background: -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
+  background: linear-gradient(135deg, #36424a 0%,#3a778b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36424a', endColorstr='#3a778b',GradientType=1 );
+  position: relative;
+  color: #fff !important;
 }
 
 nav {
@@ -260,7 +282,7 @@ h1 {
 
 .header-video-play {
   border: 0;
-  background: url("../img/home/city.svg");
+  background: url("/assets/images/home/city.svg");
   background-position: center;
   background-size: cover;
   cursor: pointer;
@@ -296,23 +318,26 @@ h1 {
 }
 
 .locale-selector {
-  border: 1px solid black;
   position: absolute;
-  right: 14px;
+  right: 1em;
   top: -1px;
 
   a {
-    color: black;
-    padding: 0 $line-height/2;
+    color: #00a8e1;
+    border: 1px solid #00a8e1;
+    padding: .4em;
+    margin: 0;
     text-transform: uppercase;
-
-    &:first-child {
-      border-right: 1px solid black;
-    }
 
     &.active {
       font-weight: bold;
-      text-decoration: underline;
+      background-color: #00a8e1;
+      color: #fff;
+      border: 1px solid transparent;
+    }
+    &:hover {
+      background-color: #00a8e1;
+      color: #fff;
     }
   }
 }
@@ -322,7 +347,7 @@ h1 {
   position: relative;
 
   &::after {
-    content: url('../img/external_link.svg');
+    content: url('/assets/images/external_link.svg');
     opacity: 0.5;
     position: absolute;
     right: 0;
@@ -361,7 +386,6 @@ h1 {
     border-bottom: 1px solid $light;
 
     img {
-      border: 1px solid $light;
       max-width: 100%;
     }
 
@@ -382,7 +406,6 @@ h1 {
   .number {
     color: $link;
     display: inline-block;
-    width: 60px;
   }
 
   .number-title {
@@ -410,7 +433,7 @@ h1 {
 .summary {
 
   h3::before {
-    content: url('../img/home/checkmark_icon.svg');
+    content: url('/assets/images/home/checkmark_icon.svg');
     display: block;
     height: $line-height * 1.5;
   }
@@ -418,7 +441,7 @@ h1 {
 
 .organizations {
 
-  img {
+  .img-org {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     max-width: 100%;
@@ -426,7 +449,6 @@ h1 {
     opacity: 0.75;
 
     &:hover {
-      cursor: pointer;
       filter: none;
       -webkit-filter: none;
       opacity: 1;
@@ -439,18 +461,18 @@ h1 {
 // 05. Map
 // ------------------------
 
-#mapid {
+#map {
   height: 500px;
-  margin-bottom: $line-height;
   z-index: 99;
+  background: linear-gradient(135deg, #131618 0%, #3a778b 100%);
 }
 
 .leaflet-control-fullscreen {
-  background-image: url("../img/map/fullscreen.svg");
+  background-image: url("/assets/images/map/fullscreen.svg");
 }
 
 .leaflet-control-locationlist-arrow-next {
-  background-image: url('../img/map/icon_next.svg');
+  background-image: url('/assets/images/map/icon_next.svg');
   float: left;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
@@ -459,7 +481,7 @@ h1 {
 }
 
 .leaflet-control-locationlist-arrow-prev {
-  background-image: url('../img/map/icon_prev.svg');
+  background-image: url('/assets/images/map/icon_prev.svg');
   float: left;
   border-top-left-radius: 4px !important;
   border-bottom-left-radius: 4px !important;
@@ -494,7 +516,7 @@ h1 {
 }
 
 .leaflet-control-view-center {
-  background-image: url('../img/map/icon_viewcenter.svg');
+  background-image: url('/assets/images/map/icon_viewcenter.svg');
 }
 
 // 06. Features
@@ -505,7 +527,7 @@ h1 {
   position: relative;
 
   &::before {
-    content: url('../img/home/video_icon.svg');
+    content: url('/assets/images/home/video_icon.svg');
     left: 0;
     position: absolute;
     top: 1px;
@@ -523,7 +545,7 @@ h1 {
   }
 
   img {
-    max-width: $line-height * 12;
+    max-width: 100%;
   }
 
   .row {
@@ -552,7 +574,7 @@ h1 {
         padding-right: 1.5rem;
 
         h3::after {
-          content: url('../img/home/timeline_point_icon.svg');
+          content: url('/assets/images/home/timeline_point_icon.svg');
           right: -33px;
           position: absolute;
           top: 0;
@@ -565,7 +587,7 @@ h1 {
         margin-left: 1.5rem;
 
         h3::before {
-          content: url('../img/home/timeline_point_icon.svg');
+          content: url('/assets/images/home/timeline_point_icon.svg');
           left: -33px;
           position: absolute;
           top: 0;
@@ -579,15 +601,8 @@ h1 {
 // ------------------------
 
 .contact {
-  background: #36424a;
-  background: -moz-linear-gradient(-45deg, #36424a 0%, #3a778b 100%);
-  background: -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
-  background: linear-gradient(135deg, #36424a 0%,#3a778b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36424a', endColorstr='#3a778b',GradientType=1 );
   padding: $line-height 0;
 
-  h2,
-  p,
   a {
     color: #fff;
   }
@@ -608,10 +623,6 @@ h1 {
     padding: $line-height / 2;
     margin: 0 auto $line-height;
     display: inline-block;
-
-    &:not(:last-child) {
-      margin-right: $line-height / 2;
-    }
   }
 
   .docs-info {
@@ -671,6 +682,7 @@ h1 {
 // ------------------------
 
 .footer {
+  
   padding: $line-height 0;
 
   ul {
@@ -688,4 +700,22 @@ h1 {
       }
     }
   }
+}
+.org-card {
+  position: relative;
+}
+
+.img-org {
+  position: relative;
+}
+.img-beta {
+  position: absolute;
+  height: 20px;
+  right: 1em;
+  top: .5em;
+  -webkit-transform:rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
 }
