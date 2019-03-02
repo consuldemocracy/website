@@ -18,8 +18,6 @@ $(document).ready(function () {
     })[0];
   }
   function showMap(orgs) {
-    // codeforamerica.j113mi4d - code for all
-    // codeforamerica.map-hhckoiuj - brigade
     var worldLayer;
     var latlon = [23, 0], zoom = 2;
 

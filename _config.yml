@@ -1,11 +1,11 @@
 # Site settings
-email: info@codefor.nl
+email: extension.institucional@madrid.es
 description: >
-  Open platform voor participatie projecten.
+  Software libre para participación ciudadana. Inteligencia colectiva y democracia directa digital para ciudades inteligentes. Abriendo gobiernos.
 baseurl: ""
-url: "http://www.consulproject.nl"
-twitter_username: codefornl
-github_username: codefornl
+url: "http://www.consulproject.org/"
+twitter_username: abriendomadrid
+github_username: consul
 
 # Build settings
 markdown: kramdown
