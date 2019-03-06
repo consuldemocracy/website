@@ -579,3 +579,8 @@ var puerto_santa_maria = L.marker([36.5695307,-6.245687]).addTo(mymap);
 var pernambuco = L.marker([-6.6507501,-39.1185295]).addTo(mymap);
     pernambuco.bindTooltip("<strong>Pernambuco</strong>");
     pernambuco.bindPopup("<strong>Pernambuco</strong><br><a href='https://www.participa.pe.gov.br' target='_blank'>Visitar página</a>");
+
+// San Pedro Garza García (México)
+var san_pedro = L.marker([25.6509792,-100.4025976]).addTo(mymap);
+    san_pedro.bindTooltip("<strong>San Pedro Garza García</strong>");
+    san_pedro.bindPopup("<strong>San Pedro Garza García</strong><br><a href='https://decide.sanpedro.gob.mx/' target='_blank'>Visitar página</a>");

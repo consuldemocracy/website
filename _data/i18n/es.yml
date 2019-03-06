@@ -216,6 +216,7 @@ organizations:
   tirana: "Ciudad de Tirana"
   puerto_santa_maria: "Ayuntamiento de El Puerto de Santa María"
   pernambuco: "Pernambuco"
+  san_pedro: "San Pedro Garza García"
 license:
   title: "Licencia"
   button: "Ver código en github"
