@@ -742,5 +742,12 @@
         "consul_website":"https://www.participa.pe.gov.br",
         "logo": "/assets/images/logos/pernambuco.png",
         "country": "br"
+    },{
+        "latitude": 25.6509792,
+        "longitude": -100.4025976,
+        "name": "San Pedro Garza García",
+        "consul_website":"https://decide.sanpedro.gob.mx",
+        "logo": "/assets/images/logos/san_pedro.png",
+        "country": "mx"
     }
 ]

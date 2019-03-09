@@ -190,6 +190,7 @@ h1 {
   font-size: 1.89rem;
   line-height: 1.33;
   margin: $line-height 0;
+  font-weight: bold;
 }
 
 .button {
@@ -216,7 +217,10 @@ h1 {
     display: inline-block;
     margin-bottom: 0;
   }
-
+  &.default {
+    color: #fff;
+    background-color: #00a8e1;
+  }
   &.hollow {
     background: none;
     border: 1px solid #fff;
