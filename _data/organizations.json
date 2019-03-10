@@ -749,5 +749,13 @@
         "consul_website":"https://decide.sanpedro.gob.mx",
         "logo": "/assets/images/logos/san_pedro.png",
         "country": "mx"
+    },{
+        "latitude": 17.9343,
+        "longitude": -77.3108,
+        "name": "Jamaica",
+        "consul_website":"https://jamaica.consulproject.nl",
+        "logo": "/assets/images/logos/jamaica.png",
+        "country": "jm",
+        "status": "beta"
     }
 ]
