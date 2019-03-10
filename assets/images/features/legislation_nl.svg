@@ -1,0 +1,6 @@
+---
+layout: null
+locale: nl
+permalink: /assets/images/features/legislation_nl.svg
+---
+{% include svg_legislation.svg %}

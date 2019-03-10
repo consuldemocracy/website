@@ -1,0 +1,6 @@
+---
+layout: null
+locale: pl
+permalink: /assets/images/features/debates_pl.svg
+---
+{% include svg_debates.svg %}

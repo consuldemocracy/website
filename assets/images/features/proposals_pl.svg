@@ -1,0 +1,6 @@
+---
+layout: null
+locale: pl
+permalink: /assets/images/features/proposals_pl.svg
+---
+{% include svg_proposals.svg %}

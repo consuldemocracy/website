@@ -1,0 +1,6 @@
+---
+layout: null
+locale: fr
+permalink: /assets/images/features/legislation_fr.svg
+---
+{% include svg_legislation.svg %}

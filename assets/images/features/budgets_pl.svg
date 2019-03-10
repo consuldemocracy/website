@@ -1,0 +1,6 @@
+---
+layout: null
+locale: pl
+permalink: /assets/images/features/budgets_pl.svg
+---
+{% include svg_budgets.svg %}

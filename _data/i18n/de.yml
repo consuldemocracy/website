@@ -66,6 +66,8 @@ debates:
   feature_3: "Für jeden einfach zu verwenden, ohne an Kraft und Intelligenz zu verlieren."
   image_alt: "Sektionsdebatten"
   video: "Debattenvideo ansehen"
+  how: "wie funktioniert"
+  question: "in CONSUL?"
 proposals:
   title: "Vorschläge"
   description: "Ein Raum für alle, um einen Bürgervorschlag zu erstellen und Unterstützung zu suchen. Vorschläge, die genügend Unterstützung erhalten, werden abgestimmt, und so können wir gemeinsam entscheiden, welche Themen für uns wichtig sind."
@@ -75,6 +77,8 @@ proposals:
   feature_4: "Enthält den Kommentarbereich."
   image_alt: "Vorschläge für Abschnitte"
   video: "Vorschläge-Video anschauen"
+  how: "wie funktioniert"
+  question: "in CONSUL?"
 budgets:
   title: "Bürgerhaushalt"
   description: "Bürgerhaushalte ermöglichen es den Bürgern, direkt einen Vorschlag zu machen und zu entscheiden, wie ein Teil des Haushalts auszugeben ist, wobei die Vorschläge der Einrichtung zu überwachen und streng zu bewerten sind. Maximale Wirksamkeit und Kontrolle mit Zufriedenheit für alle."
@@ -84,6 +88,8 @@ budgets:
   feature_4: "Unabhängige Budgetzuteilung für Distrikte / Viertel."
   image_alt: "Teilnehmende Budgets"
   video: "Video zum Budget ansehen"
+  how: "wie funktioniert"
+  question: "in CONSUL?"
 polls:
   title: "Abstimmung"
   description: "Sicheres Abstimmungssystem für Bürgervorschläge und Anfragen der Institution. Jeder kann leicht über sein Telefon über die wichtigsten Themen entscheiden."
@@ -92,6 +98,8 @@ polls:
   feature_3: "Fortschrittliches System zur Ermittlung physischer Abstimmungspunkte mit traditionellen Kabinen oder digitalem Abstimmungssystem."
   image_alt: "Abstimmungsseite"
   video: "Umfragenvideo ansehen"
+  how: "wie funktioniert"
+  question: "in CONSUL?"
 legislation:
   title: "Kollaborative Gesetzgebung"
   description: "Jeder Gesetzestext kann mit der Öffentlichkeit geteilt werden, um Kommentare zu einem bestimmten Teil des Textes zu erhalten. Die Kommentare sind mit den besprochenen Teilen unter Verwendung eines Farbcodes verbunden, der eine einfache Visualisierung von verbesserungsfähigen Teilen ermöglicht verwandte Debatten vor dem Textentwurf für eine bessere spätere Entwicklung. "
@@ -99,6 +107,8 @@ legislation:
   feature_2: "Farbsystem sortiert nach Anzahl der Kommentare zur einfachen Überwachung."
   feature_3: "Weit konfigurierbare vorherige Diskussionen."
   image_alt: "Ein Beispiel für eine gemeinschaftliche Gesetzgebung"
+  how: "wie funktioniert"
+  question: "in CONSUL?"
 processes:
   title: "Fortgeschrittene Prozesse"
   description: "Fortgeschrittener Abschnitt zur Entwicklung komplexer Partizipationsprozesse als Stadtentwicklungen, hochkomplexe normative Prozesse oder Prozesse, die bestimmte Partizipationsphasen erfordern."
@@ -107,6 +117,8 @@ processes:
   feature_3: "Option zum Einschließen von Designs und Grafikmaterial (z. B. städtische Neugestaltungen, offene Wettbewerbe usw.)"
   image_alt: "Abstimmung über den Umbau der Plaza España"
   video: "Video sektoraler Prozesse ansehen"
+  how: "wie funktioniert"
+  question: "in CONSUL?"
 more_features:
   title: "Weitere Funktionen"
   tagline: "Viele weitere Funktionen und sich ständig weiterentwickelnde Software, um jede nützliche Funktionalität hinzuzufügen."
@@ -127,10 +139,7 @@ license:
   title: "Lizenz"
   button: "Code auf Github anzeigen"
   text:
-    CONSUL ist freie Software, <a target='_blank'href='http://www.gnu.org/licenses/agpl-3.0.html'> AGPLv3-Lizenz </a>. Dies bedeutet in einfachen Worten, dass jeder verwenden kann Code kopieren, kopieren, detailliert betrachten, ändern und weltweit mit den gewünschten Änderungen verteilen (die anderen können dies ebenfalls tun).
-
-
-    Weil wir glauben, dass Kultur besser und reicher ist, wenn sie veröffentlicht wird.
+    "CONSUL ist freie Software, <a target='_blank'href='http://www.gnu.org/licenses/agpl-3.0.html'> AGPLv3-Lizenz </a>. Dies bedeutet in einfachen Worten, dass jeder verwenden kann Code kopieren, kopieren, detailliert betrachten, ändern und weltweit mit den gewünschten Änderungen verteilen (die anderen können dies ebenfalls tun).\n\nWeil wir glauben, dass Kultur besser und reicher ist, wenn sie veröffentlicht wird."
   repositories_list: "Vollständige Liste der Repositorys"
 contact:
   title: "Kontakt"

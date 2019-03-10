@@ -1,0 +1,6 @@
+---
+layout: null
+locale: pl
+permalink: /assets/images/features/polls_pl.svg
+---
+{% include svg_polls.svg %}

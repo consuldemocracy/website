@@ -66,6 +66,8 @@ debates:
   feature_3: "Senzill d'usar per a qualsevol, sense perdre potència i intel·ligència."
   image_alt: "Secció debats"
   video: "Veure vídeo de debats"
+  how: "¿Cómo funcionan los"
+  question: "en CONSUL?"
 proposals:
   title: "Propostes"
   description: "Un espai perquè qualsevol pugui crear una proposta ciutadana i recollir suports. Les propostes que arriben els suficients suports passen a votació, perquè entre tots decidim si s'han de dur a terme o no els temes que ens importen."
@@ -75,6 +77,8 @@ proposals:
   feature_4: "Inclou secció de comentaris."
   image_alt: "Secció propostes"
   video: "Veure vídeo de propostes"
+  how: "¿Cómo funcionan los"
+  question: "en CONSUL?"
 budgets:
   title: "Pressupostos participatius"
   description: "Els pressupostos participatius permeten que els ciutadans proposin i decideixin de manera directa com gastar part del pressupost, amb un seguiment i avaluació rigorós de les propostes per part de la institució. Màxima efectivitat i control dels recursos amb la major satisfacció per a tots . "
@@ -84,6 +88,8 @@ budgets:
   feature_4: "Creació de partides assignades a districtes / barris."
   image_alt: "Secció pressupostos participatius"
   video: "Veure vídeo de pressupostos participatius"
+  how: "¿Cómo funcionan los"
+  question: "en CONSUL?"
 polls:
   title: "Votacions"
   description: "Sistema segur de votació, tant de propostes ciutadanes, com de qüestions proposades des de la institució. Permet decidir sobre els temes més importants fàcilment des del mòbil."
@@ -92,13 +98,17 @@ polls:
   feature_3: "Sistema avançat per establir punts físics de votació, amb urnes tradicionals o sistemes de vot digital."
   image_alt: "Pàgina de votacions"
   video: "Veure vídeo de votacions"
+  how: "¿Cómo funcionan los"
+  question: "en CONSUL?"
 legislation:
-  title: "Legislació col·laborativa"
+  title: "Legislació collaborativa"
   description: "Qualsevol text legislatiu pot ser compartit amb la ciutadania per rebre comentaris sobre qualsevol part concreta del mateix. Els comentaris s'associen a les parts comentades utilitzant addicionalment un codi de colors, que permet visualitzar de manera senzilla les parts millorables. També permet crear espais de debat previ associats al text, per a un millor desenvolupament posterior d'aquest. "
   feature_1: "Comentaris associables des paraules fins seccions completes."
   feature_2: "Sistema de colors graduat per nombre de comentaris per a un fàcil seguiment dels mateixos."
   feature_3: "Debats previs àmpliament configurables."
   image_alt: "Exemple de legislació col·laborativa"
+  how: "¿Cómo funcionan los"
+  question: "en CONSUL?"
 processes:
   title: "Processos avançats"
   description: "Secció avançada per desenvolupar processos complexos de participació com desenvolupaments urbanístics, normativa complexa o processos que necessiten una sèrie de fases de participació específica."
@@ -107,6 +117,8 @@ processes:
   feature_3: "Possibilitat d'incloure dissenys i material gràfic (ex: redissenys urbans, concursos oberts, etc.)"
   image_alt: "Votació sobre la Remodelació de la plaça Espanya"
   video: "Veure vídeo de processos sectorials"
+  how: "¿Cómo funcionan los"
+  question: "en CONSUL?"
 more_features:
   title: "Més funcionalitats"
   tagline: "Moltes més funcionalitats, i programari en continu desenvolupament per afegir qualsevol funcionalitat que trobis útil."

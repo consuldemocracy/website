@@ -66,6 +66,8 @@ debates:
   feature_3: "Prosty w użyciu dla każdego, bez utraty mocy i inteligencji."
   image_alt: "Dyskusja na temat sekcji"
   video: "Oglądaj wideo debaty"
+  how: "jak działają"
+  question: "?"
 proposals:
   title: "Propozycje"
   description: "Miejsce, w którym każdy może stworzyć propozycję obywatelską i szukać wsparcia, a wnioski, które docierają do wystarczającej liczby podopiecznych, zostaną poddane pod głosowanie i wspólnie możemy zadecydować o sprawach, które są dla nas ważne."
@@ -75,6 +77,8 @@ proposals:
   feature_4: "Zawiera sekcję komentarzy."
   image_alt: "Propozycje przekrojów"
   video: "Oglądaj filmy z propozycjami"
+  how: "jak działają"
+  question: "?"
 budgets:
   title: "Budżet partycypacyjny"
   description: "Budżety partycypacyjne umożliwiają obywatelom bezpośrednie proponowanie i decydowanie o sposobie wydawania części budżetu, z monitorowaniem i rygorystyczną oceną wniosków przez instytucję Maksymalna skuteczność i kontrola z satysfakcją dla wszystkich."
@@ -84,6 +88,8 @@ budgets:
   feature_4: "Niezależne alokacje budżetu dla dzielnic / dzielnic."
   image_alt: "Sekcja budżetów partycypacyjnych"
   video: "Obejrzyj wideo z budżetem"
+  how: "jak działają"
+  question: "?"
 polls:
   title: "Głosowanie"
   description: "Bezpieczny system głosowania na propozycje obywateli i zapytania od instytucji Każdy może łatwo zdecydować się na najważniejsze kwestie z ich telefonów."
@@ -92,6 +98,8 @@ polls:
   feature_3: "Zaawansowany system ustalania fizycznych punktów głosowania, z tradycyjnymi kabinami lub cyfrowym systemem głosowania."
   image_alt: "Strona głosowania"
   video: "Obejrzyj wideo ankietowe"
+  how: "jak działają"
+  question: "?"
 legislation:
   title: "Prawodawstwo współpracy"
   description: "Każdy tekst legislacyjny może być udostępniany publicznie w celu otrzymywania komentarzy na temat jego poszczególnych części Komentarze są związane z omawianymi częściami za pomocą kodu koloru, który umożliwia łatwą wizualizację części, które można poprawić, a także umożliwia tworzenie powiązane debaty poprzedzające opracowanie tekstu, w celu lepszego późniejszego rozwoju. "
@@ -99,6 +107,8 @@ legislation:
   feature_2: "System kolorów oceniany według liczby komentarzy dla łatwego ich monitorowania."
   feature_3: "Szeroko konfigurowalne poprzednie dyskusje."
   image_alt: "Przykład wspólnego ustawodawstwa"
+  how: "jak działają"
+  question: "?"
 processes:
   title: "Zaawansowane procesy"
   description: "Zaawansowana sekcja do opracowania złożonych procesów uczestnictwa jako rozwoju miejskiego, wysoce złożonej normy lub procesów, które wymagają określonego zestawu faz uczestnictwa."
@@ -107,6 +117,8 @@ processes:
   feature_3: "Opcja uwzględnienia projektów i materiałów graficznych (np. przebudowy miast, otwarte konkursy itp.)"
   image_alt: "Głosuj na przebudowę Plaza España"
   video: "Oglądaj wideo procesów sektorowych"
+  how: "jak działają"
+  question: "?"
 more_features:
   title: "Więcej funkcji"
   tagline: "Wiele innych funkcji i stale rozwijające się oprogramowanie, które dodaje użyteczną funkcjonalność."
@@ -127,10 +139,7 @@ license:
   title: "Licencja"
   button: "Wyświetl kod na github"
   text:
-    CONSUL to wolne oprogramowanie, <a target='_blank' href='http://www.gnu.org/licenses/agpl-3.0.html'> licencja AGPLv3 </a>, oznacza to w prostych słowach, że każdy może korzystać kod, skopiuj go, zobacz go szczegółowo, zmodyfikuj i rozpowszechniaj na całym świecie dzięki modyfikacjom, które chcesz (umożliwiając innym to samo).
-
-
-    Ponieważ wierzymy, że kultura jest lepsza i bogatsza, gdy zostanie wydana.
+    "CONSUL to wolne oprogramowanie, <a target='_blank' href='http://www.gnu.org/licenses/agpl-3.0.html'> licencja AGPLv3 </a>, oznacza to w prostych słowach, że każdy może korzystać kod, skopiuj go, zobacz go szczegółowo, zmodyfikuj i rozpowszechniaj na całym świecie dzięki modyfikacjom, które chcesz (umożliwiając innym to samo).\n\nPonieważ wierzymy, że kultura jest lepsza i bogatsza, gdy zostanie wydana."
   repositories_list: "Pełna lista repozytoriów"
 contact:
   title: "Kontakt"

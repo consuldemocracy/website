@@ -66,6 +66,8 @@ debates:
   feature_3: "Simple à utiliser pour n'importe qui, sans perte de puissance ni d'intelligence."
   image_alt: "Section débats"
   video: "Regarder la vidéo des débats"
+  how: "comment fonctionne"
+  question: "dans CONSUL?"
 proposals:
   title: "Propositions"
   description: "Tout le monde peut faire une proposition et rechercher ainsi un soutien. Lorsqu'une proposition atteint un niveau de soutien suffisant, elle votera et déterminera conjointement si elle doit ou non être activement lancée."
@@ -75,6 +77,8 @@ proposals:
   feature_4: "Inclut la section commentaires."
   image_alt: "Propositions de section"
   video: "Regardez la vidéo de propositions"
+  how: "comment fonctionne"
+  question: "dans CONSUL?"
 budgets:
   title: "Budgétisation"
   description: "La budgétisation dans CONSUL donne à chacun la possibilité d'indiquer comment (une partie du) budget peut être divisé, où les autorités ou les gouvernements peuvent récupérer et libérer le budget, mais également suivre l'évolution du budget."
@@ -84,6 +88,8 @@ budgets:
   feature_4: "Allocations budgétaires indépendantes pour les districts / quartiers."
   image_alt: "Section budgets participatifs"
   video: "Regarder la vidéo sur les budgets"
+  how: "comment fonctionne"
+  question: "dans CONSUL?"
 polls:
   title: "Vote"
   description: "Système de vote sécurisé pour les propositions des citoyens et les demandes des institutions."
@@ -92,6 +98,8 @@ polls:
   feature_3: "Système avancé pour établir des points de vote physiques, avec des stands traditionnels ou un système de vote numérique."
   image_alt: "page de vote"
   video: "Regardez la vidéo des sondages"
+  how: "comment fonctionne"
+  question: "dans CONSUL?"
 legislation:
   title: "Discuter des concepts"
   description: "Avec CONSUL, il est possible de partager des concepts de manière transparente afin de faire le point sur les commentaires, les observations et les améliorations, et d’impliquer d’autres personnes dans le processus d’obtention de meilleurs documents officiels, par exemple avec les gouvernements."
@@ -99,6 +107,8 @@ legislation:
   feature_2: "Système de couleurs noté par nombre ou commentaires pour faciliter leur suivi."
   feature_3: "Discussions précédentes largement configurables."
   image_alt: "Un exemple de législation collaborative"
+  how: "comment fonctionne"
+  question: "dans CONSUL?"
 processes:
   title: "Processus avancés"
   description: "Section avancée chargée de mettre au point des processus complexes de participation en tant que développements urbains, processus normatifs hautement complexes ou nécessitant un ensemble spécifique de phases de participation."
@@ -107,6 +117,8 @@ processes:
   feature_3: "Possibilité d'inclure des dessins et du matériel graphique (par exemple, réaménagements urbains, concours généraux, etc.)"
   image_alt: "Votez sur le remodelage de la Plaza España"
   video: "Voir la vidéo sur les processus sectoriels"
+  how: "comment fonctionne"
+  question: "dans CONSUL?"
 more_features:
   title: "Plus de fonctionnalités"
   tagline: "Beaucoup plus de fonctionnalités et développement de logiciels pour ajouter toutes les fonctionnalités que vous jugez utiles."

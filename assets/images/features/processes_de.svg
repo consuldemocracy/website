@@ -1,0 +1,6 @@
+---
+layout: null
+locale: de
+permalink: /assets/images/features/processes_de.svg
+---
+{% include svg_processes.svg %}
