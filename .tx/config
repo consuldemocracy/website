@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+
+[consul-website.enyml]
+file_filter = _data/i18n/<lang>.yml
+minimum_perc = 0
+source_file = _data/i18n/en.yml
+source_lang = en
+type = YAML_GENERIC
+

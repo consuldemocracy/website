@@ -19,7 +19,7 @@ video:
   play: "Video afspelen"
   close: "Video sluiten"
 tagline: "CONSUL is dé software voor open, transparente en democratische participatie."
-trusted: ""
+trusted: "Gebruikt door steden en organisaties over de hele wereld"
 repositories_list: "Complete list of repositories"
 participation: "It's time for smart cities"
 intro:
@@ -127,10 +127,7 @@ license:
   title: "License"
   button: "View code on github"
   text:
-    CONSUL is free software, <a target='_blank' href='http://www.gnu.org/licenses/agpl-3.0.html'> AGPLv3 license</a>, this means in simple terms that anyone can use the code, copy it, see it in detail, modify and redistribute worldwide with the modifications you want (allowing the others do it as well).
-
-
-    Because we believe that culture is better and richer when it is released.
+    "CONSUL is free software, <a target='_blank' href='http://www.gnu.org/licenses/agpl-3.0.html'> AGPLv3 license</a>, this means in simple terms that anyone can use the code, copy it, see it in detail, modify and redistribute worldwide with the modifications you want (allowing the others do it as well).\n\nBecause we believe that culture is better and richer when it is released."
   repositories_list: "Complete list of repositories"
 contact:
   title: "Contact"
@@ -163,5 +160,5 @@ government_level:
   level_1: nationaal
   level_2: provincie
   level_3: gemeente
-  level_4: gemeentehuis
+  level_4: "gemeentehuis"
   level_5: gemeenteraad

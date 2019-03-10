@@ -4,7 +4,7 @@ description: "Logiciel libre pour le gouvernement ouvert et la participation cit
 header:
   consul: "CONSUL"
   description: "Logiciel libre pour projets de participation."
-  button_demo: "Ouvrir la démo"
+  button_demo: Ouvrir la démo
   button_github: "Logiciel libre sur Github"
 menu:
   title: "Découvrez CONSUL"
@@ -19,7 +19,7 @@ video:
   play: "Play Video"
   close: "Fermer la vidéo"
 tagline: "CONSUL est le logiciel permettant une participation ouverte, transparente et démocratique."
-trusted: ""
+trusted: "Utilisé par les villes et les organisations du monde entier"
 repositories_list: "Liste complète des référentiels"
 participation: "C'est l'heure des villes intelligentes"
 intro:
@@ -127,10 +127,7 @@ license:
   title: "Licence"
   button: "Voir le code sur github"
   text:
-    CONSUL est un logiciel libre, <a target='_blank'href='http://www.gnu.org/licenses/agpl-3.0.html'> Licence AGPLv3 </a>, cela signifie en termes simples que tout le monde peut utiliser le code, copiez-le, consultez-le en détail, modifiez et redistribuez dans le monde entier avec les modifications souhaitées (comme les autres le font également).
-
-
-    Parce que nous croyons que la culture est meilleure et plus riche quand elle est libérée.
+    "CONSUL est un logiciel libre, <a target='_blank'href='http://www.gnu.org/licenses/agpl-3.0.html'> Licence AGPLv3 </a>, cela signifie en termes simples que tout le monde peut utiliser le code, copiez-le, consultez-le en détail, modifiez et redistribuez dans le monde entier avec les modifications souhaitées (comme les autres le font également).\n\nParce que nous croyons que la culture est meilleure et plus riche quand elle est libérée."
   repositories_list: "Liste complète des référentiels"
 contact:
   title: "Contact"
@@ -141,7 +138,6 @@ footer:
   description: "Logiciel Open Source pour projets de participation."
   organisation: "Stichting Consul,"
   organisation_alt: "Logo de la fondation Consul"
-  
 data_video_id:
   general: "https://www.youtube.com/embed/_51lRi-Yjjk"
   debates: "zU_0UN4VajY"
@@ -163,6 +159,6 @@ documentation:
 government_level:
   level_1: national
   level_2: province
-  level_3: "municipalité"
-  level_4: mairie
+  level_3: municipalité
+  level_4: "mairie"
   level_5: mairie

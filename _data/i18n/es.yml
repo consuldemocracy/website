@@ -4,7 +4,7 @@ description: "Software libre para la participación ciudadana"
 header:
   consul: "CONSUL"
   description: "Software libre para la participación ciudadana."
-  button_demo: "Probar la demo"
+  button_demo: Probar la demo
   button_github: "Ver código en github"
 menu:
   title: "Descubre CONSUL"
@@ -119,7 +119,7 @@ more_features:
   feature_4_title: "Sistema avanzado de roles"
   feature_4_description: "Posibilidad de definir múltiples tipos de usuarios con accesos diferentes a la herramienta (ej: administradores, moderadores, evaluadores, cargos, etc.)"
 organizations:
-  name: organizaciones
+  name: "organizaciones"
   title: "CONSUL es utilizado por"
   description: "Ya son muchos los Ayuntamientos y organizaciones que actualmente utilizan CONSUL como herramienta de participación."
   preparing: "Trabajando..."
@@ -127,10 +127,7 @@ license:
   title: "Licencia"
   button: "Ver código en github"
   text:
-      CONSUL es software libre, con <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">licencia AGPLv3</a>, esto significa en palabras sencillas, que cualquiera puede libremente usar el código, copiarlo, verlo en detalle, modificarlo, y redistribuirlo al mundo con las modificaciones que quiera (manteniendo el que otros puedan a su vez hacer lo mismo).
-
-
-      Porque creemos que la cultura es mejor y más rica cuando se libera.
+    "CONSUL es software libre, con <a href=\"http://www.gnu.org/licenses/agpl-3.0.html\" target=\"_blank\">licencia AGPLv3</a>, esto significa en palabras sencillas, que cualquiera puede libremente usar el código, copiarlo, verlo en detalle, modificarlo, y redistribuirlo al mundo con las modificaciones que quiera (manteniendo el que otros puedan a su vez hacer lo mismo).\n\nPorque creemos que la cultura es mejor y más rica cuando se libera."
   repositories_list: "Lista completa de repositorios"
 contact:
   title: "Contacto"
@@ -163,5 +160,5 @@ government_level:
   level_1: nacional
   level_2: provincia
   level_3: municipio
-  level_4: ayuntamiento
+  level_4: "ayuntamiento"
   level_5: cabildo

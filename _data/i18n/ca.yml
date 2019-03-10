@@ -4,7 +4,7 @@ description: "Programari lliure per a la participació ciutadana"
 header:
   consul: "CONSUL"
   description: "Programari lliure per a la participació ciutadana"
-  button_demo: "Provar la demo"
+  button_demo: Provar la demo
   button_github: "Mostra la a github"
 menu:
   title: "Descobreix CONSUL"
@@ -119,7 +119,7 @@ more_features:
   feature_4_title: "Sistema avançat de rols"
   feature_4_description: "Possibilitat de definir múltiples tipus d'usuaris amb accessos diferents a l'eina (ex: administradors, moderadors, avaluadors, càrrecs, etc.)"
 organizations:
-  name: organitzacions
+  name: "organitzacions"
   title: "CONSUL és utilitzat per"
   description: "Ja són molts els ajuntaments i organitzacions que actualment utilitzen CONSUL com a eina de participació."
   preparing: "Treballant ..."
@@ -127,10 +127,7 @@ license:
   title: "Llicència"
   button: "Mostra la a github"
   text:
-      CONSUL és programari lliure, amb <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank"> llicència AGPLv3 </a>, això significa en paraules senzilles, que qualsevol pot lliurement usar el codi, copiar-lo, veure-ho en detall, modificar-lo, i redistribuir-se al món amb les modificacions que vulgui (mantenint el que altres puguin al seu torn fer el mateix).
-
-
-      Perquè creiem que la cultura és millor i més rica quan s'allibera.
+    "CONSUL és programari lliure, amb <a href=\"http://www.gnu.org/licenses/agpl-3.0.html\" target=\"_blank\"> llicència AGPLv3 </a>, això significa en paraules senzilles, que qualsevol pot lliurement usar el codi, copiar-lo, veure-ho en detall, modificar-lo, i redistribuir-se al món amb les modificacions que vulgui (mantenint el que altres puguin al seu torn fer el mateix).\n\nPerquè creiem que la cultura és millor i més rica quan s'allibera."
   repositories_list: "Llista completa de repositoris"
 contact:
   title: "Contacte"
@@ -163,5 +160,5 @@ government_level:
   level_1: nacional
   level_2: província
   level_3: municipi
-  level_4: ajuntament
+  level_4: "ajuntament"
   level_5: cabildo
