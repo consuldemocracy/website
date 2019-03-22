@@ -100,6 +100,26 @@ a {
   }
 }
 
+table {
+  border: 1px solid #f1f1f1;
+  border-collapse: collapse;
+  width: 100%;
+
+  th {
+    background: #f5f7fc;
+    text-align: left;
+  }
+
+  th,
+  td {
+    padding: 12px 6px;
+  }
+
+  td {
+    border-bottom: 1px solid #f1f1f1;
+  }
+}
+
 // 03. Header
 // ------------------------
 
