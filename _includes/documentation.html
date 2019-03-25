@@ -1,10 +1,10 @@
 <div class="row">
-  <div class="documentation col-12 text-center">
-    <div class="margin-bottom">
+  <div class="documentation col-12">
+    <div class="margin-bottom text-center">
       <h2 class="margin" id="documentation">{{ site.data.i18n[page.locale].documentation.title }}</h2>
     </div>
 
-    <div class="row">
+    <div class="row text-center">
       <div class="doc-container col-4">
         <div class="docs-info right">
           <div class="doc-size">819Kb</div>
@@ -23,9 +23,6 @@
           {{ site.data.i18n[page.locale].documentation.dossier }}
         </a>
       </div>
-    </div>
-
-    <div class="row">
       <div class="doc-container col-4">
         <div class="docs-info right">
           <div class="doc-size">{{ site.data.i18n[page.locale].documentation.use_guide_size }}</div>
@@ -35,23 +32,55 @@
           {{ site.data.i18n[page.locale].documentation.use_guide }}
         </a>
       </div>
-      <div class="doc-container col-4">
-        <div class="docs-info right">
-          <div class="doc-size">{{ site.data.i18n[page.locale].documentation.administration_guide_size }}</div>
-          <div class="doc-type">PDF</div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="margin-bottom">
+          <h3 class="margin" id="documentation">{{ site.data.i18n[page.locale].documentation.subtitle }}</h3>
         </div>
-        <a href="/assets/documents/consul_administration_guide_{{ page.locale }}.pdf" class="doc-download" target="_blank">
-          {{ site.data.i18n[page.locale].documentation.administration_guide }}
-        </a>
-      </div>
-      <div class="doc-container col-4">
-        <div class="docs-info right">
-          <div class="doc-size">{{ site.data.i18n[page.locale].documentation.communication_guide_size }}</div>
-          <div class="doc-type">PDF</div>
-        </div>
-        <a href="/assets/documents/consul_communication_guide_{{ page.locale }}.pdf" class="doc-download" target="_blank">
-          {{ site.data.i18n[page.locale].documentation.communication_guide }}
-        </a>
+
+        {% assign documents = "administration_guide, communication_guide, polling_stations_manual, participatory_budgeting, slides_participatory_budgeting, texts_information_sections, annexes_voting" | split: ", " %}
+
+        <table>
+          <thead>
+            <tr>
+              <th>{{ site.data.i18n[page.locale].documentation.table_document }}</th>
+              <th>{{ site.data.i18n[page.locale].documentation.table_format }}</th>
+              <th>{{ site.data.i18n[page.locale].documentation.table_size }}</th>
+              <th>{{ site.data.i18n[page.locale].documentation.table_download }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for document in documents %}
+              <tr>
+                <td>{{ site.data.i18n[page.locale].documentation.[document] }}</td>
+                <td>PDF</td>
+                <td>{{ site.data.i18n[page.locale].documentation.size.[document] }}</td>
+                <td>
+                  <a href="/assets/documents/consul_{{ document }}_{{page.locale}}.pdf" target="_blank">
+                    {{ site.data.i18n[page.locale].documentation.download }}
+                    {{ site.data.i18n[page.locale].documentation.[document] }}
+                  </a>
+                </td>
+              </tr>
+            {% endfor %}
+
+            {% if page.locale == "es"  %}
+              <tr>
+                <td>Instrucciones evaluadores presupuestos participativos</td>
+                <td>PDF</td>
+                <td>1,3Mb</td>
+                <td>
+                  <a href="/assets/documents/consul_instrucciones_evaluadores_presupuestos_participativos_es.pdf" target="_blank">
+                    {{ site.data.i18n[page.locale].documentation.download }}
+                    Instrucciones evaluadores presupuestos participativos
+                  </a>
+                </td>
+              </tr>
+            {% endif %}
+          </tbody>
+        </table>
       </div>
     </div>
 
