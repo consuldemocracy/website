@@ -757,5 +757,13 @@
         "logo": "/assets/images/logos/jamaica.png",
         "country": "jm",
         "status": "beta"
+    },{
+        "latitude": 52.74879493767466,
+        "longitude": 6.967096924781798,
+        "name": "Nieuw Dordrecht",
+        "consul_website":"https://nieuw-dordrecht.consulproject.nl",
+        "logo": "/assets/images/logos/nieuw-dordrecht.png",
+        "country": "nl",
+        "status": "beta"
     }
 ]
