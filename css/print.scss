@@ -1,0 +1,37 @@
+---
+# Import sass files
+---
+
+@charset "utf-8";
+@import "simple_grid";
+
+body {
+  padding: 1em;
+  width: 90%;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.toc {
+  padding-left: 0;
+}
+
+.toc-item {
+  display: inline-block;
+  width: 3em;
+  margin-right: 1em;
+}
+
+.sub-toc-item {
+  display: inline-block;
+  width: 3em;
+  
+  margin-right: 2em;
+}
