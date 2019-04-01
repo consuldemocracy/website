@@ -230,6 +230,12 @@ h1 {
     background: $link;
     color: #fff;
   }
+
+  &.header {
+    background: #00a8e1;
+    border: 0;
+    color: #fff;
+  }
 }
 
 .button ~ .button {

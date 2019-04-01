@@ -5,7 +5,7 @@ header:
   consul: "CONSUL"
   description: "Software libre para la participación ciudadana."
   button_demo: "Probar la demo"
-  button_github: "Ver código en github"
+  button_github: "Descargar CONSUL (github)"
 menu:
   title: "Descubre CONSUL"
   community: "Comunidad"
@@ -246,6 +246,7 @@ documentation:
   title: "Documentación"
   subtitle: "Documentación avanzada"
   community: "Más documentación, información y debates en la Comunidad de CONSUL."
+  technical_documentation: "Documentación técnica para instalar CONSUL"
   table_document: "Documento"
   table_format: "Formato"
   table_size: "Tamaño"
