@@ -4,7 +4,7 @@ description: "Software libre para la participación ciudadana"
 header:
   consul: "CONSUL"
   description: "Software libre para la participación ciudadana."
-  button_demo: "Probar la demo"
+  button_demo: "Probar demo de CONSUL"
   button_github: "Descargar CONSUL (github)"
 menu:
   title: "Descubre CONSUL"

@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    <div class="col-5">
+    <div class="col-6">
       <h1>
         <a href="/{{ page.locale  }}">
           <img src="../img/consul_logo.svg" alt="{{ site.data.i18n[page.locale].header.consul }}">
@@ -12,13 +12,17 @@
       <a href="https://github.com/consul/consul" target="_blank" class="button header">
         {{ site.data.i18n[page.locale].header.button_github }}
       </a>
+
+      <a href="https://demo.consulproject.org/" target="_blank" class="button header white">
+        {{ site.data.i18n[page.locale].header.button_demo }}
+      </a>
     </div>
 
     <button class="header-video-play" id="js-header-video-trigger" type="button">
       <img src="../img/home/play_icon.svg" alt="{{ site.data.i18n[page.locale].video.play }}">
     </button>
 
-    <div class="col-7">
+    <div class="col-6">
       <nav>
         <h2 class="show-for-sr">{{ site.data.i18n[page.locale].menu.title }}</h2>
         <a href="#features">{{ site.data.i18n[page.locale].menu.features }}</a>

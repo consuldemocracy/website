@@ -4,7 +4,7 @@ description: "Free software for citizen participation"
 header:
   consul: "CONSUL"
   description: "Free software for citizen participation."
-  button_demo: Try the demo
+  button_demo: "Try a demo of CONSUL"
   button_github: "Download CONSUL (github)"
 menu:
   title: "Discover CONSUL"
