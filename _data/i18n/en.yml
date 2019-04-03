@@ -4,8 +4,8 @@ description: "Free software for citizen participation"
 header:
   consul: "CONSUL"
   description: "Free software for citizen participation."
-  button_demo: Try the demo
-  button_github: "See code on github"
+  button_demo: "Try a demo of CONSUL"
+  button_github: "Download CONSUL (github)"
 menu:
   title: "Discover CONSUL"
   community: "Community"
@@ -164,6 +164,7 @@ documentation:
   title: "Documentation"
   subtitle: "Advanced documentation"
   community: "More documentation, information and debates in the CONSUL Community."
+  technical_documentation: "Technical documentation to install CONSUL"
   table_document: "Document"
   table_format: "Format"
   table_size: "Size"
