@@ -263,6 +263,9 @@ documentation:
   annexes_voting: "Annexes voting"
   participatory_budgeting: "Participatory budgeting"
   slides_participatory_budgeting: "Slides Participatory budgeting"
+  use_guide_docx: "CONSUL Use Guide (v.0.16)"
+  administration_guide_doc: "Administration guide of CONSUL (v.0.15)"
+  communication_guide_doc: "CONSUL Communication guide"
   size:
     administration_guide: "3.2Mb"
     communication_guide: "759Kb"
@@ -271,3 +274,6 @@ documentation:
     annexes_voting: "216Kb"
     participatory_budgeting: "103Kb"
     slides_participatory_budgeting: "107Kb"
+    use_guide_docx: "9.7Mb"
+    administration_guide_doc: "3.2Mb"
+    communication_guide_doc: "803Kb"

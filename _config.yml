@@ -9,3 +9,26 @@ github_username: consul
 
 # Build settings
 markdown: kramdown
+
+# Documents files
+files:
+  - name: "use_guide_docx"
+    format: "docx"
+  - name: "administration_guide"
+    format: "pdf"
+  - name: "administration_guide_doc"
+    format: "doc"
+  - name: "communication_guide"
+    format: "pdf"
+  - name: "communication_guide_doc"
+    format: "doc"
+  - name: "polling_stations_manual"
+    format: "pdf"
+  - name: "participatory_budgeting"
+    format: "pdf"
+  - name: "slides_participatory_budgeting"
+    format: "pdf"
+  - name: "texts_information_sections"
+    format: "pdf"
+  - name: "annexes_voting"
+    format: "pdf"
