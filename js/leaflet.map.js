@@ -225,11 +225,6 @@ var cordoba_arg = L.marker([-31.399401,-64.2643837]).addTo(mymap);
     cordoba_arg.bindTooltip("<strong>Córdoba</strong>");
     cordoba_arg.bindPopup("<strong>Córdoba</strong><br>Trabajando");
 
-// Guadalajara
-var guadalajara_mex = L.marker([20.6737883,-103.3704326]).addTo(mymap);
-    guadalajara_mex.bindTooltip("<strong>Guadalajara</strong>");
-    guadalajara_mex.bindPopup("<strong>Guadalajara</strong><br>Trabajando");
-
 // Jalisco
 var jalisco_mex = L.marker([20.834412,-104.7241366]).addTo(mymap);
     jalisco_mex.bindTooltip("<strong>Jalisco</strong>");
@@ -255,11 +250,6 @@ var portoalegre = L.marker([-30.1087957,-51.3172251]).addTo(mymap);
     portoalegre.bindTooltip("<strong>Porto Alegre</strong>");
     portoalegre.bindPopup("<strong>Porto Alegre</strong><br><a href='https://opdigital.prefeitura.poa.br/' target='_blank'>Visitar página</a>");
 
-// Puerto Montt
-var puertomontt = L.marker([-41.4629843,-72.9655277]).addTo(mymap);
-    puertomontt.bindTooltip("<strong>Puerto Montt</strong>");
-    puertomontt.bindPopup("<strong>Puerto Montt</strong><br>Trabajando");
-
 // Quito
 var quito = L.marker([-0.1865938,-78.5706226]).addTo(mymap);
     quito.bindTooltip("<strong>Quito</strong>");
@@ -269,11 +259,6 @@ var quito = L.marker([-0.1865938,-78.5706226]).addTo(mymap);
 var torino = L.marker([45.0701176,7.600049]).addTo(mymap);
     torino.bindTooltip("<strong>Torino</strong>");
     torino.bindPopup("<strong>Torino</strong><br><a href='https://deciditorino.it/' target='_blank'>Visitar página</a><br><a href='https://github.com/csipiemonte/consul' target='_blank'>Código en github</a>");
-
-// Gwangju
-var gwangju = L.marker([35.176695,126.8087806]).addTo(mymap);
-    gwangju.bindTooltip("<strong>Gwangju</strong>");
-    gwangju.bindPopup("<strong>Gwangju</strong><br>Trabajando");
 
 // Universidade da Coruña
 var uni_a_coruna = L.marker([43.3618474,-8.4477032]).addTo(mymap);
@@ -294,11 +279,6 @@ var alcala = L.marker([40.4947687,-3.4367158]).addTo(mymap);
 var aviles = L.marker([43.5574185,-5.93553]).addTo(mymap);
     aviles.bindTooltip("<strong>Avilés</strong>");
     aviles.bindPopup("<strong>Avilés</strong><br>Trabajando");
-
-// Barú
-var baru = L.marker([8.3013227,-83.1524706]).addTo(mymap);
-    baru.bindTooltip("<strong>Barú</strong>");
-    baru.bindPopup("<strong>Barú</strong><br>Trabajando");
 
 // Cartagena
 var cartagena_mur = L.marker([37.6174104,-1.006017]).addTo(mymap);
@@ -479,11 +459,6 @@ var cordoba_esp = L.marker([37.8916485,-4.8195048]).addTo(mymap);
 var medellin = L.marker([6.268844,-75.666432]).addTo(mymap);
     medellin.bindTooltip("<strong>Medellín</strong>");
     medellin.bindPopup("<strong>Medellín</strong><br><span>Trabajando</span>");
-
-// San Nicolás
-var sannicolas = L.marker([-33.6313883,-60.7136]).addTo(mymap);
-    sannicolas.bindTooltip("<strong>San Nicolás</strong>");
-    sannicolas.bindPopup("<strong>San Nicolás</strong><br><span>Trabajando</span>");
 
 // Bashkia tirane (Tirana, Albania)
 var tirana = L.marker([41.3310413,19.782803]).addTo(mymap);
