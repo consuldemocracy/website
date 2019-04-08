@@ -1,0 +1,23 @@
+stages:
+- name: Build
+  steps:
+  - runScriptConfig:
+      image: jekyll/builder:3.8
+      shellScript: |-
+        mkdir _site
+        chmod a+rw _site
+        jekyll build
+- name: Publish
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: example-jekyll:${CICD_EXECUTION_SEQUENCE}
+      registry: 127.0.0.1:34201
+- name: Deploy
+  steps:
+  - applyYamlConfig:
+      path: ./deployment.yaml
+branch:
+  include:
+  - master
