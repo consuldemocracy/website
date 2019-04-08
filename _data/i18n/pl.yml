@@ -4,8 +4,8 @@ description: "Bezpłatne oprogramowanie do udziału obywateli"
 header:
   consul: "CONSUL"
   description: "Bezpłatne oprogramowanie do udziału obywateli."
-  button_demo: Wypróbuj wersję demo
-  button_github: "Zobacz kod na githubie"
+  button_demo: ""
+  button_github: ""
 menu:
   title: "Discover CONSUL"
   community: "Społeczność"
@@ -161,6 +161,7 @@ documentation:
   title: "Dokumentacja"
   subtitle: ""
   community: ""
+  technical_documentation: ""
   table_document: ""
   table_format: ""
   table_size: ""
@@ -177,6 +178,9 @@ documentation:
   annexes_voting: ""
   participatory_budgeting: ""
   slides_participatory_budgeting: ""
+  use_guide_docx: ""
+  administration_guide_doc: ""
+  communication_guide_doc: ""
   size:
     administration_guide: ""
     communication_guide: ""
@@ -185,6 +189,9 @@ documentation:
     annexes_voting: ""
     participatory_budgeting: ""
     slides_participatory_budgeting: ""
+    use_guide_docx: ""
+    administration_guide_doc: ""
+    communication_guide_doc: ""
 government_level:
   level_1: krajowy
   level_2: prowincja

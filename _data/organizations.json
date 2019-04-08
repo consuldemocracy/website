@@ -279,12 +279,6 @@
         "logo": "/assets/images/logos/cordoba_ar.png",
         "country": "ar"
     },{
-        "latitude": 20.6737883,
-        "longitude":-103.3704326,
-        "name": "Guadalajara",
-        "logo": "/assets/images/logos/guadalajara.png",
-        "country": "mx"
-    },{
         "latitude": 20.834412,
         "longitude":-104.7241366,
         "name": "Jalisco",
@@ -318,12 +312,6 @@
         "logo": "/assets/images/logos/porto_alegre.png",
         "country": "br"
     },{
-        "latitude": -41.4629843,
-        "longitude":-72.9655277,
-        "name": "Puerto Montt",
-        "logo": "/assets/images/logos/puerto_montt.png",
-        "country": "cl"
-    },{
         "latitude": -0.1865938,
         "longitude":-78.5706226,
         "name": "Quito",
@@ -338,12 +326,6 @@
         "source": "https://github.com/csipiemonte/consul",
         "logo": "/assets/images/logos/torino.png",
         "country": "it"
-    },{
-        "latitude": 35.176695,
-        "longitude":126.8087806,
-        "name": "Gwangju",
-        "logo": "/assets/images/logos/gwangju.png",
-        "country": "kr"
     },{
         "latitude": 43.3618474,
         "longitude":-8.4477032,
@@ -366,12 +348,6 @@
         "longitude":-5.93553,
         "name": "Avilés",
         "logo": "/assets/images/logos/aviles.png"
-    },{
-        "latitude": 8.3013227,
-        "longitude":-83.1524706,
-        "name": "Barú",
-        "logo": "/assets/images/logos/baru.png",
-        "country": "cr"
     },{
         "latitude": 37.6174104,
         "longitude":-1.006017,

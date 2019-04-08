@@ -48,8 +48,6 @@
           <h3 class="margin" id="documentation">{{ site.data.i18n[page.locale].documentation.subtitle }}</h3>
         </div>
 
-        {% assign documents = "administration_guide, communication_guide, polling_stations_manual, participatory_budgeting, slides_participatory_budgeting, texts_information_sections, annexes_voting" | split: ", " %}
-
         <table>
           <thead>
             <tr>
@@ -60,15 +58,15 @@
             </tr>
           </thead>
           <tbody>
-            {% for document in documents %}
+            {% for file in site.files %}
               <tr>
-                <td>{{ site.data.i18n[page.locale].documentation.[document] }}</td>
-                <td>PDF</td>
-                <td>{{ site.data.i18n[page.locale].documentation.size.[document] }}</td>
+                <td>{{ site.data.i18n[page.locale].documentation.[file.name] }}</td>
+                <td>{{ file.format | upcase }}</td>
+                <td>{{ site.data.i18n[page.locale].documentation.size.[file.name] }}</td>
                 <td>
                   <a href="/assets/documents/consul_{{ document }}_{{page.locale}}.pdf" target="_blank">
                     {{ site.data.i18n[page.locale].documentation.download }}
-                    {{ site.data.i18n[page.locale].documentation.[document] }}
+                    {{ site.data.i18n[page.locale].documentation.[file.name] }}
                   </a>
                 </td>
               </tr>

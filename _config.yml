@@ -9,3 +9,20 @@ github_username: codefornl
 
 # Build settings
 markdown: kramdown
+
+# Documents files
+files:
+  - name: "administration_guide"
+    format: "pdf"
+  - name: "communication_guide"
+    format: "pdf"
+  - name: "polling_stations_manual"
+    format: "pdf"
+  - name: "participatory_budgeting"
+    format: "pdf"
+  - name: "slides_participatory_budgeting"
+    format: "pdf"
+  - name: "texts_information_sections"
+    format: "pdf"
+  - name: "annexes_voting"
+    format: "pdf"
