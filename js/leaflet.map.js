@@ -465,10 +465,10 @@ var tirana = L.marker([41.3310413,19.782803]).addTo(mymap);
     tirana.bindTooltip("<strong>Tirana</strong>");
     tirana.bindPopup("<strong>Tirana</strong><br><a href='http://merrpjese.tirana.al' target='_blank'>Visitar página</a><br><a href='https://github.com/eneoshoshari/consul/' target='_blank'>Código en github</a>");
 
-// Veracruz
-var veracruz = L.marker([19.7955228,-98.3889]).addTo(mymap);
-    veracruz.bindTooltip("<strong>Veracruz</strong>");
-    veracruz.bindPopup("<strong>Veracruz</strong><br><span>Trabajando</span>");
+// Coatzacoalcos (Veracruz)
+var coatzacoalcos = L.marker([18.1342059,-94.5329873]).addTo(mymap);
+    coatzacoalcos.bindTooltip("<strong>Coatzacoalcos</strong>");
+    coatzacoalcos.bindPopup("<strong>Coatzacoalcos</strong><br><a href='http://participa.coatzacoalcos.gob.mx' target='_blank'>Visitar página</a>");
 
 // Ayuntamiento de Marchamalo
 var marchamalo = L.marker([40.6686813,-3.2115238]).addTo(mymap);
