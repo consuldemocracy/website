@@ -213,6 +213,11 @@ organizations:
   puerto_santa_maria: "Ayuntamiento de El Puerto de Santa María"
   pernambuco: "Pernambuco"
   san_pedro: "San Pedro Garza García"
+  argentina: "Gobierno de Argentina"
+  asuncion: "Ciudad de Asunción"
+  bogota: "Ciudad de Bogotá"
+  praia: "Ciudad de Praia"
+  areco: "Ciudad de San Antonio de Areco"
 license:
   title: "Licencia"
   button: "Ver código en github"

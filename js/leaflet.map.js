@@ -559,3 +559,28 @@ var pernambuco = L.marker([-6.6507501,-39.1185295]).addTo(mymap);
 var san_pedro = L.marker([25.6509792,-100.4025976]).addTo(mymap);
     san_pedro.bindTooltip("<strong>San Pedro Garza García</strong>");
     san_pedro.bindPopup("<strong>San Pedro Garza García</strong><br><a href='https://decide.sanpedro.gob.mx/' target='_blank'>Visitar página</a>");
+
+// Gobierno de Argentina
+var argentina =  L.marker([-34.6160074,-58.5033381]).addTo(mymap);
+    argentina.bindTooltip("<strong>Gobierno de Argentina</strong>");
+    argentina.bindPopup("<strong>Gobierno de Argentina</strong><br><span>Trabajando</span>");
+
+// Asunción (Paraguay)
+var asuncion =  L.marker([-25.2968361,-57.6681294]).addTo(mymap);
+    asuncion.bindTooltip("<strong>Asunción</strong>");
+    asuncion.bindPopup("<strong>Asunción</strong><br><span>Trabajando</span>");
+
+// Bogotá (Colombia)
+var bogota =  L.marker([4.6482837,-74.2478913]).addTo(mymap);
+    bogota.bindTooltip("<strong>Bogotá</strong>");
+    bogota.bindPopup("<strong>Bogotá</strong><br><span>Trabajando</span>");
+
+// Praia (Cabo Verde)
+var praia =  L.marker([14.9359159,-23.5248987]).addTo(mymap);
+    praia.bindTooltip("<strong>Praia</strong>");
+    praia.bindPopup("<strong>Praia</strong><br><span>Trabajando</span>");
+
+// San Antonio de Areco (Argentina)
+var praia =  L.marker([-34.2499072,-59.4796144]).addTo(mymap);
+    praia.bindTooltip("<strong>San Antonio de Areco</strong>");
+    praia.bindPopup("<strong>San Antonio de Areco</strong><br><a href='http://decide.areco.gob.ar' target='_blank'>Visitar página</a>");
