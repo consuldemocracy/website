@@ -584,3 +584,8 @@ var praia =  L.marker([14.9359159,-23.5248987]).addTo(mymap);
 var praia =  L.marker([-34.2499072,-59.4796144]).addTo(mymap);
     praia.bindTooltip("<strong>San Antonio de Areco</strong>");
     praia.bindPopup("<strong>San Antonio de Areco</strong><br><a href='http://decide.areco.gob.ar' target='_blank'>Visitar página</a>");
+
+// Hrpelje-Kozina (Eslovenia)
+var kozina =  L.marker([45.6227567,13.9430561]).addTo(mymap);
+    kozina.bindTooltip("<strong>Hrpelje-Kozina</strong>");
+    kozina.bindPopup("<strong>Hrpelje-Kozina</strong><br><a href='https://pp.hrpelje-kozina.si' target='_blank'>Visitar página</a>");
