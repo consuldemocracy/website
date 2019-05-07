@@ -589,3 +589,8 @@ var praia =  L.marker([-34.2499072,-59.4796144]).addTo(mymap);
 var kozina =  L.marker([45.6227567,13.9430561]).addTo(mymap);
     kozina.bindTooltip("<strong>Hrpelje-Kozina</strong>");
     kozina.bindPopup("<strong>Hrpelje-Kozina</strong><br><a href='https://pp.hrpelje-kozina.si' target='_blank'>Visitar página</a>");
+
+// Ayuntamiento de Aranjuez
+var aranjuez =  L.marker([40.0294906,-3.6379744]).addTo(mymap);
+    aranjuez.bindTooltip("<strong>Ayuntamiento de Aranjuez</strong>");
+    aranjuez.bindPopup("<strong>Ayuntamiento de Aranjuez</strong><br><a href='https://decidimos.aranjuez.es' target='_blank'>Visitar página</a>");
