@@ -271,6 +271,8 @@ documentation:
   use_guide_docx: "CONSUL Use Guide (v.0.16)"
   administration_guide_doc: "Administration guide of CONSUL (v.0.15)"
   communication_guide_doc: "CONSUL Communication guide"
+  recommended_actions_for_users: "Recommended actions for users"
+  resources_for_users: "Resources for users"
   size:
     administration_guide: "3.2Mb"
     communication_guide: "759Kb"
@@ -282,3 +284,5 @@ documentation:
     use_guide_docx: "9.7Mb"
     administration_guide_doc: "3.2Mb"
     communication_guide_doc: "803Kb"
+    recommended_actions_for_users: "34Kb"
+    resources_for_users: "30kb"
