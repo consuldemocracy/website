@@ -64,7 +64,7 @@
                 <td>{{ file.format | upcase }}</td>
                 <td>{{ site.data.i18n[page.locale].documentation.size.[file.name] }}</td>
                 <td>
-                  <a href="/assets/documents/consul_{{ document }}_{{page.locale}}.pdf" target="_blank">
+                  <a href="/assets/documents/consul_{{ file.name }}_{{page.locale}}.pdf" target="_blank">
                     {{ site.data.i18n[page.locale].documentation.download }}
                     {{ site.data.i18n[page.locale].documentation.[file.name] }}
                   </a>
