@@ -85,6 +85,20 @@
                 </td>
               </tr>
             {% endif %}
+
+            {% if page.locale == "en"  %}
+              <tr>
+                <td>CONSUL Dossier (Deutsch)</td>
+                <td>PDF</td>
+                <td>3,9Mb</td>
+                <td>
+                  <a href="/docs/consul_dossier_deutsch.pdf" target="_blank">
+                    {{ site.data.i18n[page.locale].documentation.download }}
+                    CONSUL Dossier (Deutsch)
+                  </a>
+                </td>
+              </tr>
+            {% endif %}
           </tbody>
         </table>
       </div>

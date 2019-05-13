@@ -37,6 +37,8 @@ intro:
   eu_url: "https://ec.europa.eu/regional_policy/en/funding/erdf/"
   dcent: "Part of d-cent"
   dcent_url: "http://tools.dcentproject.eu/"
+  nesta: "Nesta"
+  nesta_url: "https://www.nesta.org.uk/feature/collective-intelligence-grants/"
 summary:
   free_title: "Free"
   free_description: "As it is an open software platform all its code can be used by any person or entity."
@@ -184,6 +186,8 @@ documentation:
   use_guide_docx: "CONSUL Use Guide (v.0.16)"
   administration_guide_doc: "Administration guide of CONSUL (v.0.15)"
   communication_guide_doc: "CONSUL Communication guide"
+  recommended_actions_for_users: "Recommended actions for users"
+  resources_for_users: "Resources for users"
   size:
     administration_guide: "3.2Mb"
     communication_guide: "759Kb"
@@ -195,6 +199,8 @@ documentation:
     use_guide_docx: "9.7Mb"
     administration_guide_doc: "3.2Mb"
     communication_guide_doc: "803Kb"
+    recommended_actions_for_users: "34Kb"
+    resources_for_users: "30kb"
 government_level:
   level_1: national
   level_2: province

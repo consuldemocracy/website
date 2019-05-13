@@ -26,3 +26,7 @@ files:
     format: "pdf"
   - name: "annexes_voting"
     format: "pdf"
+  - name: "recommended_actions_for_users"
+    format: "pdf"
+  - name: "resources_for_users"
+    format: "pdf"

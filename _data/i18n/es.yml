@@ -37,6 +37,8 @@ intro:
   eu_url: "https://ciudades-abiertas.es/"
   dcent: "Parte de d-cent"
   dcent_url: "http://tools.dcentproject.eu/"
+  nesta: "Nesta"
+  nesta_url: "https://www.nesta.org.uk/feature/collective-intelligence-grants/"
 summary:
   free_title: "Gratuito"
   free_description: "Al ser una plataforma de software libre todo su código está a disposición de cualquier individuo y entidad."
@@ -181,6 +183,8 @@ documentation:
   use_guide_docx: "Guía de Uso de CONSUL (v.0.16)"
   administration_guide_doc: "Guía de Administración de CONSUL (v.0.15)"
   communication_guide_doc: "Guía de comunicación CONSUL"
+  recommended_actions_for_users: "Acciones recomendadas para usuarios"
+  resources_for_users: "Recursos para usuarios"
   size:
     administration_guide: "3.4Mb"
     communication_guide: "744Kb"
@@ -192,6 +196,8 @@ documentation:
     use_guide_docx: "13.9Mb"
     administration_guide_doc: "3.4Mb"
     communication_guide_doc: "867Kb"
+    recommended_actions_for_users: "68Kb"
+    resources_for_users: "38kb"
 government_level:
   level_1: nacional
   level_2: provincia

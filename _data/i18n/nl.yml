@@ -37,6 +37,8 @@ intro:
   eu_url: "https://ec.europa.eu/regional_policy/nl/funding/erdf/"
   dcent: "Onderdeel van d-cent"
   dcent_url: "http://tools.dcentproject.eu/"
+  nesta: "Nesta"
+  nesta_url: "https://www.nesta.org.uk/feature/collective-intelligence-grants/"
 summary:
   free_title: "Vrij"
   free_description: "CONSUL is open source en kan worden gebruikt door iedereen."

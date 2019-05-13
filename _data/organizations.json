@@ -634,11 +634,6 @@
         "country": "us",
         "logo": "/assets/images/logos/pbnyc.png"
     },{
-        "latitude": 14.9364469,
-        "longitude":-23.5242391,
-        "name": "Praia",
-        "country": "cv"
-    },{
         "latitude": -19.0206471,
         "longitude":-65.2948116,
         "name": "Sucre",
@@ -728,8 +723,8 @@
     },{
         "latitude": 17.9343,
         "longitude": -77.3108,
-        "name": "Jamaica",
-        "consul_website":"https://jamaica.consulproject.nl",
+        "name": "Tell Your MP",
+        "consul_website":"https://tellyourmp.com.jm",
         "logo": "/assets/images/logos/jamaica.png",
         "country": "jm",
         "status": "beta"
@@ -741,5 +736,61 @@
         "logo": "/assets/images/logos/nieuw-dordrecht.png",
         "country": "nl",
         "status": "beta"
+    },{
+        "latitude": -34.6160074,
+        "longitude": -58.5033381,
+        "name": "Gobierno de Argentina",
+        "consul_website":"",
+        "logo": "/assets/images/logos/argentina.png",
+        "country": "ar"
+    },{
+        "latitude": -25.2968361,
+        "longitude": -57.6681294,
+        "name": "Asunción",
+        "consul_website":"",
+        "logo": "/assets/images/logos/asuncion.png",
+        "country": "py"
+    },{
+        "latitude": 4.6482837,
+        "longitude": -74.2478913,
+        "name": "Bogotá",
+        "consul_website":"",
+        "logo": "/assets/images/logos/bogota.png",
+        "country": "co"
+    },{
+        "latitude": 14.9359159,
+        "longitude": -23.5248987,
+        "name": "Praia",
+        "consul_website":"",
+        "logo": "/assets/images/logos/praia.png",
+        "country": "cv"
+    },{
+        "latitude": -34.2499072,
+        "longitude": -59.4796144,
+        "name": "San Antonio de Areco",
+        "consul_website":"http://decide.areco.gob.ar",
+        "logo": "/assets/images/logos/areco.png",
+        "country": "ar"
+    },{
+        "latitude": 45.6227567,
+        "longitude": 13.9430561,
+        "name": "Hrpelje-Kozina",
+        "consul_website":"https://pp.hrpelje-kozina.si",
+        "logo": "/assets/images/logos/kozina.png",
+        "country": "si"
+    },{
+        "latitude": 18.1342059,
+        "longitude": -94.5329873,
+        "name": "Coatzacoalcos",
+        "consul_website":"http://participa.coatzacoalcos.gob.mx",
+        "logo": "/assets/images/logos/coatzacoalcos.png",
+        "country": "mx"
+    },{
+        "latitude": 40.0294906,
+        "longitude": -3.6379744,
+        "name": "Aranjuez",
+        "consul_website":"https://decidimos.aranjuez.es",
+        "logo": "/assets/images/logos/aranjuez.png",
+        "country": "es"
     }
 ]
