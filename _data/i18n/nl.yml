@@ -183,6 +183,8 @@ documentation:
   use_guide_docx: "Gebruikshandleiding (v.0.16)"
   administration_guide_doc: "Beheerhandleiding (v.0.15)"
   communication_guide_doc: "Communicatiegids"
+  recommended_actions_for_users: "Aanbevolen acties voor gebruikers"
+  resources_for_users: "Informatie voor gebruikers"
   size:
     administration_guide: "3.2Mb"
     communication_guide: "759Kb"
@@ -194,6 +196,8 @@ documentation:
     use_guide_docx: "9.7Mb"
     administration_guide_doc: "3.2Mb"
     communication_guide_doc: "803Kb"
+    recommended_actions_for_users: "34Kb"
+    resources_for_users: "30kb"
 government_level:
   level_1: nationaal
   level_2: provincie
