@@ -238,8 +238,6 @@ contact:
 footer:
   title: "CONSUL"
   description: "Software libre para la participación ciudadana."
-  madrid: "Ayuntamiento de Madrid, "
-  madrid_alt: "Logo del Ayuntamiento de Madrid"
 data_video_id:
   general: "https://www.youtube.com/embed/vO1jRu25B9E"
   debates: "GFy5GnsRlhU"
