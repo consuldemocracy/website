@@ -235,10 +235,10 @@ var lima_per = L.marker([-12.0266034,-77.1278634]).addTo(mymap);
     lima_per.bindTooltip("<strong>Lima</strong>");
     lima_per.bindPopup("<strong>Lima</strong><br>Trabajando");
 
-// Montes de Oca
+// Montes de Oca (Costa Rica)
 var montesdeoca = L.marker([9.9399955,-84.0285016]).addTo(mymap);
     montesdeoca.bindTooltip("<strong>Montes de Oca</strong>");
-    montesdeoca.bindPopup("<strong>Montes de Oca</strong><br>Trabajando");
+    montesdeoca.bindPopup("<strong>Montes de Oca</strong><br><a href='https://decide.montesdeoca.go.cr/' target='_blank'>Visitar página</a>");
 
 // Montevideo
 var montevideo = L.marker([-34.8210782,-56.3064783]).addTo(mymap);
