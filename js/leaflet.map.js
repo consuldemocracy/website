@@ -561,7 +561,7 @@ var san_pedro = L.marker([25.6509792,-100.4025976]).addTo(mymap);
     san_pedro.bindPopup("<strong>San Pedro Garza García</strong><br><a href='https://decide.sanpedro.gob.mx/' target='_blank'>Visit website</a>");
 
 // Gobierno de Argentina
-var argentina = L.marker([-34.6160074,-58.5033381]).addTo(mymap);
+var argentina = L.marker([-34.9160074,-58.5033381]).addTo(mymap);
     argentina.bindTooltip("<strong>Gobierno de Argentina</strong>");
     argentina.bindPopup("<strong>Gobierno de Argentina</strong><br><span>Working</span>");
 
@@ -646,7 +646,7 @@ var utrecht_neth = L.marker([52.0841041,4.942753]).addTo(mymap);
     utrecht_neth.bindPopup("<strong>Utrecht</strong><br><span>Working</span>");
 
 // Sekondi-Takoradi (Ghana)
-var sekonditakoradi = L.marker([52.0841041,4.942753]).addTo(mymap);
+var sekonditakoradi = L.marker([4.9147493,-1.812530]).addTo(mymap);
     sekonditakoradi.bindTooltip("<strong>Sekondi-Takoradi</strong>");
     sekonditakoradi.bindPopup("<strong>Sekondi-Takoradi</strong><br><span>Working</span>");
 
@@ -661,7 +661,7 @@ var renca = L.marker([-33.4034546,-70.86689]).addTo(mymap);
     renca.bindPopup("<strong>Renca</strong><br><span>Working</span>");
 
 // Chipre
-var chipre = L.marker([35.14812,31.18191]).addTo(mymap);
+var chipre = L.marker([35.1686323,32.86476]).addTo(mymap);
     chipre.bindTooltip("<strong>Chipre</strong>");
     chipre.bindPopup("<strong>Chipre</strong><br><span>Working</span>");
 
