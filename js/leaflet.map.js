@@ -115,11 +115,6 @@ var palma_mallorca = L.marker([39.5696005, 2.6501603000000387]).addTo(mymap);
     palma_mallorca.bindTooltip("<strong>Ajuntament de Palma de Mallorca</strong>");
     palma_mallorca.bindPopup("<strong>Ajuntament de Palma de Mallorca</strong><br><a href='https://tufas.palma.cat/' target='_blank'>Visit website</a>");
 
-// París
-var paris = L.marker([48.85661400000001, 2.3522219000000177]).addTo(mymap);
-    paris.bindTooltip("<strong>París (RIVP)</strong>");
-    paris.bindPopup("<strong>París (RIVP)</strong><br><a href='https://budget-participatif.rivp.fr/budgets' target='_blank'>Visit website</a>");
-
 // Ayuntamiento de San Sebastián de los Reyes
 var san_sebastian_reyes = L.marker([40.5589672, -3.6261976000000686]).addTo(mymap);
     san_sebastian_reyes.bindTooltip("<strong>Ayuntamiento de San Sebastián de los Reyes</strong>");

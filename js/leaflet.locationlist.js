@@ -25,7 +25,6 @@ L.Control.LocationList = L.Control.extend({
     {title: 'Ayuntamiento de Oviedo', latlng: [43.3619145, -5.848425328731537], zoom: 6},
     {title: 'Ajuntament de Palma de Mallorca', latlng: [39.5696005, 2.6501603000000387], zoom: 6},
     {title: 'Ayuntamiento de Pamplona', latlng: [42.8125211, -1.645774500000016], zoom: 6},
-    {title: 'París (Budget participatif de la RIVP)', latlng: [48.85661400000001, 2.3522219000000177], zoom: 6},
     {title: 'Ayuntamiento de Rivas-Vaciamadrid', latlng: [40.34696510000001, -3.530676500000027], zoom: 6},
     {title: 'Ayuntamiento de San Sebastián de los Reyes', latlng: [40.5589672, -3.6261976000000686], zoom: 6},
     {title: 'Ayuntamiento de Talamanca del Jarama', latlng: [40.73418429999999, -3.4902391000000534], zoom: 6},
