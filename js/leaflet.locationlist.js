@@ -28,7 +28,6 @@ L.Control.LocationList = L.Control.extend({
     {title: 'París (Budget participatif de la RIVP)', latlng: [48.85661400000001, 2.3522219000000177], zoom: 6},
     {title: 'Ayuntamiento de Rivas-Vaciamadrid', latlng: [40.34696510000001, -3.530676500000027], zoom: 6},
     {title: 'Ayuntamiento de San Sebastián de los Reyes', latlng: [40.5589672, -3.6261976000000686], zoom: 6},
-    {title: 'Ajuntament de Sitges', latlng: [41.2558303, 1.8611011000000417], zoom: 6},
     {title: 'Ayuntamiento de Talamanca del Jarama', latlng: [40.73418429999999, -3.4902391000000534], zoom: 6},
     {title: 'Ajuntament de Tarragona', latlng: [41.1188827, 1.2444908999999598], zoom: 6},
     {title: 'Ayuntamiento de Toledo', latlng: [39.86283160000001, -4.02732309999999], zoom: 6},

@@ -125,11 +125,6 @@ var san_sebastian_reyes = L.marker([40.5589672, -3.6261976000000686]).addTo(myma
     san_sebastian_reyes.bindTooltip("<strong>Ayuntamiento de San Sebastián de los Reyes</strong>");
     san_sebastian_reyes.bindPopup("<strong>Ayuntamiento de San Sebastián de los Reyes</strong><br><span>Working</span>");
 
-// Ajuntament de Sitges
-var sitges = L.marker([41.2558303, 1.8611011000000417]).addTo(mymap);
-    sitges.bindTooltip("<strong>Ajuntament de Sitges</strong>");
-    sitges.bindPopup("<strong>Ajuntament de Sitges</strong><br><span>Working</span>");
-
 // Ayuntamiento de Talamanca del Jarama
 var talamanca = L.marker([40.73418429999999, -3.4902391000000534]).addTo(mymap);
     talamanca.bindTooltip("<strong>Ayuntamiento de Talamanca del Jarama</strong>");
