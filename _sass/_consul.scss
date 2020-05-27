@@ -682,6 +682,11 @@ h1 {
     border: none;
     margin: 16px 0 0 0;
 
+    &.large {
+      font-size: 18px;
+      padding: 12px;
+    }
+
     a {
       display: inline-block;
       height: $line-height;
