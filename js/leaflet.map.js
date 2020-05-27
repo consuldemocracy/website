@@ -618,7 +618,7 @@ var almelo_neth = L.marker([52.3609532,6.589417]).addTo(mymap);
 // Emmen (Netherlands)
 var emmen_neth = L.marker([52.7803103,6.76560]).addTo(mymap);
     emmen_neth.bindTooltip("<strong>Emmen</strong>");
-    emmen_neth.bindPopup("<strong>Emmen</strong><br><span>Working</span>");
+    emmen_neth.bindPopup("<strong>Emmen</strong><br><a href='https://stemvan.emmen.nl/' target='_blank'>Visit website</a>");
 
 // Enschede (Netherlands)
 var enschede_neth = L.marker([52.2231963,6.72880]).addTo(mymap);
@@ -628,7 +628,7 @@ var enschede_neth = L.marker([52.2231963,6.72880]).addTo(mymap);
 // Groningen (Netherlands)
 var groningen_neth = L.marker([53.2216233,6.4259]).addTo(mymap);
     groningen_neth.bindTooltip("<strong>Groningen</strong>");
-    groningen_neth.bindPopup("<strong>Groningen</strong><br><span>Working</span>");
+    groningen_neth.bindPopup("<strong>Groningen</strong><br><a href='https://stemvan.groningen.nl/' target='_blank'>Visit website</a>");
 
 // Midden-Groningen (Netherlands)
 var middengroningen_neth = L.marker([53.1840784,6.5232837]).addTo(mymap);
@@ -674,3 +674,33 @@ var sansalvador_elsalvador = L.marker([13.6914684,-89.2847]).addTo(mymap);
 var trondheim = L.marker([63.4184621,10.158]).addTo(mymap);
     trondheim.bindTooltip("<strong>Trondheim</strong>");
     trondheim.bindPopup("<strong>Trondheim</strong><br><span>Working</span>");
+
+// Badhoevedorp (Netherlands)
+var badhoevedorp = L.marker([52.3300404,4.7643]).addTo(mymap);
+    badhoevedorp.bindTooltip("<strong>Badhoevedorp</strong>");
+    badhoevedorp.bindPopup("<strong>Badhoevedorp</strong><br><a href='https://jouwbadhoevedorp.nl/' target='_blank'>Visit website</a>");
+
+// Gdynia (Poland)
+var gdynia = L.marker([54.5039042,18.3932]).addTo(mymap);
+    gdynia.bindTooltip("<strong>Gdynia</strong>");
+    gdynia.bindPopup("<strong>Gdynia</strong><br><span>Working</span>");
+
+// Detmold (Germany)
+var detmold = L.marker([51.9286603,8.73591]).addTo(mymap);
+    detmold.bindTooltip("<strong>Detmold</strong>");
+    detmold.bindPopup("<strong>Detmold</strong><br><span>Working</span>");
+
+// Majorna (Gothenburg - Sweden)
+var majorna_swe = L.marker([56.1709635,8.772]).addTo(mymap);
+    majorna_swe.bindTooltip("<strong>Majorna (Gothenburg)</strong>");
+    majorna_swe.bindPopup("<strong>Majorna (Gothenburg)</strong><br><span>Working</span>");
+
+// Melilla
+var melilla = L.marker([34.7622146,-3.422797]).addTo(mymap);
+    melilla.bindTooltip("<strong>Melilla</strong>");
+    melilla.bindPopup("<strong>Melilla</strong><br><a href='https://participa.melilla.es/' target='_blank'>Visit website</a>");
+
+// Renca (Chile)
+var renca = L.marker([-34.428243,-71.7954]).addTo(mymap);
+    renca.bindTooltip("<strong>Renca (Santiago)</strong>");
+    renca.bindPopup("<strong>Renca (Santiago)</strong><br><a href='https://rencadecide.cl/' target='_blank'>Visit website</a>");
