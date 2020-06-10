@@ -9,8 +9,8 @@
 
 var mymap = L.map('mapid', { zoomControl: false }).setView([33.58,-25.59], 2);
 
-var baselayer = L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg').addTo(mymap);
-var topLayer = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png',
+var baselayer = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg').addTo(mymap);
+var topLayer = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
                 {
                 opacity: 0.20}).addTo(mymap);
 
