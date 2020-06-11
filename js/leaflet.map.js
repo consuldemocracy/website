@@ -403,7 +403,7 @@ var dipcoruna = L.marker([43.280974, -8.469744]).addTo(mymap);
 // Arroyomolinos
 var arroyomolinos = L.marker([40.2427857,-3.8664734]).addTo(mymap);
     arroyomolinos.bindTooltip("<strong>Arroyomolinos</strong>");
-    arroyomolinos.bindPopup("<strong>Arroyomolinos</strong><br><span>Working</span>");
+    arroyomolinos.bindPopup("<strong>Arroyomolinos</strong><br><a href='https://decide.ayto-arroyomolinos.org/' target='_blank'>Visit website</a>");
 
 // Ayuntamiento de Cieza
 var cieza = L.marker([38.2413028,-1.4289604]).addTo(mymap);
