@@ -600,10 +600,10 @@ var marchiquita = L.marker([-30.8114438,-62.872]).addTo(mymap);
     marchiquita.bindTooltip("<strong>Mar Chiquita</strong>");
     marchiquita.bindPopup("<strong>Mar Chiquita</strong><br><span>Working</span>");
 
-// Waver, Warsaw
-var waver_warsaw = L.marker([52.1948797,21.0421]).addTo(mymap);
-    waver_warsaw.bindTooltip("<strong>Waver (Warsaw)</strong>");
-    waver_warsaw.bindPopup("<strong>Waver (Warsaw)</strong><br><a href='https://dzialamy.wawer.warszawa.pl/' target='_blank'>Visit website</a>");
+// Wawer, Warsaw
+var wawer_warsaw = L.marker([52.1948797,21.0421]).addTo(mymap);
+    wawer_warsaw.bindTooltip("<strong>Wawer (Warsaw)</strong>");
+    wawer_warsaw.bindPopup("<strong>Wawer (Warsaw)</strong><br><a href='https://dzialamy.wawer.warszawa.pl/' target='_blank'>Visit website</a>");
 
 // Żoliborz, Warsaw
 var zoliborz_warsaw = L.marker([52.2709888,20.94413]).addTo(mymap);
