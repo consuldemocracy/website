@@ -14,6 +14,8 @@ markdown: kramdown
 files:
   - name: "administration_guide"
     format: "pdf"
+  - name: "sdg_module"
+    format: "pdf"
   - name: "communication_guide"
     format: "pdf"
   - name: "polling_stations_manual"

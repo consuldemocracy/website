@@ -261,6 +261,7 @@ documentation:
   use_guide: "Download CONSUL Use Guide (v.0.16)"
   use_guide_size: "5.1MB"
   administration_guide: "Administration guide of CONSUL (v.1.0.0)"
+  sdg_module: "SDG Module: Administration guide"
   communication_guide: "CONSUL Communication guide"
   polling_stations_manual: "Polling stations manual"
   texts_information_sections: "Texts information sections"
@@ -274,6 +275,7 @@ documentation:
   resources_for_users: "Resources for users"
   size:
     administration_guide: "3.6Mb"
+    sdg_module: "7.2Mb"
     communication_guide: "759Kb"
     polling_stations_manual: "93Kb"
     texts_information_sections: "99Kb"

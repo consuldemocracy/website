@@ -261,6 +261,7 @@ documentation:
   use_guide: "Descargar Guía de Uso de CONSUL (v.0.16)"
   use_guide_size: "7.1MB"
   administration_guide: "Guía de Administración de CONSUL (v.1.0.0)"
+  sdg_module: "Módulo ODS: Guía de administración"
   communication_guide: "Guía de comunicación CONSUL"
   polling_stations_manual: "Manual mesas de votación"
   texts_information_sections: "Textos de las secciones de información"
@@ -274,6 +275,7 @@ documentation:
   resources_for_users: "Recursos para usuarios"
   size:
     administration_guide: "3.8Mb"
+    sdg_module: "5Mb"
     communication_guide: "744Kb"
     polling_stations_manual: "138Kb"
     texts_information_sections: "126Kb"
