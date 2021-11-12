@@ -120,7 +120,7 @@ more_features:
   feature_4_title: "Advanced system roles"
   feature_4_description: "Define multiple types of users with different access to tool (e.g. administrators, moderators, evaluators, officials, etc.)"
 organizations:
-  title: "Organizations using CONSUL"
+  title: "Get to know some examples of organizations using CONSUL"
   description: "There are currrently many cities and organizations using CONSUL as a tool for participation."
   madrid: "Madrid, Spain"
   wurzburg: "Würzburg, Germany"

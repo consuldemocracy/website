@@ -120,7 +120,7 @@ more_features:
   feature_4_title: "Sistema avanzado de roles"
   feature_4_description: "Posibilidad de definir múltiples tipos de usuarios con accesos diferentes a la herramienta (ej: administradores, moderadores, evaluadores, cargos, etc.)"
 organizations:
-  title: "Organizaciones que están usando CONSUL"
+  title: "Conozca algunos ejemplos de organizaciones organizaciones que están usando CONSUL"
   description: "Ya son muchos los Ayuntamientos y organizaciones que actualmente utilizan CONSUL como herramienta de participación."
   madrid: "Madrid, España"
   wurzburg: "Würzburg, Alemania"
