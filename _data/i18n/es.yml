@@ -209,4 +209,6 @@ companies:
   ror_link: "https://www.rockandror.com/consul/development-services"
 sdg:
   title: "Descargar Módulo ODS: Guía de administración"
-  bannder: "Objetivos de Desarollo Sostenible"
+  consul: "CONSUL Software libre para la participación ciudadana."
+  banner: "Objetivos de Desarollo Sostenible"
+  text: "El Programa de las Naciones Unidas para el Desarrollo y la cooperativa Enreda se han unido para fomentar la participación ciudadana en torno a la Agenda 2030 incorporando un módulo ODS en CONSUL para que entidades de todo el mundo pueden utilizarlo en sus procesos de localicación de los Objetivos de Desarrollo Sostenible."
