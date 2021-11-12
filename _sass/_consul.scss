@@ -675,4 +675,17 @@ h1 {
 
 .sdg-banner {
   background: #374a52;
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    color: #fff;
+    padding: $line-height;
+  }
+
+  img {
+    max-width: 100%;
+  }
 }

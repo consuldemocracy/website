@@ -209,4 +209,6 @@ companies:
   ror_link: "https://www.rockandror.com/consul/development-services?locale=en"
 sdg:
   title: "Download SDG Module: Administration guide"
+  consul: "CONSUL Free software for citien participation."
   banner: "Sustainable Development Goals"
+  text: "The United Nations Development Programme and the cooperative Enreda have joined forces to foster citizen participation around the Agenda 2030 by incorporating a SDG module into CONSUL, so that entities around the world can use it in their Sustainable Development Goals localization processes."
