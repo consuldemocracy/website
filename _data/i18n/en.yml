@@ -1,13 +1,13 @@
 lang: en
-title: "CONSUL"
+title: "CONSUL DEMOCRACY"
 description: "Free software for citizen participation"
 header:
-  consul: "CONSUL"
+  consul: "CONSUL DEMOCRACY"
   description: "Free software for citizen participation."
-  button_demo: "Try a demo of CONSUL"
-  button_github: "Download CONSUL (github)"
+  button_demo: "Try a demo of CONSUL DEMOCRACY"
+  button_github: "Download CONSUL DEMOCRACY (github)"
 menu:
-  title: "Discover CONSUL"
+  title: "Discover CONSUL DEMOCRACY"
   community: "Community"
   features: "Features"
   documentation: "Documentation"
@@ -19,7 +19,7 @@ menu:
 video:
   play: "Play video"
   close: "Close video"
-tagline: "CONSUL is the most complete citizen participation tool for an open, transparent and democratic government."
+tagline: "CONSUL DEMOCRACY is the most complete citizen participation tool for an open, transparent and democratic government."
 trusted: "Used by cities and organizations all over the world"
 repositories_list: "Complete list of repositories"
 participation: "It's time for smart cities"
@@ -45,7 +45,7 @@ summary:
   adaptable_title: "Customisable"
   adaptable_description: "Any entity can freely modify it to suit its requirements."
   up_to_date_title: "Continuously being updated"
-  up_to_date_description: "Consul customers can suggest improvements, new features and functionalities to ensure its evolution."
+  up_to_date_description: "Consul Democracy customers can suggest improvements, new features and functionalities to ensure its evolution."
   functional_title: "Rich functionality"
   functional_description: "Citizens can easily participate at di erent levels."
   safe_title: "Secure"
@@ -56,10 +56,10 @@ summary:
   efficient_description: "Thanks to its powerful administration interface even very small teams can easily manage complex participation processes."
   support_title: "On-going support"
   support_description: "From the technical and development teams, as well as insight from other institutions that are using it across the world."
-screenshot: "Screenshot of CONSUL's homepage implemented in the city of Madrid."
+screenshot: "Screenshot of CONSUL DEMOCRACY's homepage implemented in the city of Madrid."
 features: "Features"
 button_features: "Try all these features in our demo"
-features_read_more: "Read more about all features of CONSUL"
+features_read_more: "Read more about all features of CONSUL DEMOCRACY"
 debates:
   title: "Debates"
   description: "Anyone can open threads on any subject, creating separate spaces where people can discuss the proposed topic. Debates are valued by everybody, to highlight the most important issues."
@@ -121,8 +121,8 @@ more_features:
   feature_4_title: "Advanced system roles"
   feature_4_description: "Define multiple types of users with different access to tool (e.g. administrators, moderators, evaluators, officials, etc.)"
 organizations:
-  title: "Get to know some examples of organizations using CONSUL"
-  description: "There are currrently many cities and organizations using CONSUL as a tool for participation."
+  title: "Get to know some examples of organizations using CONSUL DEMOCRACY"
+  description: "There are currrently many cities and organizations using CONSUL DEMOCRACY as a tool for participation."
   madrid: "Madrid, Spain"
   wurzburg: "Würzburg, Germany"
   groningen: "Groningen, Netherlands"
@@ -135,7 +135,7 @@ license:
   title: "License"
   button: "View code on github"
   text:
-    CONSUL is free software, <a target='_blank' href='http://www.gnu.org/licenses/agpl-3.0.html'> AGPLv3 license</a>, this means in simple terms that anyone can use the code, copy it, see it in detail, modify and redistribute worldwide with the modifications you want (allowing the others do it as well).
+    CONSUL DEMOCRACY is free software, <a target='_blank' href='http://www.gnu.org/licenses/agpl-3.0.html'> AGPLv3 license</a>, this means in simple terms that anyone can use the code, copy it, see it in detail, modify and redistribute worldwide with the modifications you want (allowing the others do it as well).
 
 
     Because we believe that culture is better and richer when it is released.
@@ -145,7 +145,7 @@ contact:
   text: "We will help you as much as possible to be able to use it, avoiding any technical, organizational and legal difficulties."
   button: "Send us an email"
 footer:
-  title: "CONSUL"
+  title: "CONSUL DEMOCRACY"
   description: "Free software for citizen participation"
 data_video_id:
   general: "https://www.youtube.com/embed/_51lRi-YJjk"
@@ -157,28 +157,28 @@ data_video_id:
 documentation:
   title: "Documentation"
   subtitle: "Advanced documentation"
-  community: "More documentation, information and debates in the CONSUL Community."
-  technical_documentation: "Technical documentation to install CONSUL"
+  community: "More documentation, information and debates in the CONSUL DEMOCRACY Community."
+  technical_documentation: "Technical documentation to install CONSUL DEMOCRACY"
   table_document: "Document"
   table_format: "Format"
   table_size: "Size"
   table_download: "Download"
   download: "Download"
-  dossier: "Download CONSUL Dossier"
-  brochure: "Download CONSUL Executive Dossier"
-  use_guide: "Download CONSUL Use Guide (v.0.16)"
+  dossier: "Download CONSUL DEMOCRACY Dossier"
+  brochure: "Download CONSUL DEMOCRACY Executive Dossier"
+  use_guide: "Download CONSUL DEMOCRACY Use Guide (v.0.16)"
   use_guide_size: "5.1MB"
-  administration_guide: "Administration guide of CONSUL (v.1.0.0)"
+  administration_guide: "Administration guide of CONSUL DEMOCRACY (v.1.0.0)"
   sdg_module: "SDG Module: Administration guide"
-  communication_guide: "CONSUL Communication guide"
+  communication_guide: "CONSUL DEMOCRACY Communication guide"
   polling_stations_manual: "Polling stations manual"
   texts_information_sections: "Texts information sections"
   annexes_voting: "Annexes voting"
   participatory_budgeting: "Participatory budgeting"
   slides_participatory_budgeting: "Slides Participatory budgeting"
-  use_guide_docx: "CONSUL Use Guide (v.0.16)"
-  administration_guide_doc: "Administration guide of CONSUL (v.1.0.0)"
-  communication_guide_doc: "CONSUL Communication guide"
+  use_guide_docx: "CONSUL DEMOCRACY Use Guide (v.0.16)"
+  administration_guide_doc: "Administration guide of CONSUL DEMOCRACY (v.1.0.0)"
+  communication_guide_doc: "CONSUL DEMOCRACY Communication guide"
   recommended_actions_for_users: "Recommended actions for users"
   resources_for_users: "Resources for users"
   size:
@@ -199,7 +199,7 @@ companies:
   title: "Certified and collaborating companies"
   text: "The following"
   link: "certified and collaborating"
-  text_2: "companies offer installation, maintenance, and development services of CONSUL:"
+  text_2: "companies offer installation, maintenance, and development services of CONSUL DEMOCRACY:"
   open_forum: "Open forum for other companies"
   democrateam: "democrateam"
   democrateam_link: "https://democrateam.com/"
@@ -209,6 +209,6 @@ companies:
   ror_link: "https://www.rockandror.com/consul/development-services?locale=en"
 sdg:
   title: "Download SDG Module: Administration guide"
-  consul: "CONSUL Free software for citien participation."
+  consul: "CONSUL DEMOCRACY Free software for citien participation."
   banner: "Sustainable Development Goals"
-  text: "The United Nations Development Programme and the cooperative Enreda have joined forces to foster citizen participation around the Agenda 2030 by incorporating a SDG module into CONSUL, so that entities around the world can use it in their Sustainable Development Goals localization processes."
+  text: "The United Nations Development Programme and the cooperative Enreda have joined forces to foster citizen participation around the Agenda 2030 by incorporating a SDG module into CONSUL DEMOCRACY, so that entities around the world can use it in their Sustainable Development Goals localization processes."

@@ -1,4 +1,4 @@
-# CONSUL
+# CONSUL DEMOCRACY
 
 Free software for citizen participation.
 
