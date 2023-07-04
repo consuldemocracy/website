@@ -5,7 +5,7 @@ description: >
 baseurl: ""
 url: "https://www.consuldemocracy.org/"
 twitter_username: abriendomadrid
-github_username: consul
+github_username: consuldemocracy
 
 # Build settings
 markdown: kramdown
