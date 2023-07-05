@@ -146,6 +146,13 @@ header {
     background-repeat: no-repeat;
     background-position: 100% 90%;
   }
+
+  h1 {
+    .consul-democracy-logo {
+      max-width: 500px;
+      width: 100%;
+    }
+  }
 }
 
 nav {
