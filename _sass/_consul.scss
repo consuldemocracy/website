@@ -152,6 +152,10 @@ header {
       max-width: 500px;
       width: 100%;
     }
+
+    @media only screen and (min-width: $breakpoint-large) {
+      padding-top: 20px;
+    }
   }
 }
 
