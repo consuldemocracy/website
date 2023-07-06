@@ -144,7 +144,19 @@ header {
     background: url("../img/home/city.svg"), -webkit-linear-gradient(-45deg, #36424a 0%,#3a778b 100%);
     background: url("../img/home/city.svg"), linear-gradient(135deg, #36424a 0%,#3a778b 100%);
     background-repeat: no-repeat;
-    background-position: 100% 90%;
+    background-position: 100% 95%;
+    min-height: $line-height * 21;
+  }
+
+  h1 {
+    .consul-democracy-logo {
+      max-width: 500px;
+      width: 100%;
+    }
+
+    @media only screen and (min-width: $breakpoint-large) {
+      padding-top: 20px;
+    }
   }
 }
 
